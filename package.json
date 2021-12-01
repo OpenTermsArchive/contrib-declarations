@@ -3,7 +3,8 @@
   "license": "EUPL-1.2",
   "scripts": {
     "test": "ota-validate",
-    "test:schema": "npm run test -- --schema-only"
+    "test:schema": "npm run test -- --schema-only",
+    "test:modified": "git diff --name-only HEAD $(git merge-base HEAD main) -- ./declarations/ | grep -v .history | grep -v .filters | sed -E 's/.*\\/(.*?).json/\\1/' | xargs -0 npm test"
   },
   "dependencies": {
     "datauri": "^4.1.0",
