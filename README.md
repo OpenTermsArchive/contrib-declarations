@@ -1,7 +1,7 @@
 # Open Terms Archive - All services
 
-This repository is to be considered as a database of services declarations used by [Open Terms Archive](https://github.com/ambanum/OpenTermsArchive).
-You can learn more about [Open Terms Archive](https://github.com/ambanum/OpenTermsArchive) on the [dedicated repository](https://github.com/ambanum/OpenTermsArchive).
+The database of services tracked on [Open Terms Archive](https://opentermsarchive.org).
+These service declarations are used by the [Open Terms Archive engine](https://github.com/ambanum/OpenTermsArchive).
 
 See [CONTRIBUTING](CONTRIBUTING.md) to have explanations on how to add and update services or documents.
 
