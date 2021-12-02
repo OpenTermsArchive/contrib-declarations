@@ -1,9 +1,13 @@
-# OpenTermsArchive services
+# Open Terms Archive - All services
 
-This repo is a temporary repository that will store at first
-- documents that needs fixing (created by [OpenTermsArchive](https://github.com/ambanum/OpenTermsArchive))
-- documents that need to be added (created by [OpenTermsArchive.org](https://github.com/ambanum/OpenTermsArchive.org))
+The database of services tracked on [Open Terms Archive](https://opentermsarchive.org).
+These service declarations are used by the [Open Terms Archive engine](https://github.com/ambanum/OpenTermsArchive).
 
-In a near future, it will store the whole definitions of service that are at the moment included in the main [OpenTermsArchive](https://github.com/ambanum/OpenTermsArchive) repository
+See [CONTRIBUTING](CONTRIBUTING.md) to have explanations on how to add and update services or documents.
 
+---
 
+## License
+
+The code for this software is distributed under the European Union Public Licence (EUPL) v1.2.
+Contact the author if you have any specific need or question regarding licensing.

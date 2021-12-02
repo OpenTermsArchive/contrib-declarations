@@ -1,0 +1,13 @@
+{
+  "name": "Lingualeo",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://corp.lingualeo.com/terms-of-use-en/",
+      "select": "#main"
+    },
+    "Privacy Policy": {
+      "fetch": "https://corp.lingualeo.com/privacy-policy-en/",
+      "select": "#main"
+    }
+  }
+}
