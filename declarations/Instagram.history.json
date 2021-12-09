@@ -4,6 +4,15 @@
       "fetch": "https://developers.facebook.com/terms?locale=en_GB",
       "select": "#faq-page",
       "validUntil": "2021-03-15T22:31:32+04:00"
+    },
+    {
+      "fetch": "https://developers.facebook.com/terms",
+      "select": [
+        "[role='main'] > div > div > div:nth-child(2)",
+        "[role='main'] > div > div > div em"
+      ],
+      "filter": ["cleanUrls"],
+      "validUntil": "2021-11-04T21:16:28.000Z"
     }
   ],
   "Law Enforcement Guidelines": [
