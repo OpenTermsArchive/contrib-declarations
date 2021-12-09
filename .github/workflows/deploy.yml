@@ -1,0 +1,26 @@
+name: Deploy on production
+on:
+  push:
+    branches: [main]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          repository: ambanum/OpenTermsArchive
+      - run: git checkout HEAD
+      - name: Install SSH key
+        uses: shimataro/ssh-key-action@v2
+        with:
+          key: ${{ secrets.SSH_KEY }}
+          known_hosts: ${{ secrets.KNOWN_HOSTS }}
+      - run: echo "${{ secrets.ANSIBLE_VAULT_PASSWORD }}" > vault.key
+      - run: |
+          git config --global user.name 'OTA Bot'
+          git config --global user.email 'bot@opentermsarchive.org'
+      - run: pip install --upgrade setuptools
+      - run: pip install ansible==2.9.11
+      - run: ansible-playbook ops/app.yml -i ops/inventories/production.yml -t update-declarations
