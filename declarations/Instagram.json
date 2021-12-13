@@ -30,7 +30,7 @@
         "[role='main'] > div > div > div:nth-child(2)",
         "[role='main'] > div > div > div em"
       ],
-      "filter": ["cleanUrls"]
+      "filter": ["cleanUrls", "replaceInfoImageWithEmoji"]
     }
   }
 }
