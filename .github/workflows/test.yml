@@ -3,7 +3,8 @@ name: Validate services declarations and modified services
 on:
   push:
   pull_request:
-    types: [opened, reopened]
+    types: [ opened, reopened ]
+
 jobs:
   validate_schema:
     runs-on: ubuntu-latest
