@@ -5,7 +5,7 @@ on:
   pull_request:
     types: [opened, reopened]
 jobs:
-  validate_services_schema:
+  validate_schema:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -15,7 +15,7 @@ jobs:
       - run: npm ci
       - run: npm run test:schema
 
-  validate_modified_services:
+  validate_modified_declarations:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
