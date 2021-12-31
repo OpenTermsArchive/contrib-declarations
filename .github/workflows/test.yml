@@ -1,4 +1,4 @@
-name: Validate services declarations and modified services
+name: Validate declarations
 
 on:
   push:
