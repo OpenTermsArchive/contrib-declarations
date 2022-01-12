@@ -3,8 +3,8 @@
   "documents": {
     "Terms of Service": {
       "fetch": "https://www.whatsapp.com/legal/updates/terms-of-service-eea?lang=en",
-      "select": "._2zry",
-      "remove": "[href='#top-of-page']"
+      "select": ["#content-wrapper"],
+      "remove": ["[href='#top-of-page']"]
     },
     "Privacy Policy": {
       "fetch": "https://www.whatsapp.com/legal/updates/privacy-policy-eea?lang=en",
