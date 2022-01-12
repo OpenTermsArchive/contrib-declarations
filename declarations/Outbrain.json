@@ -3,11 +3,11 @@
   "documents": {
     "Privacy Policy": {
       "fetch": "https://www.outbrain.com/legal/privacy#privacy-policy",
-      "select": ["#contract-id-10717 h2", "#version-6089b136c27a991ba715ca8e-locale-en-us > .body"]
+      "select": [".summary", ".sections-container"]
     },
     "Trackers Policy": {
       "fetch": "https://www.outbrain.com/legal/privacy#cookies",
-      "select": ["#contract-id-10793 h2", "#version-5fc7d64ee9c65d1e147281a9-locale-en-us > .body"]
+      "select": [".summary", ".sections-container"]
     },
     "Terms of Service": {
       "fetch": "https://www.outbrain.com/legal/#terms-of-use",
