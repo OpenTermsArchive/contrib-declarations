@@ -1,23 +1,29 @@
-name: Validate services declarations and modified services
+name: Validate declarations
 
 on:
   push:
   pull_request:
-    types: [opened, reopened]
+    types: [ opened, reopened ]
+
 jobs:
-  validate_services:
+  validate_schema:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: 14
+      - run: npm ci
+      - run: npm run test:schema
+
+  validate_modified_declarations:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
         with:
           fetch-depth: 0
-          ref: ${{ github.event.pull_request.head.sha }}
-      - run: git checkout HEAD
-      - run: git fetch origin main:main
-      - name: Use Node.js
-        uses: actions/setup-node@v1
+      - uses: actions/setup-node@v2
         with:
-          node-version: 14.x
+          node-version: 14
       - run: npm ci
-      - run: npm run test:schema
       - run: npm run test:modified
