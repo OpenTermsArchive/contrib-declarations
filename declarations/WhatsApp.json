@@ -13,8 +13,8 @@
     },
     "Trackers Policy": {
       "fetch": "https://www.whatsapp.com/legal/cookies",
-      "select": "._2zry",
-      "remove": "[href='#top-of-page']"
+      "select": ["#content-wrapper"],
+      "remove": ["[href='#top-of-page']"]
     }
   }
 }
