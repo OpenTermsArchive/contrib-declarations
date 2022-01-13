@@ -18,7 +18,11 @@
     },
     "Trackers Policy": {
       "fetch": "https://www.facebook.com/policies/cookies",
-      "filter": ["removeImgFromCookiesPolicy", "removeReturnToTopButtons", "cleanUrls"],
+      "filter": [
+        "removeImgFromCookiesPolicy",
+        "removeReturnToTopButtons",
+        "cleanUrls"
+      ],
       "select": "._5tkp"
     },
     "Commercial Terms": {
@@ -33,7 +37,7 @@
     },
     "Live Policy": {
       "fetch": "https://en-gb.facebook.com/policies/live",
-      "select": "#content"
+      "select": [".ad2k81qe"]
     },
     "Law Enforcement Guidelines": {
       "fetch": "https://www.facebook.com/safety/groups/law/guidelines",
