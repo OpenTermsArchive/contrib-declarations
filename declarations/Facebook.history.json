@@ -15,5 +15,57 @@
       "select": ".fb_content",
       "validUntil": "2022-01-13T10:36:04+01:00"
     }
+  ],
+  "Commercial Terms": [
+    {
+      "fetch": "https://www.facebook.com/legal/commercial_terms",
+      "filter": [
+        "numberListCorrectly",
+        "removeHelpButtons",
+        "cleanUrls"
+      ],
+      "select": [
+        ".ad2k81qe"
+      ],
+      "remove": [
+        ".iv3no6db"
+      ],
+      "validUntil": "2022-01-13T10:44:13+01:00"
+    },
+    {
+      "fetch": "https://www.facebook.com/legal/commercial_terms",
+      "filter": [
+        "numberListCorrectly",
+        "removeHelpButtons",
+        "cleanUrls"
+      ],
+      "select": [
+        ".ad2k81qe"
+      ],
+      "remove": [
+        ".iv3no6db"
+      ],
+      "validUntil": "2022-01-13T10:44:13+01:00"
+    },
+    {
+      "fetch": "https://www.facebook.com/legal/commercial_terms",
+      "filter": [
+        "numberListCorrectly",
+        "removeHelpButtons",
+        "cleanUrls"
+      ],
+      "select": [
+        ".ad2k81qe"
+      ],
+      "remove": [
+        ".iv3no6db"
+      ],
+      "validUntil": "2022-01-13T10:44:08+01:00"
+    },
+    {
+      "fetch": "https://www.facebook.com/legal/commercial_terms",
+      "select": "#content",
+      "validUntil": "2022-01-13T10:42:07+01:00"
+    }
   ]
 }
