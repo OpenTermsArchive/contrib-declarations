@@ -5,5 +5,15 @@
       "select": "#content",
       "validUntil": "2022-01-13T10:27:21+01:00"
     }
+  ],
+  "Terms of Service": [
+    {
+      "fetch": "https://www.facebook.com/legal/terms/plain_text_terms",
+      "filter": [
+        "cleanUrls"
+      ],
+      "select": ".fb_content",
+      "validUntil": "2022-01-13T10:36:04+01:00"
+    }
   ]
 }

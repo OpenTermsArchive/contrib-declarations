@@ -3,8 +3,8 @@
   "documents": {
     "Terms of Service": {
       "fetch": "https://www.facebook.com/legal/terms/plain_text_terms",
-      "filter": ["cleanUrls"],
-      "select": ".fb_content"
+      "select": [".ad2k81qe"],
+      "remove": [".mdeji52x"]
     },
     "Privacy Policy": {
       "fetch": "https://www.facebook.com/about/privacy",
