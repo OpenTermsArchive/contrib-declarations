@@ -1,6 +1,12 @@
 {
   "Terms of Service": [
     {
+      "fetch": "https://www.whatsapp.com/legal/updates/terms-of-service-eea?lang=en",
+      "select": "._2zry",
+      "remove": "[href='#top-of-page']",
+      "validUntil": "2021-04-29T17:10:22+04:00"
+    },
+    {
       "fetch": "https://www.whatsapp.com/legal?eea=1",
       "select": "div._-pj:nth-child(3)",
       "validUntil": "2020-10-23T15:31:00+00:00"
@@ -8,9 +14,23 @@
   ],
   "Privacy Policy": [
     {
+      "fetch": "https://www.whatsapp.com/legal/updates/privacy-policy-eea?lang=en",
+      "select": "._2zry",
+      "remove": "[href='#top-of-page'],._-pk > ul:nth-child(3)",
+      "validUntil": "2021-04-29T17:10:23+04:00"
+    },
+    {
       "fetch": "https://www.whatsapp.com/legal?eea=1",
       "select": "div._-pj:nth-child(4)",
       "validUntil": "2020-10-23T15:31:00+00:00"
+    }
+  ],
+  "Trackers Policy": [
+    {
+      "fetch": "https://www.whatsapp.com/legal/cookies",
+      "select": "._2zry",
+      "remove": "[href='#top-of-page']",
+      "validUntil": "2020-12-18T14:05:55+04:00"
     }
   ]
 }
