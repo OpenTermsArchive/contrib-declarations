@@ -2,6 +2,16 @@
   "Privacy Policy": [
     {
       "fetch": "https://www.airbnb.co.uk/help/article/2855/privacy-policy",
+      "select": [
+        "#site-content"
+      ],
+      "remove": [
+        ".f1icougz"
+      ],
+      "validUntil": "2022-01-17T07:30:33+01:00"
+    },
+    {
+      "fetch": "https://www.airbnb.co.uk/help/article/2855/privacy-policy",
       "select": "#site-content",
       "remove": "._3mlrvv, ._12t7zck",
       "validUntil": "2020-10-30T16:30:08.000Z"
