@@ -9,9 +9,7 @@
   "Terms of Service": [
     {
       "fetch": "https://www.facebook.com/legal/terms/plain_text_terms",
-      "filter": [
-        "cleanUrls"
-      ],
+      "filter": ["cleanUrls"],
       "select": ".fb_content",
       "validUntil": "2022-01-13T10:36:04+01:00"
     }
@@ -19,53 +17,37 @@
   "Commercial Terms": [
     {
       "fetch": "https://www.facebook.com/legal/commercial_terms",
-      "filter": [
-        "numberListCorrectly",
-        "removeHelpButtons",
-        "cleanUrls"
-      ],
-      "select": [
-        ".ad2k81qe"
-      ],
-      "remove": [
-        ".iv3no6db"
-      ],
+      "filter": ["numberListCorrectly", "removeHelpButtons", "cleanUrls"],
+      "select": [".ad2k81qe"],
+      "remove": [".iv3no6db"],
       "validUntil": "2022-01-13T10:44:13+01:00"
     },
     {
       "fetch": "https://www.facebook.com/legal/commercial_terms",
-      "filter": [
-        "numberListCorrectly",
-        "removeHelpButtons",
-        "cleanUrls"
-      ],
-      "select": [
-        ".ad2k81qe"
-      ],
-      "remove": [
-        ".iv3no6db"
-      ],
+      "filter": ["numberListCorrectly", "removeHelpButtons", "cleanUrls"],
+      "select": [".ad2k81qe"],
+      "remove": [".iv3no6db"],
       "validUntil": "2022-01-13T10:44:13+01:00"
     },
     {
       "fetch": "https://www.facebook.com/legal/commercial_terms",
-      "filter": [
-        "numberListCorrectly",
-        "removeHelpButtons",
-        "cleanUrls"
-      ],
-      "select": [
-        ".ad2k81qe"
-      ],
-      "remove": [
-        ".iv3no6db"
-      ],
+      "filter": ["numberListCorrectly", "removeHelpButtons", "cleanUrls"],
+      "select": [".ad2k81qe"],
+      "remove": [".iv3no6db"],
       "validUntil": "2022-01-13T10:44:08+01:00"
     },
     {
       "fetch": "https://www.facebook.com/legal/commercial_terms",
       "select": "#content",
       "validUntil": "2022-01-13T10:42:07+01:00"
+    }
+  ],
+  "Data Processor Agreement": [
+    {
+      "fetch": "https://www.facebook.com/legal/EU_data_transfer_addendum",
+      "filter": ["numberListCorrectly", "cleanUrls"],
+      "select": "#content",
+      "validUntil": "2021-09-27T13:10:37+02:00"
     }
   ]
 }
