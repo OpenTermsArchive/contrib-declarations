@@ -4,7 +4,7 @@
     "Privacy Policy": {
       "fetch": "https://www.airbnb.co.uk/help/article/2855/privacy-policy",
       "select": ["#site-content"],
-      "remove": [".c16c65l"]
+      "remove": [".f1icougz"]
     },
     "Terms of Service": {
       "fetch": "https://www.airbnb.co.uk/help/article/2908/terms-of-service",
@@ -15,7 +15,8 @@
     },
     "Trackers Policy": {
       "fetch": "https://www.airbnb.co.uk/help/article/2866/airbnb-cookie-policy",
-      "select": [".c16c65l > section"]
+      "select": ["#site-content"],
+      "remove": [".f1icougz"]
     }
   }
 }
