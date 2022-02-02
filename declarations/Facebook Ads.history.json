@@ -1,0 +1,10 @@
+{
+  "Terms of Service": [
+    {
+      "fetch": "https://www.facebook.com/legal/self_service_ads_terms",
+      "select": "#content",
+      "filter": ["removeHelpButtons", "cleanUrls"],
+      "validUntil": "2021-08-05T20:36:28+02:00"
+    }
+  ]
+}
