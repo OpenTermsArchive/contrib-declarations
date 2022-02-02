@@ -8,6 +8,10 @@
     "Privacy Policy": {
       "fetch": "https://www.waze.com/en/legal/privacy",
       "select": [".col-md-9"]
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.waze.com/en/legal/cookies",
+      "select": [".col-md-9"]
     }
   }
 }
