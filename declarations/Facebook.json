@@ -4,7 +4,8 @@
     "Terms of Service": {
       "fetch": "https://www.facebook.com/legal/terms/plain_text_terms",
       "select": [".ad2k81qe"],
-      "remove": [".mdeji52x"]
+      "remove": [".mdeji52x"],
+      "executeClientScripts": true
     },
     "Privacy Policy": {
       "fetch": "https://www.facebook.com/about/privacy",
