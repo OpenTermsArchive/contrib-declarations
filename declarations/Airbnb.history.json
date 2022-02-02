@@ -17,6 +17,12 @@
   "Trackers Policy": [
     {
       "fetch": "https://www.airbnb.co.uk/help/article/2866/airbnb-cookie-policy",
+      "select": ["#site-content"],
+      "remove": [".f1icougz"],
+      "validUntil": "2022-02-02T15:53:17+01:00"
+    },
+    {
+      "fetch": "https://www.airbnb.co.uk/help/article/2866/airbnb-cookie-policy",
       "select": "#site-content",
       "remove": "._12t7zck",
       "validUntil": "2020-10-30T16:30:08.000Z"
