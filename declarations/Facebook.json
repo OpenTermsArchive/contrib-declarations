@@ -40,7 +40,9 @@
     },
     "Live Policy": {
       "fetch": "https://en-gb.facebook.com/policies/live",
-      "select": [".ad2k81qe"]
+      "select": [".ad2k81qe"],
+      "remove": [".tr9rh885"],
+      "executeClientScripts": true
     },
     "Law Enforcement Guidelines": {
       "fetch": "https://www.facebook.com/safety/groups/law/guidelines",
