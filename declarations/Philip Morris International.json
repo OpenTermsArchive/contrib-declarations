@@ -1,0 +1,9 @@
+{
+  "name": "Philip Morris International",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://pmiprivacy.com/en/consumer",
+      "select": [".content"]
+    }
+  }
+}
