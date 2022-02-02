@@ -28,8 +28,9 @@
     },
     "Commercial Terms": {
       "fetch": "https://www.facebook.com/legal/commercial_terms",
-      "select": [".ad2k81qe"],
-      "remove": [".iv3no6db"]
+      "select": ["div[role=\"main\"] > div:first-child"],
+      "remove": [".tr9rh885"],
+      "executeClientScripts": true
     },
     "Data Processor Agreement": {
       "fetch": "https://www.facebook.com/legal/EU_data_transfer_addendum",
