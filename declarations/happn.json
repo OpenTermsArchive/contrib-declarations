@@ -3,7 +3,8 @@
   "documents": {
     "Terms of Service": {
       "fetch": "https://www.happn.com/en/terms/",
-      "select": [".split__content"]
+      "select": [".split__content"],
+      "filter": ["replaceEmailProtection"]
     },
     "Privacy Policy": {
       "fetch": "https://www.happn.com/en/privacy/",
