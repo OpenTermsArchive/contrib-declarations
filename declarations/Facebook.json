@@ -4,7 +4,8 @@
     "Terms of Service": {
       "fetch": "https://www.facebook.com/legal/terms/plain_text_terms",
       "select": [".ad2k81qe"],
-      "remove": [".mdeji52x"]
+      "remove": [".mdeji52x"],
+      "executeClientScripts": true
     },
     "Privacy Policy": {
       "fetch": "https://www.facebook.com/about/privacy",
@@ -27,8 +28,9 @@
     },
     "Commercial Terms": {
       "fetch": "https://www.facebook.com/legal/commercial_terms",
-      "select": [".ad2k81qe"],
-      "remove": [".iv3no6db"]
+      "select": ["div[role=\"main\"] > div:first-child"],
+      "remove": [".tr9rh885"],
+      "executeClientScripts": true
     },
     "Data Processor Agreement": {
       "fetch": "https://www.facebook.com/legal/EU_data_transfer_addendum",
@@ -38,7 +40,9 @@
     },
     "Live Policy": {
       "fetch": "https://en-gb.facebook.com/policies/live",
-      "select": [".ad2k81qe"]
+      "select": [".ad2k81qe"],
+      "remove": [".tr9rh885"],
+      "executeClientScripts": true
     },
     "Law Enforcement Guidelines": {
       "fetch": "https://www.facebook.com/safety/groups/law/guidelines",
