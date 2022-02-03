@@ -1,6 +1,6 @@
 import DataURIParser from 'datauri/parser.js';
 import mime from 'mime';
-import fetch from 'node-fetch';
+import fetch from 'isomorphic-fetch';
 
 const dataURI = new DataURIParser();
 
