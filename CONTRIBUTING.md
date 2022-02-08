@@ -36,19 +36,7 @@ Before adding a new document, open the [`declarations`](./declarations) folder a
 
 ### Declaring a new service
 
-Before declaring a service, you will need to find the proper extent of it and choose its name and ID. The ID will be the name of the JSON file in which the service will be declared. It is a normalised version of the service name.
-
-### Service extent
-
-The majority of services have clear boundaries and are associated with one entity that operates them. However, the largest service providers can become complex and have several sub-services that are not always easy to distinguish.
-
-> For example, _Google Search_ is a service from the operator _Google_, even though it is often referred to as “Google” itself in common language.
-
-A correctly defined service contains a limited number of documents of all different types, with at least one document dealing with the conditions of use of this service. A desire to multiply the types of documents is usually a symptom that the service itself should be split.
-
-> In the case of Google, each service such as _Google Ads_, _Google Maps_, _Google Earth_… is declared independently, even though they are operated by the same entity. These services are sometimes themselves complex, like _Google Ads_ which gathers several advertising services (_AdMob_, _AdSense_, _Ad Manager_…).
-
-The breakdown into sub-services is left at the contributors’ discretion.
+Before declaring a service, you will need to choose its name and ID. The ID will be the name of the JSON file in which the service will be declared. It is a normalised version of the service name.
 
 ### Service name
 
