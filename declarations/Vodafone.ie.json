@@ -1,11 +1,6 @@
 {
   "name": "Vodafone.ie",
   "documents": {
-    "Terms of Service": {
-      "fetch": "https://n.vodafone.ie/terms/website.html",
-      "select": [".content"],
-      "remove": [".heading--1", ".breadcrumbs__component", ".section--area--custom", "img"]
-    },
     "Privacy Policy": {
       "fetch": "https://n.vodafone.ie/privacy/privacy-and-you.html",
       "select": ["#content"],

@@ -1,0 +1,8 @@
+{
+  "Terms of Service": [{
+    "fetch": "https://n.vodafone.ie/terms/website.html",
+    "select": [".content"],
+    "remove": [".heading--1", ".breadcrumbs__component", ".section--area--custom", "img"],
+    "validUntil": "2022-02-14T10:00:00.000Z"
+  }]
+}
