@@ -3,34 +3,51 @@
   "documents": {
     "Terms of Service": {
       "fetch": "https://help.instagram.com/581066165581870",
-      "select": ["h1", "[role='main'] > div > div > div:nth-child(2)"],
-      "executeClientScripts": true,
-      "filter": ["cleanUrls"]
+      "select": ["div[role=\"main\"]"],
+      "remove": [
+        "div[aria-label=\"Copy Link\"]",
+        "[id='Related Articles']",
+        "fieldset"
+      ],
+      "filter": ["removeTrackingIDs"],
+      "executeClientScripts": true
     },
     "Privacy Policy": {
       "fetch": "https://help.instagram.com/519522125107875",
-      "select": ["h1", "[role='main'] > div > div > div:nth-child(2)"],
+      "select": ["div[role=\"main\"]"],
+      "remove": [
+        "div[aria-label=\"Copy Link\"]",
+        "[id='Related Articles']",
+        "fieldset"
+      ],
       "executeClientScripts": true,
-      "filter": ["cleanUrls"]
+      "filter": ["removeTrackingIDs"]
     },
     "Community Guidelines": {
       "fetch": "https://help.instagram.com/477434105621119",
-      "select": ["h1", "[role='main'] > div > div > div:nth-child(2)"],
-      "executeClientScripts": true,
-      "filter": ["cleanUrls"]
+      "select": ["div[role=\"main\"]"],
+      "remove": [
+        "div[aria-label=\"Copy Link\"]",
+        "[id='Related Articles']",
+        "fieldset"
+      ],
+      "filter": ["removeTrackingIDs"],
+      "executeClientScripts": true
     },
     "Law Enforcement Guidelines": {
       "fetch": "https://help.instagram.com/494561080557017",
-      "select": ["h1", "[role='main'] > div > div > div:nth-child(2)"],
-      "executeClientScripts": true
+      "select": ["div[role=\"main\"]"],
+      "remove": [
+        "div[aria-label=\"Copy Link\"]",
+        "[id='Related Articles']",
+        "fieldset"
+      ],
+      "executeClientScripts": true,
+      "filter": ["removeTrackingIDs"]
     },
     "Developer Terms": {
       "fetch": "https://developers.facebook.com/terms",
-      "select": [
-        "[role='main'] > div > div > div:nth-child(2)",
-        "[role='main'] > div > div > div em"
-      ],
-      "filter": ["cleanUrls", "replaceInfoImageWithEmoji"]
+      "select": ["#rebrandBodyID"]
     }
   }
 }
