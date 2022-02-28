@@ -11,7 +11,7 @@
     },
     "Privacy Policy": {
       "fetch": "https://aws.amazon.com/privacy/",
-      "select": [".lb-txt-none > .lb-col"]
+      "select": [".lb-mid-24"]
     },
     "Brand Guidelines": {
       "fetch": "https://aws.amazon.com/trademark-guidelines/",
