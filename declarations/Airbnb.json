@@ -14,7 +14,7 @@
     },
     "Trackers Policy": {
       "fetch": "https://www.airbnb.co.uk/help/article/2866/airbnb-cookie-policy",
-      "select": ["#site-content > section"]
+      "select": ["#site-content"]
     }
   }
 }
