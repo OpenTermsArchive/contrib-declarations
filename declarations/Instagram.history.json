@@ -1,6 +1,15 @@
 {
   "Developer Terms": [
     {
+      "fetch": "https://developers.facebook.com/terms",
+      "select": [
+        "[role='main'] > div > div > div:nth-child(2)",
+        "[role='main'] > div > div > div em"
+      ],
+      "filter": ["cleanUrls", "replaceInfoImageWithEmoji"],
+      "validUntil": "2022-02-14T19:34:59+01:00"
+    },
+    {
       "fetch": "https://developers.facebook.com/terms?locale=en_GB",
       "select": "#faq-page",
       "validUntil": "2021-03-15T22:31:32+04:00"
@@ -17,12 +26,25 @@
   ],
   "Law Enforcement Guidelines": [
     {
+      "fetch": "https://help.instagram.com/494561080557017",
+      "select": ["h1", "[role='main'] > div > div > div:nth-child(2)"],
+      "executeClientScripts": true,
+      "validUntil": "2022-02-23T13:34:45+01:00"
+    },
+    {
       "fetch": "https://help.instagram.com/494561080557017?locale=en_GB",
       "select": "#faq-page",
       "validUntil": "2021-05-27T00:32:28+04:00"
     }
   ],
   "Community Guidelines": [
+    {
+      "fetch": "https://help.instagram.com/477434105621119",
+      "select": ["h1", "[role='main'] > div > div > div:nth-child(2)"],
+      "executeClientScripts": true,
+      "filter": ["cleanUrls"],
+      "validUntil": "2022-02-23T13:35:03+01:00"
+    },
     {
       "fetch": "https://help.instagram.com/477434105621119?locale=en_GB",
       "select": "#faq-page",
@@ -31,12 +53,24 @@
   ],
   "Privacy Policy": [
     {
+      "fetch": "https://help.instagram.com/519522125107875",
+      "select": ["h1", "[role='main'] > div > div > div:nth-child(2)"],
+      "executeClientScripts": true,
+      "filter": ["cleanUrls"],
+      "validUntil": "2022-01-30T13:34:44+01:00"
+    },
+    {
       "fetch": "https://help.instagram.com/519522125107875?locale=en_GB",
       "select": "#faq-page",
       "validUntil": "2021-03-03T11:26:19+04:00"
     }
   ],
   "Terms of Service": [
+    {
+      "fetch": "https://help.instagram.com/581066165581870",
+      "select": ["div[role=main]"],
+      "validUntil": "2022-02-19T19:51:55+01:00"
+    },
     {
       "fetch": "https://help.instagram.com/581066165581870?locale=en_GB",
       "select": "#faq-page",
