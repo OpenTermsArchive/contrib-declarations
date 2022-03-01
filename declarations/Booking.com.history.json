@@ -1,0 +1,15 @@
+{
+  "Terms of Service": [
+    {
+      "fetch": "https://www.booking.com/content/terms.en-gb.html",
+      "remove": "a.print-button, .print-button + p",
+      "select": "div.static_content",
+      "filter": [
+        "removeSIDfromUrls",
+        "removeLabelfromUrls",
+        "removeSigfromUrls"
+      ],
+      "validUntil": "2022-02-14T07:32:37+01:00"
+    }
+  ]
+}

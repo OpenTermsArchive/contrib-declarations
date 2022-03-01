@@ -3,15 +3,19 @@
   "documents": {
     "Terms of Service": {
       "fetch": "https://www.booking.com/content/terms.en-gb.html",
-      "remove": "a.print-button, .print-button + p",
-      "select": "div.static_content",
-      "filter": ["removeSIDfromUrls", "removeLabelfromUrls", "removeSigfromUrls"]
+      "select": [".bui-grid__column-9"],
+      "remove": ["a[href=\"javascript:window.print()\"]"],
+      "filter": ["removeSIDfromUrls", "removeLabelfromUrls"]
     },
     "Privacy Policy": {
       "fetch": "https://www.booking.com/content/privacy.en-gb.html",
       "remove": "a.print-button, .print-button + p",
       "select": "div.static_content",
-      "filter": ["removeSIDfromUrls", "removeLabelfromUrls", "removeSigfromUrls"]
+      "filter": [
+        "removeSIDfromUrls",
+        "removeLabelfromUrls",
+        "removeSigfromUrls"
+      ]
     }
   }
 }
