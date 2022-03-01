@@ -1,0 +1,9 @@
+{
+  "Privacy Policy": [
+    {
+      "fetch": "https://aws.amazon.com/privacy/",
+      "select": [".lb-txt-none > .lb-col"],
+      "validUntil": "2022-02-05T13:31:24+01:00"
+    }
+  ]
+}
