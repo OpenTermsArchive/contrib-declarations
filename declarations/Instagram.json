@@ -47,7 +47,8 @@
     },
     "Developer Terms": {
       "fetch": "https://developers.facebook.com/terms",
-      "select": ["#rebrandBodyID"]
+      "select": ["#rebrandBodyID"],
+      "filter": ["removeTrackingIDs"]
     }
   }
 }

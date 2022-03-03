@@ -13,7 +13,7 @@ export function removeTrackingIDs(document) {
     const href = el.getAttribute("href");
     const params = new URLSearchParams(href);
     if (params.has("h")) {
-      params.delete("h");
+      params.set("h", "removed");
       el.setAttribute("href", params.toString());
     }
   });
