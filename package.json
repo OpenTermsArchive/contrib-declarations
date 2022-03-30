@@ -6,10 +6,12 @@
     "test:schema": "npm run test -- --schema-only",
     "test:modified": "git diff --name-only HEAD $(git merge-base HEAD main) -- ./declarations/ | grep -v .history | grep -v .filters | sed 's/declarations\\///g' | sed 's/.json//g' | xargs -r -0 npm test"
   },
+  "devDependencies": {
+    "open-terms-archive": "git+https://git@github.com/ambanum/OpenTermsArchive#master"
+  },
   "dependencies": {
     "datauri": "^4.1.0",
     "mime": "^3.0.0",
-    "node-fetch": "^3.1.0",
-    "open-terms-archive": "ambanum/OpenTermsArchive#master"
+    "node-fetch": "^3.1.0"
   }
 }
