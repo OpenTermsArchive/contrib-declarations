@@ -5,6 +5,9 @@
       "fetch": "https://www.facebook.com/legal/terms/plain_text_terms",
       "select": [".ad2k81qe"],
       "remove": [".mdeji52x"],
+      "filter": [
+        "cleanUrls"
+      ],
       "executeClientScripts": true
     },
     "Privacy Policy": {
@@ -30,6 +33,9 @@
       "fetch": "https://www.facebook.com/legal/commercial_terms",
       "select": ["div[role=\"main\"] > div:first-child"],
       "remove": [".tr9rh885"],
+      "filter": [
+        "cleanUrls"
+      ],
       "executeClientScripts": true
     },
     "Data Processor Agreement": {
