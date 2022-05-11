@@ -10,6 +10,34 @@
         "removeSigfromUrls"
       ],
       "validUntil": "2022-02-14T07:32:37+01:00"
+    },
+    {
+      "fetch": "https://www.booking.com/content/terms.en-gb.html",
+      "select": [
+        ".bui-grid__column-9"
+      ],
+      "remove": [
+        "a[href=\"javascript:window.print()\"]"
+      ],
+      "filter": [
+        "removeSIDfromUrls",
+        "removeLabelfromUrls",
+        "removeSigfromUrls"
+      ],
+      "validUntil": "2022-05-09T13:35:03+01:00"
+    }
+  ],
+  "Privacy Policy": [
+    {
+      "fetch": "https://www.booking.com/content/privacy.en-gb.html",
+      "remove": "a.print-button, .print-button + p",
+      "select": "div.static_content",
+      "filter": [
+        "removeSIDfromUrls",
+        "removeLabelfromUrls",
+        "removeSigfromUrls"
+      ],
+      "validUntil": "2022-05-09T13:35:03+01:00"
     }
   ]
 }
