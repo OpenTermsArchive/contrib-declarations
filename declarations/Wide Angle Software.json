@@ -3,11 +3,15 @@
   "documents": {
     "Privacy Policy": {
       "fetch": "https://www.wideanglesoftware.com/privacy/",
-      "select": [".content"]
+      "select": [
+        ".content"
+      ]
     },
     "Trackers Policy": {
       "fetch": "https://www.wideanglesoftware.com/cookies/",
-      "select": [".content"]
+      "select": [
+        ".content"
+      ]
     }
   }
 }

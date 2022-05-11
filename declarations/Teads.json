@@ -3,11 +3,17 @@
   "documents": {
     "Privacy Policy": {
       "fetch": "https://www.teads.com/teads-website-privacy-policy/",
-      "select": [".elementor-element-2ce6aae", ".elementor-element-adf871d"]
+      "select": [
+        ".elementor-element-2ce6aae",
+        ".elementor-element-adf871d"
+      ]
     },
     "Terms of Service": {
       "fetch": "https://www.teads.com/terms-of-use/",
-      "select": [".elementor-element-a2738eb", ".elementor-element-d23a554"]
+      "select": [
+        ".elementor-element-a2738eb",
+        ".elementor-element-d23a554"
+      ]
     },
     "Ad Publishing Policy": {
       "fetch": "https://www.teads.com/ad-policies/",

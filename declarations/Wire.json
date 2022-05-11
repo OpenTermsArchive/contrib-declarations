@@ -11,7 +11,9 @@
     },
     "Terms of Service": {
       "fetch": "https://wire.com/en/legal/terms-of-use-personal/",
-      "select": [".legalbody"],
+      "select": [
+        ".legalbody"
+      ],
       "executeClientScripts": true
     },
     "Data Processor Agreement": {

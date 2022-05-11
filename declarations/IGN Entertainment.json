@@ -4,11 +4,15 @@
   "documents": {
     "Privacy Policy": {
       "fetch": "https://www.ziffdavis.com/privacy-policy",
-      "select": ["#content"]
+      "select": [
+        "#content"
+      ]
     },
     "Terms of Service": {
       "fetch": "https://www.ziffdavis.com/terms-of-use",
-      "select": ["#content"]
+      "select": [
+        "#content"
+      ]
     }
   }
 }

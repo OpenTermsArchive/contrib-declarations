@@ -3,19 +3,27 @@
   "documents": {
     "Terms of Service": {
       "fetch": "https://aws.amazon.com/service-terms/",
-      "select": [".lb-txt-none > .lb-col"]
+      "select": [
+        ".lb-txt-none > .lb-col"
+      ]
     },
     "Acceptable Use Policy": {
       "fetch": "https://aws.amazon.com/aup/",
-      "select": [".lb-mid-24"]
+      "select": [
+        ".lb-mid-24"
+      ]
     },
     "Privacy Policy": {
       "fetch": "https://aws.amazon.com/privacy/",
-      "select": [".lb-mid-24"]
+      "select": [
+        ".lb-mid-24"
+      ]
     },
     "Brand Guidelines": {
       "fetch": "https://aws.amazon.com/trademark-guidelines/",
-      "select": [".lb-mid-24"]
+      "select": [
+        ".lb-mid-24"
+      ]
     }
   }
 }

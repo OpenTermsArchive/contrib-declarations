@@ -3,19 +3,27 @@
   "documents": {
     "Terms of Service": {
       "fetch": "https://www.waze.com/en/legal/tos",
-      "select": [".col-md-9"]
+      "select": [
+        ".col-md-9"
+      ]
     },
     "Privacy Policy": {
       "fetch": "https://www.waze.com/en/legal/privacy",
-      "select": [".col-md-9"]
+      "select": [
+        ".col-md-9"
+      ]
     },
     "Trackers Policy": {
       "fetch": "https://www.waze.com/en/legal/cookies",
-      "select": [".col-md-9"]
+      "select": [
+        ".col-md-9"
+      ]
     },
     "Copyright Claims Policy": {
       "fetch": "https://www.waze.com/en/legal/copyright",
-      "select": [".col-md-9"]
+      "select": [
+        ".col-md-9"
+      ]
     }
   }
 }

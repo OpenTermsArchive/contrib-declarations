@@ -3,8 +3,12 @@
   "documents": {
     "Terms of Service": {
       "fetch": "https://www.facebook.com/legal/self_service_ads_terms",
-      "select": [".ad2k81qe"],
-      "remove": [".tr9rh885"],
+      "select": [
+        ".ad2k81qe"
+      ],
+      "remove": [
+        ".tr9rh885"
+      ],
       "executeClientScripts": true
     }
   }

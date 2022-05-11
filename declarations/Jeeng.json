@@ -3,11 +3,15 @@
   "documents": {
     "Privacy Policy": {
       "fetch": "https://www.jeeng.com/privacy-policy/",
-      "select": [".container--small"]
+      "select": [
+        ".container--small"
+      ]
     },
     "Terms of Service": {
       "fetch": "https://www.jeeng.com/terms-of-use/",
-      "select": [".container--small"]
+      "select": [
+        ".container--small"
+      ]
     }
   }
 }

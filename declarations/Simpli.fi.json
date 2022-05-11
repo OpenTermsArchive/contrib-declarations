@@ -3,15 +3,21 @@
   "documents": {
     "Privacy Policy": {
       "fetch": "https://simpli.fi/site-privacy-policy/",
-      "select": [".default_template_content"]
+      "select": [
+        ".default_template_content"
+      ]
     },
     "Terms of Service": {
       "fetch": "https://simpli.fi/terms/",
-      "select": [".col-md-10"]
+      "select": [
+        ".col-md-10"
+      ]
     },
     "Trackers Policy": {
       "fetch": "https://simpli.fi/simpli-fi-cookie-policy/",
-      "select": [".default_template_content"]
+      "select": [
+        ".default_template_content"
+      ]
     }
   }
 }

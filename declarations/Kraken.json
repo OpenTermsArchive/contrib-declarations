@@ -11,12 +11,16 @@
     },
     "Privacy Policy": {
       "fetch": "https://www.kraken.com/en-us/legal/privacy/",
-      "select": [".kraken-article-body"],
+      "select": [
+        ".kraken-article-body"
+      ],
       "executeClientScripts": true
     },
     "Trackers Policy": {
       "fetch": "https://www.kraken.com/en-us/legal/cookies",
-      "select": [".kraken-article-body"],
+      "select": [
+        ".kraken-article-body"
+      ],
       "executeClientScripts": true
     }
   }

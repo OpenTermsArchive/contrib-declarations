@@ -4,8 +4,13 @@
   "documents": {
     "Privacy Policy": {
       "fetch": "https://alb.www.ucla.edu/terms-of-use",
-      "select": ["#main-content"],
-      "remove": [".breadcrumb", ".section-wrapper:nth-child(11) > .ucla"]
+      "select": [
+        "#main-content"
+      ],
+      "remove": [
+        ".breadcrumb",
+        ".section-wrapper:nth-child(11) > .ucla"
+      ]
     }
   }
 }

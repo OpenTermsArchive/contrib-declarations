@@ -8,7 +8,10 @@
     {
       "fetch": "https://support.google.com/googleplay/android-developer/answer/10477564?hl=en-IE",
       "select": "article.page",
-      "remove": [".scClientFeedbackInlineFeedbacklinkroot", ".article-survey-container"],
+      "remove": [
+        ".scClientFeedbackInlineFeedbacklinkroot",
+        ".article-survey-container"
+      ],
       "validUntil": "2021-09-02T09:28:00.000Z"
     }
   ]

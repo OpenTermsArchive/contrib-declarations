@@ -3,16 +3,24 @@
   "documents": {
     "Terms of Service": {
       "fetch": "https://www.happn.com/en/terms/",
-      "select": [".split__content"],
-      "filter": ["replaceEmailProtection"]
+      "select": [
+        ".split__content"
+      ],
+      "filter": [
+        "replaceEmailProtection"
+      ]
     },
     "Privacy Policy": {
       "fetch": "https://www.happn.com/en/privacy/",
-      "select": [".split__content"]
+      "select": [
+        ".split__content"
+      ]
     },
     "Trackers Policy": {
       "fetch": "https://www.happn.com/en/cookies/",
-      "select": [".split__content"]
+      "select": [
+        ".split__content"
+      ]
     }
   }
 }

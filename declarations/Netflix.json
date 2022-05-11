@@ -4,11 +4,17 @@
   "documents": {
     "Privacy Policy": {
       "fetch": "https://help.netflix.com/en/legal/privacy",
-      "select": [".kb-title", ".kb-article"]
+      "select": [
+        ".kb-title",
+        ".kb-article"
+      ]
     },
     "Terms of Service": {
       "fetch": "https://help.netflix.com/legal/termsofuse",
-      "select": [".kb-title", ".kb-article"]
+      "select": [
+        ".kb-title",
+        ".kb-article"
+      ]
     }
   }
 }

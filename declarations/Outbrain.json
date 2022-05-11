@@ -3,19 +3,30 @@
   "documents": {
     "Privacy Policy": {
       "fetch": "https://www.outbrain.com/legal/privacy#privacy-policy",
-      "select": [".summary", ".sections-container"]
+      "select": [
+        ".summary",
+        ".sections-container"
+      ]
     },
     "Trackers Policy": {
       "fetch": "https://www.outbrain.com/legal/privacy#cookies",
-      "select": [".summary", ".sections-container"]
+      "select": [
+        ".summary",
+        ".sections-container"
+      ]
     },
     "Terms of Service": {
       "fetch": "https://www.outbrain.com/legal/#terms-of-use",
-      "select": ["#contract-id-17863 h2", ".js-body-5df169d257b44f228c507306"]
+      "select": [
+        "#contract-id-17863 h2",
+        ".js-body-5df169d257b44f228c507306"
+      ]
     },
     "Ad Publishing Policy": {
       "fetch": "https://www.outbrain.com/advertisers/guidelines/",
-      "select": ["#main"],
+      "select": [
+        "#main"
+      ],
       "remove": ".image"
     }
   }
