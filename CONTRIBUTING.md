@@ -280,6 +280,16 @@ Since this operation fetches documents and could be long, you can also validate 
 npm run test:schema [$service_id [, $service_id …]]
 ```
 
+#### Linting
+
+In order to ensure consistency across declarationsan repo, all declarations files have to be linted (formatted) properly and homogeneously.
+
+In order to achieve this, you can use the following script
+
+```
+npm run lint [, $service_id …]
+```
+
 ## Editing existing documents
 
 As services evolve, document declarations are also expected to change over time. The service provider can change the document's URL or the document's HTML structure, thus their fetch location, selectors or filters can change.
