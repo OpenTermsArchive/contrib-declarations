@@ -3,9 +3,16 @@
   "documents": {
     "Terms of Service": {
       "fetch": "https://help.yuka.io/l/en/article/2a12869y56",
-      "select": [".max-w-3xl", ".justify-start"],
-      "remove": ["#feedback"],
-      "filter": ["replaceDaysAgo"]
+      "select": [
+        ".max-w-3xl",
+        ".justify-start"
+      ],
+      "remove": [
+        "#feedback"
+      ],
+      "filter": [
+        "replaceDaysAgo"
+      ]
     }
   }
 }

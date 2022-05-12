@@ -3,13 +3,17 @@
   "documents": {
     "Terms of Service": {
       "fetch": "https://my.nordaccount.com/legal/terms-of-service/",
-      "select": ["div.nord-container"],
+      "select": [
+        "div.nord-container"
+      ],
       "remove": ".Nav",
       "executeClientScripts": true
     },
     "Privacy Policy": {
       "fetch": "https://my.nordaccount.com/legal/privacy-policy/",
-      "select": ["div.nord-container"],
+      "select": [
+        "div.nord-container"
+      ],
       "remove": ".Nav",
       "executeClientScripts": true
     }

@@ -4,11 +4,17 @@
   "documents": {
     "Privacy Policy": {
       "fetch": "https://corporate.thryv.com/privacy/",
-      "select": [".col-lg-11", ".mx-auto"]
+      "select": [
+        ".col-lg-11",
+        ".mx-auto"
+      ]
     },
     "Terms of Service": {
       "fetch": "https://corporate.thryv.com/terms-of-use/",
-      "select": [".wrapper-newsTop", ".mx-auto"]
+      "select": [
+        ".wrapper-newsTop",
+        ".mx-auto"
+      ]
     }
   }
 }

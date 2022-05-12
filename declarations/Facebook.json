@@ -3,8 +3,12 @@
   "documents": {
     "Terms of Service": {
       "fetch": "https://www.facebook.com/legal/terms/plain_text_terms",
-      "select": [".ad2k81qe"],
-      "remove": [".mdeji52x"],
+      "select": [
+        ".ad2k81qe"
+      ],
+      "remove": [
+        ".mdeji52x"
+      ],
       "filter": [
         "cleanUrls"
       ],
@@ -12,12 +16,18 @@
     },
     "Privacy Policy": {
       "fetch": "https://www.facebook.com/about/privacy",
-      "filter": ["removeReturnToTopButtons", "cleanUrls"],
+      "filter": [
+        "removeReturnToTopButtons",
+        "cleanUrls"
+      ],
       "select": "._5tkp"
     },
     "Developer Terms": {
       "fetch": "https://developers.facebook.com/policy",
-      "filter": ["removeHelpButtons", "cleanUrls"],
+      "filter": [
+        "removeHelpButtons",
+        "cleanUrls"
+      ],
       "select": "._4bl9"
     },
     "Trackers Policy": {
@@ -31,8 +41,12 @@
     },
     "Commercial Terms": {
       "fetch": "https://www.facebook.com/legal/commercial_terms",
-      "select": ["div[role=\"main\"] > div:first-child"],
-      "remove": [".tr9rh885"],
+      "select": [
+        "div[role=\"main\"] > div:first-child"
+      ],
+      "remove": [
+        ".tr9rh885"
+      ],
       "filter": [
         "cleanUrls"
       ],
@@ -40,21 +54,35 @@
     },
     "Data Processor Agreement": {
       "fetch": "https://www.facebook.com/legal/EU_data_transfer_addendum",
-      "select": [".ad2k81qe"],
-      "remove": [".d9wwppkn"],
+      "select": [
+        ".ad2k81qe"
+      ],
+      "remove": [
+        ".d9wwppkn"
+      ],
       "executeClientScripts": true
     },
     "Live Policy": {
       "fetch": "https://en-gb.facebook.com/policies/live",
-      "select": ["div[role=main"],
-      "remove": ["footer[role=contentinfo"],
+      "select": [
+        "div[role=main"
+      ],
+      "remove": [
+        "footer[role=contentinfo"
+      ],
       "executeClientScripts": true
     },
     "Law Enforcement Guidelines": {
       "fetch": "https://www.facebook.com/safety/groups/law/guidelines",
-      "filter": ["cleanUrls"],
-      "select": ["._4xy4 > div"],
-      "remove": [".img"]
+      "filter": [
+        "cleanUrls"
+      ],
+      "select": [
+        "._4xy4 > div"
+      ],
+      "remove": [
+        ".img"
+      ]
     }
   }
 }

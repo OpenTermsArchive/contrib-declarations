@@ -7,7 +7,9 @@
     },
     "Privacy Policy": {
       "fetch": "https://safety.google/nest/",
-      "select": [".modular-page"],
+      "select": [
+        ".modular-page"
+      ],
       "remove": [
         ".glue-expansion-panels-toggle-all",
         ".image-module",

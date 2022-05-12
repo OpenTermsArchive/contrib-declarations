@@ -4,8 +4,12 @@
   "documents": {
     "Privacy Policy": {
       "fetch": "https://www.warnermediaprivacy.com/policycenter/b2c/en-row/",
-      "select": [".otnotice-content"],
-      "remove": ["#otnotice-section-a884e299-853f-4057-8184-e31a1acf85fe"],
+      "select": [
+        ".otnotice-content"
+      ],
+      "remove": [
+        "#otnotice-section-a884e299-853f-4057-8184-e31a1acf85fe"
+      ],
       "executeClientScripts": true
     },
     "Terms of Service": {

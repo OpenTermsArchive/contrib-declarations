@@ -3,12 +3,20 @@
   "documents": {
     "Privacy Policy": {
       "fetch": "https://www.scaleway.com/en/privacy-policy/",
-      "select": [".bqWyNq", ".iDiBsE"],
-      "remove": [".dBdURx"]
+      "select": [
+        ".bqWyNq",
+        ".iDiBsE"
+      ],
+      "remove": [
+        ".dBdURx"
+      ]
     },
     "Trackers Policy": {
       "fetch": "https://www.scaleway.com/en/terms/cookies/",
-      "select": [".bqWyNq", ".iDiBsE"]
+      "select": [
+        ".bqWyNq",
+        ".iDiBsE"
+      ]
     }
   }
 }

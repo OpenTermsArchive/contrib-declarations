@@ -10,7 +10,9 @@
     },
     "Terms of Service": {
       "fetch": "https://www.tchap.gouv.fr/cgu/",
-      "select": ["body"]
+      "select": [
+        "body"
+      ]
     }
   }
 }

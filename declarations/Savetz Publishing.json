@@ -3,7 +3,9 @@
   "documents": {
     "Privacy Policy": {
       "fetch": "https://www.savetzpublishing.com/privacy_policy.php",
-      "select": [".box"]
+      "select": [
+        ".box"
+      ]
     }
   }
 }

@@ -2,8 +2,12 @@
   "Terms of Service": [
     {
       "fetch": "https://help.yuka.io/l/en/article/2a12869y56",
-      "select": [".max-w-3xl"],
-      "remove": ["#feedback"],
+      "select": [
+        ".max-w-3xl"
+      ],
+      "remove": [
+        "#feedback"
+      ],
       "validUntil": "2021-10-27T07:06:28.000Z"
     }
   ]

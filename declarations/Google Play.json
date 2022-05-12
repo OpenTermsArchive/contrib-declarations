@@ -11,13 +11,18 @@
     },
     "Brand Guidelines": {
       "fetch": "https://developer.android.com/distribute/marketing-tools/brand-guidelines",
-      "filter": ["downloadImages"],
+      "filter": [
+        "downloadImages"
+      ],
       "select": "article.devsite-article"
     },
     "Review Guidelines": {
       "fetch": "https://support.google.com/googleplay/android-developer/answer/11044265?hl=en-IE",
       "select": "article.page",
-      "remove": [".scClientFeedbackInlineFeedbacklinkroot", ".article-survey-container"]
+      "remove": [
+        ".scClientFeedbackInlineFeedbacklinkroot",
+        ".article-survey-container"
+      ]
     }
   }
 }

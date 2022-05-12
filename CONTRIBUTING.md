@@ -271,13 +271,23 @@ Please note that we do not want [service-specific types](https://github.com/amba
 You can test the declarations you created or changed by running the following command:
 
 ```
-npm test $service_id [, $service_id …]
+npm test [$service_id [$another_service_id …]]
 ```
 
 Since this operation fetches documents and could be long, you can also validate the declaration structure only:
 
 ```
-npm run test:schema [$service_id [, $service_id …]]
+npm run test:schema [$service_id [$another_service_id …]]
+```
+
+#### Linting
+
+In order to ensure consistency across declarations, all declarations files have to be formatted homogeneously.
+
+In order to achieve this, you can use the following command:
+
+```
+npm run lint [$service_id [$another_service_id …]]
 ```
 
 ## Editing existing documents

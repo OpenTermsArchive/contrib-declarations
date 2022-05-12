@@ -3,11 +3,15 @@
   "documents": {
     "Privacy Policy": {
       "fetch": "https://www.thetradedesk.com/us/website-privacy-policy",
-      "select": [".componentWrapper___cAAVa > div"]
+      "select": [
+        ".componentWrapper___cAAVa > div"
+      ]
     },
     "Ad Publishing Policy": {
       "fetch": "https://www.thetradedesk.com/us/inventory-supplier-agreement",
-      "select": [".componentWrapper___cAAVa > div"]
+      "select": [
+        ".componentWrapper___cAAVa > div"
+      ]
     }
   }
 }

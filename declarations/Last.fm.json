@@ -3,12 +3,18 @@
   "documents": {
     "Terms of Service": {
       "fetch": "https://www.last.fm/legal/terms",
-      "select": ["#mantle_skin"]
+      "select": [
+        "#mantle_skin"
+      ]
     },
     "Privacy Policy": {
       "fetch": "https://www.viacomcbsprivacy.com/en/policy?r=www.viacomcbsprivacy.com",
-      "select": ["main"],
-      "remove": [".dropdown-container"]
+      "select": [
+        "main"
+      ],
+      "remove": [
+        ".dropdown-container"
+      ]
     }
   }
 }

@@ -3,11 +3,15 @@
   "documents": {
     "Privacy Policy": {
       "fetch": "https://www.is.com/privacy-policy/",
-      "select": ["#content"]
+      "select": [
+        "#content"
+      ]
     },
     "Terms of Service": {
       "fetch": "https://www.is.com/terms-of-use-new/",
-      "select": ["#content"]
+      "select": [
+        "#content"
+      ]
     }
   }
 }

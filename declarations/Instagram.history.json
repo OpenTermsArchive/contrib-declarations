@@ -6,7 +6,10 @@
         "[role='main'] > div > div > div:nth-child(2)",
         "[role='main'] > div > div > div em"
       ],
-      "filter": ["cleanUrls", "replaceInfoImageWithEmoji"],
+      "filter": [
+        "cleanUrls",
+        "replaceInfoImageWithEmoji"
+      ],
       "validUntil": "2022-02-14T19:34:59+01:00"
     },
     {
@@ -20,14 +23,19 @@
         "[role='main'] > div > div > div:nth-child(2)",
         "[role='main'] > div > div > div em"
       ],
-      "filter": ["cleanUrls"],
+      "filter": [
+        "cleanUrls"
+      ],
       "validUntil": "2021-11-04T21:16:28.000Z"
     }
   ],
   "Law Enforcement Guidelines": [
     {
       "fetch": "https://help.instagram.com/494561080557017",
-      "select": ["h1", "[role='main'] > div > div > div:nth-child(2)"],
+      "select": [
+        "h1",
+        "[role='main'] > div > div > div:nth-child(2)"
+      ],
       "executeClientScripts": true,
       "validUntil": "2022-02-23T13:34:45+01:00"
     },
@@ -40,9 +48,14 @@
   "Community Guidelines": [
     {
       "fetch": "https://help.instagram.com/477434105621119",
-      "select": ["h1", "[role='main'] > div > div > div:nth-child(2)"],
+      "select": [
+        "h1",
+        "[role='main'] > div > div > div:nth-child(2)"
+      ],
       "executeClientScripts": true,
-      "filter": ["cleanUrls"],
+      "filter": [
+        "cleanUrls"
+      ],
       "validUntil": "2022-02-23T13:35:03+01:00"
     },
     {
@@ -54,9 +67,14 @@
   "Privacy Policy": [
     {
       "fetch": "https://help.instagram.com/519522125107875",
-      "select": ["h1", "[role='main'] > div > div > div:nth-child(2)"],
+      "select": [
+        "h1",
+        "[role='main'] > div > div > div:nth-child(2)"
+      ],
       "executeClientScripts": true,
-      "filter": ["cleanUrls"],
+      "filter": [
+        "cleanUrls"
+      ],
       "validUntil": "2022-01-30T13:34:44+01:00"
     },
     {
@@ -68,7 +86,9 @@
   "Terms of Service": [
     {
       "fetch": "https://help.instagram.com/581066165581870",
-      "select": ["div[role=main]"],
+      "select": [
+        "div[role=main]"
+      ],
       "validUntil": "2022-02-19T19:51:55+01:00"
     },
     {

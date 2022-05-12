@@ -3,7 +3,9 @@
   "documents": {
     "Terms of Service": {
       "fetch": "https://www.librarything.com/privacy",
-      "filter": ["moveAppPrivacyPolicyIntoGlobalPrivacyPolicy"],
+      "filter": [
+        "moveAppPrivacyPolicyIntoGlobalPrivacyPolicy"
+      ],
       "select": {
         "startAfter": "[name=terms]",
         "endBefore": "[name=coppa] ~ h2"
@@ -11,7 +13,9 @@
     },
     "Privacy Policy": {
       "fetch": "https://www.librarything.com/privacy",
-      "filter": ["moveAppPrivacyPolicyIntoGlobalPrivacyPolicy"],
+      "filter": [
+        "moveAppPrivacyPolicyIntoGlobalPrivacyPolicy"
+      ],
       "select": {
         "startBefore": "[name=\"#privacy\"] ~ h2",
         "endBefore": "[name=\"#privacy\"] ~ h2 ~ h2"

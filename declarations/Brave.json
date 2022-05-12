@@ -3,8 +3,13 @@
   "documents": {
     "Terms of Service": {
       "fetch": "https://brave.com/terms-of-use/",
-      "select": [".hero > .container", ".py-12"],
-      "remove": [".toc"]
+      "select": [
+        ".hero > .container",
+        ".py-12"
+      ],
+      "remove": [
+        ".toc"
+      ]
     }
   }
 }
