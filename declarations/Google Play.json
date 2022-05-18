@@ -7,7 +7,7 @@
     },
     "Terms of Service": {
       "fetch": "https://play.google.com/intl/en_US/about/play-terms/index.html",
-      "select": "body > .play-contained"
+      "select": "#content"
     },
     "Brand Guidelines": {
       "fetch": "https://developer.android.com/distribute/marketing-tools/brand-guidelines",
