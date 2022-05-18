@@ -80,7 +80,7 @@ The service ID is exposed to developers. It should be easy to handle with script
 
 > If you have a hard time defining the service ID, check out the [practical guidelines to derive the ID from the service name](Guidelines.md#service-id), and feel free to mention your uncertainties in the pull request! We will help you improve the service ID if necessary 🙂
 
-> More details on the ID and naming constraints and recommendations can be found in the relevant [decision record](https://github.com/ambanum/OpenTermsArchive/blob/master/decision-records/0001-service-name-and-id.md).
+> More details on the ID and naming constraints and recommendations can be found in the relevant [decision record](https://github.com/ambanum/OpenTermsArchive/blob/main/decision-records/0001-service-name-and-id.md).
 
 ### Service declaration
 
@@ -136,7 +136,7 @@ Since the performance cost of this approach is high, it is set to `false` by def
 
 _This property is not needed for PDF documents._
 
-Most of the time, contractual documents are exposed as web pages, with a header, a footer, navigation menus, possibly ads… We aim at tracking only the significant parts of the document. In order to achieve that, the `select` property allows to extract only those parts in the process of [converting from snapshot to version](https://github.com/ambanum/OpenTermsArchive/blob/master/README.md#how-it-works).
+Most of the time, contractual documents are exposed as web pages, with a header, a footer, navigation menus, possibly ads… We aim at tracking only the significant parts of the document. In order to achieve that, the `select` property allows to extract only those parts in the process of [converting from snapshot to version](https://github.com/ambanum/OpenTermsArchive/blob/main/README.md#how-it-works).
 
 The `select` value can be of two types: either a [CSS selector](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors) or a [range selector](#range-selectors).
 
@@ -232,7 +232,7 @@ You can also learn more about [usual noise](Guidelines.md#Usual-noise) and ways 
 
 #### Document type
 
-Great, your document declaration is now almost complete! We simply need to write it under the appropriate document type in the `documents` JSON object within the service declaration. In order to distinguish between the many documents that can be associated with a service and enable cross-services comparison of similar documents, we maintain a unique list of document types. You can find the list of allowed values for the `<document type>` key in the file [`src/archivist/services/documentTypes.json`](https://github.com/ambanum/OpenTermsArchive/tree/master/src/archivist/services/documentTypes.json) of the Open Terms Archive repository.
+Great, your document declaration is now almost complete! We simply need to write it under the appropriate document type in the `documents` JSON object within the service declaration. In order to distinguish between the many documents that can be associated with a service and enable cross-services comparison of similar documents, we maintain a unique list of document types. You can find the list of allowed values for the `<document type>` key in the file [`src/archivist/services/documentTypes.json`](https://github.com/ambanum/OpenTermsArchive/tree/main/src/archivist/services/documentTypes.json) of the Open Terms Archive repository.
 
 The types might not always match the exact name given by the service provider. For example, some providers might call their document “Terms and Conditions” or “Terms of Use” instead of “Terms of Service”. The document type does not have to match the exact name, it only has to match the _commitment_ that is taken.
 
