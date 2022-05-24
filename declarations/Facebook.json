@@ -54,16 +54,19 @@
     },
     "Data Processor Agreement": {
       "fetch": "https://www.facebook.com/legal/EU_data_transfer_addendum",
+      "filter": [
+        "removeBottomMenu"
+      ],
       "select": [
         ".ad2k81qe"
-      ],
-      "remove": [
-        ".d9wwppkn"
       ],
       "executeClientScripts": true
     },
     "Live Policy": {
       "fetch": "https://en-gb.facebook.com/policies/live",
+      "filter": [
+        "removeBottomMenu"
+      ],
       "select": [
         "div[role=main"
       ],
