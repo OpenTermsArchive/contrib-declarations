@@ -2,7 +2,12 @@
   "Live Policy": [
     {
       "fetch": "https://en-gb.facebook.com/policies/live",
-      "select": "#content",
+      "select": [
+        "div[role=main"
+      ],
+      "remove": [
+        "footer[role=contentinfo"
+      ],
       "validUntil": "2022-01-13T10:27:21+01:00"
     }
   ],
@@ -36,11 +41,12 @@
   "Data Processor Agreement": [
     {
       "fetch": "https://www.facebook.com/legal/EU_data_transfer_addendum",
-      "filter": [
-        "numberListCorrectly",
-        "cleanUrls"
+      "select": [
+        ".ad2k81qe"
       ],
-      "select": "#content",
+      "remove": [
+        ".d9wwppkn"
+      ],
       "validUntil": "2021-09-27T13:10:37+02:00"
     }
   ]

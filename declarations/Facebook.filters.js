@@ -34,6 +34,3 @@ export function numberListCorrectly(document) {
 
   Array.from(document.querySelectorAll('ol > ol')).map(element => element.previousSibling.appendChild(element));
 }
-export function removeBottomMenu(document) {
-  document.querySelectorAll(".rq0escxv.l9j0dhe7.du4w35lb.j83agx80.cbu4d94t.pfnyh3mw.d2edcug0.pybr56ya").forEach(element => element.remove());
-}

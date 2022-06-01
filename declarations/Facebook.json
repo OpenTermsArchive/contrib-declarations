@@ -54,24 +54,21 @@
     },
     "Data Processor Agreement": {
       "fetch": "https://www.facebook.com/legal/EU_data_transfer_addendum",
-      "filter": [
-        "removeBottomMenu"
-      ],
       "select": [
-        ".ad2k81qe"
+        "div[role=\"main\"]"
       ],
+      "remove": [
+        ".l9j0dhe7.du4w35lb.rq0escxv.j83agx80.cbu4d94t.pfnyh3mw.d2edcug0"
+       ],
       "executeClientScripts": true
     },
     "Live Policy": {
       "fetch": "https://en-gb.facebook.com/policies/live",
-      "filter": [
-        "removeBottomMenu"
-      ],
       "select": [
-        "div[role=main"
+        "div[role=\"main\"]"
       ],
       "remove": [
-        "footer[role=contentinfo"
+        ".rq0escxv.l9j0dhe7.du4w35lb.j83agx80.cbu4d94t.pfnyh3mw.d2edcug0.pybr56ya"
       ],
       "executeClientScripts": true
     },
