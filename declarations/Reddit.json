@@ -9,7 +9,7 @@
     "Privacy Policy": {
       "fetch": "https://www.redditinc.com/policies/privacy-policy",
       "remove": ".filter-holder",
-      "select": "#content"
+      "select": "#main-content"
     },
     "Live Policy": {
       "fetch": "https://www.redditinc.com/policies/broadcasting-content-policy",
