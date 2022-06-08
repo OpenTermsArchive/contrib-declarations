@@ -2,9 +2,9 @@
   "name": "Airbnb",
   "documents": {
     "Privacy Policy": {
-      "fetch": "https://www.airbnb.co.uk/help/article/2855/privacy-policy",
+      "fetch": "https://www.airbnb.co.uk/help/article/3175/privacy-policy",
       "select": [
-        "#site-content > section"
+        "#site-content"
       ]
     },
     "Terms of Service": {
