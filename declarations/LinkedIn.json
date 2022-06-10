@@ -43,6 +43,16 @@
       "remove": [
         "#banner-content-container-banner_1202100886"
       ]
+    },
+    "Community Guidelines": {
+      "fetch": "https://www.linkedin.com/legal/professional-community-policies",
+      "select": [
+        "main"
+      ],
+      "remove": [
+        ".banner__image-container",
+        ".component-standaloneImage"
+      ]
     }
   }
 }
