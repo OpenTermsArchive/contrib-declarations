@@ -8,7 +8,10 @@
     },
     "Privacy Policy": {
       "fetch": "https://www.redditinc.com/policies/privacy-policy",
-      "remove": ".filter-holder, #overflow-x-scroll w-100",
+    "Privacy Policy": {
+      "fetch": "https://www.redditinc.com/policies/privacy-policy",
+      "select": "#main-content"
+    },
       "select": "#main-content"
     },
     "Live Policy": {
