@@ -3,28 +3,30 @@
   "documents": {
     "Terms of Service": {
       "fetch": "https://twitter.com/tos",
-      "remove": [
-        ".p05-chapter-navigation",
-        "[style='display: none;']"
-      ],
       "select": [
-        ".p22-chapters-container"
-      ]
+        "#twtr-main"
+      ],
+        "remove": [
+          ".ct07__sidebar",
+          ".ct07__dropdown-wrapper"
+        ]
     },
     "Privacy Policy": {
       "fetch": "https://twitter.com/en/privacy",
-      "remove": [
-        ".twtr-icon--base",
-        ".p05-chapter-navigation",
-        "[style='display: none;']",
-        ".twtr-overlay__icon",
-        ".p21-hidden-content"
-      ],
       "select": [
-        ".p02-statement-masthead",
-        ".p03-scrolling-checklist",
-        ".p22-chapters-container",
-        ".cr01-section"
+        "#twtr-main"
+      ],
+      "remove": [
+        ".ct01__background-img",
+        ".twtr-hidden--lg",
+        ".ct07__dropdown-item",
+        ".ct07__side-nav",
+        "[aria-hidden=\"true\"]",
+        ".b04__image",
+        ".ct17-banner-container"
+      ],
+      "filter": [
+        "removeEmptyLinks"
       ]
     },
     "Developer Terms": {
@@ -92,6 +94,127 @@
         ".twtr-type--headline-md",
         ".b24__wrapper",
         ".b17"
+      ]
+    },
+    "Community Guidelines": {
+      "fetch": "https://help.twitter.com/en/rules-and-policies/twitter-rules",
+      "select": [
+        "#twtr-main"
+      ],
+      "remove": [
+        ".u11__breadcrumbs",
+        ".b24-share-tweet",
+        ".b01__headline.twtr-type--headline-md.inherit"
+      ]
+    },
+    "Community Guidelines - Self-harm": {
+      "fetch": "https://help.twitter.com/en/rules-and-policies/glorifying-self-harm",
+      "select": [
+        "#twtr-main"
+      ],
+      "remove": [
+        ".u11__breadcrumbs",
+        ".b24-share-tweet",
+        ".b01__headline.twtr-type--headline-md.inherit"
+      ]
+    },
+    "Community Guidelines - Hate Speech": {
+      "fetch": "https://help.twitter.com/en/rules-and-policies/hateful-conduct-policy",
+      "select": [
+        "#twtr-main"
+      ],
+      "remove": [
+        ".u11__breadcrumbs",
+        ".b24-share-tweet",
+        ".b01__headline.twtr-type--headline-md.inherit"
+      ]
+    },
+    "Community Guidelines - Child Exploitation": {
+      "fetch": "https://help.twitter.com/en/rules-and-policies/sexual-exploitation-policy",
+      "select": [
+        "#twtr-main"
+      ],
+      "remove": [
+        ".u11__breadcrumbs",
+        ".b24-share-tweet",
+        ".b01__headline.twtr-type--headline-md.inherit"
+      ]
+    },
+    "Community Guidelines - Violence Incitement": {
+      "fetch": "https://help.twitter.com/en/rules-and-policies/glorification-of-violence",
+      "select": [
+        "#twtr-main"
+      ],
+      "remove": [
+        ".u11__breadcrumbs",
+        ".b24-share-tweet",
+        ".b01__headline.twtr-type--headline-md.inherit"
+      ]
+    },
+    "Community Guidelines - Violent Organizations": {
+      "fetch": "https://help.twitter.com/en/rules-and-policies/violent-groups",
+      "select": [
+        "#twtr-main"
+      ],
+      "remove": [
+        ".u11__breadcrumbs",
+        ".b24-share-tweet",
+        ".b01__headline.twtr-type--headline-md.inherit"
+      ]
+    },
+    "Community Guidelines - Spam": {
+      "fetch": "https://help.twitter.com/en/rules-and-policies/platform-manipulation",
+      "select": [
+        "#twtr-main"
+      ],
+      "remove": [
+        ".u11__breadcrumbs",
+        ".b24-share-tweet",
+        ".b01__headline.twtr-type--headline-md.inherit"
+      ]
+    },
+    "Community Guidelines - Regulated Goods": {
+      "fetch": "https://help.twitter.com/en/rules-and-policies/regulated-goods-services",
+      "select": [
+        "#twtr-main"
+      ],
+      "remove": [
+        ".u11__breadcrumbs",
+        ".b24-share-tweet",
+        ".b01__headline.twtr-type--headline-md.inherit"
+      ]
+    },
+    "Community Guidelines - Harassment": {
+      "fetch": "https://help.twitter.com/en/rules-and-policies/abusive-behavior",
+      "select": [
+        "#twtr-main"
+      ],
+      "remove": [
+        ".u11__breadcrumbs",
+        ".b24-share-tweet",
+        ".b01__headline.twtr-type--headline-md.inherit"
+      ]
+    },
+    "Community Guidelines - Platform Manipulation": {
+      "fetch": "https://help.twitter.com/en/rules-and-policies/platform-manipulation",
+      "select": [
+        "#twtr-main"
+      ],
+      "remove": [
+        ".u11__breadcrumbs",
+        ".b24-share-tweet",
+        ".b01__headline.twtr-type--headline-md.inherit"
+      ]
+    },
+    "Community Guidelines - Privacy Violations": {
+      "fetch": "https://help.twitter.com/en/rules-and-policies/personal-information",
+      "select": [
+        "#twtr-main"
+      ],
+      "remove": [
+        ".u11__breadcrumbs",
+        ".b24-share-tweet",
+        ".b01__headline.twtr-type--headline-md.inherit"
       ]
     }
   }
