@@ -55,11 +55,11 @@
     "Data Processor Agreement": {
       "fetch": "https://www.facebook.com/legal/EU_data_transfer_addendum",
       "select": [
-        ".ad2k81qe"
+        "div[role=main"
       ],
       "remove": [
-        ".d9wwppkn"
-      ],
+        ".rq0escxv .l9j0dhe7 .du4w35lb .j83agx80 .cbu4d94t .pfnyh3mw .d2edcug0 .pybr56ya"
+       ],
       "executeClientScripts": true
     },
     "Live Policy": {
@@ -68,7 +68,7 @@
         "div[role=main"
       ],
       "remove": [
-        "footer[role=contentinfo"
+        ".rq0escxv.l9j0dhe7.du4w35lb.j83agx80.cbu4d94t.pfnyh3mw.d2edcug0.pybr56ya"
       ],
       "executeClientScripts": true
     },
