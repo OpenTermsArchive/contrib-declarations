@@ -1,8 +1,6 @@
-import DataURIParser from 'datauri/parser.js';
 import fetch from 'isomorphic-fetch';
 import mime from 'mime';
 
-const dataURI = new DataURIParser();
 
 export async function downloadImages(document, { fetch: baseUrl, select: selector }) {
   const images = Array.from(document.querySelectorAll(`${selector} img`));
@@ -18,6 +16,7 @@ export async function downloadImages(document, { fetch: baseUrl, select: selecto
     const content = await response.arrayBuffer();
     const extension = mime.getExtension(mimeType);
 
-    images[index].src = dataURI.format(extension, content).content;
+    const base64Content = btoa(String.fromCharCode(...new Uint8Array(content)));
+    images[index].src = `data:${mimeType};base64,${base64Content}`;
   }));
 }
