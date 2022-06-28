@@ -1,6 +1,4 @@
 import fetch from 'isomorphic-fetch';
-import mime from 'mime';
-
 
 export async function downloadImages(document, { fetch: baseUrl, select: selector }) {
   const images = Array.from(document.querySelectorAll(`${selector} img`));
@@ -14,9 +12,9 @@ export async function downloadImages(document, { fetch: baseUrl, select: selecto
     const response = await fetch(imageUrl);
     const mimeType = response.headers.get('content-type');
     const content = await response.arrayBuffer();
-    const extension = mime.getExtension(mimeType);
 
     const base64Content = btoa(String.fromCharCode(...new Uint8Array(content)));
+
     images[index].src = `data:${mimeType};base64,${base64Content}`;
   }));
 }

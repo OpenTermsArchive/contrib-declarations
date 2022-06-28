@@ -11,7 +11,6 @@
     "open-terms-archive": "git+https://git@github.com/ambanum/OpenTermsArchive#main"
   },
   "dependencies": {
-    "isomorphic-fetch": "^3.0.0",
-    "mime": "^3.0.0"
+    "isomorphic-fetch": "^3.0.0"
   }
 }
