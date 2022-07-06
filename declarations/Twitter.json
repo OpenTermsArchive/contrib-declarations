@@ -163,59 +163,59 @@
       ]
     },
     "Community Guidelines - Spam": {
-     "fetch": "https://help.twitter.com/en/rules-and-policies/platform-manipulation",
-     "select": [
-       "#twtr-main"
-     ],
-     "remove": [
-       ".u11__breadcrumbs",
-       ".b24-share-tweet",
-       ".b01__headline.twtr-type--headline-md.inherit"
-     ]
+      "fetch": "https://help.twitter.com/en/rules-and-policies/platform-manipulation",
+      "select": [
+        "#twtr-main"
+      ],
+      "remove": [
+        ".u11__breadcrumbs",
+        ".b24-share-tweet",
+        ".b01__headline.twtr-type--headline-md.inherit"
+      ]
     },
     "Community Guidelines - Regulated Goods": {
-     "fetch": "https://help.twitter.com/en/rules-and-policies/regulated-goods-services",
-     "select": [
-       "#twtr-main"
-     ],
-     "remove": [
-       ".u11__breadcrumbs",
-       ".b24-share-tweet",
-       ".b01__headline.twtr-type--headline-md.inherit"
-     ]
+      "fetch": "https://help.twitter.com/en/rules-and-policies/regulated-goods-services",
+      "select": [
+        "#twtr-main"
+      ],
+      "remove": [
+        ".u11__breadcrumbs",
+        ".b24-share-tweet",
+        ".b01__headline.twtr-type--headline-md.inherit"
+      ]
     },
     "Community Guidelines - Harassment": {
-     "fetch": "https://help.twitter.com/en/rules-and-policies/abusive-behavior",
-     "select": [
-       "#twtr-main"
-     ],
-     "remove": [
-       ".u11__breadcrumbs",
-       ".b24-share-tweet",
-       ".b01__headline.twtr-type--headline-md.inherit"
-     ]
+      "fetch": "https://help.twitter.com/en/rules-and-policies/abusive-behavior",
+      "select": [
+        "#twtr-main"
+      ],
+      "remove": [
+        ".u11__breadcrumbs",
+        ".b24-share-tweet",
+        ".b01__headline.twtr-type--headline-md.inherit"
+      ]
     },
     "Community Guidelines - Platform Manipulation": {
-     "fetch": "https://help.twitter.com/en/rules-and-policies/platform-manipulation",
-     "select": [
-       "#twtr-main"
-     ],
-     "remove": [
-       ".u11__breadcrumbs",
-       ".b24-share-tweet",
-       ".b01__headline.twtr-type--headline-md.inherit"
-     ]
+      "fetch": "https://help.twitter.com/en/rules-and-policies/platform-manipulation",
+      "select": [
+        "#twtr-main"
+      ],
+      "remove": [
+        ".u11__breadcrumbs",
+        ".b24-share-tweet",
+        ".b01__headline.twtr-type--headline-md.inherit"
+      ]
     },
     "Community Guidelines - Privacy Violations": {
-     "fetch": "https://help.twitter.com/en/rules-and-policies/personal-information",
-     "select": [
-       "#twtr-main"
-     ],
-     "remove": [
-       ".u11__breadcrumbs",
-       ".b24-share-tweet",
-       ".b01__headline.twtr-type--headline-md.inherit"
-     ]
+      "fetch": "https://help.twitter.com/en/rules-and-policies/personal-information",
+      "select": [
+        "#twtr-main"
+      ],
+      "remove": [
+        ".u11__breadcrumbs",
+        ".b24-share-tweet",
+        ".b01__headline.twtr-type--headline-md.inherit"
+      ]
     }
   }
 }

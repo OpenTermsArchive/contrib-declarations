@@ -1,20 +1,6 @@
 {
- "Terms of Service": [
+  "Terms of Service": [
     {
-      "fetch": "https://twitter.com/tos",
-      "remove": [],
-      "select": [],
-      "validUntil": ""
-    }
-  ],
-  "Privacy Policy": [
-    {
-      "fetch": "https://twitter.com/en/privacy",
-      "remove": [],
-      "select": [],
-      "validUntil": ""
-    }
-  ]
       "fetch": "https://twitter.com/tos",
       "remove": [
         ".p05-chapter-navigation",
@@ -24,8 +10,10 @@
         ".p22-chapters-container"
       ],
       "validUntil": "2021-08-19T10:27:21+01:00"
-    },
-    "Privacy Policy": {
+    }
+  ],
+  "Privacy Policy": [
+    {
       "fetch": "https://twitter.com/en/privacy",
       "remove": [
         ".twtr-icon--base",
@@ -42,4 +30,5 @@
       ],
       "validUntil": "2021-08-19T10:27:21+01:00"
     }
+  ]
 }
