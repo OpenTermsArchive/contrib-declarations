@@ -8,5 +8,25 @@
       },
       "validUntil": "2021-07-15T15:06:00.000Z"
     }
+  ],
+  "Terms of Service": [
+    {
+      "fetch": "https://www.tiktok.com/legal/terms-of-use?lang=en",
+      "select": {
+        "startBefore": "#terms-eea",
+        "endBefore": "#terms-in"
+      },
+      "validUntil": "2021-07-15T15:06:00.000Z"
+    }
+  ],
+  "In-App Purchases Policy": [
+    {
+      "fetch": "https://www.tiktok.com/legal/virtual-items?lang=en",
+      "select": {
+        "startBefore": "#virtual-items-eu",
+        "endBefore": "#virtual-items-in"
+      },
+      "validUntil": "2021-12-10T15:06:00.000Z"
+    }
   ]
 }
