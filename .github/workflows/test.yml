@@ -27,3 +27,7 @@ jobs:
           node-version: 14
       - run: npm install
       - run: npm run test:modified
+      - uses: actions/upload-artifact@v3
+        with:
+          name: my-artifact
+          path: ./.tmp
