@@ -5,7 +5,7 @@
     "lint": "ota-lint-declarations",
     "test": "ota-validate-declarations",
     "test:schema": "npm run test -- --schema-only",
-    "test:modified": "git diff --name-only HEAD $(git merge-base HEAD main) -- ./declarations/ | grep -v .history | grep -v .filters | sed 's/declarations\\///g' | sed 's/.json//g' | xargs -r -0 npm test"
+    "test:modified": "git diff --name-only HEAD $(git merge-base HEAD origin/main) -- ./declarations/ | grep -v .history | grep -v .filters | sed 's/declarations\\///g' | sed 's/.json//g' | sed 's/.*/\"&\"/' | xargs -r npm test"
   },
   "devDependencies": {
     "open-terms-archive": "git+https://git@github.com/ambanum/OpenTermsArchive#main"
