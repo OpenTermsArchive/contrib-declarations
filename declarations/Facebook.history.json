@@ -67,6 +67,17 @@
     {
       "fetch": "https://www.facebook.com/legal/EU_data_transfer_addendum",
       "select": [
+        "div[role=main]"
+      ],
+      "remove": [
+        ".rq0escxv .l9j0dhe7 .du4w35lb .j83agx80 .cbu4d94t .pfnyh3mw .d2edcug0 .pybr56ya"
+      ],
+      "executeClientScripts": true,
+      "validUntil": "2022-08-22T04:33:14+04:00"
+    },
+    {
+      "fetch": "https://www.facebook.com/legal/EU_data_transfer_addendum",
+      "select": [
         ".ad2k81qe"
       ],
       "remove": [
