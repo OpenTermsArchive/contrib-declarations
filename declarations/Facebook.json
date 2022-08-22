@@ -1,26 +1,35 @@
 {
   "name": "Facebook",
   "documents": {
-    "Terms of Service": {
-      "fetch": "https://www.facebook.com/legal/terms/plain_text_terms",
-      "select": [
-        ".ad2k81qe"
-      ],
-      "remove": [
-        ".mdeji52x"
-      ],
+    "Privacy Policy": {
+      "fetch": "https://fr-fr.facebook.com/privacy/explanation/",
       "filter": [
-        "cleanUrls"
+        "removeEmptyAnchorsLinks",
+        "removeTrackingIDs",
+        "removeLocaleFromUrls"
+      ],
+      "select": [
+        "hr+div"
       ],
       "executeClientScripts": true
     },
-    "Privacy Policy": {
-      "fetch": "https://www.facebook.com/about/privacy",
-      "filter": [
-        "removeReturnToTopButtons",
-        "cleanUrls"
+    "Terms of Service": {
+      "fetch": "https://fr-fr.facebook.com/legal/terms/plain_text_terms",
+      "select": [
+        "div[role=\"main\"]"
       ],
-      "select": "._5tkp"
+      "filter": [
+        "removeEmptyAnchorsLinks",
+        "removeTrackingIDs",
+        "removeLocaleFromUrls"
+      ],
+      "remove": [
+        {
+          "startBefore": "[role=\"separator\"]",
+          "endAfter": "body"
+        }
+      ],
+      "executeClientScripts": true
     },
     "Developer Terms": {
       "fetch": "https://developers.facebook.com/policy",
@@ -58,7 +67,10 @@
         "div[role=main]"
       ],
       "remove": [
-        ".rq0escxv .l9j0dhe7 .du4w35lb .j83agx80 .cbu4d94t .pfnyh3mw .d2edcug0 .pybr56ya"
+        {
+          "startBefore": "[role=\"separator\"]",
+          "endAfter": "body"
+        }
       ],
       "executeClientScripts": true
     },
@@ -68,7 +80,10 @@
         "div[role=main]"
       ],
       "remove": [
-        ".rq0escxv.l9j0dhe7.du4w35lb.j83agx80.cbu4d94t.pfnyh3mw.d2edcug0.pybr56ya"
+        {
+          "startBefore": "[role=\"separator\"]",
+          "endAfter": "body"
+        }
       ],
       "executeClientScripts": true
     },

@@ -3,6 +3,17 @@
     {
       "fetch": "https://en-gb.facebook.com/policies/live",
       "select": [
+        "div[role=main]"
+      ],
+      "remove": [
+        ".rq0escxv.l9j0dhe7.du4w35lb.j83agx80.cbu4d94t.pfnyh3mw.d2edcug0.pybr56ya"
+      ],
+      "executeClientScripts": true,
+      "validUntil": "2022-08-22T04:33:26+04:00"
+    },
+    {
+      "fetch": "https://en-gb.facebook.com/policies/live",
+      "select": [
         "div[role=main"
       ],
       "remove": [
@@ -12,6 +23,20 @@
     }
   ],
   "Terms of Service": [
+    {
+      "fetch": "https://www.facebook.com/legal/terms/plain_text_terms",
+      "select": [
+        ".ad2k81qe"
+      ],
+      "remove": [
+        ".mdeji52x"
+      ],
+      "filter": [
+        "cleanUrls"
+      ],
+      "executeClientScripts": true,
+      "validUntil": "2022-08-12T10:33:23+04:00"
+    },
     {
       "fetch": "https://www.facebook.com/legal/terms/plain_text_terms",
       "filter": [
@@ -42,12 +67,34 @@
     {
       "fetch": "https://www.facebook.com/legal/EU_data_transfer_addendum",
       "select": [
+        "div[role=main]"
+      ],
+      "remove": [
+        ".rq0escxv .l9j0dhe7 .du4w35lb .j83agx80 .cbu4d94t .pfnyh3mw .d2edcug0 .pybr56ya"
+      ],
+      "executeClientScripts": true,
+      "validUntil": "2022-08-22T04:33:14+04:00"
+    },
+    {
+      "fetch": "https://www.facebook.com/legal/EU_data_transfer_addendum",
+      "select": [
         ".ad2k81qe"
       ],
       "remove": [
         ".d9wwppkn"
       ],
       "validUntil": "2022-06-21T13:10:37+02:00"
+    }
+  ],
+  "Privacy Policy": [
+    {
+      "fetch": "https://www.facebook.com/about/privacy",
+      "filter": [
+        "removeReturnToTopButtons",
+        "cleanUrls"
+      ],
+      "select": "._5tkp",
+      "validUntil": "2022-05-25T16:20:16+04:00"
     }
   ]
 }
