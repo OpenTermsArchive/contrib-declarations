@@ -13,7 +13,12 @@ export function removeLabelAndSidFromUrls(document) {
       // If we do not do that it will lead to changing urls as sometimes, subsequent query parameters
       // will be included in the previous one i.e. "label=XXX;otherParam=value" leads to ""
       // and sometimes not i.e. "label=XXX&otherParam=value" leads to "&otherParam=value"
-      href = href.replace(/&amp;/gmi, '&').replace(/;/gmi, '&');
+      href = href.replace(/&amp;/gmi, '&').replace(/;/gmi, '&').replace(/\n/gmi, '');
+
+      if (href.startsWith('/')) {
+        href = `https://www.booking.com${href}`;
+      }
+
       const url = new URL(href);
 
       if (!url.search) {
