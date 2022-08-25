@@ -15,5 +15,9 @@ export function removeTrackingIDs(document) {
       params.set('h', 'removed');
       el.setAttribute('href', params.toString());
     }
+    if (params.has('e')) {
+      params.set('e', 'removed');
+      el.setAttribute('href', params.toString());
+    }
   });
 }
