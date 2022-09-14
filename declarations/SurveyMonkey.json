@@ -8,7 +8,14 @@
     },
     "Privacy Policy": {
       "fetch": "https://www.surveymonkey.com/mp/legal/privacy/",
-      "select": ".content-wrapper"
+      "select": [
+        ".content-wrapper"
+      ],
+      "remove": [
+        ".sm-mdsGridPlus-d11-1-2-194",
+        ".content-wrapper > .wds-grid:nth-child(3) > .wds-grid__row",
+        ".content-wrapper > .wds-grid:nth-child(2)"
+      ]
     }
   }
 }
