@@ -1,22 +1,36 @@
 {
   "name": "Scalingo",
   "documents": {
-    "Terms of Service": {
-      "fetch": "https://scalingo.com/terms-of-service",
+    "General Terms and Conditions": {
+      "fetch": "https://scalingo.com/general-terms-and-conditions",
       "select": [
         ".title",
         ".mx-sm-auto"
       ]
     },
-    "Privacy Policy": {
-      "fetch": "https://scalingo.com/privacy-policy",
+    "General Terms of Use": {
+      "fetch": "https://scalingo.com/general-terms-of-use",
       "select": [
         ".title",
         ".mx-sm-auto"
       ]
     },
-    "Data Processor Agreement": {
+    "Data Processing Agreement": {
       "fetch": "https://scalingo.com/data-processing-agreement",
+      "select": [
+        ".title",
+        ".mx-sm-auto"
+      ]
+    },
+    "Service Level Agreement": {
+      "fetch": "https://scalingo.com/service-level-agreemeent",
+      "select": [
+        ".title",
+        ".mx-sm-auto"
+      ]
+    },
+    "Health Data Hosting": {
+      "fetch": "https://scalingo.com/gtc-appendix-health-data-hosting",
       "select": [
         ".title",
         ".mx-sm-auto"
