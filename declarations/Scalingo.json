@@ -21,20 +21,6 @@
         ".title",
         ".mx-sm-auto"
       ]
-    },
-    "Service Level Agreement": {
-      "fetch": "https://scalingo.com/service-level-agreemeent",
-      "select": [
-        ".title",
-        ".mx-sm-auto"
-      ]
-    },
-    "Health Data Hosting": {
-      "fetch": "https://scalingo.com/gtc-appendix-health-data-hosting",
-      "select": [
-        ".title",
-        ".mx-sm-auto"
-      ]
     }
   }
 }
