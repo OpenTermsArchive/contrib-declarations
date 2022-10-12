@@ -4,22 +4,22 @@
     "Terms of Service": {
       "fetch": "https://scalingo.com/general-terms-of-use",
       "select": [
-        ".title",
-        ".mx-sm-auto"
+        "h1",
+        ".markdown-legal"
       ]
     },
     "Commercial Terms": {
       "fetch": "https://scalingo.com/general-terms-and-conditions",
       "select": [
-        ".title",
-        ".mx-sm-auto"
+        "h1",
+        ".markdown-legal"
       ]
     },
     "Data Processor Agreement": {
       "fetch": "https://scalingo.com/data-processing-agreement",
       "select": [
-        ".title",
-        ".mx-sm-auto"
+        "h1",
+        ".markdown-legal"
       ]
     }
   }
