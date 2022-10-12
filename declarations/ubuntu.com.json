@@ -8,7 +8,12 @@
     },
     "Privacy Policy": {
       "fetch": "https://ubuntu.com/legal/data-privacy",
-      "select": ".p-strip"
+      "select": [
+        "#main-content"
+      ],
+      "remove": [
+        ".p-contextual-footer"
+      ]
     }
   }
 }
