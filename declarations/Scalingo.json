@@ -1,21 +1,21 @@
 {
   "name": "Scalingo",
   "documents": {
-    "General Terms and Conditions": {
-      "fetch": "https://scalingo.com/general-terms-and-conditions",
-      "select": [
-        ".title",
-        ".mx-sm-auto"
-      ]
-    },
-    "General Terms of Use": {
+    "Terms of Service": {
       "fetch": "https://scalingo.com/general-terms-of-use",
       "select": [
         ".title",
         ".mx-sm-auto"
       ]
     },
-    "Data Processing Agreement": {
+    "Commercial Terms": {
+      "fetch": "https://scalingo.com/general-terms-and-conditions",
+      "select": [
+        ".title",
+        ".mx-sm-auto"
+      ]
+    },
+    "Data Processor Agreement": {
       "fetch": "https://scalingo.com/data-processing-agreement",
       "select": [
         ".title",
