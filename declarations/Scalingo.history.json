@@ -1,0 +1,22 @@
+{
+  "Terms of Service": [
+    {
+      "fetch": "https://scalingo.com/terms-of-service",
+      "select": [
+        ".title",
+        ".mx-sm-auto"
+      ],
+      "validUntil": "2021-08-16T14:36:00.000Z"
+    }
+  ],
+  "Data Processor Agreement": [
+    {
+      "fetch": "https://scalingo.com/data-processing-agreement",
+      "select": [
+        ".title",
+        ".mx-sm-auto"
+      ],
+      "validUntil": "2021-08-16T14:36:00.000Z"
+    }
+  ]
+}
