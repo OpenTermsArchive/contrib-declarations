@@ -84,6 +84,20 @@
         ".d9wwppkn"
       ],
       "validUntil": "2022-06-21T13:10:37+02:00"
+    },
+    {
+      "fetch": "https://www.facebook.com/legal/EU_data_transfer_addendum",
+      "select": [
+        "div[role=main]"
+      ],
+      "remove": [
+        {
+          "startBefore": "[role=\"separator\"]",
+          "endAfter": "body"
+        }
+      ],
+      "executeClientScripts": true,
+      "validUntil": "to-be-termined"
     }
   ],
   "Privacy Policy": [
