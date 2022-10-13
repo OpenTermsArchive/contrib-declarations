@@ -18,15 +18,5 @@
       ],
       "validUntil": "2021-11-16T14:36:00.000Z"
     }
-  ],
-  "Privacy Policy": [
-    {
-      "fetch": "https://scalingo.com/privacy-policy",
-      "select": [
-        ".title",
-        ".mx-sm-auto"
-      ],
-      "validUntil": "2021-11-16T14:36:00.000Z"
-    }
   ]
 }
