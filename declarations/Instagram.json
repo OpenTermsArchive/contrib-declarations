@@ -68,6 +68,9 @@
       ],
       "filter": [
         "removeTrackingIDs"
+      ],
+      "remove": [
+        "span:nth-child(2) a"
       ]
     }
   }
