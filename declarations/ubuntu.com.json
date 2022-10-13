@@ -4,7 +4,10 @@
   "documents": {
     "Terms of Service": {
       "fetch": "https://ubuntu.com/legal/terms",
-      "select": ".p-strip"
+      "select": [
+        ".col-8",
+        ".p-strip:nth-child(1) .col-4"
+      ]
     },
     "Privacy Policy": {
       "fetch": "https://ubuntu.com/legal/data-privacy",
