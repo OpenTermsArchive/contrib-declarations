@@ -106,7 +106,7 @@
       ],
       "remove": [
         {
-          "startBefore": "[role=\"separator\"]",
+          "startBefore": "[role=\"separator\"]:first-child",
           "endAfter": "body"
         }
       ],
