@@ -98,6 +98,19 @@
       "remove": [
         ".img"
       ]
+    },
+    "Vulnerability Disclosure Policy": {
+      "fetch": "https://www.facebook.com/legal/EU_data_transfer_addendum",
+      "select": [
+        "div[role=main]"
+      ],
+      "remove": [
+        {
+          "startBefore": "[role=\"separator\"]",
+          "endAfter": "body"
+        }
+      ],
+      "executeClientScripts": true
     }
   }
 }
