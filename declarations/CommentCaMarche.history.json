@@ -4,6 +4,12 @@
       "fetch": "https://ccm.net/contents/957-processing-of-personal-data-ccm",
       "select": "body",
       "validUntil": "2020-12-08T16:00:00.000Z"
+    },
+    {
+      "fetch": "https://ccm.net/contents/957-processing-of-personal-data-ccm",
+      "select": ".ccm_page--content .container",
+      "remove": "#toc, .ccm_page--content img:first-of-type, .content__footer",
+      "validUntil": "2022-10-06T12:32:32Z"
     }
   ],
   "Terms of Service": [
@@ -11,6 +17,12 @@
       "fetch": "https://ccm.net/contents/953-general-terms-and-conditions-of-use",
       "select": "body",
       "validUntil": "2020-12-08T16:00:00.000Z"
+    },
+    {
+      "fetch": "https://ccm.net/contents/953-general-terms-and-conditions-of-use",
+      "select": ".ccm_page--content .container",
+      "remove": "#toc, .ccm_page--content img:first-of-type, .ccm_page--content img:nth-child(1), .content__footer",
+      "validUntil": "2022-09-30T18:32:36Z"
     }
   ]
 }
