@@ -11,6 +11,11 @@
       "fetch": "https://www.meredith.com/nmg/privacy",
       "select": "body",
       "validUntil": "2020-11-09T17:30:03.000Z"
+    },
+    {
+      "fetch": "https://www.meredith.com/nmg/privacy",
+      "select": "#main",
+      "validUntil": "2022-09-01T00:30:43Z"
     }
   ]
 }
