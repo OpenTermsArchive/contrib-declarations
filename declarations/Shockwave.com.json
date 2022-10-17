@@ -9,8 +9,7 @@
     "Privacy Policy": {
       "fetch": "http://www.shockwave.com/about/privacyPolicy.jsp",
       "select": [
-        ".podContent",
-        "h1"
+        ".podContent"
       ]
     }
   }
