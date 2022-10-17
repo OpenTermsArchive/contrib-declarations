@@ -10,6 +10,9 @@
       "fetch": "http://www.shockwave.com/about/privacyPolicy.jsp",
       "select": [
         ".podContent"
+      ],
+      "filter": [
+        "unifyEmailProtectedAddresses"
       ]
     }
   }
