@@ -8,7 +8,10 @@
     },
     "Privacy Policy": {
       "fetch": "http://www.shockwave.com/about/privacyPolicy.jsp",
-      "select": ".podContent"
+      "select": [
+        ".podContent",
+        "h1"
+      ]
     }
   }
 }
