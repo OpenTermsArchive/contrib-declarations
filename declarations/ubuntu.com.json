@@ -8,7 +8,9 @@
     },
     "Privacy Policy": {
       "fetch": "https://ubuntu.com/legal/data-privacy",
-      "select": ".p-strip"
+      "select": [
+        ".p-strip"
+      ]
     }
   }
 }
