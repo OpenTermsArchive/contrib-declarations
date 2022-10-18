@@ -4,6 +4,11 @@
       "fetch": "https://ubuntu.com/legal/terms",
       "select": "body",
       "validUntil": "2020-12-08T16:00:00.000Z"
+    },
+    {
+      "fetch": "https://ubuntu.com/legal/terms",
+      "select": ".p-strip",
+      "validUntil": "to-be-determined"
     }
   ],
   "Privacy Policy": [
