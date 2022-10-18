@@ -4,7 +4,9 @@
   "documents": {
     "Terms of Service": {
       "fetch": "https://ubuntu.com/legal/terms",
-      "select": ".p-strip"
+      "select": [
+        ".p-strip:nth-child(1) > .row"
+      ]
     },
     "Privacy Policy": {
       "fetch": "https://ubuntu.com/legal/data-privacy",
