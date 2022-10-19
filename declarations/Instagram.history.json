@@ -81,6 +81,22 @@
       "fetch": "https://help.instagram.com/519522125107875?locale=en_GB",
       "select": "#faq-page",
       "validUntil": "2021-03-03T11:26:19+04:00"
+    },
+    {
+      "fetch": "https://help.instagram.com/519522125107875",
+      "select": [
+        "div[role=\"main\"]"
+      ],
+      "remove": [
+        "div[aria-label=\"Copy Link\"]",
+        "[id='Related Articles']",
+        "fieldset"
+      ],
+      "executeClientScripts": true,
+      "filter": [
+        "removeTrackingIDs"
+      ],
+      "validUntil": "2022-05-17T00:35:29Z"
     }
   ],
   "Terms of Service": [
