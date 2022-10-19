@@ -27,6 +27,16 @@
         "cleanUrls"
       ],
       "validUntil": "2021-11-04T21:16:28.000Z"
+    },
+    {
+      "fetch": "https://developers.facebook.com/terms",
+      "select": [
+        "#rebrandBodyID"
+      ],
+      "filter": [
+        "removeTrackingIDs"
+      ],
+      "validUntil": "2022-02-14T19:34:59+01:00"
     }
   ],
   "Law Enforcement Guidelines": [
