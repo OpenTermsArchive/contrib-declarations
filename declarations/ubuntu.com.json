@@ -5,7 +5,10 @@
     "Terms of Service": {
       "fetch": "https://ubuntu.com/legal/terms",
       "select": [
-        ".p-strip:nth-child(1) > .row"
+        "#main-content"
+      ],
+      "remove": [
+        ".p-contextual-footer"
       ]
     },
     "Privacy Policy": {
