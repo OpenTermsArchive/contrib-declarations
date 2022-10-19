@@ -11,6 +11,11 @@
       "fetch": "https://edition.cnn.com/terms",
       "select": "body",
       "validUntil": "2020-12-08T16:00:00.000Z"
+    },
+    {
+      "fetch": "https://edition.cnn.com/terms0",
+      "select": ".l-container",
+      "validUntil": "2022-08-24T18:32:49Z"
     }
   ]
 }

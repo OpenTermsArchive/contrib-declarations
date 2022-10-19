@@ -14,7 +14,12 @@
     },
     "Terms of Service": {
       "fetch": "https://edition.cnn.com/terms0",
-      "select": ".l-container"
+      "select": [
+        {
+          "startBefore": ".layout__content-wrapper",
+          "endBefore": ".layout__bottom"
+        }
+      ]
     }
   }
 }
