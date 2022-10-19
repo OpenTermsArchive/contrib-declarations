@@ -68,7 +68,7 @@
     "Developer Terms": {
       "fetch": "https://developers.facebook.com/terms",
       "select": [
-        "._40lj > .clearfix"
+        "#rebrandBodyID"
       ],
       "filter": [
         "removeTrackingIDs"
