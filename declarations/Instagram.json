@@ -30,6 +30,9 @@
         "a[href=\"#\"][role=\"link\"][target=\"_self\"]",
         "header[role=\"banner\"]"
       ],
+      "filter": [
+        "removeTrackingIDs"
+      ],
       "executeClientScripts": true
     },
     "Community Guidelines": {
