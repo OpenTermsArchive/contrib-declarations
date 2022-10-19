@@ -2,24 +2,42 @@
   "name": "Scalingo",
   "documents": {
     "Terms of Service": {
-      "fetch": "https://scalingo.com/terms-of-service",
+      "fetch": "https://scalingo.com/general-terms-of-use",
       "select": [
-        ".title",
-        ".mx-sm-auto"
+        "h1",
+        ".markdown-legal"
+      ]
+    },
+    "Commercial Terms": {
+      "fetch": "https://scalingo.com/general-terms-and-conditions",
+      "select": [
+        "h1",
+        ".markdown-legal"
       ]
     },
     "Privacy Policy": {
-      "fetch": "https://scalingo.com/privacy-policy",
+      "fetch": "https://scalingo.com/data-processing-agreement",
       "select": [
-        ".title",
-        ".mx-sm-auto"
+        "h1",
+        ".markdown-legal"
       ]
     },
     "Data Processor Agreement": {
       "fetch": "https://scalingo.com/data-processing-agreement",
       "select": [
-        ".title",
-        ".mx-sm-auto"
+        {
+          "startBefore": ".markdown-legal h2:nth-of-type(2)",
+          "endBefore": ".markdown-legal h2:nth-of-type(4)"
+        }
+      ]
+    },
+    "Data Controller Agreement": {
+      "fetch": "https://scalingo.com/data-processing-agreement",
+      "select": [
+        {
+          "startBefore": ".markdown-legal h2:nth-of-type(4)",
+          "endAfter": ".markdown-legal p:last-child"
+        }
       ]
     }
   }
