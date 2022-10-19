@@ -19,17 +19,18 @@
     "Privacy Policy": {
       "fetch": "https://help.instagram.com/519522125107875",
       "select": [
-        "div[role=\"main\"]"
+        {
+          "endBefore": "#ssrb_root_end",
+          "startAfter": "#ssrb_top_nav_end"
+        }
       ],
       "remove": [
-        "div[aria-label=\"Copy Link\"]",
-        "[id='Related Articles']",
-        "fieldset"
+        "div[aria-expanded]",
+        "div[role=\"region\"] a[href^=\"/policy/?section_id=\"]",
+        "a[href=\"#\"][role=\"link\"][target=\"_self\"]",
+        "header[role=\"banner\"]"
       ],
-      "executeClientScripts": true,
-      "filter": [
-        "removeTrackingIDs"
-      ]
+      "executeClientScripts": true
     },
     "Community Guidelines": {
       "fetch": "https://help.instagram.com/477434105621119",
