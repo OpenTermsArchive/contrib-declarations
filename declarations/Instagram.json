@@ -71,7 +71,8 @@
         "#rebrandBodyID"
       ],
       "filter": [
-        "removeTrackingIDs"
+        "removeTrackingIDs",
+        "replaceInfoImageWithEmoji"
       ]
     }
   }
