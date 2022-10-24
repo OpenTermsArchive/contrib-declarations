@@ -15,7 +15,7 @@
     {
       "fetch": "https://www.surveymonkey.com/mp/legal/privacy/",
       "select": ".content-wrapper",
-      "validUntil": "to-be-determined"
+      "validUntil": "2022-10-21T00:40:32Z"
     }
   ]
 }
