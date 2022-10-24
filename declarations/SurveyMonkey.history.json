@@ -8,7 +8,7 @@
     {
       "fetch": "https://www.surveymonkey.com/mp/legal/terms-of-use/",
       "select": ".content-wrapper",
-      "validUntil": "to-be-determined"
+      "validUntil": "2022-10-10T18:40:27Z"
     }
   ],
   "Privacy Policy": [
