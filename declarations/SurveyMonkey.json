@@ -8,7 +8,12 @@
     },
     "Privacy Policy": {
       "fetch": "https://www.surveymonkey.com/mp/legal/privacy/",
-      "select": ".content-wrapper"
+      "select": [
+        ".content-wrapper"
+      ],
+      "remove": [
+        "a[href^=\"/user/sign\"]"
+      ]
     }
   }
 }
