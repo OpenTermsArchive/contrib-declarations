@@ -4,6 +4,11 @@
       "fetch": "https://www.surveymonkey.com/mp/legal/terms-of-use/",
       "select": "body",
       "validUntil": "2020-12-08T16:00:00.000Z"
+    },
+    {
+      "fetch": "https://www.surveymonkey.com/mp/legal/terms-of-use/",
+      "select": ".content-wrapper",
+      "validUntil": "2022-10-10T18:40:27Z"
     }
   ],
   "Privacy Policy": [
@@ -11,6 +16,11 @@
       "fetch": "https://www.surveymonkey.com/mp/legal/privacy/",
       "select": "body",
       "validUntil": "2020-12-08T16:00:00.000Z"
+    },
+    {
+      "fetch": "https://www.surveymonkey.com/mp/legal/privacy/",
+      "select": ".content-wrapper",
+      "validUntil": "2022-10-21T00:40:32Z"
     }
   ]
 }
