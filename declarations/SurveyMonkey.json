@@ -4,7 +4,12 @@
   "documents": {
     "Terms of Service": {
       "fetch": "https://www.surveymonkey.com/mp/legal/terms-of-use/",
-      "select": ".content-wrapper"
+      "select": [
+        ".content-wrapper"
+      ],
+      "remove": [
+        "a[href^=\"/user/sign\"]"
+      ]
     },
     "Privacy Policy": {
       "fetch": "https://www.surveymonkey.com/mp/legal/privacy/",
