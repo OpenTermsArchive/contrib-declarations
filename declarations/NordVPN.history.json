@@ -1,0 +1,13 @@
+{
+  "Privacy Policy": [
+    {
+      "fetch": "https://my.nordaccount.com/legal/privacy-policy/",
+      "select": [
+        "div.nord-container"
+      ],
+      "remove": ".Nav",
+      "executeClientScripts": true,
+      "validUntil": "to-be-determined"
+    }
+  ]
+}
