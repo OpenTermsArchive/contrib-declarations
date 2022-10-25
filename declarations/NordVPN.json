@@ -12,9 +12,11 @@
     "Privacy Policy": {
       "fetch": "https://my.nordaccount.com/legal/privacy-policy/",
       "select": [
-        "div.nord-container"
+        {
+          "startBefore": "h1",
+          "endBefore": "footer"
+        }
       ],
-      "remove": ".Nav",
       "executeClientScripts": true
     }
   }
