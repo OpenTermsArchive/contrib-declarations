@@ -1,0 +1,38 @@
+{
+  "name": "contrib",
+  "services": {
+    "repository": "https://github.com/OpenTermsArchive/contrib-declarations.git",
+    "declarationsPath": "./declarations"
+  },
+  "recorder": {
+    "versions": {
+      "storage": {
+        "git": {
+          "snapshotIdentiferTemplate": "mongo://contrib/open-terms-archive/snapshots/%SNAPSHOT_ID",
+          "repository": "git@github.com:OpenTermsArchive/contrib-versions.git",
+          "path": "./data/versions"
+        }
+      }
+    },
+    "snapshots": {
+      "storage": {
+        "type": "mongo"
+      }
+    }
+  },
+  "notifier": {
+    "sendInBlue": {
+      "updatesListId": 596,
+      "updateTemplateId": 39
+    }
+  },
+  "tracker": {
+    "githubIssues": {
+      "repository": "OpenTermsArchive/contrib-declarations"
+    }
+  },
+  "dataset": {
+    "title": "contrib",
+    "versionsRepositoryURL": "https://github.com/OpenTermsArchive/contrib-versions"
+  }
+}
