@@ -4,19 +4,38 @@ on:
     branches: [ main ]
 
 jobs:
+  test:
+    uses: "./.github/workflows/test.yml"
+
   deploy:
+    needs: [ test ]
     runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v2
+      - name: Get target server hostname
+        id: get_hostname
+        uses: mikefarah/yq@master
         with:
-          repository: ambanum/OpenTermsArchive
-      - name: Install SSH key
+          cmd: yq '.all.hosts.* | key' deployment/inventory.yml
+      - name: Get target server fingerprint
+        id: get_fingerprint
+        uses: mikefarah/yq@master
+        with:
+          cmd: yq '.all.hosts.*.ed25519_fingerprint' deployment/inventory.yml
+      - name: Set up SSH
         uses: shimataro/ssh-key-action@v2
         with:
           key: ${{ secrets.SERVER_SSH_KEY }}
-          known_hosts: ${{ secrets.SERVER_FINGERPRINT }}
-      - run: echo "${{ secrets.ANSIBLE_VAULT_KEY }}" > vault.key
+          known_hosts: ${{ steps.get_hostname.outputs.result }} ssh-ed25519 ${{ steps.get_fingerprint.outputs.result }}
+      - run: echo "${{ secrets.ANSIBLE_VAULT_KEY }}" > deployment/vault.key
       - run: pip install --upgrade setuptools
       - run: pip install 'ansible ~= 2.9'
-      - run: ansible-playbook ops/app.yml --inventory ops/inventories/production.yml --tags update-declarations --limit contrib
+      - name: Install dependencies
+        working-directory: ./deployment
+        run: ansible-galaxy collection install -p ./ -r requirements.yml --force
+      - name: Deploy
+        working-directory: ./deployment
+        run: ansible-playbook ./ansible_collections/opentermsarchive/deployment/playbooks/deploy.yml
+
+

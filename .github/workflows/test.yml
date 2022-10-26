@@ -2,8 +2,11 @@ name: Validate declarations
 
 on:
   push:
+    branches: 
+      - '!main'
   pull_request:
     types: [ opened, reopened ]
+  workflow_call:
 
 jobs:
   validate_schema:
