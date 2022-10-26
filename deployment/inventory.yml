@@ -1,0 +1,5 @@
+all:
+  hosts:
+    198.244.153.104:
+      ansible_user: debian
+      ed25519_fingerprint: AAAAC3NzaC1lZDI1NTE5AAAAIITN8hTCst7+6mHNzeo465crCZwHrc/SzUL1410mb9Lv
