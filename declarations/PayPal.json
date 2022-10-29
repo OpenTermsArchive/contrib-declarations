@@ -1,7 +1,7 @@
 {
   "name": "PayPal",
   "documents": {
-    "User Agreement (United Kingdom, EN)": {
+    "Terms of Service (United Kingdom, EN)": {
       "fetch": "https://www.paypal.com/uk/webapps/mpp/ua/useragreement-full?locale.x=en_GB",
       "select": [
         "#main .containerCentered"
@@ -11,7 +11,7 @@
         ".containerCentered > p:nth-child(1)"
       ]
     },
-    "Privacy Statement (United Kingdom, EN)": {
+    "Privacy Policy (United Kingdom, EN)": {
       "fetch": "https://www.paypal.com/uk/webapps/mpp/ua/privacy-full?locale.x=en_GB",
       "select": [
         "#main .containerCentered"
@@ -21,7 +21,7 @@
         ".containerCentered > p:nth-child(1)"
       ]
     },
-    "User Agreement (France, EN)": {
+    "Terms of Service (France, EN)": {
       "fetch": "https://www.paypal.com/fr/webapps/mpp/ua/useragreement-full?locale.x=en_FR",
       "select": [
         "#main .containerCentered"
@@ -31,7 +31,7 @@
         ".containerCentered > p:nth-child(1)"
       ]
     },
-    "Privacy Statement (France, FR)": {
+    "Privacy Policy (France, FR)": {
       "fetch": "https://www.paypal.com/fr/webapps/mpp/ua/privacy-full?locale.x=fr_FR",
       "select": [
         "#main .containerCentered"
@@ -61,7 +61,7 @@
         ".containerCentered > p:nth-child(1)"
       ]
     },
-    "User Agreement (Germany, EN)": {
+    "Terms of Service (Germany, EN)": {
       "fetch": "https://www.paypal.com/de/webapps/mpp/ua/useragreement-full?locale.x=en_DE",
       "select": [
         "#main .containerCentered"
@@ -71,7 +71,7 @@
         ".containerCentered > p:nth-child(1)"
       ]
     },
-    "Privacy Statement (Germany, EN)": {
+    "Privacy Policy (Germany, EN)": {
       "fetch": "https://www.paypal.com/de/webapps/mpp/ua/privacy-full?locale.x=en_DE",
       "select": [
         "#main .containerCentered"
@@ -101,7 +101,7 @@
         ".containerCentered > p:nth-child(1)"
       ]
     },
-    "User Agreement (European Union, EN)": {
+    "Terms of Service (European Union, EN)": {
       "fetch": "https://www.paypal.com/cz/webapps/mpp/ua/useragreement-full?locale.x=en_CZ",
       "select": [
         "#main .containerCentered"
@@ -111,7 +111,7 @@
         ".containerCentered > p:nth-child(1)"
       ]
     },
-    "Privacy Statement (European Union, EN)": {
+    "Privacy Policy (European Union, EN)": {
       "fetch": "https://www.paypal.com/cz/webapps/mpp/ua/privacy-full?locale.x=en_CZ",
       "select": [
         "#main .containerCentered"
@@ -121,7 +121,7 @@
         ".containerCentered > p:nth-child(1)"
       ]
     },
-    "User Agreement (European Union - Send Only, EN)": {
+    "Terms of Service (European Union - Send Only, EN)": {
       "fetch": "https://www.paypal.com/va/webapps/mpp/ua/useragreement-full?locale.x=en_VA",
       "select": [
         "#main .containerCentered"
@@ -131,7 +131,7 @@
         ".containerCentered > p:nth-child(1)"
       ]
     },
-    "Privacy Statement (European Union - Send Only, EN)": {
+    "Privacy Policy (European Union - Send Only, EN)": {
       "fetch": "https://www.paypal.com/va/webapps/mpp/ua/privacy-full?locale.x=en_VA",
       "select": [
         "#main .containerCentered"
