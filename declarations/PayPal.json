@@ -1,0 +1,15 @@
+{
+  "name": "PayPal",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.paypal.com/fr/webapps/mpp/ua/privacy-full?locale.x=en_FR",
+      "select": [
+        "#main .containerCentered"
+      ],
+      "remove": [
+        "#ua_skinny_view",
+        ".containerCentered > p:nth-child(1)"
+      ]
+    }
+  }
+}
