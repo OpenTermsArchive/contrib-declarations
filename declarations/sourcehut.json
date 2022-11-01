@@ -4,10 +4,11 @@
     "Terms of Service": {
       "fetch": "https://man.sr.ht/terms.md",
       "select": [
-        ".markdown"
+        ".header-tabbed h2",
+        ".content"
       ],
       "remove": [
-        "a[href^=\"#\"]"
+        "h5 a[href^=\"#\"]"
       ]
     }
   }
