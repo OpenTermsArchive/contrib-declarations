@@ -2,7 +2,7 @@
   "name": "PayPal",
   "documents": {
     "Privacy Policy": {
-      "fetch": "https://www.paypal.com/fr/webapps/mpp/ua/privacy-full?locale.x=en_FR",
+      "fetch": "https://www.paypal.com/fr/webapps/mpp/ua/privacy-full",
       "select": [
         {
           "startBefore": "h1",
