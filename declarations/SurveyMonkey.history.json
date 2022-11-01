@@ -21,6 +21,16 @@
       "fetch": "https://www.surveymonkey.com/mp/legal/privacy/",
       "select": ".content-wrapper",
       "validUntil": "2022-10-21T00:40:32Z"
+    },
+    {
+      "fetch": "https://www.surveymonkey.com/mp/legal/privacy/",
+      "select": [
+        ".content-wrapper"
+      ],
+      "remove": [
+        "a[href^=\"/user/sign\"]"
+      ],
+      "validUntil": "to-be-determined"
     }
   ]
 }
