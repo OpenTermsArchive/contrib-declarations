@@ -4,11 +4,13 @@
     "Privacy Policy": {
       "fetch": "https://www.paypal.com/fr/webapps/mpp/ua/privacy-full?locale.x=en_FR",
       "select": [
-        "#main .containerCentered"
+        {
+          "startBefore": "h1",
+          "endBefore": "footer"
+        }
       ],
       "remove": [
-        "#ua_skinny_view",
-        ".containerCentered > p:nth-child(1)"
+        "#ua_skinny_view"
       ]
     }
   }
