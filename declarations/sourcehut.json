@@ -5,6 +5,9 @@
       "fetch": "https://man.sr.ht/terms.md",
       "select": [
         ".markdown"
+      ],
+      "remove": [
+        "a[href^=\"#\"]"
       ]
     }
   }
