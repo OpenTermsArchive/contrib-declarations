@@ -1,0 +1,9 @@
+{
+  "Parent Organization Terms": [
+    {
+      "fetch": "https://www.nextroll.com/terms",
+      "select": ".main",
+      "validUntil": "to-be-determined"
+    }
+  ]
+}
