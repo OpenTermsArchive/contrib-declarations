@@ -9,5 +9,16 @@
       "executeClientScripts": true,
       "validUntil": "2022-08-30T09:30:21Z"
     }
+  ],
+  "Terms of Service": [
+    {
+      "fetch": "https://my.nordaccount.com/legal/terms-of-service/",
+      "select": [
+        "div.nord-container"
+      ],
+      "remove": ".Nav",
+      "executeClientScripts": true,
+      "validUntil": "to-be-determined"
+    }
   ]
 }
