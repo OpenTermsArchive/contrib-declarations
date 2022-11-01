@@ -9,6 +9,16 @@
       "fetch": "https://www.surveymonkey.com/mp/legal/terms-of-use/",
       "select": ".content-wrapper",
       "validUntil": "2022-10-10T18:40:27Z"
+    },
+    {
+      "fetch": "https://www.surveymonkey.com/mp/legal/terms-of-use/",
+      "select": [
+        ".content-wrapper"
+      ],
+      "remove": [
+        "a[href^=\"/user/sign\"]"
+      ],
+      "validUntil": "to-be-determined"
     }
   ],
   "Privacy Policy": [
