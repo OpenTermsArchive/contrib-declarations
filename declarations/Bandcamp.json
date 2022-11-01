@@ -1,0 +1,23 @@
+{
+  "name": "Bandcamp",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://bandcamp.com/privacy",
+      "select": [
+        "#pgBd"
+      ]
+    },
+    "Terms of Service": {
+      "fetch": "https://bandcamp.com/terms_of_use",
+      "select": [
+        "#pgBd"
+      ]
+    },
+    "Community Guidelines - Intellectual Property": {
+      "fetch": "https://bandcamp.com/copyright",
+      "select": [
+        "#pgBd"
+      ]
+    }
+  }
+}
