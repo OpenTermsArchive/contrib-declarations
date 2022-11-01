@@ -8,7 +8,9 @@
         ".content-wrapper"
       ],
       "remove": [
-        "a[href^=\"/user/sign\"]"
+        "#input468",
+        ".sm-mdsGridPlus-d1871-0-2-1821",
+        ".sm-mdsGridPlus-d1859-0-2-1459"
       ]
     },
     "Privacy Policy": {
