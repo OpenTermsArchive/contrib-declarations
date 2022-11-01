@@ -3,14 +3,21 @@
   "documents": {
     "Privacy Policy": {
       "fetch": "https://bandcamp.com/privacy",
-      "select": "#centerWrapper .bd .col"
+      "select": [
+        "#pgBd"
+      ]
     },
     "Terms of Service": {
       "fetch": "https://bandcamp.com/terms_of_use",
-      "select": "#centerWrapper .bd .col"
+      "select": [
+        "#pgBd"
+      ]
     },
     "Community Guidelines - Intellectual Property": {
-      "fetch": "https://bandcamp.com/copyright"
+      "fetch": "https://bandcamp.com/copyright",
+      "select": [
+        "#pgBd"
+      ]
     }
   }
 }
