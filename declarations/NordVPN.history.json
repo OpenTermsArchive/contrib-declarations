@@ -8,6 +8,17 @@
       "remove": ".Nav",
       "executeClientScripts": true,
       "validUntil": "2022-08-30T09:30:21Z"
+    },
+    {
+      "fetch": "https://my.nordaccount.com/legal/privacy-policy/",
+      "select": [
+        {
+          "startBefore": "h1",
+          "endBefore": "footer"
+        }
+      ],
+      "executeClientScripts": true,
+      "validUntil": "to-be-determined"
     }
   ]
 }
