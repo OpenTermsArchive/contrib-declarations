@@ -18,7 +18,8 @@
         ".content"
       ],
       "remove": [
-        "a[href^=\"#\"]"
+        "h4 a[href^=\"#\"]",
+        "h5 a[href^=\"#\"]"
       ]
     }
   }
