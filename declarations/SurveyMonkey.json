@@ -17,7 +17,12 @@
         ".content-wrapper"
       ],
       "remove": [
-        "a[href^=\"/user/sign\"]"
+        ".sm-mdsGridPlus-d2087-0-2-1720",
+        ".wrenchSelectMenu-0-2-2087",
+        ".sm-SmLinkWrapper-0-2-2079",
+        ".sm-mdsGridPlusItem-d1140-0-2-2119",
+        ".sm-mdsGridPlus-d2099-0-2-2082",
+        "#input3"
       ]
     }
   }
