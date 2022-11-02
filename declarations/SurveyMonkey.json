@@ -8,9 +8,11 @@
         ".content-wrapper"
       ],
       "remove": [
-        "#input468",
-        ".sm-mdsGridPlus-d1871-0-2-1821",
-        ".sm-mdsGridPlus-d1859-0-2-1459"
+        {
+          "startBefore": ".asset-dropdown-versions-label",
+          "endAfter": "[class*=\"assetDropdownContainer\"]"
+        },
+        "[data-hidechapternav=\"true\"]"
       ]
     },
     "Privacy Policy": {
