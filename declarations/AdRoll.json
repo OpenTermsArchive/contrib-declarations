@@ -3,7 +3,12 @@
   "documents": {
     "Parent Organization Terms": {
       "fetch": "https://www.nextroll.com/terms",
-      "select": ".main"
+      "select": [
+        {
+          "startBefore": "h1",
+          "endBefore": "#services-addenda"
+        }
+      ]
     },
     "Parent Organization Privacy Policy": {
       "fetch": "https://www.nextroll.com/privacy",
