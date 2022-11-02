@@ -30,7 +30,7 @@
       "remove": [
         "a[href^=\"/user/sign\"]"
       ],
-      "validUntil": "to-be-determined"
+      "validUntil": "2022-08-30T09:30:20Z"
     }
   ]
 }
