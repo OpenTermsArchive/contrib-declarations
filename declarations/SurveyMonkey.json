@@ -8,7 +8,11 @@
         ".content-wrapper"
       ],
       "remove": [
-        "a[href^=\"/user/sign\"]"
+        {
+          "startBefore": ".asset-dropdown-versions-label",
+          "endAfter": "[class*=\"assetDropdownContainer\"]"
+        },
+        "[data-hidechapternav=\"true\"]"
       ]
     },
     "Privacy Policy": {
