@@ -4,23 +4,10 @@
     "Parent Organization Terms": {
       "fetch": "https://www.nextroll.com/terms",
       "select": [
-        ".container-narrow"
-      ],
-      "remove": [
-        "table:nth-child(112) td:nth-child(1)",
-        "p:nth-child(113)",
-        "h4:nth-child(114)",
-        "p:nth-child(115)",
-        "h4:nth-child(116)",
-        "p:nth-child(117)",
-        "p:nth-child(118)",
-        "p:nth-child(119)",
-        "h4:nth-child(120)",
-        "p:nth-child(121)",
-        "h4:nth-child(122)",
-        "p:nth-child(123)",
-        "p:nth-child(124)",
-        "table:nth-child(112) td:nth-child(2)"
+        {
+          "startBefore": "h1",
+          "endBefore": "#services-addenda"
+        }
       ]
     },
     "Parent Organization Privacy Policy": {
