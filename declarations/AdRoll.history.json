@@ -3,7 +3,7 @@
     {
       "fetch": "https://www.nextroll.com/terms",
       "select": ".main",
-      "validUntil": "to-be-determined"
+      "validUntil": "2021-07-12T16:34:00Z"
     }
   ]
 }
