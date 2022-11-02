@@ -4,9 +4,11 @@
     "Terms of Service": {
       "fetch": "https://my.nordaccount.com/legal/terms-of-service/",
       "select": [
-        "div.nord-container"
+        {
+          "startBefore": "h1",
+          "endBefore": "footer"
+        }
       ],
-      "remove": ".Nav",
       "executeClientScripts": true
     },
     "Privacy Policy": {
