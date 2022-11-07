@@ -51,12 +51,10 @@
     "Commercial Terms": {
       "fetch": "https://www.facebook.com/legal/commercial_terms",
       "select": [
-        ".xkrivgy"
-      ],
-      "remove": [
-        ".xsyo7zv > div",
-        ".x9f619 > .xz9dl7a:nth-child(1)",
-        ".x9f619:nth-child(4) .x9f619 > .x9f619:nth-child(2)"
+        {
+          "startBefore": "div[role=main]",
+          "endBefore": "[role=\"separator\"]:first-child"
+        }
       ],
       "filter": [
         "cleanUrls"
