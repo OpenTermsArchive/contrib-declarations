@@ -4,12 +4,8 @@
     "Privacy Policy": {
       "fetch": "https://www.apple.com/legal/privacy/en-ww/",
       "select": [
-        ".typography-subsection-headline",
         ".section-hero > .section-content",
         ".section-transparency-accordion"
-      ],
-      "remove": [
-        ".typography-intro:nth-child(8)"
       ]
     },
     "Human Rights Policy": {
