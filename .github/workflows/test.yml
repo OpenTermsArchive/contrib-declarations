@@ -28,3 +28,12 @@ jobs:
           node-version: 16
       - run: npm install
       - run: npm run test:modified
+      - name: Generate artifacts
+        if: ${{ failure() }}
+        run: npm run track:modified
+      - uses: actions/upload-artifact@v3
+        if: ${{ failure() }}
+        with:
+          name: snapshots_and_versions
+          path: ./data
+          if-no-files-found: error
