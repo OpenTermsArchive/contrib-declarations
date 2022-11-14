@@ -34,10 +34,7 @@
     "Data Controller Agreement": {
       "fetch": "https://scalingo.com/data-processing-agreement",
       "select": [
-        {
-          "startBefore": ".markdown-legal h2:nth-of-type(4)",
-          "endAfter": ".markdown-legal p:last-child"
-        }
+        ".markdown-legal"
       ]
     }
   }
