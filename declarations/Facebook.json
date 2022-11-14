@@ -51,10 +51,10 @@
     "Commercial Terms": {
       "fetch": "https://www.facebook.com/legal/commercial_terms",
       "select": [
-        "div[role=\"main\"] > div:first-child"
-      ],
-      "remove": [
-        ".tr9rh885"
+        {
+          "startBefore": "div[role=main]",
+          "endBefore": "[role=\"separator\"]:first-child"
+        }
       ],
       "filter": [
         "cleanUrls"
