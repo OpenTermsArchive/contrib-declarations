@@ -1,0 +1,9 @@
+{
+  "Privacy Policy": [
+    {
+      "fetch": "https://www.apple.com/legal/privacy/en-ww/",
+      "select": "main",
+      "validUntil": "2021-10-18T18:33:29Z"
+    }
+  ]
+}
