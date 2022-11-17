@@ -4,7 +4,10 @@
     "Terms of Service": {
       "fetch": "https://www.waze.com/en/legal/tos",
       "select": [
-        ".col-md-9"
+        ".page"
+      ],
+      "remove": [
+        ".article-survey-container"
       ]
     },
     "Privacy Policy": {
