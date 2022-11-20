@@ -8,7 +8,12 @@
     },
     "Vulnerability Disclosure Policy": {
       "fetch": "https://about.gitlab.com/security/disclosure/",
-      "select": ".container.md-page"
+      "select": [
+        ".container"
+      ],
+      "remove": [
+        ".breadcrumb"
+      ]
     },
     "Terms of Service": {
       "fetch": "https://about.gitlab.com/handbook/legal/policies/website-terms-of-use/",
