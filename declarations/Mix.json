@@ -7,7 +7,9 @@
     },
     "Privacy Policy": {
       "fetch": "https://mix.com/privacy",
-      "select": ".PrivacyPage"
+      "select": [
+        ".max-w-screen-md"
+      ]
     }
   }
 }

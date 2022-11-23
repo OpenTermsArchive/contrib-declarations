@@ -1,0 +1,9 @@
+{
+  "Privacy Policy": [
+    {
+      "fetch": "https://mix.com/privacy",
+      "select": ".PrivacyPage",
+      "validUntil": "2022-11-17T18:37:33Z"
+    }
+  ]
+}
