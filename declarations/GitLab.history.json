@@ -11,6 +11,11 @@
       "fetch": "https://about.gitlab.com/security/",
       "select": "body",
       "validUntil": "2020-12-08T16:00:00.000Z"
+    },
+    {
+      "fetch": "https://about.gitlab.com/security/disclosure/",
+      "select": ".container.md-page",
+      "validUntil": "1970-01-01T00:00:00.000Z"
     }
   ],
   "Terms of Service": [
