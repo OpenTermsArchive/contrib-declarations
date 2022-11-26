@@ -1,0 +1,13 @@
+{
+  "name": "Better Stack",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://betterstack.com/terms",
+      "select": "section.container"
+    },
+    "Privacy Policy": {
+      "fetch": "https://betterstack.com/privacy",
+      "select": "section.container"
+    }
+  }
+}
