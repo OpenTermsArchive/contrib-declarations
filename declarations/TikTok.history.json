@@ -8,5 +8,15 @@
       },
       "validUntil": "2021-07-15T15:06:00.000Z"
     }
+  ],
+  "In-App Purchases Policy": [
+    {
+      "fetch": "https://www.tiktok.com/legal/virtual-items?lang=en",
+      "select": {
+        "startBefore": "#virtual-items-eu",
+        "endBefore": "#virtual-items-in"
+      },
+      "validUntil": "2022-06-16T06:41:14Z"
+    }
   ]
 }
