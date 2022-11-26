@@ -13,10 +13,7 @@
     "Privacy Policy": {
       "fetch": "https://www.bahn.com/en/privacy/privacy-customer",
       "select": [
-        ".wrapper > .flex-100"
-      ],
-      "remove": [
-        ".breadcrumb__list"
+        "main#content"
       ]
     }
   }
