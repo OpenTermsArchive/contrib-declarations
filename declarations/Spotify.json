@@ -4,7 +4,12 @@
   "documents": {
     "Privacy Policy": {
       "fetch": "https://www.spotify.com/us/legal/privacy-policy/",
-      "select": "#content-main"
+      "select": [
+        "main"
+      ],
+      "remove": [
+        ".subnav-main"
+      ]
     },
     "Terms of Service": {
       "fetch": "https://www.spotify.com/us/legal/end-user-agreement/",
