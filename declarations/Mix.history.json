@@ -5,5 +5,12 @@
       "select": ".PrivacyPage",
       "validUntil": "2022-11-17T18:37:33Z"
     }
+  ],
+  "Terms of Service": [
+    {
+      "fetch": "https://mix.com/tos",
+      "select": ".TosPage",
+      "validUntil": "2022-11-22T00:37:31Z"
+    }
   ]
 }
