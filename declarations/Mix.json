@@ -3,7 +3,9 @@
   "documents": {
     "Terms of Service": {
       "fetch": "https://mix.com/tos",
-      "select": ".TosPage"
+      "select": [
+        ".max-w-screen-md"
+      ]
     },
     "Privacy Policy": {
       "fetch": "https://mix.com/privacy",
