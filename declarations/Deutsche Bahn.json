@@ -4,10 +4,7 @@
     "Terms of Service": {
       "fetch": "https://www.bahn.com/en/terms-of-use/customer-accounts-terms-of-use",
       "select": [
-        ".wrapper > .flex-100"
-      ],
-      "remove": [
-        ".breadcrumb__list"
+        "main#content"
       ]
     },
     "Privacy Policy": {
