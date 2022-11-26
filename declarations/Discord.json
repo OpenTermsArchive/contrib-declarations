@@ -3,7 +3,13 @@
   "documents": {
     "Terms of Service": {
       "fetch": "https://discord.com/terms",
-      "select": ".document-3OCpS5"
+      "select": [
+        ".section-rich.wf-section"
+      ],
+      "remove": [
+        ".archived-link",
+        ".link-terms"
+      ]
     },
     "Privacy Policy": {
       "fetch": "https://discord.com/privacy",
