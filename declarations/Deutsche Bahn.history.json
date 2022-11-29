@@ -1,4 +1,16 @@
 {
+  "Privacy Policy": [
+    {
+      "fetch": "https://www.bahn.com/en/privacy/privacy-customer",
+      "select": [
+        ".wrapper > .flex-100"
+      ],
+      "remove": [
+        ".breadcrumb__list"
+      ],
+      "validUntil": "2022-10-13T12:32:47Z"
+    }
+  ],
   "Terms of Service": [
     {
       "fetch": "https://www.bahn.com/en/terms-of-use/customer-accounts-terms-of-use",
