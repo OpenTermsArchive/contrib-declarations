@@ -13,7 +13,13 @@
     },
     "Privacy Policy": {
       "fetch": "https://discord.com/privacy",
-      "select": ".document-3OCpS5"
+      "select": [
+        ".section-rich.wf-section"
+      ],
+      "remove": [
+        ".archived-link",
+        ".link-terms"
+      ]
     }
   }
 }
