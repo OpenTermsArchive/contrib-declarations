@@ -1,4 +1,11 @@
 {
+  "Terms of Service": [
+    {
+      "fetch": "https://discord.com/terms",
+      "select": ".document-3OCpS5",
+      "validUntil": "2022-01-13T00:34:24Z"
+    }
+  ],
   "Privacy Policy": [
     {
       "fetch": "https://discord.com/privacy",
