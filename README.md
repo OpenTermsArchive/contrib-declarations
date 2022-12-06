@@ -3,7 +3,7 @@
 The database of services tracked on [Open Terms Archive](https://opentermsarchive.org).
 These service declarations are used by the [Open Terms Archive engine](https://github.com/ambanum/OpenTermsArchive).
 
-See [CONTRIBUTING](CONTRIBUTING.md) to have explanations on how to add and update services or documents.
+These service declarations are consumed by the [Open Terms Archive engine](https://github.com/ambanum/OpenTermsArchive). See the Open Terms Archive [contribution guidelines](https://github.com/ambanum/OpenTermsArchive/blob/main/docs/doc-contributing-documents.md) to learn how to add and update services or documents.
 
 ---
 
