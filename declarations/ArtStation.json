@@ -1,0 +1,13 @@
+{
+  "name": "ArtStation",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.artstation.com/privacy",
+      "select": ".wrapper-main .container"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.artstation.com/tos",
+      "select": ".wrapper-main .container"
+    }
+  }
+}
