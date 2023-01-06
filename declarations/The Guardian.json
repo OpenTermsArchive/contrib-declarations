@@ -8,7 +8,14 @@
     },
     "Privacy Policy": {
       "fetch": "https://www.theguardian.com/help/privacy-policy",
-      "select": ".content__article-body"
+      "select": [
+        "main article [data-gu-name=headline]",
+        "main article [data-gu-name=body]"
+      ],
+      "remove": [
+        "gu-island",
+        "main article [data-gu-name=body] [data-print-layout=hide]"
+      ]
     }
   }
 }
