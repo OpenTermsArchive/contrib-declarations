@@ -1,0 +1,14 @@
+{
+  "name": "Grammarly",
+  "documents": {
+    "Commercial Terms": {
+      "fetch": "https://www.grammarly.com/terms/customer-business-agreement",
+      "select": [
+        "main"
+      ],
+      "remove": [
+        "h2 br"
+      ]
+    }
+  }
+}
