@@ -12,10 +12,9 @@
       ]
     },
     "Trackers Policy": {
-      "fetch": "https://www.scaleway.com/en/terms/cookies/",
+      "fetch": "https://www.scaleway.com/en/cookie/",
       "select": [
-        ".bqWyNq",
-        ".iDiBsE"
+        "main section"
       ]
     }
   }
