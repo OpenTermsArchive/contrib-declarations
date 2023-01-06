@@ -27,6 +27,15 @@
       "remove": [
         "h2 br"
       ]
+    },
+    "Terms of Service": {
+      "fetch": "https://www.grammarly.com/terms",
+      "select": [
+        "main"
+      ],
+      "remove": [
+        "h2 br"
+      ]
     }
   }
 }
