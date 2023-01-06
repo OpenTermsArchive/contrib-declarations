@@ -1,0 +1,14 @@
+{
+  "Terms of Service": [
+    {
+      "fetch": "https://proctorio.com/terms",
+      "select": [
+        "#section-termsofservice"
+      ],
+      "remove": [
+        ".policy-toc"
+      ],
+      "validUntil": "2021-11-16T18:38:36Z"
+    }
+  ]
+}
