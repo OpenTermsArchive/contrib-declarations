@@ -10,7 +10,7 @@
     "Privacy Policy": {
       "fetch": "https://www.cloudflare.com/privacypolicy/",
       "select": [
-        ".site-content .container > .row :nth-child(1) .rich-text-renderer"
+        ".site-content"
       ]
     }
   }
