@@ -1,0 +1,23 @@
+{
+  "name": "Sketchfab",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://sketchfab.com/terms",
+      "select": [
+        "#terms"
+      ],
+      "remove": [
+        "#toc"
+      ]
+    },
+    "Privacy Policy": {
+      "fetch": "https://sketchfab.com/privacy",
+      "select": [
+        "#terms"
+      ],
+      "remove": [
+        "#toc"
+      ]
+    }
+  }
+}
