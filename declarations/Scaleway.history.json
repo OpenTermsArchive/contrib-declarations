@@ -1,0 +1,12 @@
+{
+  "Trackers Policy": [
+    {
+      "fetch": "https://www.scaleway.com/en/terms/cookies/",
+      "select": [
+        ".bqWyNq",
+        ".iDiBsE"
+      ],
+      "validUntil": "2021-11-16T18:39:08Z"
+    }
+  ]
+}
