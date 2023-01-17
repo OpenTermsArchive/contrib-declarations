@@ -10,7 +10,7 @@
     "track:modified": "git diff --name-only HEAD $(git merge-base HEAD origin/main) -- ./declarations/ | grep -v .history | grep -v .filters | sed 's/declarations\\///g' | sed 's/.json//g' | sed 's/.*/\"&\"/' | xargs -r ota track --services"
   },
   "dependencies": {
-    "@opentermsarchive/engine": "^0.20.0",
+    "@opentermsarchive/engine": "~0.20.0",
     "isomorphic-fetch": "^3.0.0"
   }
 }
