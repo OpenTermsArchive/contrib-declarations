@@ -2,17 +2,15 @@
   "type": "module",
   "license": "EUPL-1.2",
   "scripts": {
-    "lint": "ota-lint-declarations",
-    "test": "ota-validate-declarations",
-    "test:schema": "npm run test -- --schema-only",
-    "test:modified": "npm run test -- --modified",
-    "track": "ota-track",
-    "track:modified": "git diff --name-only HEAD $(git merge-base HEAD origin/main) -- ./declarations/ | grep -v .history | grep -v .filters | sed 's/declarations\\///g' | sed 's/.json//g' | sed 's/.*/\"&\"/' | xargs -r npm run track -- --services"
-  },
-  "devDependencies": {
-    "open-terms-archive": "git+https://git@github.com/ambanum/OpenTermsArchive#main"
+    "lint": "ota lint",
+    "test": "ota validate",
+    "test:schema": "ota validate --schema-only",
+    "test:modified": "ota validate --modified",
+    "track": "ota track",
+    "track:modified": "git diff --name-only HEAD $(git merge-base HEAD origin/main) -- ./declarations/ | grep -v .history | grep -v .filters | sed 's/declarations\\///g' | sed 's/.json//g' | sed 's/.*/\"&\"/' | xargs -r ota track --services"
   },
   "dependencies": {
+    "@opentermsarchive/engine": "~0.20.0",
     "isomorphic-fetch": "^3.0.0"
   }
 }
