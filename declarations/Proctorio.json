@@ -2,13 +2,14 @@
   "name": "Proctorio",
   "documents": {
     "Terms of Service": {
-      "fetch": "https://proctorio.com/terms",
+      "fetch": "https://proctorio.com/policies#all&all&tos&section-termsofservice",
       "select": [
-        "#section-termsofservice"
+        "#content #section-termsofservice"
       ],
       "remove": [
-        ".policy-toc"
-      ]
+        ".section-summary-illustration"
+      ],
+      "executeClientScripts": true
     },
     "Privacy Policy": {
       "fetch": "https://proctorio.com/privacy",
