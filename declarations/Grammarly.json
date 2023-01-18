@@ -9,6 +9,15 @@
       "remove": [
         "h2 br"
       ]
+    },
+    "Acceptable Use Policy": {
+      "fetch": "https://www.grammarly.com/acceptable-use-policy",
+      "select": [
+        "main"
+      ],
+      "remove": [
+        "h2 br"
+      ]
     }
   }
 }
