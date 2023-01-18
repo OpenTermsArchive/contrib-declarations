@@ -18,5 +18,15 @@
       },
       "validUntil": "2022-06-16T06:41:14Z"
     }
+  ],
+  "Terms of Service": [
+    {
+      "fetch": "https://www.tiktok.com/legal/terms-of-use?lang=en",
+      "select": {
+        "startBefore": "#terms-eea",
+        "endBefore": "#terms-in"
+      },
+      "validUntil": "2022-06-16T06:41:10Z"
+    }
   ]
 }
