@@ -6,6 +6,12 @@
       "select": [
         ".content"
       ]
+    },
+    "Privacy Policy": {
+      "fetch": "https://protonvpn.com/privacy-policy",
+      "select": [
+        ".content"
+      ]
     }
   }
 }
