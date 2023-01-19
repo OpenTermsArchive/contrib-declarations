@@ -2,15 +2,18 @@ name: Validate declarations
 
 on:
   push:
+    branches: 
+      - '!main'
   pull_request:
     types: [ opened, reopened ]
+  workflow_call:
 
 jobs:
   validate_schema:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
         with:
           node-version: 16
       - run: npm install
@@ -19,10 +22,10 @@ jobs:
   validate_modified_declarations:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
         with:
           fetch-depth: 0 # fetch all history for all branches and tags
-      - uses: actions/setup-node@v2
+      - uses: actions/setup-node@v3
         with:
           node-version: 16
       - run: npm install
