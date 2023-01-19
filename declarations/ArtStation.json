@@ -1,0 +1,12 @@
+{
+  "name": "ArtStation",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.artstation.com/tos",
+      "select": [
+        ".container"
+      ],
+      "executeClientScripts": true
+    }
+  }
+}
