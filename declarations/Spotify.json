@@ -8,7 +8,8 @@
         "main"
       ],
       "remove": [
-        ".subnav-main"
+        ".subnav-main",
+        "a[href=\"#spotify-privacy-policy\"]"
       ]
     },
     "Terms of Service": {
