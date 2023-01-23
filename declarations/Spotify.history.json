@@ -4,6 +4,11 @@
       "fetch": "https://www.spotify.com/us/legal/privacy-policy/",
       "select": "body",
       "validUntil": "2020-12-08T16:00:00.000Z"
+    },
+    {
+      "fetch": "https://www.spotify.com/us/legal/privacy-policy/",
+      "select": "#content-main",
+      "validUntil": "2022-11-07T18:40:53Z"
     }
   ],
   "Terms of Service": [
