@@ -8,7 +8,9 @@
     "test:modified": "npm run test -- --modified",
     "start": "ota track",
     "start:schedule": "npm run start -- --schedule",
-    "start:modified": "git diff --name-only HEAD $(git merge-base HEAD origin/main) -- ./declarations/ | grep -v .history | grep -v .filters | sed 's/declarations\\///g' | sed 's/.json//g' | sed 's/.*/\"&\"/' | xargs -r npm run start -- --services"
+    "start:modified": "git diff --name-only HEAD $(git merge-base HEAD origin/main) -- ./declarations/ | grep -v .history | grep -v .filters | sed 's/declarations\\///g' | sed 's/.json//g' | sed 's/.*/\"&\"/' | xargs -r npm run start -- --services",
+    "dataset": "ota dataset",
+    "dataset:schedule": "npm run dataset -- --publish --remove-local-copy --schedule"
   },
   "dependencies": {
     "@opentermsarchive/engine": "~0.23.0",
