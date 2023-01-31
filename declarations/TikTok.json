@@ -31,11 +31,10 @@
     "In-App Purchases Policy": {
       "fetch": "https://www.tiktok.com/legal/virtual-items?lang=en",
       "select": [
-        ".article-wrapper"
+        "[id=\"policy-card\"]"
       ],
       "remove": [
-        ".language-container",
-        ".dropdown-title"
+        "[data-testid=\"language-selection-header\"]"
       ]
     },
     "Trackers Policy": {
