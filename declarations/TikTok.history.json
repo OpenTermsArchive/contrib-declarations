@@ -17,6 +17,17 @@
         "endBefore": "#virtual-items-in"
       },
       "validUntil": "2022-06-16T06:41:14Z"
+    },
+    {
+      "fetch": "https://www.tiktok.com/legal/virtual-items?lang=en",
+      "select": [
+        ".article-wrapper"
+      ],
+      "remove": [
+        ".language-container",
+        ".dropdown-title"
+      ],
+      "validUntil": "2022-12-22T00:43:03Z"
     }
   ],
   "Terms of Service": [
