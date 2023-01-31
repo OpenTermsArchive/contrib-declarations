@@ -32,7 +32,7 @@ jobs:
       - run: npm run test:modified
       - name: Generate artifacts
         if: ${{ failure() }}
-        run: npm run track:modified
+        run: npm run start:modified
       - uses: actions/upload-artifact@v3
         if: ${{ failure() }}
         with:
