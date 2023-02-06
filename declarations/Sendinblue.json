@@ -1,0 +1,11 @@
+{
+  "name": "Sendinblue",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.sendinblue.com/legal/termsofuse/",
+      "select": [
+        "main"
+      ]
+    }
+  }
+}
