@@ -22,7 +22,16 @@
     "Privacy Policy": {
       "fetch": "https://www.grammarly.com/privacy-policy",
       "select": [
-        "main .page-section_pagePaddingContainer__Kizu1"
+        "main"
+      ],
+      "remove": [
+        "h2 br"
+      ]
+    },
+    "Terms of Service": {
+      "fetch": "https://www.grammarly.com/terms",
+      "select": [
+        "main"
       ],
       "remove": [
         "h2 br"
