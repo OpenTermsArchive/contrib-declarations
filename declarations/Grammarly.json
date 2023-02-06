@@ -23,10 +23,6 @@
       "fetch": "https://www.grammarly.com/privacy-policy",
       "select": [
         "main .page-section_pagePaddingContainer__Kizu1"
-      ],
-      "remove": [
-        "h2 br",
-        "main .page-section_pagePaddingContainer__Kizu1:nth-child(2)"
       ]
     }
   }
