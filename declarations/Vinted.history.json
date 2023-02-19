@@ -1,0 +1,9 @@
+{
+  "Privacy Policy": [
+    {
+      "fetch": "https://www.vinted.com/privacy-policy",
+      "select": "section#content",
+      "validUntil": "2023-02-14T12:43:54Z"
+    }
+  ]
+}
