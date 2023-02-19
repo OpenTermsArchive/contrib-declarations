@@ -7,5 +7,14 @@
       ],
       "validUntil": "2023-01-23T18:37:35Z"
     }
+  ],
+  "Terms of Service": [
+    {
+      "fetch": "https://miro.com/legal/terms-of-service/",
+      "select": [
+        ".legal-features-1__content"
+      ],
+      "validUntil": "2023-01-23T18:37:38Z"
+    }
   ]
 }
