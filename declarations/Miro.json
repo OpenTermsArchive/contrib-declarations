@@ -4,7 +4,8 @@
     "Terms of Service": {
       "fetch": "https://miro.com/legal/terms-of-service/",
       "select": [
-        ".legal-features-1__content"
+        "h2.text-body",
+        ".rich-text-renderer"
       ]
     },
     "Privacy Policy": {
