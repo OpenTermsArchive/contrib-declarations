@@ -7,6 +7,13 @@
         ".container"
       ],
       "executeClientScripts": true
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.artstation.com/privacy",
+      "select": [
+        ".container"
+      ],
+      "executeClientScripts": true
     }
   }
 }
