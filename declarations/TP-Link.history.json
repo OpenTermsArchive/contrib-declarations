@@ -11,6 +11,14 @@
       "fetch": "https://www.tp-link.com/en/about-us/privacy/",
       "select": "body",
       "validUntil": "2020-12-08T16:00:00.000Z"
+    },
+    {
+      "fetch": "https://www.tp-link.com/en/about-us/privacy/",
+      "select": {
+        "startBefore": "[name=sec_b]",
+        "endAfter": ".content"
+      },
+      "validUntil": "2023-02-13T06:42:41Z"
     }
   ]
 }
