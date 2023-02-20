@@ -6,6 +6,12 @@
       "select": [
         ".legal"
       ]
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.crunchyroll.com/en-gb/privacy/index.html",
+      "select": [
+        ".privacy"
+      ]
     }
   }
 }
