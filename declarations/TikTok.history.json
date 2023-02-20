@@ -39,5 +39,12 @@
       },
       "validUntil": "2022-06-16T06:41:10Z"
     }
+  ],
+  "Law Enforcement Guidelines": [
+    {
+      "fetch": "https://www.tiktok.com/legal/law-enforcement?lang=en",
+      "select": "article",
+      "validUntil": "2022-12-22T00:42:57Z"
+    }
   ]
 }
