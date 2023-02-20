@@ -4,10 +4,13 @@
   "documents": {
     "Privacy Policy": {
       "fetch": "https://www.tp-link.com/en/about-us/privacy/",
-      "select": {
-        "startBefore": "[name=sec_a]",
-        "endBefore": "[name=sec_b]"
-      }
+      "select": [
+        {
+          "startBefore": "[name=sec_a]",
+          "endBefore": "[name=sec_b]"
+        }
+      ],
+      "executeClientScripts": true
     },
     "Terms of Service": {
       "fetch": "https://www.tp-link.com/en/about-us/privacy/",
