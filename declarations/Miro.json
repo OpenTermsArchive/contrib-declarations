@@ -10,8 +10,10 @@
     "Privacy Policy": {
       "fetch": "https://miro.com/legal/privacy-policy/",
       "select": [
-        "h2.text-body",
-        ".rich-text-renderer"
+        {
+          "startBefore": "h2",
+          "endBefore": "footer"
+        }
       ]
     }
   }
