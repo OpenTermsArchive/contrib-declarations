@@ -4,7 +4,7 @@
     "Terms of Service": {
       "fetch": "https://tresorit.com/terms-of-use",
       "select": [
-        ".TermsOfUse-module--terms-of-use--1aCf6"
+        "main"
       ]
     },
     "Acceptable Use Policy": {
