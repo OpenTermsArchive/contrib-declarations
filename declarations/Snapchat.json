@@ -8,8 +8,9 @@
     },
     "Privacy Policy": {
       "fetch": "https://www.snap.com/en-GB/privacy/privacy-policy",
-      "executeClientScripts": true,
-      "select": ".TermContainer-sc-1eyc2w4"
+      "select": [
+        ".mwp-page"
+      ]
     },
     "Trackers Policy": {
       "fetch": "https://www.snap.com/en-GB/cookie-policy/",
