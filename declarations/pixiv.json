@@ -1,0 +1,11 @@
+{
+  "name": "pixiv",
+  "documents": {
+    "Brand Guidelines": {
+      "fetch": "https://policies.pixiv.net/en.html",
+      "select": [
+        "#brand"
+      ]
+    }
+  }
+}
