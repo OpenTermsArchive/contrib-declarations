@@ -1,0 +1,11 @@
+{
+  "name": "pixiv",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://policies.pixiv.net/en.html#privacy",
+      "select": [
+        "#privacy"
+      ]
+    }
+  }
+}
