@@ -6,6 +6,16 @@
       "select": [
         "#privacy"
       ]
+    },
+    "Terms of Service": {
+      "fetch": "https://policies.pixiv.net/en.html",
+      "select": [
+        "main"
+      ],
+      "remove": [
+        "#privacy",
+        "#brand"
+      ]
     }
   }
 }
