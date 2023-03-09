@@ -152,7 +152,7 @@
       ]
     },
     "Community Guidelines - Violent Organizations": {
-      "fetch": "https://help.twitter.com/en/rules-and-policies/violent-groups",
+      "fetch": "https://help.twitter.com/en/rules-and-policies/violent-entities",
       "select": [
         "#twtr-main"
       ],
