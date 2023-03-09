@@ -1,0 +1,11 @@
+{
+  "Terms of Service": [
+    {
+      "fetch": "https://tresorit.com/terms-of-use",
+      "select": [
+        ".TermsOfUse-module--terms-of-use--1aCf6"
+      ],
+      "validUntil": "2021-12-01T13:49:57Z"
+    }
+  ]
+}
