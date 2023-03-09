@@ -20,6 +20,16 @@
         ".archived-link",
         ".link-terms"
       ]
+    },
+    "Community Guidelines": {
+      "fetch": "https://discord.com/guidelines",
+      "select": [
+        ".section-rich.wf-section"
+      ],
+      "remove": [
+        ".archived-link",
+        ".link-terms"
+      ]
     }
   }
 }
