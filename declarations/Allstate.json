@@ -3,12 +3,14 @@
   "importedFrom": "https://github.com/tosdr/tosback2/blob/f762cd4bbb2571272985fed009201a23300ba9b2/rules/allstate.com.xml",
   "documents": {
     "Privacy Policy": {
-      "fetch": "http://www.allstate.com/about/privacy-statement-aic.aspx",
-      "filter": [
-        "removeHeaderAnchors"
+      "fetch": "https://www.allstate.com/privacy-center/aic-privacy-statement",
+      "select": [
+        "#main-content"
       ],
-      "select": "#bodyColumn",
-      "remove": ".breadcrumb"
+      "remove": [
+        ".as-breadcrumb"
+      ],
+      "executeClientScripts": true
     }
   }
 }
