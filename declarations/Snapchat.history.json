@@ -1,0 +1,10 @@
+{
+  "Privacy Policy": [
+    {
+      "fetch": "https://www.snap.com/en-GB/privacy/privacy-policy",
+      "executeClientScripts": true,
+      "select": ".TermContainer-sc-1eyc2w4",
+      "validUntil": "2022-12-08T00:41:04Z"
+    }
+  ]
+}
