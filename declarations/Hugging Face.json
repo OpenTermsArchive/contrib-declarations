@@ -6,6 +6,12 @@
       "select": [
         "main"
       ]
+    },
+    "Privacy Policy": {
+      "fetch": "https://huggingface.co/privacy",
+      "select": [
+        "main"
+      ]
     }
   }
 }
