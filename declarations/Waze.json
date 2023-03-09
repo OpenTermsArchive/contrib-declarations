@@ -11,9 +11,12 @@
       ]
     },
     "Privacy Policy": {
-      "fetch": "https://www.waze.com/en/legal/privacy",
+      "fetch": "https://support.google.com/waze/answer/12075406",
       "select": [
-        ".col-md-9"
+        ".page"
+      ],
+      "remove": [
+        ".article-survey-container"
       ]
     },
     "Trackers Policy": {
