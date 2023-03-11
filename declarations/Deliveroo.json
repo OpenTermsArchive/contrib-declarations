@@ -4,7 +4,10 @@
     "Terms of Service": {
       "fetch": "https://deliveroo.ie/legal",
       "select": [
-        ".StaticPage-599770692c57b3b7"
+        {
+          "startBefore": "#deliveroo-terms-of-service",
+          "endBefore": "#page-footer"
+        }
       ]
     },
     "Privacy Policy": {
