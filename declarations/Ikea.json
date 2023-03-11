@@ -13,7 +13,7 @@
     "Trackers Policy": {
       "fetch": "https://www.ikea.com/ie/en/customer-service/cookie-policy/",
       "select": [
-        ".pub__page-container__main"
+        "main#content"
       ],
       "remove": [
         ".bc-breadcrumb__list"
