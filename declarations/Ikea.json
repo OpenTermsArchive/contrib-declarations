@@ -16,7 +16,8 @@
         "main#content"
       ],
       "remove": [
-        ".bc-breadcrumb__list"
+        ".bc-breadcrumb__list",
+        "p strong br"
       ]
     },
     "Terms of Service": {
