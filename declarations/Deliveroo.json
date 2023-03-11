@@ -16,7 +16,10 @@
     "Trackers Policy": {
       "fetch": "https://deliveroo.ie/cookies",
       "select": [
-        ".StaticPage-599770692c57b3b7"
+        {
+          "startBefore": "#how-we-use-cookies",
+          "endBefore": "#page-footer"
+        }
       ]
     }
   }
