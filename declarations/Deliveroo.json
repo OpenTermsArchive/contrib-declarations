@@ -10,7 +10,7 @@
     "Privacy Policy": {
       "fetch": "https://deliveroo.ie/privacy",
       "select": [
-        ".StaticPage-599770692c57b3b7"
+        ".StaticPage-39f477ca75232b6b"
       ]
     },
     "Trackers Policy": {
