@@ -7,5 +7,14 @@
       ],
       "validUntil": "2021-11-25T00:33:21Z"
     }
+  ],
+  "Trackers Policy": [
+    {
+      "fetch": "https://deliveroo.ie/cookies",
+      "select": [
+        ".StaticPage-599770692c57b3b7"
+      ],
+      "validUntil": "2021-11-25T00:33:22Z"
+    }
   ]
 }
