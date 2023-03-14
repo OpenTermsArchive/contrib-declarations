@@ -16,5 +16,14 @@
       ],
       "validUntil": "2021-11-25T00:33:22Z"
     }
+  ],
+  "Terms of Service": [
+    {
+      "fetch": "https://deliveroo.ie/legal",
+      "select": [
+        ".StaticPage-599770692c57b3b7"
+      ],
+      "validUntil": "2021-11-25T07:55:19Z"
+    }
   ]
 }
