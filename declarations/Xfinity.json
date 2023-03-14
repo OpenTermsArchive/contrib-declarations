@@ -3,11 +3,13 @@
   "importedFrom": "https://github.com/tosdr/tosback2/blob/f762cd4bbb2571272985fed009201a23300ba9b2/rules/xfinity.com.xml",
   "documents": {
     "Terms of Service": {
-      "fetch": "http://my.xfinity.com/terms/web/",
-      "select": {
-        "startAfter": ".archivelink",
-        "endAfter": "#legal"
-      }
+      "fetch": "http://www.xfinity.com/terms/web/",
+      "select": [
+        {
+          "endAfter": "main",
+          "startBefore": "main article header"
+        }
+      ]
     },
     "Privacy Policy": {
       "fetch": "https://www.xfinity.com/privacy/policy",
