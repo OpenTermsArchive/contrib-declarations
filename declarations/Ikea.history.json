@@ -10,5 +10,17 @@
       ],
       "validUntil": "2022-02-03T11:45:57Z"
     }
+  ],
+  "Trackers Policy": [
+    {
+      "fetch": "https://www.ikea.com/ie/en/customer-service/cookie-policy/",
+      "select": [
+        ".pub__page-container__main"
+      ],
+      "remove": [
+        ".bc-breadcrumb__list"
+      ],
+      "validUntil": "2022-02-03T11:45:57Z"
+    }
   ]
 }
