@@ -11,7 +11,10 @@
     "Terms of Service": {
       "fetch": "https://www.tchap.gouv.fr/cgu/",
       "select": [
-        ".MuiContainer-root"
+        {
+          "startBefore": ".MuiContainer-root",
+          "endBefore": "#footer"
+        }
       ],
       "executeClientScripts": true
     }
