@@ -20,6 +20,12 @@
         ".footer",
         ".subfooter"
       ]
+    },
+    "Acceptable Use Policy": {
+      "fetch": "https://www.mailjet.com/legal/sending-policy/",
+      "select": [
+        "main"
+      ]
     }
   }
 }
