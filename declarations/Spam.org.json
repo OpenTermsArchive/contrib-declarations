@@ -1,0 +1,15 @@
+{
+  "name": "Spam.org",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.spam.org/privacy",
+      "select": [
+        ".block-content "
+      ],
+      "remove": [
+        ".breadcrumb-small",
+        "hr"
+      ]
+    }
+  }
+}
