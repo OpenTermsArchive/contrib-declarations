@@ -4,7 +4,7 @@
     "Privacy Policy": {
       "fetch": "https://www.spam.org/privacy",
       "select": [
-        ".block-content "
+        "main .content"
       ],
       "remove": [
         ".breadcrumb-small",
