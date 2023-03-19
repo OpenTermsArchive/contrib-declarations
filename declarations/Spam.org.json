@@ -10,6 +10,16 @@
         ".breadcrumb-small",
         "hr"
       ]
+    },
+    "Terms of Service": {
+      "fetch": "https://www.spam.org/tos",
+      "select": [
+        "main .content"
+      ],
+      "remove": [
+        ".breadcrumb-small",
+        "hr"
+      ]
     }
   }
 }
