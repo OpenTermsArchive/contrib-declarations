@@ -2,7 +2,7 @@
 
 These services declarations are added and maintained by volunteer contributors, with occasional reviews from the Open Terms Archive core team. Most of these declarations were historically imported from TOSBack.org.
 
-These service declarations are consumed by the [Open Terms Archive engine](https://github.com/OpenTermsArchive/engine). 
+The terms listed in this collection are tracked by the [Open Terms Archive engine](https://github.com/OpenTermsArchive/engine). 
 
 You can [explore the tracked versions](https://github.com/OpenTermsArchive/contrib-versions) interactively or [download them as a dataset](https://github.com/OpenTermsArchive/contrib-versions/releases) in the `OpenTermsArchive/contrib-versions` repository.
 
