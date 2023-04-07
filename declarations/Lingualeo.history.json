@@ -1,0 +1,9 @@
+{
+  "Privacy Policy": [
+    {
+      "fetch": "https://corp.lingualeo.com/privacy-policy-en/",
+      "select": "#main",
+      "validUntil": "2023-03-31T06:37:21Z"
+    }
+  ]
+}
