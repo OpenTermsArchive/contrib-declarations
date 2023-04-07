@@ -7,9 +7,12 @@
       "select": "#maincontent .page"
     },
     "Terms of Service": {
-      "fetch": "https://www.logitech.com/en-gb/footer/terms-of-use/&id=13177",
+      "fetch": "https://www.logitech.com/en-gb/tos/terms.html",
       "select": [
-        "#section-i50f58221a2b37ea46c77cfa9452ed85a-padding-options > div:nth-child(2)"
+        "main .section-container-wrapper"
+      ],
+      "remove": [
+        ".cta-anchor "
       ]
     }
   }
