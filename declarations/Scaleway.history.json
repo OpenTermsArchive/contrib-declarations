@@ -8,5 +8,18 @@
       ],
       "validUntil": "2021-11-16T18:39:08Z"
     }
+  ],
+  "Privacy Policy": [
+    {
+      "fetch": "https://www.scaleway.com/en/privacy-policy/",
+      "select": [
+        ".bqWyNq",
+        ".iDiBsE"
+      ],
+      "remove": [
+        ".dBdURx"
+      ],
+      "validUntil": "2021-11-16T18:39:07Z"
+    }
   ]
 }
