@@ -4,6 +4,11 @@
       "fetch": "https://www.amazon.com/gp/help/customer/display.html?nodeId=201809740",
       "select": "body",
       "validUntil": "2020-11-09T17:30:03.000Z"
+    },
+    {
+      "fetch": "https://www.amazon.com/gp/help/customer/display.html?nodeId=201809740",
+      "select": "div.help-content",
+      "validUntil": "2023-03-27T00:30:32Z"
     }
   ]
 }
