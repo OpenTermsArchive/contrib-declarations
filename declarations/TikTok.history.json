@@ -62,5 +62,12 @@
       "select": "article",
       "validUntil": "2022-12-22T00:43:00Z"
     }
+  ],
+  "Trackers Policy": [
+    {
+      "fetch": "https://www.tiktok.com/legal/tiktok-website-cookies-policy?lang=en",
+      "select": "article",
+      "validUntil": "2023-03-17T00:43:00Z"
+    }
   ]
 }
