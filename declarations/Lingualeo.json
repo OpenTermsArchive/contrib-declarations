@@ -3,7 +3,12 @@
   "documents": {
     "Terms of Service": {
       "fetch": "https://corp.lingualeo.com/terms-of-use-en/",
-      "select": "#main"
+      "select": [
+        "main"
+      ],
+      "remove": [
+        ".wp-block-comments"
+      ]
     },
     "Privacy Policy": {
       "fetch": "https://corp.lingualeo.com/privacy-policy-en/",
