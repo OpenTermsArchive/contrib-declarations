@@ -4,7 +4,9 @@
   "documents": {
     "Privacy Policy": {
       "fetch": "https://www.dailymotion.com/legal/privacy?localization=gb",
-      "select": "div#privacy"
+      "select": [
+        "main .tocpage-content"
+      ]
     },
     "Terms of Service": {
       "fetch": "https://www.dailymotion.com/legal/terms?localization=gb",
