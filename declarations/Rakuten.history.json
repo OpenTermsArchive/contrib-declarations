@@ -1,0 +1,10 @@
+{
+  "Terms of Service": [
+    {
+      "fetch": "https://fr.shopping.rakuten.com/newhelp/conditions-generales/",
+      "executeClientScripts": true,
+      "select": "#post-2783",
+      "validUntil": "2021-11-16T18:38:46Z"
+    }
+  ]
+}
