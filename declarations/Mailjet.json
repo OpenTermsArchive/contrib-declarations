@@ -8,7 +8,7 @@
       ]
     },
     "Terms of Service": {
-      "fetch": "https://www.mailjet.com/legal/terms/",
+      "fetch": "https://www.mailjet.com/terms-and-conditions/",
       "select": [
         "main"
       ]
