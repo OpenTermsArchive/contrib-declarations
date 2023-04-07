@@ -4,7 +4,10 @@
   "documents": {
     "Terms of Service": {
       "fetch": "https://www.amazon.com/gp/help/customer/display.html?nodeId=201809740",
-      "select": "div.help-content"
+      "select": [
+        "div.help-content"
+      ],
+      "executeClientScripts": true
     }
   }
 }
