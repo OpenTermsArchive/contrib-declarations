@@ -16,7 +16,7 @@ The terms tracked by this repository are those of services that operate:
 - In any jurisdiction.
 - In the English language.
 
-Please note that due to its specific history of being the first instance of Open Terms Archive, before a clear architectural choice for decentralisation was taken, and being mostly based on non-curated imports of an existing fonds, this scope is unusually large and inconsistently enforced. We strongly encourage contributors to focus on [topical instances](https://docs.opentermsarchive.org/#instances) and use this instance only as a last resort.
+Please note that due to its specific history of being the first instance of Open Terms Archive, before a clear architectural choice for decentralisation was taken, and being mostly based on non-curated imports of an existing fonds, this scope is unusually large and inconsistently enforced. We strongly encourage contributors to focus on [topical collections](https://opentermsarchive.org/#collections) and use this collection only as a last resort.
 
 - - -
 
