@@ -1,0 +1,11 @@
+{
+  "Developer Terms": [
+    {
+      "fetch": "https://legal.linkedin.com/api-terms-of-use",
+      "select": [
+        "#content"
+      ],
+      "validUntil": "2023-04-12T18:37:50Z"
+    }
+  ]
+}

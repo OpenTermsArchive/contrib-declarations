@@ -32,7 +32,7 @@
     "Developer Terms": {
       "fetch": "https://legal.linkedin.com/api-terms-of-use",
       "select": [
-        "#content"
+        "main"
       ]
     },
     "Brand Guidelines": {
