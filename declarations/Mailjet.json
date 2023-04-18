@@ -34,6 +34,15 @@
       "remove": [
         "button"
       ]
+    },
+    "Data Processor Agreement": {
+      "fetch": "https://www.mailjet.com/legal/dpa/",
+      "select": [
+        {
+          "endAfter": "main",
+          "startBefore": "h1"
+        }
+      ]
     }
   }
 }
