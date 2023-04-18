@@ -22,6 +22,18 @@
       "select": [
         "main"
       ]
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.mailjet.com/legal/privacy-policy/cookies/",
+      "select": [
+        {
+          "startBefore": "h1",
+          "endAfter": "main"
+        }
+      ],
+      "remove": [
+        "button"
+      ]
     }
   }
 }
