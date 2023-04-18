@@ -14,7 +14,8 @@
       ],
       "remove": [
         "#privacy",
-        "#brand"
+        "#brand",
+        ".terms-table"
       ]
     }
   }
