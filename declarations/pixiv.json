@@ -15,7 +15,8 @@
       "remove": [
         "#privacy",
         "#brand",
-        ".terms-table"
+        ".terms-table",
+        ".service-icon"
       ]
     }
   }
