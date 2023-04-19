@@ -13,8 +13,12 @@
     },
     "Privacy Policy": {
       "fetch": "https://www.xfinity.com/privacy/policy",
-      "select": ".hero__content .x-display3, .privacy-copy__container",
-      "remove": "#pdf--language",
+      "select": [
+        ".xpc-sticky-main-content"
+      ],
+      "remove": [
+        "[data-component=Accordion] button"
+      ],
       "executeClientScripts": true
     },
     "Acceptable Use Policy": {

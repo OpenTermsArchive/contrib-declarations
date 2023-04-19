@@ -19,6 +19,13 @@
       "fetch": "https://www.xfinity.com/privacy/policy",
       "select": "body",
       "validUntil": "2020-11-09T17:30:03.000Z"
+    },
+    {
+      "fetch": "https://www.xfinity.com/privacy/policy",
+      "select": ".hero__content .x-display3, .privacy-copy__container",
+      "remove": "#pdf--language",
+      "executeClientScripts": true,
+      "validUntil": "2022-04-05T18:44:03Z"
     }
   ],
   "Acceptable Use Policy": [
