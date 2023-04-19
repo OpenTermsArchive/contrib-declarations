@@ -7,7 +7,12 @@
     },
     "Privacy Policy": {
       "fetch": "https://corp.lingualeo.com/privacy-policy-en/",
-      "select": "#main"
+      "select": [
+        "main"
+      ],
+      "remove": [
+        ".wp-block-post-title"
+      ]
     }
   }
 }
