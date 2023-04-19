@@ -8,6 +8,15 @@
     "Privacy Policy": {
       "fetch": "https://www.viber.com/en/terms/viber-privacy-policy/",
       "select": ".post-115"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.viber.com/en/terms/cookies-and-tracking/",
+      "select": [
+        ".post-116"
+      ],
+      "remove": [
+        "a[href=\\#top]"
+      ]
     }
   }
 }
