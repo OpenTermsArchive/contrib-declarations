@@ -1,0 +1,12 @@
+{
+  "Privacy Policy": [
+    {
+      "fetch": "https://www.teads.com/teads-website-privacy-policy/",
+      "select": [
+        ".elementor-element-2ce6aae",
+        ".elementor-element-adf871d"
+      ],
+      "validUntil": "2022-03-25T18:39:15Z"
+    }
+  ]
+}

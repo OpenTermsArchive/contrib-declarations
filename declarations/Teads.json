@@ -4,8 +4,11 @@
     "Privacy Policy": {
       "fetch": "https://www.teads.com/teads-website-privacy-policy/",
       "select": [
-        ".elementor-element-2ce6aae",
-        ".elementor-element-adf871d"
+        "main header",
+        ".ct-container-full"
+      ],
+      "remove": [
+        ".wp-block-buttons"
       ]
     },
     "Terms of Service": {
