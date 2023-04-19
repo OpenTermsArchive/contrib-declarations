@@ -4,11 +4,8 @@
     "Privacy Policy": {
       "fetch": "https://www.scaleway.com/en/privacy-policy/",
       "select": [
-        ".bqWyNq",
-        ".iDiBsE"
-      ],
-      "remove": [
-        ".dBdURx"
+        "main h1",
+        "main section"
       ]
     },
     "Trackers Policy": {
