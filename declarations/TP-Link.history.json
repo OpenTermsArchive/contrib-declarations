@@ -4,6 +4,14 @@
       "fetch": "https://www.tp-link.com/en/about-us/privacy/",
       "select": "body",
       "validUntil": "2020-12-08T16:00:00.000Z"
+    },
+    {
+      "fetch": "https://www.tp-link.com/en/about-us/privacy/",
+      "select": {
+        "startBefore": "[name=sec_a]",
+        "endBefore": "[name=sec_b]"
+      },
+      "validUntil": "2023-02-13T06:42:43Z"
     }
   ],
   "Terms of Service": [
