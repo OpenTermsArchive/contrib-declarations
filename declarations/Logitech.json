@@ -12,7 +12,7 @@
         "main .section-container-wrapper"
       ],
       "remove": [
-        ".cta-anchor "
+        ".cta-anchor"
       ]
     }
   }
