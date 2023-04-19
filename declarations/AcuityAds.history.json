@@ -1,0 +1,12 @@
+{
+  "Privacy Policy": [
+    {
+      "fetch": "https://privacy.acuityads.com/corporate-privacy-policy.html",
+      "select": [
+        ".block-title",
+        ".page-content"
+      ],
+      "validUntil": "2023-04-15T00:30:14Z"
+    }
+  ]
+}

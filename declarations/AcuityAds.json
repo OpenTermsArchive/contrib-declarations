@@ -2,10 +2,10 @@
   "name": "AcuityAds",
   "documents": {
     "Privacy Policy": {
-      "fetch": "https://privacy.acuityads.com/corporate-privacy-policy.html",
+      "fetch": "https://illumin.com/legal/privacy/",
       "select": [
-        ".block-title",
-        ".page-content"
+        ".default-banner-text",
+        ".default-content-section"
       ]
     },
     "Terms of Service": {
