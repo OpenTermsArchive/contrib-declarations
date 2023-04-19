@@ -11,5 +11,18 @@
       ],
       "validUntil": "2022-06-14T12:36:56Z"
     }
+  ],
+  "Terms of Service": [
+    {
+      "fetch": "https://www.mailjet.com/terms-and-conditions/",
+      "select": [
+        ".section-content"
+      ],
+      "remove": [
+        ".footer",
+        ".subfooter"
+      ],
+      "validUntil": "2022-06-14T12:36:56Z"
+    }
   ]
 }

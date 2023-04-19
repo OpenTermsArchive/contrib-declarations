@@ -8,13 +8,9 @@
       ]
     },
     "Terms of Service": {
-      "fetch": "https://www.mailjet.com/terms-and-conditions/",
+      "fetch": "https://www.mailjet.com/legal/terms/",
       "select": [
-        ".section-content"
-      ],
-      "remove": [
-        ".footer",
-        ".subfooter"
+        "main"
       ]
     },
     "Acceptable Use Policy": {
