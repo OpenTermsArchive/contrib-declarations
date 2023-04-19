@@ -11,10 +11,13 @@
     },
     "Terms of Service": {
       "fetch": "https://www.tp-link.com/en/about-us/privacy/",
-      "select": {
-        "startBefore": "[name=sec_b]",
-        "endAfter": ".content"
-      }
+      "select": [
+        {
+          "startBefore": "[name=sec_b]",
+          "endAfter": ".content"
+        }
+      ],
+      "executeClientScripts": true
     }
   }
 }
