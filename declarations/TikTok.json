@@ -40,7 +40,7 @@
       ]
     },
     "Trackers Policy": {
-      "fetch": "https://www.tiktok.com/legal/tiktok-website-cookies-policy?lang=en",
+      "fetch": "https://www.tiktok.com/legal/page/global/tiktok-website-cookies-policy/en",
       "select": [
         "#policy-card .content"
       ]
