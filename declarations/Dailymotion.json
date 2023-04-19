@@ -8,7 +8,9 @@
     },
     "Terms of Service": {
       "fetch": "https://www.dailymotion.com/legal/terms?localization=gb",
-      "select": "div#contract"
+      "select": [
+        "main .tocpage-content"
+      ]
     }
   }
 }

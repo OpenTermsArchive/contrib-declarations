@@ -11,6 +11,11 @@
       "fetch": "https://www.dailymotion.com/legal/terms?localization=gb",
       "select": "body",
       "validUntil": "2020-12-08T16:00:00.000Z"
+    },
+    {
+      "fetch": "https://www.dailymotion.com/legal/terms?localization=gb",
+      "select": "div#contract",
+      "validUntil": "2022-02-22T18:32:56Z"
     }
   ]
 }
