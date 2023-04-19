@@ -9,7 +9,7 @@
       "executeClientScripts": true
     },
     "Terms of Service": {
-      "fetch": "https://www.tchap.gouv.fr/cgu/",
+      "fetch": "https://tchap.beta.gouv.fr/cgu",
       "select": [
         {
           "startBefore": ".MuiContainer-root",
