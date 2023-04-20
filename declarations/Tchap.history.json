@@ -8,5 +8,14 @@
       },
       "validUntil": "2022-01-13T18:39:42Z"
     }
+  ],
+  "Terms of Service": [
+    {
+      "fetch": "https://www.tchap.gouv.fr/cgu/",
+      "select": [
+        "body"
+      ],
+      "validUntil": "2022-05-06T12:41:10Z"
+    }
   ]
 }
