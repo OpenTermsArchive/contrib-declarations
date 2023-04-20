@@ -2,12 +2,9 @@
   "name": "Finnair",
   "documents": {
     "Privacy Policy": {
-      "fetch": "https://www.finnair.com/fi-en/info/finnair-privacy-policy",
+      "fetch": "https://www.finnair.com/en/info/finnair-privacy-policy",
       "select": [
         ".main-content"
-      ],
-      "remove": [
-        ".section-navi"
       ]
     }
   }
