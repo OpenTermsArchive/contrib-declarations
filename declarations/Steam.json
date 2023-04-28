@@ -1,0 +1,11 @@
+{
+  "name": "Steam",
+  "documents": {
+    "General Conditions of Sale": {
+      "fetch": "https://store.steampowered.com/steam_refunds/",
+      "select": [
+        "#main_content"
+      ]
+    }
+  }
+}
