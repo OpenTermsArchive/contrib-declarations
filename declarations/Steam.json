@@ -1,6 +1,15 @@
 {
   "name": "Steam",
   "documents": {
+    "Terms of Service": {
+      "fetch": "https://store.steampowered.com/subscriber_agreement/",
+      "select": [
+        "#ssa_body"
+      ],
+      "remove": [
+        "a[href=\"#0\"]"
+      ]
+    },
     "Privacy Policy": {
       "fetch": "https://store.steampowered.com/privacy_agreement/",
       "select": [
