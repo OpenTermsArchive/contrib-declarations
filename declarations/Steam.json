@@ -1,0 +1,11 @@
+{
+  "name": "Steam",
+  "documents": {
+    "Acceptable Use Policy": {
+      "fetch": "https://store.steampowered.com/online_conduct/",
+      "select": [
+        "#ssa_box"
+      ]
+    }
+  }
+}
