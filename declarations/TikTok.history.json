@@ -16,6 +16,13 @@
         "img[src=\"data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzAiIGhlaWdodD0iMzAiIHZpZXdCb3g9IjAgMCAzMCAzMCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xNC4xMTYxIDIwLjI1ODlMNS4xODMwNiAxMS4zMjU4QzQuOTM4OTggMTEuMDgxNyA0LjkzODk4IDEwLjY4NiA1LjE4MzA2IDEwLjQ0MTlMNi4wNjY5NCA5LjU1ODA2QzYuMzExMDIgOS4zMTM5OCA2LjcwNjc1IDkuMzEzOTggNi45NTA4MyA5LjU1ODA2TDE1IDE3LjYwNzJMMjMuMDQ5MiA5LjU1ODA2QzIzLjI5MzMgOS4zMTM5OCAyMy42ODkgOS4zMTM5OCAyMy45MzMxIDkuNTU4MDZMMjQuODE2OSAxMC40NDE5QzI1LjA2MSAxMC42ODYgMjUuMDYxIDExLjA4MTcgMjQuODE2OSAxMS4zMjU4TDE1Ljg4MzkgMjAuMjU4OUMxNS4zOTU3IDIwLjc0NyAxNC42MDQzIDIwLjc0NyAxNC4xMTYxIDIwLjI1ODlaIiBmaWxsPSJibGFjayIvPgo8L3N2Zz4K\"]"
       ],
       "validUntil": "2022-09-26T18:43:19Z"
+    },
+    {
+      "fetch": "https://www.tiktok.com/legal/page/eea/privacy-policy/en",
+      "select": [
+        "#policy-card .content"
+      ],
+      "validUntil": "2023-04-29T14:00:00Z"
     }
   ],
   "In-App Purchases Policy": [
@@ -37,6 +44,16 @@
         ".dropdown-title"
       ],
       "validUntil": "2022-12-22T00:43:03Z"
+    },
+    {
+      "fetch": "https://www.tiktok.com/legal/virtual-items?lang=en",
+      "select": [
+        "[id=\"policy-card\"]"
+      ],
+      "remove": [
+        "[data-testid=\"language-selection-header\"]"
+      ],
+      "validUntil": "2023-04-29T14:00:00Z"
     }
   ],
   "Terms of Service": [
@@ -47,6 +64,13 @@
         "endBefore": "#terms-in"
       },
       "validUntil": "2022-06-16T06:41:10Z"
+    },
+    {
+      "fetch": "https://www.tiktok.com/legal/terms-of-use?lang=en",
+      "select": [
+        "[data-testid=policy-card]"
+      ],
+      "validUntil": "2023-04-29T14:00:00Z"
     }
   ],
   "Law Enforcement Guidelines": [
@@ -54,6 +78,13 @@
       "fetch": "https://www.tiktok.com/legal/law-enforcement?lang=en",
       "select": "article",
       "validUntil": "2022-12-22T00:42:57Z"
+    },
+    {
+      "fetch": "https://www.tiktok.com/legal/law-enforcement?lang=en",
+      "select": [
+        "#policy-card"
+      ],
+      "validUntil": "2023-04-29T14:00:00Z"
     }
   ],
   "Copyright Claims Policy": [
@@ -61,6 +92,13 @@
       "fetch": "https://www.tiktok.com/legal/copyright-policy?lang=en",
       "select": "article",
       "validUntil": "2022-12-22T00:43:00Z"
+    },
+    {
+      "fetch": "https://www.tiktok.com/legal/copyright-policy?lang=en",
+      "select": [
+        "#policy-card"
+      ],
+      "validUntil": "2023-04-29T14:00:00Z"
     }
   ],
   "Trackers Policy": [
@@ -68,6 +106,21 @@
       "fetch": "https://www.tiktok.com/legal/tiktok-website-cookies-policy?lang=en",
       "select": "article",
       "validUntil": "2023-03-17T00:43:00Z"
+    },
+    {
+      "fetch": "https://www.tiktok.com/legal/page/global/tiktok-website-cookies-policy/en",
+      "select": [
+        "#policy-card .content"
+      ],
+      "validUntil": "2023-04-29T14:00:00Z"
+    }
+  ],
+  "Community Guidelines": [
+    {
+      "fetch": "https://www.tiktok.com/community-guidelines?lang=en",
+      "select": ".base-layout-container",
+      "remove": ".syl-image-wrapper",
+      "validUntil": "2023-04-29T14:00:00Z"
     }
   ]
 }
