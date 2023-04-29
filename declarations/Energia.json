@@ -11,13 +11,11 @@
       ]
     },
     "Privacy Policy": {
-      "fetch": "https://www.energia.ie/privacy/privacy-statement",
+      "fetch": "https://www.energia.ie/home/privacy-statement",
       "select": [
-        ".privacy"
+        "main"
       ],
-      "remove": [
-        ".privacy-menus"
-      ]
+      "executeClientScripts": true
     },
     "Trackers Policy": {
       "fetch": "https://www.energia.ie/privacy/privacy-statement",
