@@ -20,12 +20,9 @@
       ]
     },
     "Trackers Policy": {
-      "fetch": "https://www.energia.ie/privacy/privacy-statement",
+      "fetch": "https://www.energia.ie/home/cookie-policy",
       "select": [
-        ".privacy"
-      ],
-      "remove": [
-        ".privacy-menus"
+        "main"
       ]
     }
   }
