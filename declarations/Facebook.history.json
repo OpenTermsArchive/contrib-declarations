@@ -6,6 +6,20 @@
         "div[role=main]"
       ],
       "remove": [
+        {
+          "startBefore": "[role=\"separator\"]",
+          "endAfter": "body"
+        }
+      ],
+      "executeClientScripts": true,
+      "validUntil": "2023-04-29T14:00:00+01:00"
+    },
+    {
+      "fetch": "https://en-gb.facebook.com/policies/live",
+      "select": [
+        "div[role=main]"
+      ],
+      "remove": [
         ".rq0escxv.l9j0dhe7.du4w35lb.j83agx80.cbu4d94t.pfnyh3mw.d2edcug0.pybr56ya"
       ],
       "executeClientScripts": true,
@@ -23,6 +37,25 @@
     }
   ],
   "Terms of Service": [
+    {
+      "fetch": "https://fr-fr.facebook.com/legal/terms/plain_text_terms",
+      "select": [
+        "div[role=\"main\"]"
+      ],
+      "filter": [
+        "removeEmptyAnchorsLinks",
+        "removeTrackingIDs",
+        "removeLocaleFromUrls"
+      ],
+      "remove": [
+        {
+          "startBefore": "[role=\"separator\"]",
+          "endAfter": "body"
+        }
+      ],
+      "executeClientScripts": true,
+      "validUntil": "2023-04-29T14:00:00+01:00"
+    },
     {
       "fetch": "https://www.facebook.com/legal/terms/plain_text_terms",
       "select": [
@@ -47,6 +80,20 @@
     }
   ],
   "Commercial Terms": [
+    {
+      "fetch": "https://www.facebook.com/legal/commercial_terms",
+      "select": [
+        {
+          "startBefore": "div[role=main]",
+          "endBefore": "[role=\"separator\"]:first-child"
+        }
+      ],
+      "filter": [
+        "cleanUrls"
+      ],
+      "executeClientScripts": true,
+      "validUntil": "2023-04-29T14:00:00+01:00"
+    },
     {
       "fetch": "https://www.facebook.com/legal/commercial_terms",
       "filter": [
@@ -84,6 +131,20 @@
         "div[role=main]"
       ],
       "remove": [
+        {
+          "startBefore": "[role=\"separator\"]",
+          "endAfter": "body"
+        }
+      ],
+      "executeClientScripts": true,
+      "validUntil": "2023-04-29T14:00:00+01:00"
+    },
+    {
+      "fetch": "https://www.facebook.com/legal/EU_data_transfer_addendum",
+      "select": [
+        "div[role=main]"
+      ],
+      "remove": [
         ".rq0escxv .l9j0dhe7 .du4w35lb .j83agx80 .cbu4d94t .pfnyh3mw .d2edcug0 .pybr56ya"
       ],
       "executeClientScripts": true,
@@ -102,6 +163,19 @@
   ],
   "Privacy Policy": [
     {
+      "fetch": "https://fr-fr.facebook.com/privacy/explanation/",
+      "filter": [
+        "removeEmptyAnchorsLinks",
+        "removeTrackingIDs",
+        "removeLocaleFromUrls"
+      ],
+      "select": [
+        "hr+div"
+      ],
+      "executeClientScripts": true,
+      "validUntil": "2023-04-29T14:00:00+01:00"
+    },
+    {
       "fetch": "https://www.facebook.com/about/privacy",
       "filter": [
         "removeReturnToTopButtons",
@@ -109,6 +183,44 @@
       ],
       "select": "._5tkp",
       "validUntil": "2022-05-25T16:20:16+04:00"
+    }
+  ],
+  "Developer Terms": [
+    {
+      "fetch": "https://developers.facebook.com/policy",
+      "filter": [
+        "removeHelpButtons",
+        "cleanUrls"
+      ],
+      "select": "._4bl9",
+      "validUntil": "2023-04-29T14:00:00+01:00"
+    }
+  ],
+  "Trackers Policy": [
+    {
+      "fetch": "https://www.facebook.com/policies/cookies",
+      "filter": [
+        "removeImgFromCookiesPolicy",
+        "removeReturnToTopButtons",
+        "cleanUrls"
+      ],
+      "select": "._5tkp",
+      "validUntil": "2023-04-29T14:00:00+01:00"
+    }
+  ],
+  "Law Enforcement Guidelines": [
+    {
+      "fetch": "https://www.facebook.com/safety/groups/law/guidelines",
+      "filter": [
+        "cleanUrls"
+      ],
+      "select": [
+        "._4xy4 > div"
+      ],
+      "remove": [
+        ".img"
+      ],
+      "validUntil": "2023-04-29T14:00:00+01:00"
     }
   ]
 }
