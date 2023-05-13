@@ -1,0 +1,11 @@
+{
+  "name": "Feddit",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://feddit.de/legal",
+      "select": [
+        "#app .container-lg .md-div"
+      ]
+    }
+  }
+}
