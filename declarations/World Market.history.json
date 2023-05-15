@@ -4,6 +4,12 @@
       "fetch": "https://www.worldmarket.com/category/customer-service/terms-of-use.do",
       "select": "body",
       "validUntil": "2020-11-09T17:30:03.000Z"
+    },
+    {
+      "fetch": "https://www.worldmarket.com/category/customer-service/terms-of-use.do",
+      "select": ".helpdesk",
+      "executeClientScripts": true,
+      "validUntil": "2023-05-15T00:00:00.000Z"
     }
   ],
   "Privacy Policy": [
@@ -11,6 +17,12 @@
       "fetch": "https://www.worldmarket.com/category/customer-service/privacy-and-security.do",
       "select": "body",
       "validUntil": "2020-11-09T17:30:03.000Z"
+    },
+    {
+      "fetch": "https://www.worldmarket.com/category/customer-service/privacy-and-security.do",
+      "select": "#privacy",
+      "executeClientScripts": true,
+      "validUntil": "2023-05-15T00:00:00.000Z"
     }
   ]
 }
