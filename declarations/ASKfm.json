@@ -2,8 +2,10 @@
   "name": "ASKfm",
   "documents": {
     "Terms of Service": {
-      "fetch": "https://ask.fm/docs/terms_of_use/?lang=en",
-      "select": "section.container"
+      "fetch": "https://about.ask.fm/legal/en/terms.html",
+      "select": [
+        "section.container"
+      ]
     },
     "Privacy Policy": {
       "fetch": "https://ask.fm/docs/privacy_policy/?lang=en",
