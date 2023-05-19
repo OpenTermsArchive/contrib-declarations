@@ -1,0 +1,9 @@
+{
+  "Terms of Service": [
+    {
+      "fetch": "https://ask.fm/docs/terms_of_use/?lang=en",
+      "select": "section.container",
+      "validUntil": "2023-05-11T12:31:28Z"
+    }
+  ]
+}
