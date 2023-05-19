@@ -4,7 +4,13 @@
   "documents": {
     "Privacy Policy": {
       "fetch": "https://duckduckgo.com/privacy",
-      "select": "div.blk--content"
+      "select": [
+        "main section"
+      ],
+      "remove": [
+        "main header",
+        "main footer"
+      ]
     }
   }
 }
