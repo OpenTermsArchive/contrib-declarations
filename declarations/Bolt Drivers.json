@@ -10,7 +10,7 @@
     "Privacy Policy": {
       "fetch": "https://bolt.eu/en/legal/ie/privacy-for-drivers/",
       "select": [
-        ".document > .container"
+        "main"
       ]
     }
   }
