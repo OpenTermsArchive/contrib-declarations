@@ -1,0 +1,11 @@
+{
+  "name": "Kbin",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://kbin.social/terms",
+      "select": [
+        "#main"
+      ]
+    }
+  }
+}
