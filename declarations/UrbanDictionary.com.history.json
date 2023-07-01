@@ -4,6 +4,11 @@
       "fetch": "https://about.urbandictionary.com/tos",
       "select": "body",
       "validUntil": "2020-12-08T16:00:00.000Z"
+    },
+    {
+      "fetch": "https://about.urbandictionary.com/tos",
+      "select": "#outer",
+      "validUntil": "2023-07-01T00:44:30Z"
     }
   ],
   "Privacy Policy": [
