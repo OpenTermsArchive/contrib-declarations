@@ -11,6 +11,11 @@
       "fetch": "https://about.urbandictionary.com/privacy",
       "select": "body",
       "validUntil": "2020-12-08T16:00:00.000Z"
+    },
+    {
+      "fetch": "https://about.urbandictionary.com/privacy",
+      "select": "#outer",
+      "validUntil": "2023-07-01T00:44:33Z"
     }
   ]
 }
