@@ -3,9 +3,9 @@
   "license": "EUPL-1.2",
   "scripts": {
     "lint": "ota lint",
-    "test": "ota validate",
-    "test:schema": "npm run test -- --schema-only",
-    "test:modified": "npm run test -- --modified",
+    "test": "ota lint && ota validate",
+    "test:schema": "ota validate --schema-only",
+    "test:modified": "ota validate --modified",
     "start": "ota track",
     "start:schedule": "npm run start -- --schedule",
     "start:modified": "git diff --name-only HEAD $(git merge-base HEAD origin/main) -- ./declarations/ | grep -v .history | grep -v .filters | sed 's/declarations\\///g' | sed 's/.json//g' | sed 's/.*/\"&\"/' | xargs -r npm run start -- --services",
