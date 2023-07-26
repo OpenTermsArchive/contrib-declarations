@@ -1,0 +1,16 @@
+{
+  "name": "Steam",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://store.steampowered.com/privacy_agreement/",
+      "select": [
+        "#main"
+      ],
+      "remove": [
+        ".breadcrumbs",
+        "#languages",
+        "#pageTitle img"
+      ]
+    }
+  }
+}
