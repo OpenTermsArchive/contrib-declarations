@@ -1,0 +1,11 @@
+{
+  "name": "Persumi",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://persumi.com/terms",
+      "select": [
+        ".prose"
+      ]
+    }
+  }
+}
