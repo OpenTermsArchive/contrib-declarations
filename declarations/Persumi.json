@@ -1,0 +1,11 @@
+{
+  "name": "Persumi",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://persumi.com/privacy",
+      "select": [
+        ".prose"
+      ]
+    }
+  }
+}
