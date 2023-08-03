@@ -1,0 +1,9 @@
+{
+    "name": "Flutter wave",
+    "documents": {
+        "Privacy Policy": {
+            "fetch": "https://flutterwave.com/us/terms",
+            "select":"div.page__content"
+          }
+    }
+  }
