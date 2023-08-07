@@ -12,10 +12,29 @@
         {
           "fetch": "https://store.steampowered.com/hardware_order_terms",
           "select": [
-            "#legal_box", 
-            "#responsive_page_template_content > div.page_header_ctn"
+            "#responsive_page_template_content > div.page_header_ctn","#legal_box" 
           ]
         }
+      ]
+    },
+    "Terms of Service": {
+      "fetch": "https://store.steampowered.com/subscriber_agreement/",
+      "select": [
+        "#ssa_body"
+      ],
+      "remove": [
+        "a[href=\"#0\"]"
+      ]
+    },
+    "Privacy Policy": {
+      "fetch": "https://store.steampowered.com/privacy_agreement/",
+      "select": [
+        "#main"
+      ],
+      "remove": [
+        ".breadcrumbs",
+        "#languages",
+        "#pageTitle img"
       ]
     }
   }
