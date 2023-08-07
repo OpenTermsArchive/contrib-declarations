@@ -1,7 +1,7 @@
 {
   "name": "Steam",
   "documents": {
-    "General Conditions of Sale":{
+    "General Conditions of Sale": {
       "combine": [
         {
           "fetch": "https://store.steampowered.com/steam_refunds/",
@@ -11,7 +11,10 @@
         },
         {
           "fetch": "https://store.steampowered.com/hardware_order_terms",
-          "select": ["#legal_box", "#responsive_page_template_content > div.page_header_ctn"]
+          "select": [
+            "#legal_box", 
+            "#responsive_page_template_content > div.page_header_ctn"
+          ]
         }
       ]
     }
