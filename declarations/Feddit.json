@@ -4,7 +4,13 @@
     "Privacy Policy": {
       "fetch": "https://feddit.de/legal",
       "select": [
-        "#app .container-lg .md-div"
+        {
+          "endAfter": "#app .container-lg .md-div",
+          "startBefore": "#app .container-lg .md-div h2:nth-of-type(2)"
+        }
+      ],
+      "remove": [
+        "nav"
       ]
     }
   }
