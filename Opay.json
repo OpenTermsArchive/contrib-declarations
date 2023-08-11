@@ -4,12 +4,11 @@
     "Privacy Policy": {
       "fetch": "https://www.opayweb.com/privacy-policy/",
       "select": [
-        ".TCandPrivacyStyles__Content-sc-1tbbp80-0:nth-child(1)",
-        ".TCandPrivacyStyles__Content-sc-1tbbp80-0:nth-child(2)"
+        "#gatsby-focus-wrapper"
       ],
       "remove": [
-        ".bmusAl",
-        ".style__Flex-sc-iw6vqk-4"
+       ".bmusAl",
+        ".style__Nav-sc-w04utx-1"
       ]
     }
   }
