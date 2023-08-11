@@ -1,0 +1,14 @@
+{
+  "name": "Paradox Interactive",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://legal.paradoxplaza.com/eula",
+      "select": [
+        "main"
+      ],
+      "remove": [
+        "aside"
+      ]
+    }
+  }
+}
