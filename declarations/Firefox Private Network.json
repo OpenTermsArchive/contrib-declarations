@@ -7,7 +7,8 @@
         ".mzp-l-main"
       ],
       "remove": [
-        ".privacy-logo"
+        ".privacy-logo",
+        ".privacy-footnote"
       ]
     }
   }
