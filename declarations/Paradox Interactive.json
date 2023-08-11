@@ -1,14 +1,23 @@
 {
-  "name": "Paradox Interactive",
-  "documents": {
-    "Privacy Policy": {
-      "fetch": "https://legal.paradoxplaza.com/privacy",
-      "select": [
-        "main"
-      ],
-      "remove": [
-        "aside"
-      ]
-    }
-  }
+	"name": "Paradox Interactive",
+	"documents": {
+		"Privacy Policy": {
+			"fetch": "https://legal.paradoxplaza.com/privacy",
+			"select": [
+				"main"
+			],
+			"remove": [
+				"aside"
+			]
+		},
+		"Terms of Service": {
+			"fetch": "https://legal.paradoxplaza.com/eula",
+			"select": [
+				"main"
+			],
+			"remove": [
+				"aside"
+			]
+		}
+	}
 }
