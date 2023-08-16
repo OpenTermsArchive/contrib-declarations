@@ -1,0 +1,12 @@
+{
+  "name": "Amazon Services Business Solutions Agreement",
+  "documents": {
+    "Marketplace Sellers Conditions": {
+      "fetch": "https://sellercentral.amazon.com/help/hub/reference/external/G1791",
+      "select": [
+        "#full-help-page"
+      ],
+      "executeClientScripts": true
+    }
+  }
+}
