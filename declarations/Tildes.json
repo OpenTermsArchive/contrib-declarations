@@ -1,0 +1,16 @@
+{
+  "name": "Tildes",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://docs.tildes.net/policies/privacy-policy",
+      "select": [
+        "main"
+      ],
+      "remove": [
+        ".breadcrumb",
+        ".date-info > a",
+        ".toc"
+      ]
+    }
+  }
+}
