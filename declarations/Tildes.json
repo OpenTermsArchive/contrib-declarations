@@ -1,0 +1,16 @@
+{
+  "name": "Tildes",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://docs.tildes.net/policies/terms-of-use",
+      "select": [
+        "main"
+      ],
+      "remove": [
+        ".breadcrumb",
+        ".date-info > a",
+        ".toc"
+      ]
+    }
+  }
+}
