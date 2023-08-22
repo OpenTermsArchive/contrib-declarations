@@ -1,0 +1,16 @@
+{
+  "name": "Tildes",
+  "documents": {
+    "Community Guidelines": {
+      "fetch": "https://docs.tildes.net/policies/code-of-conduct",
+      "select": [
+        "main"
+      ],
+      "remove": [
+        ".breadcrumb",
+        ".date-info > a",
+        ".toc"
+      ]
+    }
+  }
+}
