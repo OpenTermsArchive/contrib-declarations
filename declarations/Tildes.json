@@ -8,7 +8,6 @@
       ],
       "remove": [
         ".breadcrumb",
-        ".date-info > a",
         ".toc"
       ]
     }
