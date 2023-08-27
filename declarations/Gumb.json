@@ -1,0 +1,14 @@
+{
+  "name": "Gumb",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://gumb.app/en/terms-and-conditions/",
+      "select": [
+        "main"
+      ],
+      "remove": [
+        "h1"
+      ]
+    }
+  }
+}
