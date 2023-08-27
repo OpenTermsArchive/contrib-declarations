@@ -1,0 +1,11 @@
+{
+  "name": "Imgur",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://imgur.com/privacy",
+      "select": [
+        ".text-content"
+      ]
+    }
+  }
+}
