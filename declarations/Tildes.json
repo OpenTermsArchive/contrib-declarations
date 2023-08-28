@@ -1,6 +1,26 @@
 {
-  "name": "Tildes",
-  "documents": {
+	"name": "Tildes",
+	"documents": {
+		"Privacy Policy": {
+			"fetch": "https://docs.tildes.net/policies/privacy-policy",
+			"select": [
+				"main"
+			],
+			"remove": [
+				".breadcrumb",
+				".toc"
+			]
+		},
+		"Community Guidelines": {
+			"fetch": "https://docs.tildes.net/policies/code-of-conduct",
+			"select": [
+				"main"
+			],
+			"remove": [
+				".breadcrumb",
+				".toc"
+			]
+		},
     "Terms of Service": {
       "fetch": "https://docs.tildes.net/policies/terms-of-use",
       "select": [
@@ -12,5 +32,5 @@
         ".toc"
       ]
     }
-  }
+	}
 }

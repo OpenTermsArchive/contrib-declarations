@@ -14,6 +14,16 @@
       "fetch": "https://www.starbucks.com/about-us/company-information/online-policies/privacy-policy",
       "select": "body",
       "validUntil": "2020-12-08T16:00:00.000Z"
+    },
+    {
+      "fetch": "https://www.starbucks.com/terms/privacy-policy",
+      "select": [
+        ".sb-contentColumn"
+      ],
+      "remove": [
+        "a[href=\"//privacy.truste.com/privacy-seal/validation?rid=625f045f-b082-4cd8-af08-fcf9445e95d8\"]"
+      ],
+      "validUntil": "2023-05-06T06:41:18Z"
     }
   ],
   "Terms of Service": [
