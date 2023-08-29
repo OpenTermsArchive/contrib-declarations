@@ -1,6 +1,24 @@
 {
   "name": "Gumb",
   "documents": {
+    "Privacy Policy": {
+      "fetch": "https://gumb.app/en/privacy-policy/",
+      "select": [
+        "main"
+      ],
+      "remove": [
+        "h1"
+      ]
+    },
+    "Terms of Service": {
+      "fetch": "https://gumb.app/en/terms-and-conditions/",
+      "select": [
+        "main"
+      ],
+      "remove": [
+        "h1"
+      ]
+    },
     "Imprint": {
       "fetch": "https://gumb.app/en/imprint/",
       "select": [

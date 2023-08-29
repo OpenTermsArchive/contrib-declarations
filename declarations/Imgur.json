@@ -1,0 +1,14 @@
+{
+  "name": "Imgur",
+  "documents": {
+    "Community Guidelines": {
+      "fetch": "https://imgur.com/rules",
+      "select": [
+        "#rules-container"
+      ],
+      "remove": [
+        ".rules-more"
+      ]
+    }
+  }
+}
