@@ -9,6 +9,12 @@
       "remove": [
         ".rules-more"
       ]
+    },
+    "Terms of Service": {
+      "fetch": "https://imgur.com/tos",
+      "select": [
+        ".text-content"
+       ]
     }
   }
 }
