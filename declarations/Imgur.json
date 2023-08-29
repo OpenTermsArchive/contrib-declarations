@@ -5,6 +5,9 @@
       "fetch": "https://imgur.com/privacy",
       "select": [
         ".text-content"
+      ],
+      "remove": [
+        ".textbox > a"
       ]
     }
   }
