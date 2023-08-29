@@ -9,6 +9,21 @@
       "remove": [
         ".textbox > a"
       ]
+   },
+    "Community Guidelines": {
+      "fetch": "https://imgur.com/rules",
+      "select": [
+        "#rules-container"
+      ],
+      "remove": [
+        ".rules-more"
+      ]
+    },
+    "Terms of Service": {
+      "fetch": "https://imgur.com/tos",
+      "select": [
+        ".text-content"
+       ]
     }
   }
 }
