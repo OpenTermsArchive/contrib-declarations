@@ -18,6 +18,15 @@
       "remove": [
         "h1"
       ]
+    },
+    "Imprint": {
+      "fetch": "https://gumb.app/en/imprint/",
+      "select": [
+        "main"
+      ],
+      "remove": [
+        "h1"
+      ]
     }
   }
 }
