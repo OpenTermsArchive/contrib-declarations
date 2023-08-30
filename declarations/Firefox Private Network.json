@@ -1,0 +1,15 @@
+{
+  "name": "Firefox Private Network",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.mozilla.org/en-US/privacy/firefox-private-network/",
+      "select": [
+        ".mzp-l-main"
+      ],
+      "remove": [
+        ".privacy-logo",
+        ".privacy-footnote"
+      ]
+    }
+  }
+}
