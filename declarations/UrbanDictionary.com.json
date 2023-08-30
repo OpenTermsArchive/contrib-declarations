@@ -10,7 +10,9 @@
     },
     "Privacy Policy": {
       "fetch": "https://about.urbandictionary.com/privacy",
-      "select": "#outer"
+      "select": [
+        ".content.section .container"
+      ]
     }
   }
 }
