@@ -1,0 +1,14 @@
+{
+  "Privacy Policy": [
+    {
+      "fetch": "https://imgur.com/privacy",
+      "select": [
+        ".text-content"
+      ],
+      "remove": [
+        ".textbox > a"
+      ],
+      "validUntil": "to-be-determined"
+    }
+  ]
+}
