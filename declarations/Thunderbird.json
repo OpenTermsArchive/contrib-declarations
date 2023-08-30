@@ -1,0 +1,14 @@
+{
+  "name": "Thunderbird",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.mozilla.org/en-US/privacy/thunderbird/",
+      "select": [
+        ".mzp-l-main"
+      ],
+      "remove": [
+        ".privacy-logo"
+      ]
+    }
+  }
+}

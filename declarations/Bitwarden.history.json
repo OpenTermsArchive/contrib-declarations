@@ -1,0 +1,11 @@
+{
+  "Privacy Policy": [
+    {
+      "fetch": "https://bitwarden.com/privacy/",
+      "select": [
+        "main>.chakra-container"
+      ],
+      "validUntil": "2023-08-17T00:44:10Z"
+    }
+  ]
+}
