@@ -5,11 +5,8 @@
       "fetch": "https://imgur.com/privacy",
       "select": [
         ".text-content"
-      ],
-      "remove": [
-        ".textbox > a"
       ]
-   },
+    },
     "Community Guidelines": {
       "fetch": "https://imgur.com/rules",
       "select": [
@@ -23,7 +20,7 @@
       "fetch": "https://imgur.com/tos",
       "select": [
         ".text-content"
-       ]
+      ]
     }
   }
 }
