@@ -1,0 +1,11 @@
+{
+  "name": "Firefox Monitor",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.mozilla.org/en-US/privacy/firefox-monitor/",
+      "select": [
+        ".mzp-l-main"
+      ]
+    }
+  }
+}

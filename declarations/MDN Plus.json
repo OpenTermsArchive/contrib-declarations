@@ -1,0 +1,11 @@
+{
+  "name": "MDN Plus",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.mozilla.org/en-US/privacy/mdn-plus/",
+      "select": [
+        ".mzp-l-main"
+      ]
+    }
+  }
+}
