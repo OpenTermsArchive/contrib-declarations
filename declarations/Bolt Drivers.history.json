@@ -1,4 +1,13 @@
 {
+  "Privacy Policy": [
+    {
+      "fetch": "https://bolt.eu/en/legal/ie/privacy-for-drivers/",
+      "select": [
+        ".document > .container"
+      ],
+      "validUntil": "2022-11-28T18:32:03Z"
+    }
+  ],
   "Terms of Service": [
     {
       "fetch": "https://bolt.eu/en/legal/ie/terms-for-drivers/",
