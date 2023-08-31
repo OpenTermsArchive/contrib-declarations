@@ -1,0 +1,14 @@
+{
+  "name": "Feddit",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://feddit.de/legal",
+      "select": [
+        {
+          "endAfter": "#app .container-lg .md-div",
+          "startBefore": "#app .container-lg .md-div h2:nth-of-type(2)"
+        }
+      ]
+    }
+  }
+}
