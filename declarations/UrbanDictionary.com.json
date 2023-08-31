@@ -4,11 +4,15 @@
   "documents": {
     "Terms of Service": {
       "fetch": "https://about.urbandictionary.com/tos",
-      "select": "#outer"
+      "select": [
+        ".content.section .container"
+      ]
     },
     "Privacy Policy": {
       "fetch": "https://about.urbandictionary.com/privacy",
-      "select": "#outer"
+      "select": [
+        ".content.section .container"
+      ]
     }
   }
 }

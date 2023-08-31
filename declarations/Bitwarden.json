@@ -10,7 +10,7 @@
     "Privacy Policy": {
       "fetch": "https://bitwarden.com/privacy/",
       "select": [
-        "main>.chakra-container"
+        "main"
       ]
     }
   }

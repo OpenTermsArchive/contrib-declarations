@@ -1,0 +1,15 @@
+{
+  "name": "OPay",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.opayweb.com/privacy-policy/",
+      "select": [
+        "#gatsby-focus-wrapper"
+      ],
+      "remove": [
+       ".bmusAl",
+        ".style__Nav-sc-w04utx-1"
+      ]
+    }
+  }
+}
