@@ -4,7 +4,7 @@
     "Terms of Service": {
       "fetch": "https://bolt.eu/en/legal/ie/terms-for-drivers/",
       "select": [
-        ".document > .container"
+        "main"
       ]
     },
     "Privacy Policy": {
