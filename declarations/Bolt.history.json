@@ -7,5 +7,14 @@
       ],
       "validUntil": "2022-11-28T18:32:02Z"
     }
+  ],
+  "Privacy Policy": [
+    {
+      "fetch": "https://bolt.eu/en/legal/ie/privacy-for-riders/",
+      "select": [
+        ".document > .container"
+      ],
+      "validUntil": "2022-11-28T18:32:02Z"
+    }
   ]
 }

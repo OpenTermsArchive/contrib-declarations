@@ -19,6 +19,20 @@
         "a[href^=\"/user/sign\"]"
       ],
       "validUntil": "2022-09-08T18:40:26.120Z"
+    },
+    {
+      "fetch": "https://www.surveymonkey.com/mp/legal/terms-of-use/",
+      "select": [
+        ".content-wrapper"
+      ],
+      "remove": [
+        {
+          "startBefore": ".asset-dropdown-versions-label",
+          "endAfter": "[class*=\"assetDropdownContainer\"]"
+        },
+        "[data-hidechapternav=\"true\"]"
+      ],
+      "validUntil": "2023-05-16T18:41:24Z"
     }
   ],
   "Privacy Policy": [
@@ -41,6 +55,20 @@
         "a[href^=\"/user/sign\"]"
       ],
       "validUntil": "2022-08-30T09:30:20Z"
+    },
+    {
+      "fetch": "https://www.surveymonkey.com/mp/legal/privacy/",
+      "select": [
+        ".content-wrapper"
+      ],
+      "remove": [
+        {
+          "startBefore": ".asset-dropdown-versions-label",
+          "endAfter": "[class*=\"assetDropdownContainer\"]"
+        },
+        "[data-hidechapternav=\"true\"]"
+      ],
+      "validUntil": "2023-05-16T18:41:27Z"
     }
   ]
 }
