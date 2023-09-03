@@ -22,5 +22,17 @@
       ],
       "validUntil": "2023-04-24T12:33:00Z"
     }
+  ],
+  "Privacy Policy": [
+    {
+      "fetch": "https://www.energia.ie/privacy/privacy-statement",
+      "select": [
+        ".privacy"
+      ],
+      "remove": [
+        ".privacy-menus"
+      ],
+      "validUntil": "2023-04-24T12:33:04Z"
+    }
   ]
 }
