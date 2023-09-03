@@ -2,22 +2,18 @@
   "name": "Energia",
   "documents": {
     "Terms of Service": {
-      "fetch": "https://www.energia.ie/privacy/smart-terms-conditions",
+      "fetch": "https://www.energia.ie/home/terms-and-conditions",
       "select": [
-        ".privacy"
+        "main"
       ],
-      "remove": [
-        ".privacy-menus"
-      ]
+      "executeClientScripts": true
     },
     "Privacy Policy": {
-      "fetch": "https://www.energia.ie/privacy/privacy-statement",
+      "fetch": "https://www.energia.ie/home/privacy-statement",
       "select": [
-        ".privacy"
+        "main"
       ],
-      "remove": [
-        ".privacy-menus"
-      ]
+      "executeClientScripts": true
     },
     "Trackers Policy": {
       "fetch": "https://www.energia.ie/home/cookie-policy",
