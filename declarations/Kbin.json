@@ -6,6 +6,12 @@
       "select": [
         "#main"
       ]
+    },
+    "Privacy Policy": {
+      "fetch": "https://kbin.social/privacy-policy",
+      "select": [
+        "#main"
+      ]
     }
   }
 }

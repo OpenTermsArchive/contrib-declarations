@@ -5,7 +5,7 @@
     "Terms of Service": {
       "fetch": "https://www.surveymonkey.com/mp/legal/terms-of-use/",
       "select": [
-        ".content-wrapper"
+        ".sm-contentWrapper-0-2-1.sm-contentWrapperWithSidebar-0-2-2"
       ],
       "remove": [
         {
@@ -18,7 +18,7 @@
     "Privacy Policy": {
       "fetch": "https://www.surveymonkey.com/mp/legal/privacy/",
       "select": [
-        ".content-wrapper"
+        ".sm-contentWrapper-0-2-1.sm-contentWrapperWithSidebar-0-2-2"
       ],
       "remove": [
         {
