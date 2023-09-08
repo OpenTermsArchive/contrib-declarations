@@ -19,6 +19,16 @@ jobs:
       - run: npm install
       - run: npm run test:schema
 
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: 16
+      - run: npm install
+      - run: npm run lint
+
   validate_modified_declarations:
     runs-on: ubuntu-latest
     steps:

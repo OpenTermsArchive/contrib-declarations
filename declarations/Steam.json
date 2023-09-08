@@ -5,7 +5,7 @@
       "fetch": "https://store.steampowered.com/online_conduct/",
       "select": [
         "#ssa_box"
-        ]
+      ]
     },
     "Terms of Service": {
       "fetch": "https://store.steampowered.com/subscriber_agreement/",

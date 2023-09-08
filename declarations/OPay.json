@@ -7,7 +7,7 @@
         "#gatsby-focus-wrapper"
       ],
       "remove": [
-       ".bmusAl",
+        ".bmusAl",
         ".style__Nav-sc-w04utx-1"
       ]
     }
