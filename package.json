@@ -3,9 +3,10 @@
   "license": "EUPL-1.2",
   "scripts": {
     "lint": "ota lint",
+    "lint:fix": "ota lint -- --fix",
     "test": "ota lint && ota validate",
-    "test:schema": "ota validate --schema-only",
-    "test:modified": "ota validate --modified",
+    "test:schema": "npm run test -- --schema-only",
+    "test:modified": "npm run test -- --modified",
     "start": "ota track",
     "start:api": "ota serve",
     "start:schedule": "npm run start -- --schedule",
