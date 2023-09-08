@@ -19,7 +19,7 @@
         ".help-content"
       ]
     },
-    "Ad Publishing Policy": {
+    "Acceptable Use Policy": {
       "fetch": "https://advertising.amazon.com/resources/ad-policy/creative-acceptance",
       "select": [
         ".container:nth-child(1) > .column"

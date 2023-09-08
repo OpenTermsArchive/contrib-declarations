@@ -10,7 +10,7 @@
         "#basic-page-content"
       ]
     },
-    "Ad Publishing Policy": {
+    "Acceptable Use Policy": {
       "fetch": "https://www.criteo.com/advertising-guidelines/",
       "select": [
         "#basic-page-header, #basic-page-content"

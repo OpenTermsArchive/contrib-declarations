@@ -19,7 +19,7 @@
         ".legal-portal-content__container"
       ]
     },
-    "Ad Publishing Policy": {
+    "Acceptable Use Policy": {
       "fetch": "https://help.taboola.com/hc/en-us/articles/115007068368-Prohibited-Content-Products-and-Services",
       "select": [
         ".article"

@@ -7,7 +7,7 @@
         ".componentWrapper___cAAVa > div"
       ]
     },
-    "Ad Publishing Policy": {
+    "Acceptable Use Policy": {
       "fetch": "https://www.thetradedesk.com/us/inventory-supplier-agreement",
       "select": [
         ".componentWrapper___cAAVa > div"

@@ -19,7 +19,7 @@
         ".entry-content"
       ]
     },
-    "Ad Publishing Policy": {
+    "Acceptable Use Policy": {
       "fetch": "https://www.adsupply.com/advertiser-terms/",
       "select": [
         ".entry-content"

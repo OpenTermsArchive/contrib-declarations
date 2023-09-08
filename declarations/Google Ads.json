@@ -13,10 +13,6 @@
       "select": "div[role=article]",
       "remove": ".KMMDve, .TL2alc, img[src$='.svg']"
     },
-    "Acceptable Use Policy": {
-      "fetch": "https://support.google.com/adspolicy/answer/6008942",
-      "select": ".article-container"
-    },
     "Data Controller Agreement": {
       "fetch": "https://privacy.google.com/businesses/controllerterms/",
       "select": [
@@ -42,7 +38,7 @@
       "select": ".devsite-article-body",
       "remove": "style"
     },
-    "Ad Publishing Policy": {
+    "Acceptable Use Policy": {
       "fetch": "https://support.google.com/adsense/answer/9335564",
       "select": [
         ".page"

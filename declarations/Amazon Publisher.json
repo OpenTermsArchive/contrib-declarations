@@ -13,7 +13,7 @@
         ".et_pb_text_inner"
       ]
     },
-    "Ad Publishing Policy": {
+    "Acceptable Use Policy": {
       "fetch": "https://ams.amazon.com/webpublisher/apsmanaged/apsprogrampolicy.html",
       "select": "#legalPage"
     }
