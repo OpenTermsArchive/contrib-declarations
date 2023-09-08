@@ -1,17 +1,17 @@
 {
-	"name": "Persumi",
-	"documents": {
-		"Privacy Policy": {
-			"fetch": "https://persumi.com/privacy",
-			"select": [
-				".prose"
-			]
-		},
-		"Terms of Service": {
-			"fetch": "https://persumi.com/terms",
-			"select": [
-				".prose"
-			]
-		}
-	}
+  "name": "Persumi",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://persumi.com/privacy",
+      "select": [
+        ".prose"
+      ]
+    },
+    "Terms of Service": {
+      "fetch": "https://persumi.com/terms",
+      "select": [
+        ".prose"
+      ]
+    }
+  }
 }
