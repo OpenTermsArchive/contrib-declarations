@@ -5,7 +5,7 @@
       "fetch": "https://payments.google.com/payments/apis-secure/get_legal_document?ldi=31472",
       "select": "body"
     },
-    "Parent Organization Privacy Policy": {
+    "Privacy Policy": {
       "fetch": "https://policies.google.com/privacy?hl=en-GB",
       "filter": [
         "removeUTMfromUrls"

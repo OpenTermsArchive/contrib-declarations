@@ -5,7 +5,7 @@
       "fetch": "https://www.google.com/adsense/tc/2018/UnitedKingdom.html",
       "select": "body"
     },
-    "Parent Organization Privacy Policy": {
+    "Privacy Policy": {
       "fetch": "https://policies.google.com/privacy?hl=en-GB",
       "filter": [
         "removeUTMfromUrls"

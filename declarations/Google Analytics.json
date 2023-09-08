@@ -5,7 +5,7 @@
       "fetch": "https://marketingplatform.google.com/about/analytics/terms/gb/",
       "select": ".terms-section"
     },
-    "Parent Organization Privacy Policy": {
+    "Privacy Policy": {
       "fetch": "https://policies.google.com/privacy?hl=en-GB",
       "filter": [
         "removeUTMfromUrls"

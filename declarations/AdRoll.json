@@ -1,7 +1,7 @@
 {
   "name": "AdRoll",
   "documents": {
-    "Parent Organization Terms": {
+    "Terms of Service": {
       "fetch": "https://www.nextroll.com/terms",
       "select": [
         {
@@ -10,7 +10,7 @@
         }
       ]
     },
-    "Parent Organization Privacy Policy": {
+    "Privacy Policy": {
       "fetch": "https://www.nextroll.com/privacy",
       "select": ".main"
     },
