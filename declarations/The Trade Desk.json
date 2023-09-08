@@ -4,14 +4,16 @@
     "Privacy Policy": {
       "fetch": "https://www.thetradedesk.com/us/website-privacy-policy",
       "select": [
-        ".componentWrapper___cAAVa > div"
-      ]
+        "main"
+      ],
+      "executeClientScripts": true
     },
     "Acceptable Use Policy": {
       "fetch": "https://www.thetradedesk.com/us/inventory-supplier-agreement",
       "select": [
-        ".componentWrapper___cAAVa > div"
-      ]
+        "main"
+      ],
+      "executeClientScripts": true
     }
   }
 }
