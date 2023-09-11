@@ -18,7 +18,7 @@
         ".elementor-element-d23a554"
       ]
     },
-    "Ad Publishing Policy": {
+    "Acceptable Use Policy": {
       "fetch": "https://www.teads.com/ad-policies/",
       "select": [
         ".elementor-element-381ca57",

@@ -8,7 +8,7 @@
         ".content"
       ]
     },
-    "Ad Publishing Policy": {
+    "Acceptable Use Policy": {
       "fetch": "https://www.magnite.com/legal/ad-quality-guidelines/",
       "select": [
         ".page-header",

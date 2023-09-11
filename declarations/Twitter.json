@@ -97,124 +97,76 @@
       ]
     },
     "Community Guidelines": {
-      "fetch": "https://help.twitter.com/en/rules-and-policies/twitter-rules",
       "select": [
-        "#twtr-main"
+        {
+          "startBefore": "h1",
+          "endAfter": "[class*=\"rich-text-v\"]"
+        }
       ],
-      "remove": [
-        ".u11__breadcrumbs",
-        ".b24-share-tweet",
-        ".b01__headline.twtr-type--headline-md.inherit"
-      ]
-    },
-    "Community Guidelines - Self-harm": {
-      "fetch": "https://help.twitter.com/en/rules-and-policies/glorifying-self-harm",
-      "select": [
-        "#twtr-main"
-      ],
-      "remove": [
-        ".u11__breadcrumbs",
-        ".b24-share-tweet",
-        ".b01__headline.twtr-type--headline-md.inherit"
-      ]
-    },
-    "Community Guidelines - Hate Speech": {
-      "fetch": "https://help.twitter.com/en/rules-and-policies/hateful-conduct-policy",
-      "select": [
-        "#twtr-main"
-      ],
-      "remove": [
-        ".u11__breadcrumbs",
-        ".b24-share-tweet",
-        ".b01__headline.twtr-type--headline-md.inherit"
-      ]
-    },
-    "Community Guidelines - Child Exploitation": {
-      "fetch": "https://help.twitter.com/en/rules-and-policies/sexual-exploitation-policy",
-      "select": [
-        "#twtr-main"
-      ],
-      "remove": [
-        ".u11__breadcrumbs",
-        ".b24-share-tweet",
-        ".b01__headline.twtr-type--headline-md.inherit"
-      ]
-    },
-    "Community Guidelines - Violence Incitement": {
-      "fetch": "https://help.twitter.com/en/rules-and-policies/glorification-of-violence",
-      "select": [
-        "#twtr-main"
-      ],
-      "remove": [
-        ".u11__breadcrumbs",
-        ".b24-share-tweet",
-        ".b01__headline.twtr-type--headline-md.inherit"
-      ]
-    },
-    "Community Guidelines - Violent Organizations": {
-      "fetch": "https://help.twitter.com/en/rules-and-policies/violent-entities",
-      "select": [
-        "#twtr-main"
-      ],
-      "remove": [
-        ".u11__breadcrumbs",
-        ".b24-share-tweet",
-        ".b01__headline.twtr-type--headline-md.inherit"
-      ]
-    },
-    "Community Guidelines - Spam": {
-      "fetch": "https://help.twitter.com/en/rules-and-policies/platform-manipulation",
-      "select": [
-        "#twtr-main"
-      ],
-      "remove": [
-        ".u11__breadcrumbs",
-        ".b24-share-tweet",
-        ".b01__headline.twtr-type--headline-md.inherit"
-      ]
-    },
-    "Community Guidelines - Regulated Goods": {
-      "fetch": "https://help.twitter.com/en/rules-and-policies/regulated-goods-services",
-      "select": [
-        "#twtr-main"
-      ],
-      "remove": [
-        ".u11__breadcrumbs",
-        ".b24-share-tweet",
-        ".b01__headline.twtr-type--headline-md.inherit"
-      ]
-    },
-    "Community Guidelines - Harassment": {
-      "fetch": "https://help.twitter.com/en/rules-and-policies/abusive-behavior",
-      "select": [
-        "#twtr-main"
-      ],
-      "remove": [
-        ".u11__breadcrumbs",
-        ".b24-share-tweet",
-        ".b01__headline.twtr-type--headline-md.inherit"
-      ]
-    },
-    "Community Guidelines - Platform Manipulation": {
-      "fetch": "https://help.twitter.com/en/rules-and-policies/platform-manipulation",
-      "select": [
-        "#twtr-main"
-      ],
-      "remove": [
-        ".u11__breadcrumbs",
-        ".b24-share-tweet",
-        ".b01__headline.twtr-type--headline-md.inherit"
-      ]
-    },
-    "Community Guidelines - Privacy Violations": {
-      "fetch": "https://help.twitter.com/en/rules-and-policies/personal-information",
-      "select": [
-        "#twtr-main"
-      ],
-      "remove": [
-        ".u11__breadcrumbs",
-        ".b24-share-tweet",
-        ".b01__headline.twtr-type--headline-md.inherit"
+      "combine": [
+        {
+          "fetch": "https://help.twitter.com/en/rules-and-policies/twitter-rules"
+        },
+        {
+          "fetch": "https://help.twitter.com/en/rules-and-policies/violent-entities"
+        },
+        {
+          "fetch": "https://help.twitter.com/en/rules-and-policies/sexual-exploitation-policy"
+        },
+        {
+          "fetch": "https://help.twitter.com/en/rules-and-policies/abusive-behavior"
+        },
+        {
+          "fetch": "https://help.twitter.com/en/rules-and-policies/hateful-conduct-policy"
+        },
+        {
+          "fetch": "https://help.twitter.com/en/rules-and-policies/perpetrators-of-violent-attacks"
+        },
+        {
+          "fetch": "https://help.twitter.com/en/rules-and-policies/glorifying-self-harm"
+        },
+        {
+          "fetch": "https://help.twitter.com/en/rules-and-policies/media-policy"
+        },
+        {
+          "fetch": "https://help.twitter.com/en/rules-and-policies/regulated-goods-services"
+        },
+        {
+          "fetch": "https://help.twitter.com/en/rules-and-policies/personal-information"
+        },
+        {
+          "fetch": "https://help.twitter.com/en/rules-and-policies/intimate-media"
+        },
+        {
+          "fetch": "https://help.twitter.com/en/rules-and-policies/platform-manipulation"
+        },
+        {
+          "fetch": "https://help.twitter.com/en/rules-and-policies/election-integrity-policy"
+        },
+        {
+          "fetch": "https://help.twitter.com/en/rules-and-policies/twitter-impersonation-and-deceptive-identities-policy"
+        },
+        {
+          "fetch": "https://help.twitter.com/en/rules-and-policies/manipulated-media"
+        },
+        {
+          "fetch": "https://help.twitter.com/en/rules-and-policies/twitter-trademark-policy"
+        },
+        {
+          "fetch": "https://help.twitter.com/en/rules-and-policies/copyright-policy",
+          "select": [
+            {
+              "startBefore": "h1",
+              "endBefore": "[class*=\"share-tweet\"]"
+            }
+          ],
+          "remove": [
+            "[class*=\"twtr-type--headline-md\"]"
+          ]
+        },
+        {
+          "fetch": "https://help.twitter.com/en/rules-and-policies/enforcement-philosophy"
+        }
       ]
     }
   }

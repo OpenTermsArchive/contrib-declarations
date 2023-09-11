@@ -10,7 +10,7 @@
         ".print"
       ]
     },
-    "Ad Publishing Policy": {
+    "Acceptable Use Policy": {
       "fetch": "https://www.infolinks.com/service-agreement/",
       "select": [
         ".section-title",

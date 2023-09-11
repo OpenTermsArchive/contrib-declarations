@@ -42,19 +42,5 @@
       ],
       "validUntil": "2022-06-27T10:27:21+01:00"
     }
-  ],
-  "Community Guidelines - Violent Organizations": [
-    {
-      "fetch": "https://help.twitter.com/en/rules-and-policies/violent-groups",
-      "select": [
-        "#twtr-main"
-      ],
-      "remove": [
-        ".u11__breadcrumbs",
-        ".b24-share-tweet",
-        ".b01__headline.twtr-type--headline-md.inherit"
-      ],
-      "validUntil": "2023-01-27T18:43:37Z"
-    }
   ]
 }

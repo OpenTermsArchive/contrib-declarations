@@ -12,7 +12,7 @@
         ".table-of-contents"
       ]
     },
-    "Ad Publishing Policy": {
+    "Acceptable Use Policy": {
       "fetch": "https://exponential.com/documents/publisher-code-of-conduct/?wpdmdl=17753",
       "select": "necesary to bypass validation because url is not ending with .pdf"
     }

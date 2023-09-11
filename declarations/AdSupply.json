@@ -18,12 +18,6 @@
       "select": [
         ".entry-content"
       ]
-    },
-    "Ad Publishing Policy": {
-      "fetch": "https://www.adsupply.com/advertiser-terms/",
-      "select": [
-        ".entry-content"
-      ]
     }
   }
 }

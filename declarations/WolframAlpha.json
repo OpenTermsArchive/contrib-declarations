@@ -6,7 +6,7 @@
       "fetch": "https://www.wolframalpha.com/termsofuse/",
       "select": ".terms"
     },
-    "Parent Organization Privacy Policy": {
+    "Privacy Policy": {
       "fetch": "https://www.wolfram.com/legal/privacy/wolfram/",
       "select": "div.leftcolumn"
     }

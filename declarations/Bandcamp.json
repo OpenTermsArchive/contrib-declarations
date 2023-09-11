@@ -13,7 +13,7 @@
         "#pgBd"
       ]
     },
-    "Community Guidelines - Intellectual Property": {
+    "Copyright Claims Policy": {
       "fetch": "https://bandcamp.com/copyright",
       "select": [
         "#pgBd"

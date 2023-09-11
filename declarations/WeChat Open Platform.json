@@ -1,7 +1,7 @@
 {
   "name": "WeChat Open Platform",
   "documents": {
-    "Parent Organization Terms": {
+    "Terms of Service": {
       "fetch": "https://www.tencent.com/en-us/service-agreement.html",
       "select": ".page-content"
     },

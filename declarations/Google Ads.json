@@ -5,17 +5,13 @@
       "fetch": "https://payments.google.com/payments/apis-secure/get_legal_document?ldi=31472",
       "select": "body"
     },
-    "Parent Organization Privacy Policy": {
+    "Privacy Policy": {
       "fetch": "https://policies.google.com/privacy?hl=en-GB",
       "filter": [
         "removeUTMfromUrls"
       ],
       "select": "div[role=article]",
       "remove": ".KMMDve, .TL2alc, img[src$='.svg']"
-    },
-    "Acceptable Use Policy": {
-      "fetch": "https://support.google.com/adspolicy/answer/6008942",
-      "select": ".article-container"
     },
     "Data Controller Agreement": {
       "fetch": "https://privacy.google.com/businesses/controllerterms/",
@@ -42,7 +38,7 @@
       "select": ".devsite-article-body",
       "remove": "style"
     },
-    "Ad Publishing Policy": {
+    "Acceptable Use Policy": {
       "fetch": "https://support.google.com/adsense/answer/9335564",
       "select": [
         ".page"
@@ -50,6 +46,10 @@
       "remove": [
         ".fixed-sidebar-container"
       ]
+    },
+    "Restricted Use Policy": {
+      "fetch": "https://support.google.com/adspolicy/answer/6008942",
+      "select": ".article-container"
     }
   }
 }

@@ -1,7 +1,7 @@
 {
   "name": "AdRoll",
   "documents": {
-    "Parent Organization Terms": {
+    "Terms of Service": {
       "fetch": "https://www.nextroll.com/terms",
       "select": [
         {
@@ -10,11 +10,11 @@
         }
       ]
     },
-    "Parent Organization Privacy Policy": {
+    "Privacy Policy": {
       "fetch": "https://www.nextroll.com/privacy",
       "select": ".main"
     },
-    "Ad Publishing Policy": {
+    "Acceptable Use Policy": {
       "fetch": "https://help.adroll.com/hc/en-us/articles/360031225371-Prohibited-Content-and-Practices-Inappropriate-Content",
       "select": [
         ".hero-unit__title",

@@ -7,7 +7,7 @@
         ".kb-article"
       ]
     },
-    "Ad Publishing Policy": {
+    "Acceptable Use Policy": {
       "fetch": "https://help.revcontent.com/knowledge/publisher-terms",
       "select": [
         ".kb-article"
