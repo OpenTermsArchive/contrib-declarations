@@ -46,6 +46,10 @@
       "remove": [
         ".fixed-sidebar-container"
       ]
+    },
+    "Restricted Use Policy": {
+      "fetch": "https://support.google.com/adspolicy/answer/6008942",
+      "select": ".article-container"
     }
   }
 }
