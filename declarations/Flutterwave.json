@@ -3,7 +3,7 @@
     "documents": {
         "Privacy Policy": {
             "fetch": "https://flutterwave.com/us/terms",
-            "select":"div.page__content"
+            "select":".page__content"
           }
     }
   }
