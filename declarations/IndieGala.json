@@ -1,0 +1,12 @@
+{
+  "name": "IndieGala",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.indiegala.com/terms-of-service",
+      "select": [
+        ".main-container"
+      ],
+      "executeClientScripts": true
+    }
+  }
+}
