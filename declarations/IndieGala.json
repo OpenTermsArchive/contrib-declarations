@@ -1,0 +1,12 @@
+{
+  "name": "IndieGala",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.indiegala.com/privacy-policy",
+      "select": [
+        ".main-container"
+      ],
+      "executeClientScripts": true
+    }
+  }
+}
