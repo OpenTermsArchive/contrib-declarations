@@ -1,0 +1,11 @@
+{
+  "name": "Revolt",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://revolt.chat/terms",
+      "select": [
+        ".sc-b71eb2f3-0"
+      ]
+    }
+  }
+}
