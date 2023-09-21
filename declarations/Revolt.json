@@ -6,6 +6,12 @@
       "select": [
         ".sc-b71eb2f3-0"
       ]
+    },
+    "Terms of Service": {
+      "fetch": "https://revolt.chat/terms",
+      "select": [
+        ".sc-b71eb2f3-0"
+      ]
     }
   }
 }
