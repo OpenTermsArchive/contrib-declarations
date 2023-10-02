@@ -12,7 +12,8 @@
         {
           "fetch": "https://store.steampowered.com/hardware_order_terms",
           "select": [
-            "#responsive_page_template_content > div.page_header_ctn","#legal_box" 
+            "#responsive_page_template_content > div.page_header_ctn",
+            "#legal_box"
           ]
         },
         {
