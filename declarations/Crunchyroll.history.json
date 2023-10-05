@@ -1,0 +1,11 @@
+{
+  "Terms of Service": [
+    {
+      "fetch": "https://www.crunchyroll.com/tos",
+      "select": [
+        ".legal"
+      ],
+      "validUntil": "to-be-determined"
+    }
+  ]
+}
