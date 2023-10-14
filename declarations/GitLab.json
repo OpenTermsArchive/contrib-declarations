@@ -8,8 +8,8 @@
         ".privacy"
       ],
       "remove": [
-        ".header-anchor",
-        "#collapsible-sidebar"
+        "#collapsible-sidebar",
+        ".header-anchor"
       ]
     },
     "Vulnerability Disclosure Policy": {
