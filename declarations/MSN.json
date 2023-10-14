@@ -19,7 +19,8 @@
       ],
       "remove": [
         ".print",
-        ".tr_Right_Nav_Header_OnePSTemplate"
+        ".tr_Right_Nav_Header_OnePSTemplate",
+        ".back-to-top-button"
       ],
       "filter": [
         "removeIrrelevantModulesFromTos",
