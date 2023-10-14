@@ -14,13 +14,19 @@
     },
     "Terms of Service": {
       "fetch": "https://www.microsoft.com/en-gb/servicesagreement/",
+      "select": [
+        "main"
+      ],
+      "remove": [
+        ".print",
+        ".tr_Right_Nav_Header_OnePSTemplate"
+      ],
       "filter": [
         "removeIrrelevantModulesFromTos",
         "removeNavigationHeaders",
         "removeModuleIDs",
         "removeInvisibleText"
-      ],
-      "select": ".pageIntro, .div_content"
+      ]
     }
   }
 }
