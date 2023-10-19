@@ -22,7 +22,7 @@ Please note that due to its specific history of being the first instance of Open
 
 ## Contribute
 
-In order to contribute additional terms to this collection or correct existing ones, please read the guidelines on [targeting](https://docs.opentermsarchive.org/guidelines/targeting/) and [declaring](https://docs.opentermsarchive.org/guidelines/declaring/) terms.
+In order to contribute additional terms to this collection or correct existing ones, please read the [documentation](https://docs.opentermsarchive.org/contributing-terms/).
 
 - - -
 
