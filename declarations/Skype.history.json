@@ -1,0 +1,15 @@
+{
+  "Terms of Service": [
+    {
+      "fetch": "https://www.microsoft.com/en-gb/servicesagreement/",
+      "filter": [
+        "removeIrrelevantModulesFromTos",
+        "removeNavigationHeaders",
+        "removeModuleIDs",
+        "removeInvisibleText"
+      ],
+      "select": ".pageIntro, .div_content",
+      "validUntil": "2023-10-05T22:06:49Z"
+    }
+  ]
+}
