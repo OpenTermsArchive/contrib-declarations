@@ -1,0 +1,9 @@
+{
+  "Terms of Service": [
+    {
+      "fetch": "https://badoo.com/terms/",
+      "select": ".formatted-text",
+      "validUntil": "2023-10-02T19:43:16Z"
+    }
+  ]
+}
