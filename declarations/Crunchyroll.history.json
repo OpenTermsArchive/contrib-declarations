@@ -1,0 +1,20 @@
+{
+  "Privacy Policy": [
+    {
+      "fetch": "https://www.crunchyroll.com/en-gb/privacy/index.html",
+      "select": [
+        ".privacy"
+      ],
+      "validUntil": "2023-07-01T00:32:38Z"
+    }
+  ],
+  "Terms of Service": [
+    {
+      "fetch": "https://www.crunchyroll.com/tos",
+      "select": [
+        ".legal"
+      ],
+      "validUntil": "2023-09-29T02:21:00Z"
+    }
+  ]
+}
