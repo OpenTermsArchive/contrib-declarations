@@ -22,7 +22,7 @@ Please note that due to its specific history of being the first instance of Open
 
 ## Contribute
 
-In order to contribute additional terms to this collection or correct existing ones, please read the [documentation](https://docs.opentermsarchive.org/contributing-terms/).
+In order to contribute additional terms to this collection or correct existing ones, please read our [contributing file](/CONTRIBUTING.md) and [documentation](https://docs.opentermsarchive.org/contributing-terms/).
 
 - - -
 
