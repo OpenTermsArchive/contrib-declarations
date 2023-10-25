@@ -4,7 +4,13 @@
   "documents": {
     "Privacy Policy": {
       "fetch": "https://about.gitlab.com/privacy/",
-      "select": ".container"
+      "select": [
+        ".privacy"
+      ],
+      "remove": [
+        "#collapsible-sidebar",
+        ".header-anchor"
+      ]
     },
     "Vulnerability Disclosure Policy": {
       "fetch": "https://about.gitlab.com/security/disclosure/",
