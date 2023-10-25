@@ -12,6 +12,9 @@
       "fetch": "https://intl.sonypictures.com/en/privacy-policy",
       "select": [
         "main"
+      ],
+      "remove": [
+        ".print-pdf-link"
       ]
     }
   }
