@@ -10,7 +10,10 @@
     },
     "Privacy Policy": {
       "fetch": "https://badoo.com/privacy/",
-      "select": ".formatted-text"
+      "select": [
+        ".terms-view"
+      ],
+      "executeClientScripts": true
     }
   }
 }
