@@ -1,0 +1,32 @@
+{
+  "Terms of Service": [
+    {
+      "fetch": "https://stadia.google.com/tos?hl=en_GB",
+      "select": "div.LCe0ud.GV7rLd",
+      "validUntil": "2023-01-18T00:00:00.000Z"
+    }
+  ],
+  "Privacy Policy": [
+    {
+      "fetch": "https://stadia.google.com/privacy?hl=en_GB",
+      "select": "div.WO8Pjd.OVGTP",
+      "validUntil": "2023-01-18T00:00:00.000Z"
+    }
+  ],
+  "Community Guidelines": [
+    {
+      "fetch": "https://stadia.google.com/conduct/index-en-GB.html",
+      "select": "article",
+      "remove": "figure, .illustration, .grid>li>img",
+      "validUntil": "2023-01-18T00:00:00.000Z"
+    }
+  ],
+  "Acceptable Use Policy": [
+    {
+      "fetch": "https://support.google.com/stadia/answer/9567087?hl=en-GB",
+      "select": ".article-container",
+      "remove": ".scClientFeedbackInlineFeedbacklinkroot",
+      "validUntil": "2023-01-18T00:00:00.000Z"
+    }
+  ]
+}
