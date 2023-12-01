@@ -19,8 +19,17 @@
     },
     "Community Guidelines": {
       "fetch": "https://www.snap.com/en-GB/community-guidelines",
-      "executeClientScripts": true,
-      "select": ".TermContainer-sc-1eyc2w4"
+      "select": [
+        ".sdsm-content:nth-child(2) > .css-183wx2i",
+        ".sdsm-h4:nth-child(2)"
+      ],
+      "remove": [
+        ".css-1abgwjg",
+        ".css-1rdjjom",
+        ".css-1y0o6u4",
+        ".css-18dlv13"
+      ],
+      "executeClientScripts": true
     }
   }
 }
