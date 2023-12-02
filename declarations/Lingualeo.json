@@ -11,7 +11,7 @@
       ]
     },
     "Privacy Policy": {
-      "fetch": "https://corp.lingualeo.com/privacy-policy-en/",
+      "fetch": "https://lingualeo.com/en/blog/privacy-policy-en/",
       "select": [
         "main"
       ],
