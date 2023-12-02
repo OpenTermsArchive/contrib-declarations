@@ -1,0 +1,13 @@
+{
+  "name": "IPinfo",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://ipinfo.io/privacy-policy",
+      "select": "main"
+    },
+    "Terms of Service": {
+      "fetch": "https://ipinfo.io/terms-of-service",
+      "select": "main"
+    }
+  }
+}
