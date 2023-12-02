@@ -1,0 +1,15 @@
+{
+  "Brand Guidelines": [
+    {
+      "fetch": "https://stackoverflow.com/legal/trademark-guidance",
+      "select": [
+        ".gsy"
+      ],
+      "remove": [
+        ".fc-green-400",
+        ".fc-red-400 "
+      ],
+      "validUntil": "2023-12-01T03:44:00.000Z"
+    }
+  ]
+}
