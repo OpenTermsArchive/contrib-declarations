@@ -1,0 +1,12 @@
+{
+  "name": "Selling Services Terms",
+  "documents": {
+    "Marketplace Sellers Conditions": {
+      "fetch": "https://sellercentral.amazon.com/help/hub/reference/external/201484410",
+      "select": [
+        "#full-help-page"
+      ],
+      "executeClientScripts": true
+    }
+  }
+}
