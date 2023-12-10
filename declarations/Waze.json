@@ -20,9 +20,13 @@
       ]
     },
     "Trackers Policy": {
-      "fetch": "https://www.waze.com/en/legal/cookies",
+      "fetch": "https://support.google.com/waze/answer/12075406?dark=0&sjid=14887068916558349343-EU",
       "select": [
-        ".col-md-9"
+        ".article"
+      ],
+      "remove": [
+        "ul:nth-child(4)",
+        ".sub-article-container"
       ]
     },
     "Copyright Claims Policy": {
