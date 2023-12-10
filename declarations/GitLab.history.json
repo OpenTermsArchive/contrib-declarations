@@ -33,6 +33,11 @@
       "fetch": "https://about.gitlab.com/handbook/legal/policies/website-terms-of-use/",
       "select": ".container",
       "validUntil": "2023-11-24T00:15:00.000Z"
+    },
+    {
+      "fetch": "https://about.gitlab.com/handbook/legal/policies/website-terms-of-use/",
+      "select": ".container",
+      "validUntil": "to-be-determined"
     }
   ]
 }
