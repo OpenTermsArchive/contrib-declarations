@@ -1,0 +1,11 @@
+{
+  "Terms of Service": [
+    {
+      "fetch": "https://about.qwant.com/en/legal/cgu/qwant-search/",
+      "select": [
+        ".elementor-col-66 > .elementor-widget-wrap"
+      ],
+      "validUntil": "to-be-determined"
+    }
+  ]
+}
