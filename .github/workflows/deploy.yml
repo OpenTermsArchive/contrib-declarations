@@ -37,6 +37,6 @@ jobs:
         run: ansible-galaxy collection install -p ./ -r requirements.yml --force
       - name: Deploy
         working-directory: ./deployment
-        run: ansible-playbook ./ansible_collections/opentermsarchive/deployment/playbooks/deploy.yml
+        run: ansible-playbook ./ansible_collections/opentermsarchive/deployment/playbooks/engine/all.yml
 
 
