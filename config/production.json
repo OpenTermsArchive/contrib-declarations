@@ -37,5 +37,8 @@
   "dataset": {
     "title": "contrib",
     "versionsRepositoryURL": "https://github.com/OpenTermsArchive/contrib-versions"
+  },
+  "api": {
+    "port": 3000
   }
 }
