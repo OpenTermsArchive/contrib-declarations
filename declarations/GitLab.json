@@ -23,7 +23,12 @@
     },
     "Terms of Service": {
       "fetch": "https://about.gitlab.com/handbook/legal/policies/website-terms-of-use/",
-      "select": ".container"
+      "select": [
+        ".td-content"
+      ],
+      "remove": [
+        ".text-muted:nth-child(38)"
+      ]
     }
   }
 }
