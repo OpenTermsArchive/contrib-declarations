@@ -3,18 +3,30 @@
     {
       "fetch": "https://legal.parler.com/documents/privacy-policy.pdf",
       "validUntil": "2021-09-04T12:23:00.000Z"
+    },
+    {
+      "fetch": "https://parler.com/documents/privacypolicy.pdf",
+      "validUntil": "2023-10-18T15:06:00Z"
     }
   ],
   "Terms of Service": [
     {
       "fetch": "https://legal.parler.com/documents/user-agreement.pdf",
       "validUntil": "2021-09-04T12:23:00.000Z"
+    },
+    {
+      "fetch": "https://parler.com/documents/termsofservice.pdf",
+      "validUntil": "2023-10-18T15:06:00Z"
     }
   ],
   "Community Guidelines": [
     {
       "fetch": "https://legal.parler.com/documents/guidelines.pdf",
       "validUntil": "2021-09-04T12:23:00.000Z"
+    },
+    {
+      "fetch": "https://parler.com/documents/guidelines.pdf",
+      "validUntil": "2023-10-18T15:06:00Z"
     }
   ]
 }
