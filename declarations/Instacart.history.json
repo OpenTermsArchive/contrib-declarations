@@ -1,5 +1,5 @@
 {
-"Terms of Service": [
+  "Terms of Service": [
     {
       "fetch": "https://www.instacart.com/terms",
       "select": [
@@ -8,10 +8,9 @@
       ],
       "executeClientScripts": true,
       "validUntil": "2023-10-18T15:03:06Z"
-
     }
   ],
-    "Privacy Policy": [
+  "Privacy Policy": [
     {
       "fetch": "https://www.instacart.com/privacy",
       "select": [
