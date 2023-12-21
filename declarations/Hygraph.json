@@ -1,0 +1,14 @@
+{
+  "name": "Hygraph",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://graphcms.com/terms",
+      "select": [
+        "main"
+      ],
+      "remove": [
+        ".rounded-2xl"
+      ]
+    }
+  }
+}
