@@ -8,7 +8,9 @@
     },
     "Terms of Service": {
       "fetch": "https://evernote.com/intl/en-gb/legal/terms-of-service",
-      "select": "div.content-container"
+      "select": [
+        "main"
+      ]
     }
   }
 }
