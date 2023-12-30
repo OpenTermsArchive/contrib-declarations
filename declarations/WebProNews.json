@@ -5,12 +5,32 @@
     "Terms of Service": {
       "fetch": "https://www.webpronews.com/terms-of-service/",
       "select": "body.page",
-      "remove": [".header-top", ".header", ".overlay-menu", ".home-nl-bar", ".pop-media-kit", ".chat-bubble", ".footer", "#mediakit", "#mymodal"]
+      "remove": [
+        ".header-top",
+        ".header",
+        ".overlay-menu",
+        ".home-nl-bar",
+        ".pop-media-kit",
+        ".chat-bubble",
+        ".footer",
+        "#mediakit",
+        "#mymodal"
+      ]
     },
     "Privacy Policy": {
       "fetch": "https://www.webpronews.com/privacy-policy/",
       "select": "body.page",
-      "remove": [".header-top", ".header", ".overlay-menu", ".home-nl-bar", ".pop-media-kit", ".chat-bubble", ".footer", "#mediakit", "#mymodal"]
+      "remove": [
+        ".header-top",
+        ".header",
+        ".overlay-menu",
+        ".home-nl-bar",
+        ".pop-media-kit",
+        ".chat-bubble",
+        ".footer",
+        "#mediakit",
+        "#mymodal"
+      ]
     }
   }
 }
