@@ -4,6 +4,11 @@
       "fetch": "https://www.webpronews.com/terms-of-service/",
       "select": "body",
       "validUntil": "2020-12-08T16:00:00.000Z"
+    },
+    {
+      "fetch": "https://www.webpronews.com/terms-of-service/",
+      "select": "[role=main]",
+      "validUntil": "2023-10-18T15:11:54Z"
     }
   ],
   "Privacy Policy": [
@@ -11,6 +16,11 @@
       "fetch": "https://www.webpronews.com/privacy-policy/",
       "select": "body",
       "validUntil": "2020-12-08T16:00:00.000Z"
+    },
+    {
+      "fetch": "https://www.webpronews.com/privacy-policy/",
+      "select": "[role=main]",
+      "validUntil": "2023-10-18T15:11:54Z"
     }
   ]
 }
