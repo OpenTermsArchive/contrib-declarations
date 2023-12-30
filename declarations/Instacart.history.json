@@ -1,0 +1,24 @@
+{
+  "Terms of Service": [
+    {
+      "fetch": "https://www.instacart.com/terms",
+      "select": [
+        ".hero-inner",
+        ".section"
+      ],
+      "executeClientScripts": true,
+      "validUntil": "2023-10-18T15:02:53Z"
+    }
+  ],
+  "Privacy Policy": [
+    {
+      "fetch": "https://www.instacart.com/privacy",
+      "select": [
+        ".hero-inner",
+        ".section"
+      ],
+      "executeClientScripts": true,
+      "validUntil": "2023-10-18T15:02:53Z"
+    }
+  ]
+}
