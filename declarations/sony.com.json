@@ -4,11 +4,13 @@
   "documents": {
     "Terms of Service": {
       "fetch": "https://www.sony.com/en_us/SCA/terms.html",
-      "select": "#main-content"
+      "select": "#main-content",
+      "executeClientScripts": true
     },
     "Privacy Policy": {
       "fetch": "https://www.sony.com/en_us/SCA/privacy-policy.html",
-      "select": "#main-content"
+      "select": ".ly_contents2col",
+      "executeClientScripts": true
     }
   }
 }

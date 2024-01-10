@@ -11,6 +11,11 @@
       "fetch": "https://www.sony.com/en_us/SCA/privacy-policy.html",
       "select": "body",
       "validUntil": "2020-12-08T16:00:00.000Z"
+    },
+    {
+      "fetch": "https://www.sony.com/en_us/SCA/privacy-policy.html",
+      "select": "#main-content",
+      "validUntil": "2023-10-18T15:08:55Z"
     }
   ]
 }
