@@ -4,8 +4,8 @@
     "Terms of Service": {
       "fetch": "https://www.kraken.com/en-us/legal#complete-tos",
       "select": {
-        "startBefore": "#complete-tos",
-        "endBefore": "#margin-disclosure-statement"
+        "startAfter": ".kraken-header",
+        "endBefore": ".kraken-footer"
       },
       "executeClientScripts": true
     },
