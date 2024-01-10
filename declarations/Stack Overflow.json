@@ -53,11 +53,10 @@
     "Brand Guidelines": {
       "fetch": "https://stackoverflow.com/legal/trademark-guidance",
       "select": [
-        ".gsy"
+        "main article"
       ],
       "remove": [
-        ".fc-green-400",
-        ".fc-red-400 "
+        "nav"
       ]
     }
   }
