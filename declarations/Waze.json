@@ -20,12 +20,11 @@
       ]
     },
     "Trackers Policy": {
-      "fetch": "https://support.google.com/waze/answer/12075406?dark=0&sjid=14887068916558349343-EU",
+      "fetch": "https://support.google.com/waze/answer/12075407?dark=0&sjid=3227168920407690425-EU&hl=en",
       "select": [
         ".article"
       ],
       "remove": [
-        "ul:nth-child(4)",
         ".sub-article-container"
       ]
     },
