@@ -34,6 +34,11 @@
       "fetch": "https://support.google.com/waze/answer/12075342",
       "select": [
         ".main-content"
+    "select": [
+        ".page"
+      ],
+      "remove": [
+        ".article-survey-container"
       ]
     }
   }
