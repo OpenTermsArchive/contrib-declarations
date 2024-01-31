@@ -11,6 +11,12 @@
       "fetch": "https://docviewer.zoosk.com/legal-privacy-en_eu.html",
       "select": "body",
       "validUntil": "2020-11-09T17:30:03.000Z"
+    },
+    {
+      "fetch": "https://docviewer.zoosk.com/legal-privacy-en_eu.html",
+      "select": ".legal__inner",
+      "executeClientScripts": true,
+      "validUntil": "to-be-determined"
     }
   ]
 }
