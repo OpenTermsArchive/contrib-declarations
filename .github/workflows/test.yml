@@ -1,11 +1,7 @@
 name: Validate declarations
 
 on:
-  push:
-    branches-ignore:
-      - 'main'
   pull_request:
-    types: [ opened, reopened ]
   workflow_call:
 
 jobs:
