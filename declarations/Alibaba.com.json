@@ -17,11 +17,16 @@
       ]
     },
     "Terms of Service": {
-      "fetch": "https://rule.alibaba.com/rule/detail/2041.htm",
+      "fetch": "https://rulechannel.alibaba.com/icbu?type=detail&ruleId=2041&cId=1307#/rule/detail?cId=1307&ruleId=2041",
       "select": [
-        ".prompt",
-        ".answer"
-      ]
+        "#app-root article#rule-detail-body"
+      ],
+      "remove": [
+        ".zhi-tocItems",
+        ".rule-text-explain",
+        ".evalutaion"
+      ],
+      "executeClientScripts": true
     }
   }
 }
