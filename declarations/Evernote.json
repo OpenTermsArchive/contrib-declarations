@@ -10,6 +10,9 @@
       "fetch": "https://evernote.com/intl/en-gb/legal/terms-of-service",
       "select": [
         "main"
+      ],
+      "remove": [
+        "aside"
       ]
     }
   }
