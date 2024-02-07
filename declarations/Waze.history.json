@@ -26,5 +26,14 @@
       ],
       "validUntil": "2023-01-22T18:44:16Z"
     }
+  ],
+  "Trackers Policy": [
+    {
+      "fetch": "https://www.waze.com/en/legal/cookies",
+      "select": [
+        ".col-md-9"
+      ],
+      "validUntil": "to-be-determined"
+    }
   ]
 }
