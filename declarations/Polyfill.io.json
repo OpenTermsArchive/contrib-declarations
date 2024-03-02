@@ -1,0 +1,13 @@
+{
+  "name": "Polyfill.io",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://polyfill.io/v3/terms",
+      "select": "main"
+    },
+    "Privacy Policy": {
+      "fetch": "https://polyfill.io/v3/privacy-policy",
+      "select": "main"
+    }
+  }
+}
