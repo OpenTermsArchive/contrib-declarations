@@ -2,7 +2,7 @@
   "name": "Linear",
   "documents": {
     "Terms of Service": {
-    "fetch": "https://linear.app/terms",
+      "fetch": "https://linear.app/terms",
       "select": "main",
       "remove": "#skip-nav"
     },
