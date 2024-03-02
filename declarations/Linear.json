@@ -1,0 +1,15 @@
+{
+  "name": "Linear",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://linear.app/terms",
+      "select": "main",
+      "remove": "#skip-nav"
+    },
+    "Privacy Policy": {
+      "fetch": "https://linear.app/privacy",
+      "select": "main",
+      "remove": "#skip-nav"
+    }
+  }
+}
