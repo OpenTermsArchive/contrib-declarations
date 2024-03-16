@@ -1,0 +1,12 @@
+{
+  "name": "jiji online service policy",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://jiji.co.ke/privacy.html",
+      "select": [
+        ".h-p-20"
+      ],
+      "executeClientScripts": true
+    }
+  }
+}
