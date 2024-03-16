@@ -5,9 +5,10 @@
     "Privacy Policy": {
       "fetch": "https://rule.alibaba.com/rule/detail/2034.htm",
       "select": [
-        ".prompt",
-        ".answer"
-      ]
+        ".dd-zhi-content",
+        ".rule-text-header > h1"
+      ],
+      "executeClientScripts": true
     },
     "Copyright Claims Policy": {
       "fetch": "https://rule.alibaba.com/rule/detail/6391.htm",
