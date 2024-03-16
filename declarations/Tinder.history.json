@@ -1,0 +1,11 @@
+{
+  "Community Guidelines": [
+    {
+      "fetch": "https://policies.tinder.com/community-guidelines/intl/en",
+      "select": [
+        ".TextContent-kkmgbg-0"
+      ],
+      "validUntil": "to-be-determined"
+    }
+  ]
+}
