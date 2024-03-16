@@ -1,0 +1,13 @@
+{
+  "name": "TMWhatsapp",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://tmwhatsapp.net/privacy-policy/",
+      "select": [
+        ".entry-content > div > div:nth-child(2)",
+        ".entry-content > div > div:nth-child(6)",
+        ".entry-content > div"
+      ]
+    }
+  }
+}
