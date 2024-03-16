@@ -1,0 +1,12 @@
+{
+  "name": "Airtel Money",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.airtelkenya.com/AM_Terms_and_Conditions",
+      "select": [
+        "article"
+      ],
+      "executeClientScripts": true
+    }
+  }
+}
