@@ -1,0 +1,12 @@
+{
+  "name": "Airtel Kenya",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.airtelkenya.com/copyright_and_privacy",
+      "select": [
+        "article"
+      ],
+      "executeClientScripts": true
+    }
+  }
+}
