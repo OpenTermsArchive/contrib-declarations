@@ -16,7 +16,7 @@
     "Trackers Policy": {
       "fetch": "https://policies.tinder.com/cookie-policy/intl/en",
       "select": [
-        ".TextContent-kkmgbg-0"
+        ".TextContent-sc-kkmgbg-0"
       ]
     },
     "Community Guidelines": {

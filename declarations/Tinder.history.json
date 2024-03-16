@@ -1,0 +1,11 @@
+{
+  "Trackers Policy": [
+    {
+      "fetch": "https://policies.tinder.com/cookie-policy/intl/en",
+      "select": [
+        ".TextContent-kkmgbg-0"
+      ],
+      "validUntil": "to-be-determined"
+    }
+  ]
+}
