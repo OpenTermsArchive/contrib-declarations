@@ -69,5 +69,13 @@
       "select": "article",
       "validUntil": "2023-03-17T00:43:00Z"
     }
+  ],
+  "Community Guidelines": [
+    {
+      "fetch": "https://www.tiktok.com/community-guidelines?lang=en",
+      "select": ".base-layout-container",
+      "remove": ".syl-image-wrapper",
+      "validUntil": "to-be-determined"
+    }
   ]
 }
