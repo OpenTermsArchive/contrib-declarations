@@ -22,7 +22,8 @@
     "Community Guidelines": {
       "fetch": "https://policies.tinder.com/community-guidelines/intl/en",
       "select": [
-        ".TextContent-kkmgbg-0"
+        ".TextContent-kkmgbg-0",
+        ".BasePage__Title-sc-ue546c-2"
       ]
     }
   }
