@@ -1,0 +1,26 @@
+{
+  "name": "Guilded",
+  "documents": {
+    "Community Guidelines": {
+      "fetch": "https://support.guilded.gg/hc/en-us/articles/360052815873-Community-Guidelines",
+      "select": [
+        ".main-article-content .article-title",
+        ".main-article-content .article-body"
+      ]
+    },
+    "Privacy Policy": {
+      "fetch": "https://support.guilded.gg/hc/en-us/articles/360039235054-Privacy",
+      "select": [
+        ".main-article-content .article-title",
+        ".main-article-content .article-body"
+      ]
+    },
+    "Terms of Service": {
+      "fetch": "https://support.guilded.gg/hc/en-us/articles/360039728313-Terms-of-Use",
+      "select": [
+        ".main-article-content .article-title",
+        ".main-article-content .article-body"
+      ]
+    }
+  }
+}
