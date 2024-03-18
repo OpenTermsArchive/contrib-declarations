@@ -1,0 +1,23 @@
+{
+  "name": "Hygraph",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://hygraph.com/privacy",
+      "select": [
+        "main section"
+      ],
+      "remove": [
+        "main section:last-child"
+      ]
+    },
+    "Terms of Service": {
+      "fetch": "https://hygraph.com/terms",
+      "select": [
+        "main section"
+      ],
+      "remove": [
+        "main section:last-child"
+      ]
+    }
+  }
+}
