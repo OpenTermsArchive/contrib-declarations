@@ -19,8 +19,9 @@
     },
     "Community Guidelines": {
       "fetch": "https://www.snap.com/en-GB/community-guidelines",
-      "executeClientScripts": true,
-      "select": ".TermContainer-sc-1eyc2w4"
+      "select": [
+        "[data-testid=\"page\"]"
+      ]
     }
   }
 }
