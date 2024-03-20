@@ -9,6 +9,16 @@
       "remove": [
         ".ipc-Page-contentLogos"
       ]
+    },
+    "Community Guidelines": {
+      "fetch": "https://help.glassdoor.com/s/article/Community-Guidelines?language=en_US",
+      "select": [
+        "[data-region-name=\"articleDetail\"]"
+      ],
+      "remove": [
+        "c-article-feedback"
+      ],
+      "executeClientScripts": true
     }
   }
 }
