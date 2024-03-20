@@ -9,6 +9,13 @@
       "remove": [
         ".ipc-Page-contentLogos"
       ]
+    },
+    "Terms of Service": {
+      "fetch": "https://www.glassdoor.com/about/terms/",
+      "select": [
+        "main"
+      ],
+      "executeClientScripts": true
     }
   }
 }
