@@ -1,0 +1,14 @@
+{
+  "name": "Glassdoor",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://hrtechprivacy.com/brands/glassdoor",
+      "select": [
+        "main"
+      ],
+      "remove": [
+        ".ipc-Page-contentLogos"
+      ]
+    }
+  }
+}
