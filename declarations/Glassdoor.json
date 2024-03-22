@@ -10,6 +10,18 @@
         ".ipc-Page-contentLogos"
       ]
     },
+    "Community Guidelines": {
+      "fetch": "https://help.glassdoor.com/s/article/Community-Guidelines?language=en_US",
+      "select": [
+        "[data-region-name=\"articleDetail\"]"
+      ],
+      "remove": [
+        "c-article-feedback",
+        ".img_Div",
+        ".changeView"
+      ],
+      "executeClientScripts": true
+    },
     "Terms of Service": {
       "fetch": "https://www.glassdoor.com/about/terms/",
       "select": [
