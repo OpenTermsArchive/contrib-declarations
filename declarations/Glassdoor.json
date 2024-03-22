@@ -16,7 +16,9 @@
         "[data-region-name=\"articleDetail\"]"
       ],
       "remove": [
-        "c-article-feedback"
+        "c-article-feedback",
+        ".img_Div",
+        ".changeView"
       ],
       "executeClientScripts": true
     }
