@@ -19,6 +19,13 @@
         "c-article-feedback",
         ".img_Div",
         ".changeView"
+        ],
+      "executeClientScripts": true
+    },
+    "Terms of Service": {
+      "fetch": "https://www.glassdoor.com/about/terms/",
+      "select": [
+        "main"
       ],
       "executeClientScripts": true
     }
