@@ -1,0 +1,19 @@
+{
+  "name": "Streamable",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://terms.streamable.com/",
+      "select": [
+        "h1",
+        ".main"
+      ]
+    },
+    "Privacy Policy": {
+      "fetch": "https://privacy.streamable.com/",
+      "select": [
+        "h1",
+        ".main"
+      ]
+    }
+  }
+}

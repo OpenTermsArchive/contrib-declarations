@@ -1,0 +1,14 @@
+{
+  "name": "Uschovna.cz",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.uschovna.cz/en/vseobecne_podminky_uschovna",
+      "select": [
+        "#podminky"
+      ]
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.uschovna.cz/PRIVACY%20POLICY%20-%20Uschovna.pdf"
+    }
+  }
+}
