@@ -1,0 +1,17 @@
+{
+  "name": "Gofile",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://gofile.io/terms",
+      "select": [
+        "#mainContent"
+      ]
+    },
+    "Privacy Policy": {
+      "fetch": "https://gofile.io/privacy",
+      "select": [
+        "#mainContent"
+      ]
+    }
+  }
+}
