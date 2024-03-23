@@ -1,0 +1,19 @@
+{
+  "name": "Qiwi.gg",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://qiwi.gg/legal/tos",
+      "select": [
+        ".page_Heading___MmYE",
+        ".page_Content__xcMoz"
+      ]
+    },
+    "Privacy Policy": {
+      "fetch": "https://qiwi.gg/legal/privacy",
+      "select": [
+        ".page_Heading___MmYE",
+        ".page_Content__xcMoz"
+      ]
+    }
+  }
+}

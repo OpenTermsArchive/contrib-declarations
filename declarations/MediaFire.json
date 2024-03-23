@@ -1,0 +1,17 @@
+{
+  "name": "MediaFire",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.mediafire.com/policies/terms_of_service.php",
+      "select": [
+        "#content"
+      ]
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.mediafire.com/policies/privacy_policy.php",
+      "select": [
+        "#content"
+      ]
+    }
+  }
+}
