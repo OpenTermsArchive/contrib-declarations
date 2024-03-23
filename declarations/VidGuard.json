@@ -1,0 +1,25 @@
+{
+  "name": "VidGuard",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://vidguard.to/terms",
+      "select": [
+        {
+          "startAfter": "header",
+          "endBefore": "footer"
+        }
+      ],
+      "remove": ".d-none"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://vidguard.to/copyright",
+      "select": [
+        {
+          "startAfter": "header",
+          "endBefore": ".d-none"
+        }
+      ],
+      "remove": ".d-none"
+    }
+  }
+}
