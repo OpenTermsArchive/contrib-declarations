@@ -29,10 +29,6 @@ We have a curated list of Hacktoberfest issues that are ready for you to pick up
 - Open a pull request and we will review it if it meets the completion criteria
 - Have your pull request merged 🎉
 
-## 📜 Read our Code of Conduct
-
-Before you begin coding and collaborating, please read our [Code of Conduct](https://codeofconduct) thoroughly to understand the standards (that you are required to adhere to) for community engagement. As part of our open-source community, we hold ourselves and other contributors to a high standard of communication. As a participant and contributor to this project, you are agreeing to abide by our Code of Conduct.
-
 ## 💻 Need Help?
 
 We are more than happy to help you. If you are facing problems while working on any issue, don’t hesitate to ask for help.
