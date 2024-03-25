@@ -1,0 +1,11 @@
+{
+  "name": "Kilimall",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://helpcenter.kilimall.com/help-center/detail/2467?cid=4&aid=96",
+      "select": [
+        ".help-detail-page"
+      ]
+    }
+  }
+}
