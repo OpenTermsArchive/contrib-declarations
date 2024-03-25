@@ -13,7 +13,8 @@
       "select": [
         "h1",
         ".markdown-legal"
-      ]
+      ],
+      "executeClientScripts": true
     },
     "Privacy Policy": {
       "fetch": "https://scalingo.com/data-processing-agreement",

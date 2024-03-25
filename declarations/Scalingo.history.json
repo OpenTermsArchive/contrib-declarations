@@ -28,5 +28,15 @@
       ],
       "validUntil": "2021-11-16T14:36:00.000Z"
     }
+  ],
+  "Commercial Terms": [
+    {
+      "fetch": "https://scalingo.com/general-terms-and-conditions",
+      "select": [
+        "h1",
+        ".markdown-legal"
+      ],
+      "validUntil": "to-be-determined"
+    }
   ]
 }
