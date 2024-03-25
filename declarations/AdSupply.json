@@ -1,22 +1,22 @@
 {
-  "name": "AdSupply",
-  "documents": {
-    "Terms of Service": {
-      "fetch": "https://www.adsupply.com/advertiser-publisher-terms/",
-      "select": [
-        ".entry-content"
+  "name": "AdSupply",  // Name of the company or service provider
+  "documents": {  // Contains URLs and CSS selectors for fetching specific sections of documents
+    "Terms of Service": {  // Name of the document (e.g., Terms of Service)
+      "fetch": "https://www.adsupply.com/advertiser-publisher-terms/",  // URL where the document is hosted
+      "select": [  // CSS selector(s) to identify the specific section(s) of the document to fetch
+        ".entry-content"  // CSS selector for selecting the main content of the Terms of Service document
       ]
     },
-    "Privacy Policy": {
-      "fetch": "https://www.adsupply.com/privacy-policy/",
-      "select": [
-        ".entry-content"
+    "Privacy Policy": {  // Name of the document (e.g., Privacy Policy)
+      "fetch": "https://www.adsupply.com/privacy-policy/",  // URL where the document is hosted
+      "select": [  // CSS selector(s) to identify the specific section(s) of the document to fetch
+        ".entry-content"  // CSS selector for selecting the main content of the Privacy Policy document
       ]
     },
-    "Trackers Policy": {
-      "fetch": "https://www.adsupply.com/cookie-policy/",
-      "select": [
-        ".entry-content"
+    "Trackers Policy": {  // Name of the document (e.g., Trackers Policy)
+      "fetch": "https://www.adsupply.com/cookie-policy/",  // URL where the document is hosted
+      "select": [  // CSS selector(s) to identify the specific section(s) of the document to fetch
+        ".entry-content"  // CSS selector for selecting the main content of the Trackers Policy document
       ]
     }
   }
