@@ -4,6 +4,11 @@
       "fetch": "https://www.fedex.com/en-fr/privacy-policy.html",
       "select": "body",
       "validUntil": "2020-12-08T16:00:00.000Z"
+    },
+    {
+      "fetch": "https://www.fedex.com/en-fr/privacy-policy.html",
+      "select": ".fxg-wrapper:nth-of-type(2)",
+      "validUntil": "to-be-determined"
     }
   ],
   "Terms of Service": [
