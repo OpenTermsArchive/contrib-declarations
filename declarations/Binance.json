@@ -11,7 +11,7 @@
     "Privacy Policy": {
       "fetch": "https://www.binance.com/en/privacy",
       "select": [
-        "main"
+        ".richtext-container"
       ],
       "executeClientScripts": true
     }
