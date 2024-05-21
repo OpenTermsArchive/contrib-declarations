@@ -22,6 +22,13 @@
         "#site-content > section"
       ],
       "validUntil": "2022-02-03T12:30:27.475+00:00"
+    },
+    {
+      "fetch": "https://www.airbnb.co.uk/help/article/3175/privacy-policy",
+      "select": [
+        "#site-content"
+      ],
+      "validUntil": "to-be-determined"
     }
   ],
   "Terms of Service": [
