@@ -4,14 +4,15 @@
     "Terms of Service": {
       "fetch": "https://terms.streamable.com/",
       "select": [
-        "h1",
-        ".main"
+        ".jumbotron",
+        ".main",
+        "footer"
       ]
     },
     "Privacy Policy": {
       "fetch": "https://privacy.streamable.com/",
       "select": [
-        "h1",
+        ".jumbotron",
         ".main"
       ]
     }
