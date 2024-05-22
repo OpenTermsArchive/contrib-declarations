@@ -8,7 +8,7 @@
     {
       "fetch": "https://www.fedex.com/en-fr/privacy-policy.html",
       "select": ".fxg-wrapper:nth-of-type(2)",
-      "validUntil": "to-be-determined"
+      "validUntil": "2024-03-12T00:35:51Z"
     }
   ],
   "Terms of Service": [
@@ -16,6 +16,11 @@
       "fetch": "https://www.fedex.com/en-fr/terms-of-use.html",
       "select": "body",
       "validUntil": "2020-12-08T16:00:00.000Z"
+    },
+    {
+      "fetch": "https://www.fedex.com/en-fr/terms-of-use.html",
+      "select": ".fxg-wrapper:nth-of-type(2)",
+      "validUntil": "2024-03-12T00:36:15Z"
     }
   ]
 }
