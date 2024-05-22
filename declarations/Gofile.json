@@ -5,13 +5,15 @@
       "fetch": "https://gofile.io/terms",
       "select": [
         "#mainContent"
-      ]
+      ],
+      "executeClientScripts": true
     },
     "Privacy Policy": {
       "fetch": "https://gofile.io/privacy",
       "select": [
         "#mainContent"
-      ]
+      ],
+      "executeClientScripts": true
     }
   }
 }
