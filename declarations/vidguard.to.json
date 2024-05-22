@@ -16,7 +16,7 @@
       "select": [
         {
           "startAfter": "header",
-          "endBefore": ".d-none"
+          "endBefore": "footer"
         }
       ],
       "remove": ".d-none"
