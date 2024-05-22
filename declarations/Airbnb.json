@@ -8,9 +8,7 @@
       ],
       "remove": [
         ".t15kpzrz",
-        ".l1pvymst:nth-child(1)",
-        ".l1pvymst:nth-child(2)",
-        ".l1pvymst:nth-child(3)"
+        ".l94quoy"
       ],
       "executeClientScripts": true
     },
