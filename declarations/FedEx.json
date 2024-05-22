@@ -5,13 +5,22 @@
     "Privacy Policy": {
       "fetch": "https://www.fedex.com/en-fr/privacy-policy.html",
       "select": [
-        ".fxg-wrapper:nth-of-type(2)"
+        ".cmp-container"
+      ],
+      "remove": [
+        "a[href=\"#top\"]"
       ],
       "executeClientScripts": true
     },
     "Terms of Service": {
       "fetch": "https://www.fedex.com/en-fr/terms-of-use.html",
-      "select": ".fxg-wrapper:nth-of-type(2)"
+      "select": [
+        ".cmp-container"
+      ],
+      "remove": [
+        "a[href=\"#top\"]"
+      ],
+      "executeClientScripts": true
     }
   }
 }
