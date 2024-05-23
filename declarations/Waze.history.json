@@ -26,6 +26,16 @@
         ".article-survey-container"
       ],
       "validUntil": "2023-10-18T15:11:46Z"
+    },
+    {
+      "fetch": "https://support.google.com/waze/answer/12373727",
+      "select": [
+        ".page"
+      ],
+      "remove": [
+        ".article-survey-container"
+      ],
+      "validUntil": "2024-02-29T00:45:04Z"
     }
   ],
   "Privacy Policy": [

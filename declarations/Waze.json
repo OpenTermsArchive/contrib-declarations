@@ -2,7 +2,7 @@
   "name": "Waze",
   "documents": {
     "Terms of Service": {
-      "fetch": "https://support.google.com/waze/answer/12373727",
+      "fetch": "https://support.google.com/waze/answer/12140670",
       "select": [
         ".page"
       ],
