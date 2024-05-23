@@ -4,37 +4,37 @@
     "Terms of Service": {
       "fetch": "https://support.google.com/waze/answer/12140670",
       "select": [
-        ".page"
+        ".article-container"
       ],
       "remove": [
-        ".article-survey-container"
+        ".scClientFeedbackInlineFeedbacklinkroot"
       ]
     },
     "Privacy Policy": {
       "fetch": "https://support.google.com/waze/answer/12075406",
       "select": [
-        ".page"
+        ".article-container"
       ],
       "remove": [
-        ".article-survey-container"
+        ".scClientFeedbackInlineFeedbacklinkroot"
       ]
     },
     "Trackers Policy": {
       "fetch": "https://support.google.com/waze/answer/12075407",
       "select": [
-        ".main-content"
+        ".article-container"
       ],
       "remove": [
-        ".article-survey-container"
+        ".scClientFeedbackInlineFeedbacklinkroot"
       ]
     },
     "Copyright Claims Policy": {
       "fetch": "https://support.google.com/waze/answer/12075342",
       "select": [
-        ".main-content"
+        ".article-container"
       ],
       "remove": [
-        ".article-survey-container"
+        ".scClientFeedbackInlineFeedbacklinkroot"
       ]
     }
   }
