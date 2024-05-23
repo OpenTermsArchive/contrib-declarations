@@ -1,0 +1,23 @@
+{
+  "name": "The Mirror",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.themirror.space/privacy",
+      "select": [
+        "section.section"
+      ],
+      "remove": [
+        ".image-wrapper"
+      ]
+    },
+    "Terms of Service": {
+      "fetch": "https://www.themirror.space/terms",
+      "select": [
+        "section.section"
+      ],
+      "remove": [
+        ".image-wrapper"
+      ]
+    }
+  }
+}
