@@ -31,7 +31,7 @@ We have a curated list of Hacktoberfest issues that are ready for you to pick up
 
 ## 📜 Read our Code of Conduct
 
-Before you begin coding and collaborating, please read our [Code of Conduct](https://codeofconduct) thoroughly to understand the standards (that you are required to adhere to) for community engagement. As part of our open-source community, we hold ourselves and other contributors to a high standard of communication. As a participant and contributor to this project, you are agreeing to abide by our Code of Conduct.
+Before you begin coding and collaborating, please read our [Code of Conduct](./CODE_OF_CONDUCT.md) thoroughly to understand the standards (that you are required to adhere to) for community engagement. As part of our open-source community, we hold ourselves and other contributors to a high standard of communication. As a participant and contributor to this project, you are agreeing to abide by our Code of Conduct.
 
 ## 💻 Need Help?
 
