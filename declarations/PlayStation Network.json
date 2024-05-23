@@ -4,33 +4,10 @@
     "Terms of Service": {
       "fetch": "https://www.playstation.com/en-us/legal/psn-terms-of-service/",
       "select": [
-        ".section:nth-child(3) .contentgrid:nth-child(1)",
-        ".section:nth-child(3) > .gpdc-section > div",
-        ".section:nth-child(5) > .gpdc-section",
-        ".section:nth-child(7) > .gpdc-section",
-        ".section:nth-child(9) > .gpdc-section",
-        ".section:nth-child(11) > .gpdc-section",
-        ".section:nth-child(13) > .gpdc-section",
-        ".section:nth-child(15) > .gpdc-section",
-        ".section:nth-child(15) .contentgrid:nth-child(2) .media-block__img:nth-child(1)",
-        ".section:nth-child(17) > .gpdc-section",
-        ".section:nth-child(19) > .gpdc-section",
-        ".section:nth-child(21) > .gpdc-section",
-        ".section:nth-child(23) > .gpdc-section",
-        ".section:nth-child(25) > .gpdc-section",
-        ".section:nth-child(27) > .gpdc-section",
-        ".section:nth-child(29) > .gpdc-section"
+        ".gpdc-section"
       ],
       "remove": [
-        ".section:nth-child(3) .media-block__img:nth-child(1)",
-        ".section:nth-child(3) .box:nth-child(2)",
-        ".section:nth-child(7) .media-block__img:nth-child(1)",
-        ".section:nth-child(7) .box:nth-child(2)",
-        ".contentgrid:nth-child(2) > .\\+reverse > .box:nth-child(2)",
-        ".theme--lightAlt .contentgrid:nth-child(1) .box:nth-child(2)",
-        ".contentgrid:nth-child(1) > .\\+reverse > .box:nth-child(2)",
-        ".section:nth-child(15) .box:nth-child(2)",
-        ".section:nth-child(19) .box:nth-child(2)"
+        ".media-block__inner"
       ]
     }
   }
