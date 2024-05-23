@@ -2,33 +2,39 @@
   "name": "Waze",
   "documents": {
     "Terms of Service": {
-      "fetch": "https://support.google.com/waze/answer/12140670",
+      "fetch": "https://support.google.com/waze/answer/12140670?hl=en",
       "select": [
-        ".page"
+        ".article-container"
       ],
       "remove": [
-        ".article-survey-container"
+        ".scClientFeedbackInlineFeedbacklinkroot"
       ]
     },
     "Privacy Policy": {
-      "fetch": "https://support.google.com/waze/answer/12075406",
+      "fetch": "https://support.google.com/waze/answer/12075406?hl=en",
       "select": [
-        ".page"
+        ".article-container"
       ],
       "remove": [
-        ".article-survey-container"
+        ".scClientFeedbackInlineFeedbacklinkroot"
       ]
     },
     "Trackers Policy": {
-      "fetch": "https://www.waze.com/en/legal/cookies",
+      "fetch": "https://support.google.com/waze/answer/12075407?hl=en",
       "select": [
-        ".col-md-9"
+        ".article-container"
+      ],
+      "remove": [
+        ".scClientFeedbackInlineFeedbacklinkroot"
       ]
     },
     "Copyright Claims Policy": {
-      "fetch": "https://www.waze.com/en/legal/copyright",
+      "fetch": "https://support.google.com/waze/answer/12075342?hl=en",
       "select": [
-        ".col-md-9"
+        ".article-container"
+      ],
+      "remove": [
+        ".scClientFeedbackInlineFeedbacklinkroot"
       ]
     }
   }
