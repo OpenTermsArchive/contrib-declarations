@@ -4,6 +4,11 @@
       "fetch": "https://evernote.com/intl/en-gb/privacy/policy",
       "select": "body",
       "validUntil": "2020-12-08T16:00:00.000Z"
+    },
+    {
+      "fetch": "https://evernote.com/intl/en-gb/privacy/policy",
+      "select": "div.content-container",
+      "validUntil": "2023-10-18T15:00:34Z"
     }
   ],
   "Terms of Service": [
@@ -11,6 +16,11 @@
       "fetch": "https://evernote.com/intl/en-gb/legal/terms-of-service",
       "select": "body",
       "validUntil": "2020-12-08T16:00:00.000Z"
+    },
+    {
+      "fetch": "https://evernote.com/intl/en-gb/legal/terms-of-service",
+      "select": "div.content-container",
+      "validUntil": "2023-10-18T15:00:37Z"
     }
   ]
 }
