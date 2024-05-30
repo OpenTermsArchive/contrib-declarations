@@ -4,9 +4,8 @@
     "Privacy Policy": {
       "fetch": "https://www.gutenberg.org/policy/privacy_policy.html",
       "select": [
-        ".container"
-      ],
-      "executeClientScripts": true
+        ".page_content"
+      ]
     }
   }
 }
