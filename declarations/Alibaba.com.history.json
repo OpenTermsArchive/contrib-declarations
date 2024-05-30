@@ -4,6 +4,14 @@
       "fetch": "https://rule.alibaba.com/rule/detail/2034.htm",
       "select": "body",
       "validUntil": "2020-11-09T17:30:03.000Z"
+    },
+    {
+      "fetch": "https://rule.alibaba.com/rule/detail/2034.htm",
+      "select": [
+        ".prompt",
+        ".answer"
+      ],
+      "validUntil": "2023-10-18T14:45:47Z"
     }
   ],
   "Copyright Claims Policy": [

@@ -3,11 +3,15 @@
   "importedFrom": "https://github.com/tosdr/tosback2/blob/f762cd4bbb2571272985fed009201a23300ba9b2/rules/alibaba.com.xml",
   "documents": {
     "Privacy Policy": {
-      "fetch": "https://rule.alibaba.com/rule/detail/2034.htm",
+      "fetch": "https://rulechannel.alibaba.com/icbu?type=detail&ruleId=2034&cId=1306#/rule/detail?cId=1306&ruleId=2034",
       "select": [
-        ".prompt",
-        ".answer"
-      ]
+        ".rule-detail-text"
+      ],
+      "remove": [
+        ".evalutaion",
+        ".rule-text-explain"
+      ],
+      "executeClientScripts": true
     },
     "Copyright Claims Policy": {
       "fetch": "https://rule.alibaba.com/rule/detail/6391.htm",
