@@ -14,12 +14,49 @@
       ]
     },
     "Community Guidelines": {
-      "fetch": "https://www.tiktok.com/community-guidelines?lang=en",
       "select": [
-        ".css-1icig4c"
+        "#community-guidelines"
       ],
       "remove": [
-        ".syl-image-wrapper"
+        ".icon"
+      ],
+      "combine": [
+        {
+          "fetch": "https://www.tiktok.com/community-guidelines?lang=en"
+        },
+        {
+          "fetch": "https://www.tiktok.com/community-guidelines/en/community-principles/"
+        },
+        {
+          "fetch": "https://www.tiktok.com/community-guidelines/en/youth-safety/"
+        },
+        {
+          "fetch": "https://www.tiktok.com/community-guidelines/en/safety-civility/"
+        },
+        {
+          "fetch": "https://www.tiktok.com/community-guidelines/en/mental-behavioral-health/"
+        },
+        {
+          "fetch": "https://www.tiktok.com/community-guidelines/en/sensitive-mature-themes/"
+        },
+        {
+          "fetch": "https://www.tiktok.com/community-guidelines/en/integrity-authenticity/"
+        },
+        {
+          "fetch": "https://www.tiktok.com/community-guidelines/en/regulated-commercial-activities/"
+        },
+        {
+          "fetch": "https://www.tiktok.com/community-guidelines/en/privacy-security/"
+        },
+        {
+          "fetch": "https://www.tiktok.com/community-guidelines/en/fyf-standards/"
+        },
+        {
+          "fetch": "https://www.tiktok.com/community-guidelines/en/accounts-features/"
+        },
+        {
+          "fetch": "https://www.tiktok.com/community-guidelines/en/enforcement/"
+        }
       ]
     },
     "Law Enforcement Guidelines": {
