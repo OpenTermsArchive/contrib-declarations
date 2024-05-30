@@ -22,7 +22,7 @@
     "Trackers Policy": {
       "fetch": "https://support.google.com/waze/answer/12075407?dark=0&sjid=3227168920407690425-EU&hl=en",
       "select": [
-        ".article"
+        ".page"
       ],
       "remove": [
         ".sub-article-container"
