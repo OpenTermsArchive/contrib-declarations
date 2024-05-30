@@ -6,7 +6,8 @@
       "select": [
         "h1",
         ".markdown-legal"
-      ]
+      ],
+      "executeClientScripts": true
     },
     "Commercial Terms": {
       "fetch": "https://scalingo.com/general-terms-and-conditions",
@@ -21,16 +22,19 @@
       "select": [
         "h1",
         ".markdown-legal"
-      ]
+      ],
+      "executeClientScripts": true
     },
     "Data Processor Agreement": {
       "fetch": "https://scalingo.com/data-processing-agreement",
       "select": [
+        "h1",
         {
           "startBefore": ".markdown-legal h2:nth-of-type(2)",
           "endBefore": ".markdown-legal h2:nth-of-type(4)"
         }
-      ]
+      ],
+      "executeClientScripts": true
     },
     "Data Controller Agreement": {
       "fetch": "https://scalingo.com/data-processing-agreement",
@@ -39,7 +43,8 @@
           "startBefore": ".markdown-legal h2:nth-of-type(4)",
           "endAfter": ".markdown-legal p:last-child"
         }
-      ]
+      ],
+      "executeClientScripts": true
     }
   }
 }
