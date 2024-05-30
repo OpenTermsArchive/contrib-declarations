@@ -75,7 +75,7 @@
       "fetch": "https://www.tiktok.com/community-guidelines?lang=en",
       "select": ".base-layout-container",
       "remove": ".syl-image-wrapper",
-      "validUntil": "to-be-determined"
+      "validUntil": "2023-10-18T15:10:50Z"
     }
   ]
 }
