@@ -1,11 +1,38 @@
 {
+  "Terms of Service": [
+    {
+      "fetch": "https://policies.tinder.com/terms/intl/en",
+      "select": [
+        ".TextContent-kkmgbg-0"
+      ],
+      "validUntil": "2023-10-18T15:11:04Z"
+    }
+  ],
+  "Privacy Policy": [
+    {
+      "fetch": "https://policies.tinder.com/privacy/intl/en",
+      "select": [
+        ".TextContent-kkmgbg-0"
+      ],
+      "validUntil": "2023-10-18T15:11:07Z"
+    }
+  ],
   "Trackers Policy": [
     {
       "fetch": "https://policies.tinder.com/cookie-policy/intl/en",
       "select": [
         ".TextContent-kkmgbg-0"
       ],
-      "validUntil": "to-be-determined"
+      "validUntil": "2023-10-18T15:10:58Z"
+    }
+  ],
+  "Community Guidelines": [
+    {
+      "fetch": "https://policies.tinder.com/community-guidelines/intl/en",
+      "select": [
+        ".TextContent-kkmgbg-0"
+      ],
+      "validUntil": "2023-10-18T15:11:01Z"
     }
   ]
 }
