@@ -1,0 +1,11 @@
+{
+  "name": "Project Gutenberg",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.gutenberg.org/policy/privacy_policy.html",
+      "select": [
+        ".page_content"
+      ]
+    }
+  }
+}
