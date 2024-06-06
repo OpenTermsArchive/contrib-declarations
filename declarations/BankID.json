@@ -4,14 +4,19 @@
     "Terms of Service": {
       "fetch": "https://www.bankid.com/en/terms-of-use-bankid-mobile-application",
       "select": [
-        ".k1-block"
-      ]
+        "main"
+      ],
+      "executeClientScripts": true
     },
     "Privacy Policy": {
       "fetch": "https://www.bankid.com/en/integritetspolicy",
       "select": [
-        ".k1-block"
-      ]
+        "main"
+      ],
+      "remove": [
+        ".news-block"
+      ],
+      "executeClientScripts": true
     }
   }
 }
