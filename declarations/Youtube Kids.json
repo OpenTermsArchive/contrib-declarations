@@ -1,0 +1,13 @@
+{
+  "name": "YouTube Kids",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://kids.youtube.com/t/terms",
+      "select": "#yts-article"
+    },
+    "Privacy Policy": {
+      "fetch": "https://kids.youtube.com/t/privacynotice",
+      "select": "#yts-article"
+    }
+  }
+}
