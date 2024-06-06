@@ -6,7 +6,7 @@
       "select": [
         ".k1-block"
       ]
-    }
+    },
     "Privacy Policy": {
       "fetch": "https://www.bankid.com/en/integritetspolicy",
       "select": [
