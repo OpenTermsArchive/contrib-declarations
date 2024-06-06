@@ -1,44 +1,50 @@
 {
-  "name": "contrib",
-  "services": {
-    "repository": "https://github.com/OpenTermsArchive/contrib-declarations.git",
-    "declarationsPath": "./declarations"
-  },
-  "recorder": {
-    "versions": {
-      "storage": {
-        "git": {
-          "snapshotIdentiferTemplate": "mongo://contrib/open-terms-archive/snapshots/%SNAPSHOT_ID",
-          "repository": "git@github.com:OpenTermsArchive/contrib-versions.git",
-          "path": "./data/versions"
+  "@opentermsarchive/engine": {
+    "recorder": {
+      "versions": {
+        "storage": {
+          "git": {
+            "snapshotIdentiferTemplate": "mongo://contrib/open-terms-archive/snapshots/%SNAPSHOT_ID",
+            "repository": "git@github.com:OpenTermsArchive/contrib-versions.git",
+            "path": "./data/versions"
+          }
+        }
+      },
+      "snapshots": {
+        "storage": {
+          "mongo": {
+            "connectionURI": "mongodb://127.0.0.1:27017",
+            "database": "open-terms-archive",
+            "collection": "snapshots"
+          }
         }
       }
     },
-    "snapshots": {
-      "storage": {
-        "type": "mongo"
+    "fetcher": {
+      "language": "en"
+    },
+    "notifier": {
+      "sendInBlue": {
+        "updatesListId": 0,
+        "updateTemplateId": 0
       }
-    }
-  },
-  "notifier": {
-    "sendInBlue": {
-      "updatesListId": 596,
-      "updateTemplateId": 39
-    }
-  },
-  "reporter": {
-    "githubIssues": {
-      "repositories": {
-        "declarations": "OpenTermsArchive/contrib-declarations",
-        "versions": "OpenTermsArchive/contrib-versions"
+    },
+    "reporter": {
+      "githubIssues": {
+        "repositories": {
+          "declarations": "OpenTermsArchive/contrib-declarations",
+          "versions": "OpenTermsArchive/contrib-versions",
+          "snapshots": "OpenTermsArchive/contrib-snapshots"
+        }
       }
+    },
+    "dataset": {
+      "title": "contrib",
+      "versionsRepositoryURL": "https://github.com/OpenTermsArchive/contrib-versions"
+    },
+    "collection-api": {
+      "port": 3000,
+      "basePath": "/collection-api"
     }
-  },
-  "dataset": {
-    "title": "contrib",
-    "versionsRepositoryURL": "https://github.com/OpenTermsArchive/contrib-versions"
-  },
-  "api": {
-    "port": 3000
   }
 }
