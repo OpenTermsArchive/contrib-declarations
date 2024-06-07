@@ -15,19 +15,6 @@ You can add documents for tracking by submitting a pull request either using the
 
 You can check the documentation for detailed information on [contributing terms](https://docs.opentermsarchive.org/contributing-terms/).
 
-## Participate in Hacktoberfest 2023 🎉
-
-Interested in making contributions? Participate in Hacktoberfest. We extend a warm invitation!
-
-> ⭐️ If you're new to Hacktoberfest, you can learn more and register to participate [here](https://hacktoberfest.com/participation/). Registration is from September 26th - October 31st.
-
-We have a curated list of Hacktoberfest issues that are ready for you to pick up.
-
-- You can contribute to issues labeled `hacktoberfest`
-- These issues are related to terms that are no longer being tracked, either because their source document was moved, or their website blocked our engine from crawling.
-- Read our documentation to learn how to [maintain the declarations](https://docs.opentermsarchive.org/contributing-terms/#maintaining-declarations)
-- Open a pull request and we will review it if it meets the completion criteria
-- Have your pull request merged 🎉
 
 ## 📜 Read our Code of Conduct
 
