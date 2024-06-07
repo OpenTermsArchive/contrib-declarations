@@ -1,0 +1,11 @@
+{
+  "projectName": "contrib-declarations",
+  "projectOwner": "OpenTermsArchive",
+  "files": [
+    ".all-contributors.md"
+  ],
+  "contributors": [],
+  "repoType": "github",
+  "commitConvention": "none",
+  "contributorsPerLine": 7
+}

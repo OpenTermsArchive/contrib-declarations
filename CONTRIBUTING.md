@@ -15,19 +15,6 @@ You can add documents for tracking by submitting a pull request either using the
 
 You can check the documentation for detailed information on [contributing terms](https://docs.opentermsarchive.org/contributing-terms/).
 
-## Participate in Hacktoberfest 2023 🎉
-
-Interested in making contributions? Participate in Hacktoberfest. We extend a warm invitation!
-
-> ⭐️ If you're new to Hacktoberfest, you can learn more and register to participate [here](https://hacktoberfest.com/participation/). Registration is from September 26th - October 31st.
-
-We have a curated list of Hacktoberfest issues that are ready for you to pick up.
-
-- You can contribute to issues labeled `hacktoberfest`
-- These issues are related to terms that are no longer being tracked, either because their source document was moved, or their website blocked our engine from crawling.
-- Read our documentation to learn how to [maintain the declarations](https://docs.opentermsarchive.org/contributing-terms/#maintaining-declarations)
-- Open a pull request and we will review it if it meets the completion criteria
-- Have your pull request merged 🎉
 
 ## 📜 Read our Code of Conduct
 
@@ -38,3 +25,11 @@ Before you begin coding and collaborating, please read our [Code of Conduct](./C
 We are more than happy to help you. If you are facing problems while working on any issue, don’t hesitate to ask for help.
 
 Your contribution, no matter its size, holds immense value. We eagerly await to see the impact you'll make in our community! 🚀
+
+## List a new contributor in the Open Terms Archive website
+
+We acknowledge the efforts of our contributors by listing them on our [website](https://opentermsarchive.org) and this is made possible by the use of the [All Contributors bot](https://allcontributors.org/docs/en/bot/overview).
+
+All Contributors enables adding a contributor with a comment on an issue or pull request, without writing code. To do this, please use the [dedicated issue](https://github.com/OpenTermsArchive/contrib-declarations/issues/1485) on this repository.
+
+Please read the following [contributing guide](https://github.com/OpenTermsArchive/opentermsarchive.org/blob/main/CONTRIBUTING.md#list-a-new-contributor-in-the-open-terms-archive-website).
