@@ -4,8 +4,19 @@
   "files": [
     ".all-contributors.md"
   ],
-  "contributors": [],
+  "contributors": [
+    {
+      "login": "AntoninDelFabbro",
+      "name": "Antonin Del Fabbro",
+      "avatar_url": "https://avatars.githubusercontent.com/u/30950182?v=4",
+      "profile": "https://antonin.one/",
+      "contributions": [
+        "data"
+      ]
+    }
+  ],
   "repoType": "github",
   "commitConvention": "none",
-  "contributorsPerLine": 7
+  "contributorsPerLine": 7,
+  "commitType": "docs"
 }
