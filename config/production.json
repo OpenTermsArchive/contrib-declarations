@@ -13,6 +13,7 @@
       },
       "snapshots": {
         "storage": {
+          "type": "mongo",
           "mongo": {
             "connectionURI": "mongodb://127.0.0.1:27017",
             "database": "open-terms-archive",
