@@ -1,0 +1,9 @@
+{
+  "Terms of Service": [
+    {
+      "fetch": "https://policy.pinterest.com/en/terms-of-service",
+      "select": "article",
+      "validUntil": "to-be-determined"
+    }
+  ]
+}
