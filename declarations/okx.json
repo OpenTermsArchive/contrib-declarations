@@ -1,0 +1,32 @@
+{
+  "name": "OKX",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.okx.com/help/terms-of-service-eea",
+      "select": [
+        "main"
+      ],
+      "remove": [
+        ".index_mdShareList__cVrPO"
+      ]
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.okx.com/help/privacy-policy-statement-eea",
+      "select": [
+        "main"
+      ],
+      "remove": [
+        ".index_mdShareList__cVrPO"
+      ]
+    },
+    "Law Enforcement Guidelines": {
+      "fetch": "https://www.okx.com/help/okx-law-enforcement-request-guide",
+      "select": [
+        "main"
+      ],
+      "remove": [
+        ".index_mdShareList__cVrPO"
+      ]
+    }
+  }
+}
