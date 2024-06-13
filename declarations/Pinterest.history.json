@@ -7,10 +7,10 @@
     }
   ],
   "Privacy Policy": [
-      {
-        "fetch": "https://policy.pinterest.com/en/privacy-policy",
-        "select": "article",
-        "validUntil": "2023-11-30T09:15:04Z"
-      }
-    ]
-  }
+    {
+      "fetch": "https://policy.pinterest.com/en/privacy-policy",
+      "select": "article",
+      "validUntil": "2023-11-30T09:15:04Z"
+    }
+  ]
+}
