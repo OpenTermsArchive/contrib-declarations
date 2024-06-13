@@ -4,7 +4,7 @@
     "Terms of Service": {
       "fetch": "https://bitwarden.com/terms/",
       "select": [
-        "main>.chakra-container"
+        "main"
       ]
     },
     "Privacy Policy": {
