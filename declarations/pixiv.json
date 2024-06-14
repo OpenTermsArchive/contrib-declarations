@@ -4,7 +4,10 @@
     "Privacy Policy": {
       "fetch": "https://policies.pixiv.net/en.html#privacy",
       "select": [
-        "#privacy"
+        "main"
+      ],
+      "remove": [
+        "img"
       ]
     },
     "Terms of Service": {
