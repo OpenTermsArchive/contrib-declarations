@@ -3,14 +3,14 @@
     {
       "fetch": "https://policy.pinterest.com/en/terms-of-service",
       "select": "article",
-      "validUntil": "2024-05-23T00:40:58Z"
+      "validUntil": "2024-05-23T00:41:06Z"
     }
   ],
   "Privacy Policy": [
     {
       "fetch": "https://policy.pinterest.com/en/privacy-policy",
       "select": "article",
-      "validUntil": "2023-11-30T09:15:04Z"
+      "validUntil": "2024-05-23T00:41:09Z"
     }
   ]
 }
