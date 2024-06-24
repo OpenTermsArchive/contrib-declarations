@@ -25,7 +25,7 @@
     },
     {
       "login": "martinratinaud",
-      "name": "Martin Ratinaud. Freelancer.",
+      "name": "Martin Ratinaud",
       "avatar_url": "https://avatars.githubusercontent.com/u/4191809?v=4",
       "profile": "http://bit.ly/work-with-martin",
       "contributions": [
@@ -98,7 +98,7 @@
     },
     {
       "login": "PierreMesure",
-      "name": "Pierre",
+      "name": "Pierre Mesure",
       "avatar_url": "https://avatars.githubusercontent.com/u/7223028?v=4",
       "profile": "https://github.com/PierreMesure",
       "contributions": [
@@ -116,7 +116,7 @@
     },
     {
       "login": "kyleecodes",
-      "name": "Kylee Fields ",
+      "name": "Kylee Fields",
       "avatar_url": "https://avatars.githubusercontent.com/u/43586156?v=4",
       "profile": "https://github.com/kyleecodes",
       "contributions": [
@@ -128,6 +128,78 @@
       "name": "omjdi",
       "avatar_url": "https://avatars.githubusercontent.com/u/90270616?v=4",
       "profile": "https://github.com/omjdi",
+      "contributions": [
+        "data"
+      ]
+    },
+    {
+      "login": "AdrienFines",
+      "name": "Adrien Fines",
+      "avatar_url": "https://avatars.githubusercontent.com/u/41912392?v=4",
+      "profile": "https://github.com/AdrienFines",
+      "contributions": [
+        "data"
+      ]
+    },
+    {
+      "login": "AaronjSugarman",
+      "name": "Aaron Sugarman",
+      "avatar_url": "https://avatars.githubusercontent.com/u/82889095?v=4",
+      "profile": "https://github.com/AaronjSugarman",
+      "contributions": [
+        "data"
+      ]
+    },
+    {
+      "login": "cquest",
+      "name": "Christian Quest",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1202668?v=4",
+      "profile": "https://github.com/cquest",
+      "contributions": [
+        "data"
+      ]
+    },
+    {
+      "login": "GatienH",
+      "name": "GatienH",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6501059?v=4",
+      "profile": "https://github.com/GatienH",
+      "contributions": [
+        "data"
+      ]
+    },
+    {
+      "login": "karnauskas",
+      "name": "Marius Karnauskas",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1094012?v=4",
+      "profile": "https://github.com/karnauskas",
+      "contributions": [
+        "data"
+      ]
+    },
+    {
+      "login": "michielbdejong",
+      "name": "Michiel de Jong",
+      "avatar_url": "https://avatars.githubusercontent.com/u/408412?v=4",
+      "profile": "https://michielbdejong.com/",
+      "contributions": [
+        "data"
+      ]
+    },
+    {
+      "login": "THouriezPEReN",
+      "name": "Tom Houriez",
+      "avatar_url": "https://avatars.githubusercontent.com/u/70654947?v=4",
+      "profile": "https://github.com/THouriezPEReN",
+      "contributions": [
+        "data"
+      ]
+    },
+    {
+      "login": "vviers",
+      "name": "Vincent Viers",
+      "avatar_url": "https://avatars.githubusercontent.com/u/30295971?v=4",
+      "profile": "https://beta.gouv.fr/",
       "contributions": [
         "data"
       ]
