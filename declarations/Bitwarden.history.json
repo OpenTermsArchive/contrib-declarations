@@ -6,6 +6,22 @@
         "main>.chakra-container"
       ],
       "validUntil": "2023-08-17T00:44:10Z"
+    },
+    {
+      "fetch": "https://bitwarden.com/privacy/",
+      "select": [
+        "main"
+      ],
+      "validUntil": "2024-06-26T13:03:45Z"
+    }
+  ],
+  "Terms of Service": [
+    {
+      "fetch": "https://bitwarden.com/terms/",
+      "select": [
+        "main>.chakra-container"
+      ],
+      "validUntil": "2023-10-18T14:59:33Z"
     }
   ]
 }

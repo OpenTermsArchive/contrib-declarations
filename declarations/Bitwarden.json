@@ -4,13 +4,19 @@
     "Terms of Service": {
       "fetch": "https://bitwarden.com/terms/",
       "select": [
-        "main>.chakra-container"
+        "main"
+      ],
+      "filter": [
+        "removeEmptySVGLinks"
       ]
     },
     "Privacy Policy": {
       "fetch": "https://bitwarden.com/privacy/",
       "select": [
         "main"
+      ],
+      "filter": [
+        "removeEmptySVGLinks"
       ]
     }
   }
