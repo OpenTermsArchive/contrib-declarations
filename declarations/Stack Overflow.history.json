@@ -10,6 +10,16 @@
         ".fc-red-400 "
       ],
       "validUntil": "2023-12-01T03:44:00.000Z"
+    },
+    {
+      "fetch": "https://stackoverflow.com/legal/trademark-guidance",
+      "select": [
+        "main article"
+      ],
+      "remove": [
+        "nav"
+      ],
+      "validUntil": "2024-03-28T18:44:39Z"
     }
   ]
 }

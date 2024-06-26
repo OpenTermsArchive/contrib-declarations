@@ -53,10 +53,11 @@
     "Brand Guidelines": {
       "fetch": "https://stackoverflow.com/legal/trademark-guidance",
       "select": [
-        "main article"
+        "article"
       ],
       "remove": [
-        "nav"
+        "nav",
+        "a[title=\"Permalink to this heading\"][aria-hidden=\"true\"]"
       ]
     }
   }
