@@ -7,7 +7,9 @@
         "main"
       ],
       "remove": [
-        ".index_mdShareList__cVrPO"
+        "[class^=\"index_mdShareList\"]",
+        "[class^=\"index_articleSidebarContainer\"]",
+        ".okui-breadcrumbs"
       ]
     },
     "Privacy Policy": {
@@ -16,7 +18,9 @@
         "main"
       ],
       "remove": [
-        ".index_mdShareList__cVrPO"
+        "[class^=\"index_mdShareList\"]",
+        "[class^=\"index_articleSidebarContainer\"]",
+        ".okui-breadcrumbs"
       ]
     },
     "Law Enforcement Guidelines": {
@@ -25,7 +29,9 @@
         "main"
       ],
       "remove": [
-        ".index_mdShareList__cVrPO"
+        "[class^=\"index_mdShareList\"]",
+        "[class^=\"index_articleSidebarContainer\"]",
+        ".okui-breadcrumbs"
       ]
     }
   }
