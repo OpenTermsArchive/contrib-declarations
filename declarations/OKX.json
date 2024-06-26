@@ -1,0 +1,38 @@
+{
+  "name": "OKX",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.okx.com/help/terms-of-service-eea",
+      "select": [
+        "main"
+      ],
+      "remove": [
+        "[class^=\"index_mdShareList\"]",
+        "[class^=\"index_articleSidebarContainer\"]",
+        ".okui-breadcrumbs"
+      ]
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.okx.com/help/privacy-policy-statement-eea",
+      "select": [
+        "main"
+      ],
+      "remove": [
+        "[class^=\"index_mdShareList\"]",
+        "[class^=\"index_articleSidebarContainer\"]",
+        ".okui-breadcrumbs"
+      ]
+    },
+    "Law Enforcement Guidelines": {
+      "fetch": "https://www.okx.com/help/okx-law-enforcement-request-guide",
+      "select": [
+        "main"
+      ],
+      "remove": [
+        "[class^=\"index_mdShareList\"]",
+        "[class^=\"index_articleSidebarContainer\"]",
+        ".okui-breadcrumbs"
+      ]
+    }
+  }
+}
