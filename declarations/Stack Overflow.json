@@ -56,7 +56,8 @@
         "article"
       ],
       "remove": [
-        "nav"
+        "nav",
+        "a[title=\"Permalink to this heading\"][aria-hidden=\"true\"]"
       ]
     }
   }
