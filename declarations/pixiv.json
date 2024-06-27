@@ -5,9 +5,6 @@
       "fetch": "https://policies.pixiv.net/en/privacy_policy.html",
       "select": [
         ".terms-block"
-      ],
-      "remove": [
-        "img"
       ]
     },
     "Terms of Service": {
