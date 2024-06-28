@@ -1,0 +1,12 @@
+{
+  "name": "Mattermost beta.gouv.fr",
+  "documents": {
+    "Community Guidelines": {
+      "fetch": "https://pad.numerique.gouv.fr/s/SzOhdvBiJ",
+      "select": [
+        "#doc"
+      ],
+      "executeClientScripts": true
+    }
+  }
+}
