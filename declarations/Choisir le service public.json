@@ -1,0 +1,11 @@
+{
+  "name": "Choisir le service public",
+  "documents": {
+    "Imprint": {
+      "fetch": "https://choisirleservicepublic.gouv.fr/mentions-legales/",
+      "select": [
+        ".strate-wysiwyg"
+      ]
+    }
+  }
+}
