@@ -1,0 +1,15 @@
+{
+  "name": "demarches-simplifiees.fr",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://doc.demarches-simplifiees.fr/cgu",
+      "select": [
+        ".lg\\:px-12"
+      ],
+      "remove": [
+        ".md\\:flex-row",
+        ".items-center > .text-sm"
+      ]
+    }
+  }
+}
