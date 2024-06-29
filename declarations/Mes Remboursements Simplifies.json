@@ -1,0 +1,11 @@
+{
+  "name": "Mes Remboursements Simplifiés",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.mrs.beta.gouv.fr/mentions-legales",
+      "select": [
+        "#legals--wrapper"
+      ]
+    }
+  }
+}
