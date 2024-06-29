@@ -1,0 +1,11 @@
+{
+  "name": "Plateforme d'e-petitions du Sénat",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://petitions.senat.fr/pages/terms-and-conditions",
+      "select": [
+        ".wrapper"
+      ]
+    }
+  }
+}
