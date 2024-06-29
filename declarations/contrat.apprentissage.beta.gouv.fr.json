@@ -1,0 +1,12 @@
+{
+  "name": "contrat.apprentissage.beta.gouv.fr",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://cfas.apprentissage.beta.gouv.fr/cgu",
+      "select": [
+        ".css-1wgt9kb"
+      ],
+      "executeClientScripts": true
+    }
+  }
+}
