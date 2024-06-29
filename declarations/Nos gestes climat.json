@@ -1,0 +1,11 @@
+{
+  "name": "Nos gestes climat",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://nosgestesclimat.fr/politique-de-confidentialite",
+      "select": [
+        "div:nth-child(4)"
+      ]
+    }
+  }
+}
