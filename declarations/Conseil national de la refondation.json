@@ -1,0 +1,11 @@
+{
+  "name": "Conseil national de la refondation",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://conseil-refondation.fr/cgu/",
+      "select": [
+        ".fr-col-offset-md-2"
+      ]
+    }
+  }
+}
