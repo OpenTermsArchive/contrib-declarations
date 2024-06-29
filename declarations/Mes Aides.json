@@ -1,0 +1,11 @@
+{
+  "name": "Mes Aides",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://mes-aides.francetravail.fr/confidentialite",
+      "select": [
+        "#articleContainer"
+      ]
+    }
+  }
+}
