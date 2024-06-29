@@ -1,0 +1,11 @@
+{
+  "name": "Les élections en France",
+  "documents": {
+    "Imprint": {
+      "fetch": "https://www.elections.interieur.gouv.fr/mentions-legales",
+      "select": [
+        "main > .fr-container"
+      ]
+    }
+  }
+}
