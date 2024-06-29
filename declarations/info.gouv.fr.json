@@ -1,0 +1,14 @@
+{
+  "name": "info.gouv.fr",
+  "documents": {
+    "Human Rights Policy": {
+      "fetch": "https://www.info.gouv.fr/mentions-legales/diversite-et-egalite-professionnelle-entre-les-femmes-et-les-hommes-dans-les-services-du-premier-ministre",
+      "select": [
+        "#main-content"
+      ],
+      "remove": [
+        "[data-module=\"fil-ariane\"]"
+      ]
+    }
+  }
+}
