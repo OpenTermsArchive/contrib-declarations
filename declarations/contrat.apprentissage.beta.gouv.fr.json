@@ -1,0 +1,15 @@
+{
+  "name": "contrat.apprentissage.beta.gouv.fr",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://cfas.apprentissage.beta.gouv.fr/politique-de-confidentialite",
+      "select": [
+        ".notion-page"
+      ],
+      "remove": [
+        ".notion-page-icon"
+      ],
+      "executeClientScripts": true
+    }
+  }
+}
