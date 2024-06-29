@@ -1,0 +1,11 @@
+{
+  "name": "Plateforme des pétitions citoyennes de l'Assemblée Nationale",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://petitions.assemblee-nationale.fr/pages/terms-and-conditions",
+      "select": [
+        ".wrapper"
+      ]
+    }
+  }
+}
