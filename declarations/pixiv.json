@@ -2,9 +2,9 @@
   "name": "pixiv",
   "documents": {
     "Privacy Policy": {
-      "fetch": "https://policies.pixiv.net/en.html#privacy",
+      "fetch": "https://policies.pixiv.net/en/privacy_policy.html",
       "select": [
-        "#privacy"
+        ".terms-block"
       ]
     },
     "Terms of Service": {

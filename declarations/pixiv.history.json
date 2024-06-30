@@ -1,0 +1,11 @@
+{
+  "Privacy Policy": [
+    {
+      "fetch": "https://policies.pixiv.net/en.html#privacy",
+      "select": [
+        "#privacy"
+      ],
+      "validUntil": "2024-06-06T12:42:01Z"
+    }
+  ]
+}
