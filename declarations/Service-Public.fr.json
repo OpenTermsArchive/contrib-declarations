@@ -1,0 +1,14 @@
+{
+  "name": "Service-Public.fr",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.service-public.fr/P10050",
+      "select": [
+        ".article"
+      ],
+      "remove": [
+        ".sp-btn-see-all"
+      ]
+    }
+  }
+}
