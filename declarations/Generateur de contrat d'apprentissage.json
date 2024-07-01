@@ -1,5 +1,5 @@
 {
-  "name": "contrat.apprentissage.beta.gouv.fr",
+  "name": "Générateur de contrat d'apprentissage",
   "documents": {
     "Privacy Policy": {
       "fetch": "https://cfas.apprentissage.beta.gouv.fr/politique-de-confidentialite",
