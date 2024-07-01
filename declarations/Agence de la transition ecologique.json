@@ -4,11 +4,10 @@
     "Terms of Service": {
       "fetch": "https://www.ademe.fr/conditions-generales-dutilisation/",
       "select": [
-        ".wysiwyg"
+        "main"
       ],
       "remove": [
-        ".wp-block-group",
-        "sup"
+        ".breadcrumbs"
       ]
     }
   }
