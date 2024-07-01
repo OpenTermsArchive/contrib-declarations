@@ -4,7 +4,7 @@
     "Terms of Service": {
       "fetch": "https://adresse.data.gouv.fr/cgu",
       "select": [
-        ".row > .jsx-1990706486:nth-child(1)"
+        "main"
       ]
     }
   }
