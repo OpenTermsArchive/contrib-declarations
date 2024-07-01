@@ -4,10 +4,11 @@
     "Privacy Policy": {
       "fetch": "https://cfas.apprentissage.beta.gouv.fr/politique-de-confidentialite",
       "select": [
-        ".notion-page"
+        "main"
       ],
       "remove": [
-        ".notion-page-icon"
+        ".notion-page-icon",
+        ".notion-hash-link"
       ],
       "executeClientScripts": true
     }
