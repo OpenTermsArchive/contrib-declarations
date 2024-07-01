@@ -1,0 +1,16 @@
+{
+  "name": "Démarches simplifiées",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://doc.demarches-simplifiees.fr/cgu",
+      "select": [
+        "main"
+      ],
+      "remove": [
+        ".leading-snug",
+        ".leading-tight",
+        "a.group"
+      ]
+    }
+  }
+}
