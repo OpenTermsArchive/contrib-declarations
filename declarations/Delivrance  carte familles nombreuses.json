@@ -1,0 +1,12 @@
+{
+  "name": "Délivrance  carte familles nombreuses",
+  "documents": {
+    "User Consent Policy": {
+      "fetch": "https://www.carte-familles-nombreuses.gouv.fr/cgdu",
+      "select": [
+        ".fr-col > .ng-star-inserted:nth-child(3)"
+      ],
+      "executeClientScripts": true
+    }
+  }
+}
