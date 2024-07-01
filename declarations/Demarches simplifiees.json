@@ -4,11 +4,12 @@
     "Terms of Service": {
       "fetch": "https://doc.demarches-simplifiees.fr/cgu",
       "select": [
-        ".lg\\:px-12"
+        "main"
       ],
       "remove": [
-        ".md\\:flex-row",
-        ".items-center > .text-sm"
+        ".leading-snug",
+        ".leading-tight",
+        "a.group"
       ]
     }
   }
