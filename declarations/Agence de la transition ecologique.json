@@ -1,0 +1,14 @@
+{
+  "name": "Agence de la transition écologique",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.ademe.fr/donnees-personnelles/",
+      "select": [
+        "main"
+      ],
+      "remove": [
+        ".breadcrumbs"
+      ]
+    }
+  }
+}
