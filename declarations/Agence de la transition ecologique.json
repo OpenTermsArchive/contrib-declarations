@@ -4,7 +4,10 @@
     "Privacy Policy": {
       "fetch": "https://www.ademe.fr/donnees-personnelles/",
       "select": [
-        ".wysiwyg"
+        "main"
+      ],
+      "remove": [
+        ".breadcrumbs"
       ]
     }
   }
