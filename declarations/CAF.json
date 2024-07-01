@@ -1,0 +1,11 @@
+{
+  "name": "CAF",
+  "documents": {
+    "Imprint": {
+      "fetch": "https://www.caf.fr/allocataires/mentions-legales",
+      "select": [
+        "main"
+      ]
+    }
+  }
+}
