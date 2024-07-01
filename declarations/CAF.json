@@ -1,0 +1,14 @@
+{
+  "name": "CAF",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.caf.fr/allocataires/informatique-et-libertes",
+      "select": [
+        "main"
+      ],
+      "remove": [
+        ".breadcrumb"
+      ]
+    }
+  }
+}
