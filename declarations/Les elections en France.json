@@ -4,7 +4,7 @@
     "Imprint": {
       "fetch": "https://www.elections.interieur.gouv.fr/mentions-legales",
       "select": [
-        "main > .fr-container"
+        "main"
       ]
     }
   }
