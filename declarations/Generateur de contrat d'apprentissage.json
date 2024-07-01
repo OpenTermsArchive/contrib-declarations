@@ -6,6 +6,9 @@
       "select": [
         ".css-1wgt9kb"
       ],
+      "remove": [
+        ".css-bnx9px"
+      ],
       "executeClientScripts": true
     }
   }
