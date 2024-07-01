@@ -4,7 +4,10 @@
     "Imprint": {
       "fetch": "https://choisirleservicepublic.gouv.fr/mentions-legales/",
       "select": [
-        ".strate-wysiwyg"
+        "[role=\"main\"]"
+      ],
+      "remove": [
+        ".strate-breadcrumb"
       ]
     }
   }
