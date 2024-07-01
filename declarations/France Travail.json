@@ -1,0 +1,11 @@
+{
+  "name": "France Travail",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.francetravail.fr/informations/informations-legales-et-conditio/protection-des-donnees-personnel.html",
+      "select": [
+        ".article-content-left"
+      ]
+    }
+  }
+}
