@@ -1,5 +1,5 @@
 {
-  "name": "contrat.apprentissage.beta.gouv.fr",
+  "name": "Générateur de contrat d'apprentissage",
   "documents": {
     "Terms of Service": {
       "fetch": "https://cfas.apprentissage.beta.gouv.fr/cgu",
