@@ -4,7 +4,7 @@
     "Terms of Service": {
       "fetch": "https://petitions.senat.fr/pages/terms-and-conditions",
       "select": [
-        ".wrapper"
+        "main"
       ]
     }
   }
