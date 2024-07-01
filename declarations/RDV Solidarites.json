@@ -1,0 +1,11 @@
+{
+  "name": "RDV Solidarités",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.rdv-solidarites.fr/cgu",
+      "select": [
+        ".pt-3"
+      ]
+    }
+  }
+}
