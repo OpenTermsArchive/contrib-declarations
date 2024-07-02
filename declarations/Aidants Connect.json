@@ -1,0 +1,14 @@
+{
+  "name": "Aidants Connect",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://aidantsconnect.beta.gouv.fr/politique_confidentialite/",
+      "select": [
+        "main"
+      ],
+      "remove": [
+        ".fr-sidemenu"
+      ]
+    }
+  }
+}
