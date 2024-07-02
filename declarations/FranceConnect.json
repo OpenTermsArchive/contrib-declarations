@@ -3,12 +3,10 @@
   "documents": {
     "Terms of Service": {
       "fetch": "https://franceconnect.gouv.fr/cgu",
-      "select": [
-        ".container:nth-child(2)"
-      ],
-      "remove": [
-        ":nth-child(n+42)"
-      ]
+      "select": {
+        "startAfter": "#main-nav",
+        "endBefore": "footer"
+      }
     }
   }
 }
