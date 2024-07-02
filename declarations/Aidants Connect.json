@@ -4,7 +4,10 @@
     "Privacy Policy": {
       "fetch": "https://aidantsconnect.beta.gouv.fr/politique_confidentialite/",
       "select": [
-        ".section > .fr-container"
+        "main"
+      ],
+      "remove": [
+        ".fr-sidemenu"
       ]
     }
   }
