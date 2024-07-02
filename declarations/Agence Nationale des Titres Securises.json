@@ -1,0 +1,11 @@
+{
+  "name": "Agence Nationale des Titres Sécurisés",
+  "documents": {
+    "User Consent Policy": {
+      "fetch": "https://passeport.ants.gouv.fr/conditions-generales-d-utilisation-cgu",
+      "select": [
+        ".jss53"
+      ]
+    }
+  }
+}
