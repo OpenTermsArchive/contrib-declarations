@@ -4,7 +4,13 @@
     "Privacy Policy": {
       "fetch": "https://www.francetravail.fr/informations/informations-legales-et-conditio/protection-des-donnees-personnel.html",
       "select": [
-        ".article-content-left"
+        "[role=\"main\"]"
+      ],
+      "remove": [
+        "[role=\"navigation\"]",
+        ".breadcrumb-helper-wrapper",
+        "aside",
+        "[src=\"/files/live/sites/PE/files/infos-legales/protect-donnees-850.jpg\"]"
       ]
     }
   }
