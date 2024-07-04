@@ -4,7 +4,7 @@
     "User Consent Policy": {
       "fetch": "https://passeport.ants.gouv.fr/conditions-generales-d-utilisation-cgu",
       "select": [
-        ".jss53"
+        "main"
       ]
     }
   }
