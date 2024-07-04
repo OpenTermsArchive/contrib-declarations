@@ -1,5 +1,5 @@
 {
-  "name": "AIFE_Chorus Pro",
+  "name": "Portail de services Chorus Pro",
   "documents": {
     "User Consent Policy": {
       "fetch": "https://portail.chorus-pro.gouv.fr/aife_csm?id=aife_cgu",
