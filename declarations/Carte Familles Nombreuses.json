@@ -4,7 +4,7 @@
     "User Consent Policy": {
       "fetch": "https://www.carte-familles-nombreuses.gouv.fr/cgu",
       "select": [
-        ".fr-col > .ng-star-inserted:nth-child(3)"
+        "[role=\"main\"]"
       ],
       "executeClientScripts": true
     }
