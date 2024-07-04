@@ -4,7 +4,7 @@
     "Terms of Service": {
       "fetch": "https://www.rdv-solidarites.fr/cgu",
       "select": [
-        ".pt-3"
+        "main"
       ]
     }
   }
