@@ -4,7 +4,7 @@
     "User Consent Policy": {
       "fetch": "https://portail.chorus-pro.gouv.fr/aife_csm?id=aife_cgu",
       "select": [
-        ".description"
+        ".aife-page-container"
       ],
       "executeClientScripts": true
     }
