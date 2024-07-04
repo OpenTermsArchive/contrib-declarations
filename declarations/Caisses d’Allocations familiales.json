@@ -4,7 +4,10 @@
     "Imprint": {
       "fetch": "https://www.caf.fr/allocataires/mentions-legales",
       "select": [
-        "main"
+        "[role=\"main\"]"
+      ],
+      "remove": [
+        ".region-breadcrumb"
       ]
     }
   }
