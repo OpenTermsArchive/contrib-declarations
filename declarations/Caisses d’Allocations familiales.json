@@ -4,10 +4,10 @@
     "Terms of Service": {
       "fetch": "https://www.caf.fr/allocataires/informatique-et-libertes",
       "select": [
-        "main"
+        "[role=\"main\"]"
       ],
       "remove": [
-        ".breadcrumb"
+        ".region-breadcrumb"
       ]
     }
   }
