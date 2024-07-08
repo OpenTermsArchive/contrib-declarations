@@ -2,9 +2,16 @@
   "name": "Carte Familles Nombreuses",
   "documents": {
     "Terms of Service": {
-      "fetch": "https://www.carte-familles-nombreuses.gouv.fr/cgu",
       "select": [
         "[role=\"main\"]"
+      ],
+      "combine": [
+        {
+          "fetch": "https://www.carte-familles-nombreuses.gouv.fr/cgu"
+        },
+        {
+          "fetch": "https://www.carte-familles-nombreuses.gouv.fr/cgdu"
+        }
       ],
       "executeClientScripts": true
     }
