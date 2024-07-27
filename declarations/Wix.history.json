@@ -4,6 +4,11 @@
       "fetch": "https://www.wix.com/about/terms-of-use",
       "select": "body",
       "validUntil": "2020-11-09T17:30:03.000Z"
+    },
+    {
+      "fetch": "https://www.wix.com/about/terms-of-use",
+      "select": "#ContainermainPage",
+      "validUntil": "2024-07-03T18:18:38Z"
     }
   ],
   "Privacy Policy": [

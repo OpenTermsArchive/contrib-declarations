@@ -4,7 +4,7 @@
   "documents": {
     "Terms of Service": {
       "fetch": "https://www.wix.com/about/terms-of-use",
-      "select": "#ContainermainPage"
+      "select": ".site-root"
     },
     "Privacy Policy": {
       "fetch": "http://www.wix.com/about/privacy",
