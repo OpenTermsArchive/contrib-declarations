@@ -6,6 +6,9 @@
       "select": [
         "main"
       ],
+      "remove": [
+        ".fdn-breadcrumb__list"
+      ],
       "executeClientScripts": true
     },
     "Privacy Policy": {
