@@ -4,8 +4,7 @@
     "Terms of Service": {
       "fetch": "https://zoom.us/terms",
       "select": [
-        ".HeaderForWysiwyg__content",
-        ".WysiwygSection"
+        "main"
       ],
       "executeClientScripts": true
     },
