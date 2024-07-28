@@ -3,17 +3,17 @@
   "documents": {
     "Terms of Service": {
       "fetch": "https://viaplay.com/gb-en/terms",
-      "select": {
-        "startAfter": "header",
-        "endBefore": "footer"
-      }
+      "select": [
+        "h1",
+        "main"
+      ]
     },
     "Privacy Policy": {
       "fetch": "https://viaplay.com/gb-en/privacy",
-      "select": {
-        "startAfter": "header",
-        "endBefore": "footer"
-      }
+      "select": [
+        "h1",
+        "main"
+      ]
     }
   }
 }
