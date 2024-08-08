@@ -1,0 +1,22 @@
+{
+  "Terms of Service": [
+    {
+      "fetch": "https://viaplay.com/gb-en/terms",
+      "select": {
+        "startAfter": "header",
+        "endBefore": "footer"
+      },
+      "validUntil": "2024-07-03T18:17:09Z"
+    }
+  ],
+  "Privacy Policy": [
+    {
+      "fetch": "https://viaplay.com/gb-en/privacy",
+      "select": {
+        "startAfter": "header",
+        "endBefore": "footer"
+      },
+      "validUntil": "2024-07-03T18:17:13Z"
+    }
+  ]
+}
