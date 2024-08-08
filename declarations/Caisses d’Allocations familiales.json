@@ -1,0 +1,14 @@
+{
+  "name": "Caisses d’Allocations familiales",
+  "documents": {
+    "Imprint": {
+      "fetch": "https://www.caf.fr/allocataires/mentions-legales",
+      "select": [
+        "[role=\"main\"]"
+      ],
+      "remove": [
+        ".region-breadcrumb"
+      ]
+    }
+  }
+}
