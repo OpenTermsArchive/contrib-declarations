@@ -1,0 +1,14 @@
+{
+  "name": "Aidants Connect",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://aidantsconnect.beta.gouv.fr/cgu/",
+      "select": [
+        "main"
+      ],
+      "remove": [
+        ".fr-sidemenu"
+      ]
+    }
+  }
+}
