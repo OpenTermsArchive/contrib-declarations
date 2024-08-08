@@ -10,5 +10,16 @@
       ],
       "validUntil": "2021-10-08T01:14:03+04:00"
     }
+  ],
+  "Terms of Service": [
+    {
+      "fetch": "https://zoom.us/terms",
+      "select": [
+        ".HeaderForWysiwyg__content",
+        ".WysiwygSection"
+      ],
+      "executeClientScripts": true,
+      "validUntil": "2024-07-18T18:19:50Z"
+    }
   ]
 }
