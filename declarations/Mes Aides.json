@@ -1,0 +1,11 @@
+{
+  "name": "Mes Aides",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://mes-aides.francetravail.fr/cgu",
+      "select": [
+        "#articleContainer"
+      ]
+    }
+  }
+}
