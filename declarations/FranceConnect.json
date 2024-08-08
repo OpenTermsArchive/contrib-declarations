@@ -1,0 +1,12 @@
+{
+  "name": "FranceConnect",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://franceconnect.gouv.fr/cgu",
+      "select": {
+        "startAfter": "#main-nav",
+        "endBefore": "footer"
+      }
+    }
+  }
+}
