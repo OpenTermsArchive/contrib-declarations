@@ -9,6 +9,9 @@
       "remove": [
         ".fdn-breadcrumb__list"
       ],
+      "filter": [
+        "removeAmpDeviceId"
+      ],
       "executeClientScripts": true
     },
     "Privacy Policy": {
