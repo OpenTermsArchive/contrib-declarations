@@ -18,12 +18,8 @@
       "fetch": "https://telegram.org/faq?setln=en",
       "select": [
         {
-          "startBefore": "h4:has(> [name=q-who-are-the-people-behind-telegram])",
-          "endBefore": "h4:has(> [name=q-who-are-the-people-behind-telegram]) + h4"
-        },
-        {
-          "startBefore": "h4:has(> [name=q-where-is-telegram-based])",
-          "endBefore": "h4:has(> [name=q-where-is-telegram-based]) + h4"
+          "startBefore": "[name=q-who-are-the-people-behind-telegram]",
+          "endBefore": "[name=q-will-you-have-ads-in-my-private-chats-and-groups-or-sell-my-da]"
         }
       ]
     },
@@ -33,17 +29,7 @@
     },
     "Community Guidelines": {
       "fetch": "https://telegram.org/tos/eu-dsa?setln=en",
-      "select": ".tl_page_container",
-      "remove": [
-        {
-          "startBefore": "h4:has(> [name=contact-points-for-competent-authorities-in-eu-countries])",
-          "endBefore": "h4:has(> [name=contact-points-for-competent-authorities-in-eu-countries]) + h4"
-        },
-        {
-          "startBefore": "h4:has(> [name=average-monthly-active-recipients-of-service-in-the-eu])",
-          "endBefore": "h4:has(> [name=average-monthly-active-recipients-of-service-in-the-eu]) + h4"
-        }
-      ]
+      "select": ".tl_page_container"
     },
     "Law Enforcement Guidelines": {
       "combine": [
@@ -51,8 +37,8 @@
           "fetch": "https://telegram.org/tos/eu-dsa?setln=en",
           "select": [
             {
-              "startBefore": "h4:has(> [name=contact-points-for-competent-authorities-in-eu-countries]",
-              "endBefore": "h4:has(> [name=contact-points-for-competent-authorities-in-eu-countries]) + h4"
+              "startBefore": "[name=contact-points-for-competent-authorities-in-eu-countries]",
+              "endBefore": "[name=average-monthly-active-recipients-of-service-in-the-eu]"
             }
           ]
         },
@@ -60,10 +46,11 @@
           "fetch": "https://telegram.org/faq?setln=en",
           "select": [
             {
-              "startBefore": "h4:has(> [name=q-do-you-process-data-requests])",
-              "endBefore": "h4:has(> [name=q-do-you-process-data-requests]) + h4"
+              "startBefore": "[name=q-do-you-process-data-requests]",
+              "endBefore": "[name=telegram-basics]"
             }
-          ]
+          ],
+          "remove": "blockquote"
         }
       ]
     },
@@ -71,8 +58,8 @@
       "fetch": "https://telegram.org/faq?setln=en",
       "select": [
         {
-          "startBefore": "h4:has(> [name=q-a-bot-or-channel-is-infringing-on-my-copyright-what-do-i-do])",
-          "endBefore": "h4:has(> [name=q-a-bot-or-channel-is-infringing-on-my-copyright-what-do-i-do]) + h4"
+          "startBefore": "[name=q-a-bot-or-channel-is-infringing-on-my-copyright-what-do-i-do]",
+          "endBefore": "[name=q-do-you-process-take-down-requests-from-third-parties]"
         }
       ]
     },
@@ -80,17 +67,8 @@
       "fetch": "https://telegram.org/faq?setln=en",
       "select": [
         {
-          "startBefore": "h4:has(> [name=passport])",
-          "endBefore": "h4:has(> [name=passport]) + h4"
-        }
-      ]
-    },
-    "Complaints Policy": {
-      "fetch": "https://telegram.org/faq?setln=en",
-      "select": [
-        {
-          "startBefore": "h4:has(> [name=q-do-you-process-take-down-requests-from-third-parties])",
-          "endBefore": "h4:has(> [name=q-do-you-process-take-down-requests-from-third-parties]) + h4"
+          "startBefore": "[name=passport]",
+          "endBefore": "[name=troubleshooting]"
         }
       ]
     }
