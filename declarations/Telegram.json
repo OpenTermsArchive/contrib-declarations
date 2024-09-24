@@ -6,8 +6,20 @@
       "select": ".tl_page_container"
     },
     "Terms of Service": {
-      "fetch": "https://telegram.org/tos",
-      "select": ".tl_page_container"
+      "combine": [
+        {
+          "fetch": "https://telegram.org/tos",
+          "select": ".tl_page_container"
+        },
+        {
+          "fetch": "https://telegram.org/faq?setln=en",
+          "select": ".tl_page_container",
+          "remove": [
+            "img",
+            "video"
+          ]
+        }
+      ]
     },
     "Developer Terms": {
       "fetch": "https://core.telegram.org/api/terms",
