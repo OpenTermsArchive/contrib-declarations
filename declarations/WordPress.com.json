@@ -5,6 +5,11 @@
     "Terms of Service": {
       "fetch": "http://en.wordpress.com/tos/",
       "select": "div.pagebody"
+    },
+    "Privacy Policy": {
+      "fetch": "https://automattic.com/privacy/",
+      "select": "main",
+      "remove": ".toc-wrapper"
     }
   }
 }
