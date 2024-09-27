@@ -1,0 +1,9 @@
+{
+  "name": "WordPress Foundation",
+  "documents": {
+    "Brand Guidelines": {
+      "fetch": "https://wordpressfoundation.org/trademark-policy/",
+      "select": "main"
+    }
+  }
+}
