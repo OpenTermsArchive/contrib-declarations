@@ -1,0 +1,17 @@
+{
+  "name": "WPEngine",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://wpengine.com/legal/terms-of-service/",
+      "select": "article"
+    },
+    "Privacy Policy": {
+      "fetch": "https://wpengine.com/legal/privacy/",
+      "select": "article"
+    },
+    "Data Controller Agreement": {
+      "fetch": "https://wpengine.com/legal/dpa/",
+      "select": "article"
+    }
+  }
+}
