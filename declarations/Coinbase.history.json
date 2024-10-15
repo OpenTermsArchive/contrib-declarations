@@ -1,0 +1,38 @@
+{
+  "Privacy Policy": [
+    {
+      "fetch": "https://www.coinbase.com/legal/privacy",
+      "select": [
+        ".ComposePageLayout__ContentWrapper-sc-109zw5h-2"
+      ],
+      "remove": [
+        ".SidebarNav__NavigationLinksList-sc-1c3jy97-1"
+      ],
+      "executeClientScripts": true,
+      "validUntil": "2023-10-18T14:59:55Z"
+    }
+  ],
+  "Trackers Policy": [
+    {
+      "fetch": "https://www.coinbase.com/legal/cookie",
+      "select": [
+        "#main"
+      ],
+      "executeClientScripts": true,
+      "validUntil": "2023-10-18T14:59:58Z"
+    }
+  ],
+  "Terms of Service": [
+    {
+      "fetch": "https://www.coinbase.com/legal/user_agreement/ireland_europe",
+      "select": [
+        {
+          "startAfter": "#article_introduction",
+          "endBefore": ".footer"
+        }
+      ],
+      "executeClientScripts": true,
+      "validUntil": "2023-10-18T15:00:01Z"
+    }
+  ]
+}
