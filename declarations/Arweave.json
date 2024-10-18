@@ -1,0 +1,11 @@
+{
+  "name": "Arweave",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.arweave.org/legal-policies",
+      "select": [
+        "#legal"
+      ]
+    }
+  }
+}
