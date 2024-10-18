@@ -7,18 +7,14 @@
       "select": [
         "main"
       ],
-      "remove": [
-        "aside"
-      ]
+      "executeClientScripts": true
     },
     "Terms of Service": {
       "fetch": "https://evernote.com/legal/terms-of-service",
       "select": [
         "main"
       ],
-      "remove": [
-        "aside"
-      ]
+      "executeClientScripts": true
     }
   }
 }
