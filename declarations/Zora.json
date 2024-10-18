@@ -1,0 +1,23 @@
+{
+  "name": "Zora",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://support.zora.co/en/articles/1369025",
+      "select": [
+        ".page-content"
+      ],
+      "remove": [
+        ".kb-breadcrumb-wrapper"
+      ]
+    },
+    "Terms of Service": {
+      "fetch": "https://support.zora.co/en/articles/1369089",
+      "select": [
+        ".page-content"
+      ],
+      "remove": [
+        ".kb-breadcrumb-wrapper"
+      ]
+    }
+  }
+}
