@@ -1,0 +1,35 @@
+{
+  "name": "Ethereum",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://ethereum.org/en/privacy-policy/",
+      "select": [
+        "#main-content"
+      ],
+      "remove": [
+        "aside",
+        "#main-content > div.mb-4.mt-8.flex.w-full.flex-col.rounded.border.border-body-light.bg-feedback-gradient.p-6"
+      ]
+    },
+    "Terms of Service": {
+      "fetch": "https://ethereum.org/en/terms-of-use/",
+      "select": [
+        "#main-content"
+      ],
+      "remove": [
+        "aside",
+        "#main-content > div.mb-4.mt-8.flex.w-full.flex-col.rounded.border.border-body-light.bg-feedback-gradient.p-6"
+      ]
+    },
+    "Trackers Policy": {
+      "fetch": "https://ethereum.org/en/cookie-policy/",
+      "select": [
+        "#main-content"
+      ],
+      "remove": [
+        "aside",
+        "#main-content > div.mb-4.mt-8.flex.w-full.flex-col.rounded.border.border-body-light.bg-feedback-gradient.p-6"
+      ]
+    }
+  }
+}
