@@ -1,0 +1,23 @@
+{
+  "name": "Blockworks",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://blockworks.co/privacy-policy",
+      "select": [
+        "main"
+      ],
+      "remove": [
+        "nav"
+      ]
+    },
+    "Editorial Policy": {
+      "fetch": "https://blockworks.co/trust-ethics",
+      "select": [
+        "main"
+      ],
+      "remove": [
+        "nav"
+      ]
+    }
+  }
+}
