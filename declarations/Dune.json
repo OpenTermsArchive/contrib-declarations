@@ -1,0 +1,19 @@
+{
+  "name": "Dune",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://dune.com/terms",
+      "select": [
+        "main"
+      ],
+      "executeClientScripts": true
+    },
+    "Privacy Policy": {
+      "fetch": "https://dune.com/privacy",
+      "select": [
+        "main"
+      ],
+      "executeClientScripts": true
+    }
+  }
+}
