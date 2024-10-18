@@ -1,0 +1,17 @@
+{
+  "name": "Base",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://docs.base.org/docs/privacy-policy/",
+      "select": "article"
+    },
+    "Terms of Service": {
+      "fetch": "https://docs.base.org/docs/terms-of-service/",
+      "select": "article"
+    },
+    "Trackers Policy": {
+      "fetch": "https://docs.base.org/docs/cookie-policy/",
+      "select": "article"
+    }
+  }
+}
