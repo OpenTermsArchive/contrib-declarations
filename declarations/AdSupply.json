@@ -4,19 +4,19 @@
     "Terms of Service": {
       "fetch": "https://www.adsupply.com/advertiser-publisher-terms/",
       "select": [
-        ".entry-content"
+        "main"
       ]
     },
     "Privacy Policy": {
       "fetch": "https://www.adsupply.com/privacy-policy/",
       "select": [
-        ".entry-content"
+        "main"
       ]
     },
     "Trackers Policy": {
       "fetch": "https://www.adsupply.com/cookie-policy/",
       "select": [
-        ".entry-content"
+        "main"
       ]
     }
   }
