@@ -1,0 +1,13 @@
+{
+  "name": "WordPress.org",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://wordpress.org/about/privacy/",
+      "select": "main"
+    },
+    "Accessibility Statement": {
+      "fetch": "https://wordpress.org/about/accessibility/",
+      "select": "main"
+    }
+  }
+}
