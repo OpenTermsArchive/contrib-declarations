@@ -1,0 +1,23 @@
+{
+  "name": "Solana",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://solana.com/privacy-policy",
+      "select": [
+        "main"
+      ],
+      "remove": [
+        "img[aria-hidden=\"true\"]"
+      ]
+    },
+    "Terms of Service": {
+      "fetch": "https://solana.com/tos",
+      "select": [
+        "main"
+      ],
+      "remove": [
+        "img[aria-hidden=\"true\"]"
+      ]
+    }
+  }
+}
