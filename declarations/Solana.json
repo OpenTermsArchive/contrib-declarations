@@ -7,7 +7,7 @@
         "main"
       ],
       "remove": [
-        "img"
+        "img[aria-hidden=\"true\"]"
       ]
     },
     "Terms of Service": {
@@ -16,7 +16,7 @@
         "main"
       ],
       "remove": [
-        "img"
+        "img[aria-hidden=\"true\"]"
       ]
     }
   }
