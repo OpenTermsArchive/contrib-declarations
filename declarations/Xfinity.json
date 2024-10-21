@@ -23,8 +23,9 @@
     },
     "Acceptable Use Policy": {
       "fetch": "https://www.xfinity.com/Corporate/Customers/Policies/HighSpeedInternetAUP",
-      "select": ".x-section",
-      "remove": ".x-section > .x-content:first-child a"
+      "select": [
+        "main"
+      ]
     }
   }
 }

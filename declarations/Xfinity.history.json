@@ -33,6 +33,12 @@
       "fetch": "https://www.xfinity.com/Corporate/Customers/Policies/HighSpeedInternetAUP",
       "select": "body",
       "validUntil": "2020-11-09T17:30:03.000Z"
+    },
+    {
+      "fetch": "https://www.xfinity.com/Corporate/Customers/Policies/HighSpeedInternetAUP",
+      "select": ".x-section",
+      "remove": ".x-section > .x-content:first-child a",
+      "validUntil": "2023-10-18T15:13:22Z"
     }
   ]
 }
