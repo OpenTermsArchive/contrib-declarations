@@ -4,19 +4,13 @@
     "Privacy Policy": {
       "fetch": "https://blockworks.co/privacy-policy",
       "select": [
-        "main"
-      ],
-      "remove": [
-        "nav"
+        "article"
       ]
     },
     "Editorial Policy": {
       "fetch": "https://blockworks.co/trust-ethics",
       "select": [
-        "main"
-      ],
-      "remove": [
-        "nav"
+        "article"
       ]
     }
   }
