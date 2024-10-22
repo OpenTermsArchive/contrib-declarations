@@ -7,7 +7,8 @@
         ".page-content"
       ],
       "remove": [
-        ".kb-breadcrumb-wrapper"
+        ".kb-breadcrumb-wrapper",
+        "#article-edited"
       ]
     },
     "Terms of Service": {
@@ -16,7 +17,8 @@
         ".page-content"
       ],
       "remove": [
-        ".kb-breadcrumb-wrapper"
+        ".kb-breadcrumb-wrapper",
+        "#article-edited"
       ]
     }
   }
