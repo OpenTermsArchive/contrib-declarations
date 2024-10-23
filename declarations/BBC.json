@@ -4,11 +4,27 @@
   "documents": {
     "Privacy Policy": {
       "fetch": "https://www.bbc.co.uk/usingthebbc/privacy-policy/",
-      "select": ".gel-layout__item:nth-child(5)"
+      "select": [
+        ".ipagesHero-title",
+        "main"
+      ],
+      "remove": [
+        ".stickysidenav",
+        "a[href$=\"#top\"]",
+        ".languageList"
+      ]
     },
     "Terms of Service": {
       "fetch": "https://www.bbc.co.uk/usingthebbc/terms-of-use/",
-      "select": ".gel-layout__item:nth-child(5)"
+      "select": [
+        ".ipagesHero-title",
+        "main"
+      ],
+      "remove": [
+        ".stickysidenav",
+        "a[href$=\"#top\"]",
+        ".languageList"
+      ]
     }
   }
 }

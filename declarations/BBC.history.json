@@ -4,6 +4,11 @@
       "fetch": "https://www.bbc.co.uk/usingthebbc/privacy-policy/",
       "select": "body",
       "validUntil": "2020-12-08T16:00:00.000Z"
+    },
+    {
+      "fetch": "https://www.bbc.co.uk/usingthebbc/privacy-policy/",
+      "select": ".gel-layout__item:nth-child(5)",
+      "validUntil": "2023-10-18T14:59:00Z"
     }
   ],
   "Terms of Service": [
@@ -11,6 +16,11 @@
       "fetch": "https://www.bbc.co.uk/usingthebbc/terms-of-use/",
       "select": "body",
       "validUntil": "2020-12-08T16:00:00.000Z"
+    },
+    {
+      "fetch": "https://www.bbc.co.uk/usingthebbc/terms-of-use/",
+      "select": ".gel-layout__item:nth-child(5)",
+      "validUntil": "2023-10-18T14:59:03Z"
     }
   ]
 }
