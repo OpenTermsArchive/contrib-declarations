@@ -5,12 +5,22 @@
     "Privacy Policy": {
       "fetch": "https://help.disqus.com/en/articles/1717103-disqus-privacy-policy",
       "select": ".article",
-      "remove": ".article__meta"
+      "remove": [
+        ".article__meta",
+        ".avatar__photo"
+      ],
+      "filter": [
+        "cleanHref",
+        "cleanSrc"
+      ]
     },
     "Terms of Service": {
       "fetch": "https://help.disqus.com/en/articles/1717102-terms-of-service",
       "select": ".article",
-      "remove": ".article__meta"
+      "remove": [
+        ".article__meta",
+        ".avatar__photo"
+      ]
     }
   }
 }
