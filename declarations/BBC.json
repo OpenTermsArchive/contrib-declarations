@@ -9,8 +9,9 @@
         "main"
       ],
       "remove": [
-        "nav",
-        "a[href='#top']"
+        ".stickysidenav",
+        "a[href$=\"#top\"]",
+        ".languageList"
       ]
     },
     "Terms of Service": {
@@ -20,8 +21,9 @@
         "main"
       ],
       "remove": [
-        "nav",
-        "a[href='#top']"
+        ".stickysidenav",
+        "a[href$=\"#top\"]",
+        ".languageList"
       ]
     }
   }
