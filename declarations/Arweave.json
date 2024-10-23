@@ -1,0 +1,23 @@
+{
+  "name": "Arweave",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.arweave.org/legal-policies",
+      "select": [
+        "#legal .my-6.mb-16:nth-of-type(1)"
+      ]
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.arweave.org/legal-policies",
+      "select": [
+        "#legal .my-6.mb-16:nth-of-type(2)"
+      ]
+    },
+    "Imprint": {
+      "fetch": "https://www.arweave.org/legal-policies",
+      "select": [
+        "#legal .my-6.mb-16:nth-of-type(3)"
+      ]
+    }
+  }
+}
