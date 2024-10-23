@@ -12,17 +12,21 @@ export function cleanSrc(document) {
 
 function cleanURLParams(url) {
   const searchString = 'https://downloads.intercomcdn.com';
+
   if (url.includes(searchString)) {
     try {
       const parsedUrl = new URL(url);
+
       parsedUrl.searchParams.delete('expires');
       parsedUrl.searchParams.delete('req');
       parsedUrl.searchParams.delete('signature');
       const cleanedUrl = parsedUrl.toString();
+
       return cleanedUrl;
     } catch (error) {
       return url;
     }
   }
+
   return url;
 }
