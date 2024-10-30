@@ -4,7 +4,7 @@
     "Terms of Service": {
       "fetch": "https://discord.com/terms",
       "select": [
-        ".section-rich.wf-section"
+        ".section-rich"
       ],
       "remove": [
         ".archived-link",
@@ -14,7 +14,7 @@
     "Privacy Policy": {
       "fetch": "https://discord.com/privacy",
       "select": [
-        ".section-rich.wf-section"
+        ".section-rich"
       ],
       "remove": [
         ".archived-link",
@@ -24,7 +24,7 @@
     "Community Guidelines": {
       "fetch": "https://discord.com/guidelines",
       "select": [
-        ".section-rich.wf-section"
+        ".section-rich"
       ],
       "remove": [
         ".archived-link",

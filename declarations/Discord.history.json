@@ -4,6 +4,17 @@
       "fetch": "https://discord.com/terms",
       "select": ".document-3OCpS5",
       "validUntil": "2022-01-13T00:34:24Z"
+    },
+    {
+      "fetch": "https://discord.com/terms",
+      "select": [
+        ".section-rich.wf-section"
+      ],
+      "remove": [
+        ".archived-link",
+        ".link-terms"
+      ],
+      "validUntil": "2023-10-18T15:00:22Z"
     }
   ],
   "Privacy Policy": [
@@ -11,6 +22,30 @@
       "fetch": "https://discord.com/privacy",
       "select": ".document-3OCpS5",
       "validUntil": "2022-01-13T00:34:25Z"
+    },
+    {
+      "fetch": "https://discord.com/privacy",
+      "select": [
+        ".section-rich.wf-section"
+      ],
+      "remove": [
+        ".archived-link",
+        ".link-terms"
+      ],
+      "validUntil": "2023-10-18T15:00:28Z"
+    }
+  ],
+  "Community Guidelines": [
+    {
+      "fetch": "https://discord.com/guidelines",
+      "select": [
+        ".section-rich.wf-section"
+      ],
+      "remove": [
+        ".archived-link",
+        ".link-terms"
+      ],
+      "validUntil": "2023-10-18T15:00:25Z"
     }
   ]
 }
