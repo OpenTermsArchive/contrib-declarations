@@ -17,6 +17,11 @@
       "select": "#primaryR1",
       "remove": ".f-lean",
       "validUntil": "2021-01-07T13:03:00.000Z"
+    },
+    {
+      "fetch": "https://www.microsoft.com/en-us/legal/terms-of-use",
+      "select": "#primaryR1",
+      "validUntil": "2024-11-06T18:10:31Z"
     }
   ]
 }
