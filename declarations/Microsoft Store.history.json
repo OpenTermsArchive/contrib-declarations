@@ -21,7 +21,7 @@
     {
       "fetch": "https://www.microsoft.com/en-us/legal/terms-of-use",
       "select": "#primaryR1",
-      "validUntil": "to-be-determined"
+      "validUntil": "2024-11-06T18:10:31Z"
     }
   ]
 }
