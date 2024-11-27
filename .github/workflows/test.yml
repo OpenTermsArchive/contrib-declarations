@@ -39,7 +39,7 @@ jobs:
       - name: Generate artifacts
         if: ${{ failure() }}
         run: npm run start:modified
-      - uses: actions/upload-artifact@v3
+      - uses: actions/upload-artifact@v4
         if: ${{ failure() }}
         with:
           name: snapshots_and_versions
