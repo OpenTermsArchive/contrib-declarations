@@ -2,9 +2,11 @@ id: contrib
 name: Contrib
 tagline: Documents added by volunteer contributors and historically imported from TOSBack.org
 description: |
-  The Contrib collection is maintained collaboratively by volunteer contributors. It contains all document versions that are not maintained by a dedicated actor. Data from the Contrib collection has been reused in a number of projects, ranging from research on the impact of social media terms of use on human rights to improving document readability.
+  The Contrib collection contains terms written in English that may concern any industry and any jurisdiction. It was created thanks to a collaboration with [Tosback](https://tosback.org/), which enabled the import of its data history. 
+  
+  It's one of the federation's largest collections, tracking over 300 services maintained by volunteer contributors. It is also a good entry point into the Open Terms Archive ecosystem to became familiar with monitoring and change analysis.
 
-  The documents in this collection fall under European Union and U.S. jurisdictions and are in French and English. This collection tracks documents from over 300 services.
+  Data from the this collection has been reused in a number of projects, ranging from research on the impact of social media terms of use on human rights to improving document readability.
 dataset: https://github.com/OpenTermsArchive/contrib-versions/releases
 declarations: https://github.com/OpenTermsArchive/contrib-declarations
 versions: https://github.com/OpenTermsArchive/contrib-versions
@@ -39,9 +41,11 @@ i18n:
   fr: 
     tagline: Documents ajoutés par des contributeurs bénévoles et importés historiquement de TOSBack.org
     description: | 
-      La collection Contrib est maintenue de manière collaborative par des contributeurs bénévoles. Elle contient toutes les versions de documents qui ne sont pas gérées par un acteur dédié. Les données de la collection Contrib ont été réutilisées dans de nombreux projets, allant de la recherche sur l’impact des conditions d’utilisation des réseaux sociaux sur les droits humains à l’amélioration de la lisibilité des documents.
-
-      Les documents de cette collection relèvent des juridictions de l’Union européenne et des États-Unis et sont rédigés en français et en anglais. Cette collection suit les documents de plus de 300 services.
+        La collection Contrib contient des documents rédigés en anglais qui peuvent concerner n'importe quelle industries et juridictions. Elle a été créée grâce à une collaboration avec [Tosback](https://tosback.org/), qui a permis d'importer son historique de données.
+        
+        C'est l'une des plus grandes collections de la fédération, avec plus de 300 services maintenus par des contributeurs bénévoles. C'est également un bon point d'entrée dans l'écosystème d'Open Terms Archive pour se familiariser avec le suivi et l'analyse du changement.
+        
+        Les données de cette collection ont été réutilisées dans un certain nombre de projets, allant de la recherche sur l'impact des conditions d'utilisation des médias sociaux sur les droits de l'homme à l'amélioration de la lisibilité des documents.
     governance:
       hosts: 
         - name: Ministère de l'Europe et des Affaires étrangères 
