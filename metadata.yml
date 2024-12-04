@@ -1,0 +1,57 @@
+id: contrib
+name: Contrib
+tagline: Documents added by volunteer contributors and historically imported from TOSBack.org
+description: |
+  The Contrib collection is maintained collaboratively by volunteer contributors. It contains all document versions that are not maintained by a dedicated actor. Data from the Contrib collection has been reused in a number of projects, ranging from research on the impact of social media terms of use on human rights to improving document readability.
+
+  The documents in this collection fall under European Union and U.S. jurisdictions and are in French and English. This collection tracks documents from over 300 services.
+dataset: https://github.com/OpenTermsArchive/contrib-versions/releases
+declarations: https://github.com/OpenTermsArchive/contrib-declarations
+versions: https://github.com/OpenTermsArchive/contrib-versions
+snapshots: https://github.com/OpenTermsArchive/contrib-snapshots
+donations: https://opencollective.com/opentermsarchive
+logo: https://opentermsarchive.org/images/collections/contrib.png
+languages: [en, fr]
+jurisdictions: [EU, US]
+trackingPeriods:
+  startDate: 2021-11-14
+  schedule: "0 6,18 * * *"
+  serverLocation: London, GB
+governance:
+  hosts: 
+    - name: Ministry for Europe and Foreign Affairs
+      url: https://www.diplomatie.gouv.fr/en/
+      logo: https://opentermsarchive.org/images/contributors/meae.png
+  administrators:
+    - name: Open Terms Archive
+      url: https://opentermsarchive.org/
+      logo: https://opentermsarchive.org/images/logo/logo-open-terms-archive-black.png
+  curators:
+    - name: Volunteer contributors
+  maintainers:
+    - name: Volunteer contributors
+  sponsors: 
+    - name: Ministry for Europe and Foreign Affairs
+      url: https://www.diplomatie.gouv.fr/en/
+      logo: https://opentermsarchive.org/images/contributors/meae.png
+
+i18n:
+  fr: 
+    tagline: Documents ajoutés par des contributeurs bénévoles et importés historiquement de TOSBack.org
+    description: | 
+      La collection Contrib est maintenue de manière collaborative par des contributeurs bénévoles. Elle contient toutes les versions de documents qui ne sont pas gérées par un acteur dédié. Les données de la collection Contrib ont été réutilisées dans de nombreux projets, allant de la recherche sur l’impact des conditions d’utilisation des réseaux sociaux sur les droits humains à l’amélioration de la lisibilité des documents.
+
+      Les documents de cette collection relèvent des juridictions de l’Union européenne et des États-Unis et sont rédigés en français et en anglais. Cette collection suit les documents de plus de 300 services.
+    governance:
+      hosts: 
+        - name: Ministère de l'Europe et des Affaires étrangères 
+          url: https://www.diplomatie.gouv.fr
+          logo: https://opentermsarchive.org/images/contributors/meae.png
+      curators:
+        - name: Contributeurs bénévoles
+      maintainers:
+        - name: Contributeurs bénévoles
+      sponsors: 
+        - name: Ministère de l'Europe et des Affaires étrangères 
+          url: https://www.diplomatie.gouv.fr
+          logo: https://opentermsarchive.org/images/contributors/meae.png
