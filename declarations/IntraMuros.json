@@ -1,0 +1,14 @@
+{
+  "name": "IntraMuros",
+  "documents": {
+    "Imprint": {
+      "fetch": "https://www.intramuros.org/mentions-legales",
+      "select": [
+        "main"
+      ],
+      "remove": [
+        "[role=\"navigation\"]"
+      ]
+    }
+  }
+}
