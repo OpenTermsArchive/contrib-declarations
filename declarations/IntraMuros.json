@@ -1,0 +1,14 @@
+{
+  "name": "IntraMuros",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.intramuros.org/cgu",
+      "select": [
+        "main"
+      ],
+      "remove": [
+        "[role=\"navigation\"]"
+      ]
+    }
+  }
+}
