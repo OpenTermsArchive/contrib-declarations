@@ -1,12 +1,14 @@
 id: contrib
 name: Contrib
-tagline: Documents added by volunteer contributors and historically imported from TOSBack.org
+tagline: Collection open to all contributions
 description: |
-  The Contrib collection contains terms written in English that may concern any industry and any jurisdiction. It was created thanks to a collaboration with [Tosback](https://tosback.org/), which enabled the import of its data history. 
-  
-  It's one of the federation's largest collections, tracking over 300 services maintained by volunteer contributors. It is also a good entry point into the Open Terms Archive ecosystem to became familiar with monitoring and change analysis.
+  The **Contrib** collection gathers terms spanning a wide variety of industries and jurisdictions.
 
-  Data from the this collection has been reused in a number of projects, ranging from research on the impact of social media terms of use on human rights to improving document readability.
+  It was initially created thanks to a collaboration with [Tosback](https://tosback.org), which enabled the import of its data history.
+
+  It’s one of the federation’s largest collections, tracking over 300 services maintained by volunteer contributors. It is also a good entry point into the Open Terms Archive ecosystem to became familiar with monitoring and change analysis.
+
+  The data in this collection has been reused in a variety of projects, from research into the impact of social media usage conditions on human rights, to improving the readability of documents.
 dataset: https://github.com/OpenTermsArchive/contrib-versions/releases
 declarations: https://github.com/OpenTermsArchive/contrib-declarations
 versions: https://github.com/OpenTermsArchive/contrib-versions
@@ -30,8 +32,14 @@ governance:
       logo: https://opentermsarchive.org/images/logo/logo-open-terms-archive-black.png
   curators:
     - name: Volunteer contributors
+    - name: Open Terms Archive
+      url: https://opentermsarchive.org/
+      logo: https://opentermsarchive.org/images/logo/logo-open-terms-archive-black.png
   maintainers:
     - name: Volunteer contributors
+    - name: Open Terms Archive
+      url: https://opentermsarchive.org/
+      logo: https://opentermsarchive.org/images/logo/logo-open-terms-archive-black.png
   sponsors: 
     - name: Ministry for Europe and Foreign Affairs
       url: https://www.diplomatie.gouv.fr/en/
@@ -39,13 +47,15 @@ governance:
 
 i18n:
   fr: 
-    tagline: Documents ajoutés par des contributeurs bénévoles et importés historiquement de TOSBack.org
+    tagline: Collection ouverte à toutes contributions
     description: | 
-        La collection Contrib contient des documents rédigés en anglais qui peuvent concerner n'importe quelle industries et juridictions. Elle a été créée grâce à une collaboration avec [Tosback](https://tosback.org/), qui a permis d'importer son historique de données.
-        
-        C'est l'une des plus grandes collections de la fédération, avec plus de 300 services maintenus par des contributeurs bénévoles. C'est également un bon point d'entrée dans l'écosystème d'Open Terms Archive pour se familiariser avec le suivi et l'analyse du changement.
-        
-        Les données de cette collection ont été réutilisées dans un certain nombre de projets, allant de la recherche sur l'impact des conditions d'utilisation des médias sociaux sur les droits de l'homme à l'amélioration de la lisibilité des documents.
+      La collection **Contrib** rassemble des conditions d’utilisation couvrant une large diversité d’industries et de juridictions.
+
+      Elle a été initialement créée en collaboration avec [Tosback](https://tosback.org), qui a permis d’importer son historique de données.
+
+      C’est l’une des plus grandes collections de la fédération, avec plus de 300 services maintenus par des contributeurs bénévoles. C’est également un bon point d’entrée dans l’écosystème d’Open Terms Archive pour se familiariser avec le suivi et l’analyse du changement.
+
+      Les données de cette collection ont été réutilisées dans divers projets, allant de la recherche sur l’impact des conditions d’utilisation des médias sociaux sur les droits de l’homme à l’amélioration de la lisibilité des documents.
     governance:
       hosts: 
         - name: Ministère de l'Europe et des Affaires étrangères 
@@ -53,8 +63,14 @@ i18n:
           logo: https://opentermsarchive.org/images/contributors/meae.png
       curators:
         - name: Contributeurs bénévoles
+        - name: Open Terms Archive
+          url: https://opentermsarchive.org/
+          logo: https://opentermsarchive.org/images/logo/logo-open-terms-archive-black.png
       maintainers:
         - name: Contributeurs bénévoles
+        - name: Open Terms Archive
+          url: https://opentermsarchive.org/
+          logo: https://opentermsarchive.org/images/logo/logo-open-terms-archive-black.png
       sponsors: 
         - name: Ministère de l'Europe et des Affaires étrangères 
           url: https://www.diplomatie.gouv.fr
