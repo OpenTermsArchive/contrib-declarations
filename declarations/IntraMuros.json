@@ -1,0 +1,14 @@
+{
+  "name": "IntraMuros",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.intramuros.org/confidentialite",
+      "select": [
+        "main"
+      ],
+      "remove": [
+        "[role=\"navigation\"]"
+      ]
+    }
+  }
+}
