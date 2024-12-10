@@ -18,9 +18,9 @@ logo: https://opentermsarchive.org/images/collections/contrib.png
 languages: [en, fr]
 jurisdictions: [EU, US]
 trackingPeriods:
-startDate: 2021-11-14
-schedule: "0 6,18 * * *"
-serverLocation: London, GB
+  - startDate: 2021-11-14
+    schedule: "0 6,18 * * *"
+    serverLocation: London, GB
 governance:
   hosts: 
     - name: Ministry for Europe and Foreign Affairs
