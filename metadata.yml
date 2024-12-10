@@ -32,9 +32,6 @@ governance:
       logo: https://opentermsarchive.org/images/logo/logo-open-terms-archive-black-small.png
   curators:
     - name: Volunteer contributors
-    - name: Open Terms Archive
-      url: https://opentermsarchive.org/
-      logo: https://opentermsarchive.org/images/logo/logo-open-terms-archive-black-small.png
   maintainers:
     - name: Volunteer contributors
     - name: Open Terms Archive
@@ -63,9 +60,6 @@ i18n:
           logo: https://opentermsarchive.org/images/contributors/meae.png
       curators:
         - name: Contributeurs bénévoles
-        - name: Open Terms Archive
-          url: https://opentermsarchive.org/
-          logo: https://opentermsarchive.org/images/logo/logo-open-terms-archive-black-small.png
       maintainers:
         - name: Contributeurs bénévoles
         - name: Open Terms Archive
