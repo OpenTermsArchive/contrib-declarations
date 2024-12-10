@@ -18,9 +18,9 @@ logo: https://opentermsarchive.org/images/collections/contrib.png
 languages: [en, fr]
 jurisdictions: [EU, US]
 trackingPeriods:
-  startDate: 2021-11-14
-  schedule: "0 6,18 * * *"
-  serverLocation: London, GB
+startDate: 2021-11-14
+schedule: "0 6,18 * * *"
+serverLocation: London, GB
 governance:
   hosts: 
     - name: Ministry for Europe and Foreign Affairs
@@ -29,17 +29,17 @@ governance:
   administrators:
     - name: Open Terms Archive
       url: https://opentermsarchive.org/
-      logo: https://opentermsarchive.org/images/logo/logo-open-terms-archive-black.png
+      logo: https://opentermsarchive.org/images/logo/logo-open-terms-archive-black-small.png
   curators:
     - name: Volunteer contributors
     - name: Open Terms Archive
       url: https://opentermsarchive.org/
-      logo: https://opentermsarchive.org/images/logo/logo-open-terms-archive-black.png
+      logo: https://opentermsarchive.org/images/logo/logo-open-terms-archive-black-small.png
   maintainers:
     - name: Volunteer contributors
     - name: Open Terms Archive
       url: https://opentermsarchive.org/
-      logo: https://opentermsarchive.org/images/logo/logo-open-terms-archive-black.png
+      logo: https://opentermsarchive.org/images/logo/logo-open-terms-archive-black-small.png
   sponsors: 
     - name: Ministry for Europe and Foreign Affairs
       url: https://www.diplomatie.gouv.fr/en/
@@ -65,12 +65,12 @@ i18n:
         - name: Contributeurs bénévoles
         - name: Open Terms Archive
           url: https://opentermsarchive.org/
-          logo: https://opentermsarchive.org/images/logo/logo-open-terms-archive-black.png
+          logo: https://opentermsarchive.org/images/logo/logo-open-terms-archive-black-small.png
       maintainers:
         - name: Contributeurs bénévoles
         - name: Open Terms Archive
           url: https://opentermsarchive.org/
-          logo: https://opentermsarchive.org/images/logo/logo-open-terms-archive-black.png
+          logo: https://opentermsarchive.org/images/logo/logo-open-terms-archive-black-small.png
       sponsors: 
         - name: Ministère de l'Europe et des Affaires étrangères 
           url: https://www.diplomatie.gouv.fr
