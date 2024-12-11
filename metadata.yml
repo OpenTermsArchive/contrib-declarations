@@ -22,25 +22,16 @@ trackingPeriods:
     schedule: "0 6,18 * * *"
     serverLocation: London, GB
 governance:
-  hosts: 
-    - name: Ministry for Europe and Foreign Affairs
-      url: https://www.diplomatie.gouv.fr/en/
-      logo: https://opentermsarchive.org/images/contributors/meae.png
-  administrators:
-    - name: Open Terms Archive
-      url: https://opentermsarchive.org/
-      logo: https://opentermsarchive.org/images/logo/logo-open-terms-archive-black-small.png
-  curators:
-    - name: Volunteer contributors
-  maintainers:
-    - name: Volunteer contributors
-    - name: Open Terms Archive
-      url: https://opentermsarchive.org/
-      logo: https://opentermsarchive.org/images/logo/logo-open-terms-archive-black-small.png
-  sponsors: 
-    - name: Ministry for Europe and Foreign Affairs
-      url: https://www.diplomatie.gouv.fr/en/
-      logo: https://opentermsarchive.org/images/contributors/meae.png
+  Ministry for Europe and Foreign Affairs:
+    url: https://www.diplomatie.gouv.fr/en/
+    logo: https://opentermsarchive.org/images/contributors/meae.png
+    roles: [host, sponsor]
+  Open Terms Archive:
+    url: https://opentermsarchive.org
+    logo: https://opentermsarchive.org/images/logo/logo-open-terms-archive-black-small.png
+    roles: [administrator, maintainer]
+  Volunteer contributors:
+    roles: [curator, maintainer]
 
 i18n:
   fr: 
@@ -54,18 +45,8 @@ i18n:
       
       Les données de cette collection ont été réutilisées dans divers projets allant de la recherche sur l'impact des conditions d'utilisation des médias sociaux sur les droits de l'homme à l'amélioration de la lisibilité des CGUs.
     governance:
-      hosts: 
-        - name: Ministère de l'Europe et des Affaires étrangères
-          url: https://www.diplomatie.gouv.fr
-          logo: https://opentermsarchive.org/images/contributors/meae.png
-      curators:
-        - name: Contributeurs bénévoles
-      maintainers:
-        - name: Contributeurs bénévoles
-        - name: Open Terms Archive
-          url: https://opentermsarchive.org/
-          logo: https://opentermsarchive.org/images/logo/logo-open-terms-archive-black-small.png
-      sponsors: 
-        - name: Ministère de l'Europe et des Affaires étrangères
-          url: https://www.diplomatie.gouv.fr
-          logo: https://opentermsarchive.org/images/contributors/meae.png
+      Ministry for Europe and Foreign Affairs: 
+        name: Ministère de l'Europe et des Affaires étrangères
+        url: https://www.diplomatie.gouv.fr
+      Volunteer contributors:
+        name: Contributeurs bénévoles
