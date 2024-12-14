@@ -1,0 +1,52 @@
+id: contrib
+name: Contrib
+tagline: Collection open to all contributions
+description: |
+  The **Contrib** collection gathers terms spanning a wide variety of industries and jurisdictions.
+  
+  It was initially created thanks to a collaboration with [TOSBack](https://tosback.org/), which enabled the import of its data history.
+  
+  It's the largest collections in the federation, tracking over 300 services maintained by volunteer contributors. It is also a good entry point into the Open Terms Archive ecosystem to become familiar with monitoring and change analysis.
+  
+  The data in this collection has been reused in a variety of projects, from research into the impact of social media usage conditions on human rights, to improving the readability of documents.
+dataset: https://github.com/OpenTermsArchive/contrib-versions/releases
+declarations: https://github.com/OpenTermsArchive/contrib-declarations
+versions: https://github.com/OpenTermsArchive/contrib-versions
+snapshots: https://github.com/OpenTermsArchive/contrib-snapshots
+donations: https://opencollective.com/opentermsarchive
+logo: https://opentermsarchive.org/images/collections/contrib.png
+languages: [en, fr]
+jurisdictions: [EU, US]
+trackingPeriods:
+  - startDate: 2021-11-14
+    schedule: "0 6,18 * * *"
+    serverLocation: London, GB
+governance:
+  Ministry for Europe and Foreign Affairs:
+    url: https://www.diplomatie.gouv.fr/en/
+    logo: https://opentermsarchive.org/images/contributors/meae.png
+    roles: [host, sponsor]
+  Open Terms Archive:
+    url: https://opentermsarchive.org
+    logo: https://opentermsarchive.org/images/logo/logo-open-terms-archive-black-small.png
+    roles: [administrator, maintainer]
+  Volunteer contributors:
+    roles: [curator, maintainer]
+
+i18n:
+  fr: 
+    tagline: Collection ouverte à toutes contributions
+    description: | 
+      La collection **Contrib** rassemble des conditions d'utilisation couvrant une grande variété d'industries et de juridictions.
+      
+      Elle a été initialement créée en collaboration avec [TOSBack](https://tosback.org/), qui a permis d'importer son historique de données.
+      
+      C'est l'une des plus grandes collections de la fédération, avec plus de 300 services maintenus par des contributeurs bénévoles. C'est également un bon point d'entrée dans l'écosystème d'Open Terms Archive pour se familiariser avec le suivi et l'analyse des changements.
+      
+      Les données de cette collection ont été réutilisées dans divers projets allant de la recherche sur l'impact des conditions d'utilisation des médias sociaux sur les droits de l'homme à l'amélioration de la lisibilité des CGUs.
+    governance:
+      Ministry for Europe and Foreign Affairs: 
+        name: Ministère de l'Europe et des Affaires étrangères
+        url: https://www.diplomatie.gouv.fr
+      Volunteer contributors:
+        name: Contributeurs bénévoles
