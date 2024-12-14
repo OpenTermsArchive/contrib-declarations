@@ -44,6 +44,9 @@
       "title": "contrib",
       "versionsRepositoryURL": "https://github.com/OpenTermsArchive/contrib-versions"
     },
+    "logger": {
+      "timestampPrefix": false
+    },
     "collection-api": {
       "port": 3000,
       "basePath": "/collection-api"
