@@ -1,0 +1,9 @@
+{
+  "Terms of Service": [
+    {
+      "fetch": "https://usersdrive.com/tos.html",
+      "select": ".tos",
+      "validUntil": "to-be-determined"
+    }
+  ]
+}
