@@ -1,5 +1,5 @@
 {
-  "name": "Microsoftstore",
+  "name": "Microsoft Store",
   "importedFrom": "https://github.com/tosdr/tosback2/blob/f762cd4bbb2571272985fed009201a23300ba9b2/rules/microsoftstore.com.xml",
   "documents": {
     "Privacy Policy": {
@@ -14,7 +14,12 @@
     },
     "Terms of Service": {
       "fetch": "https://www.microsoft.com/en-us/legal/terms-of-use",
-      "select": "#primaryR1"
+      "select": [
+        "main"
+      ],
+      "remove": [
+        ".socialfollow"
+      ]
     }
   }
 }
