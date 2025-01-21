@@ -4,7 +4,7 @@
   "documents": {
     "Privacy Policy": {
       "fetch": "https://www.mozilla.org/en-US/privacy/websites/",
-      "select": "article.mzp-l-main",
+      "select": "main",
       "remove": ".privacy-logo"
     },
     "Community Guidelines": {
