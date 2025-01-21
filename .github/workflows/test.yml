@@ -5,8 +5,9 @@ on:
   workflow_call:
 
 jobs:
+  # Using Ubuntu 22.04 due to AppArmor restrictions in newer versions (23.10+) that interfere with Puppeteer's sandbox functionality. See https://pptr.dev/troubleshooting#issues-with-apparmor-on-ubuntu
   validate_schema:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
@@ -16,7 +17,7 @@ jobs:
       - run: npm run test:schema
 
   lint:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
@@ -26,7 +27,7 @@ jobs:
       - run: npm run lint
 
   validate_modified_declarations:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v3
         with:
