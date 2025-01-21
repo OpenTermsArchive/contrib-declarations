@@ -1,0 +1,11 @@
+{
+  "name": "UsersDrive.com",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://usersdrive.com/tos.html",
+      "select": [
+        "p"
+      ]
+    }
+  }
+}
