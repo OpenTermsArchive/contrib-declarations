@@ -1,0 +1,22 @@
+{
+  "Terms of Service": [
+    {
+      "fetch": "https://gofile.io/terms",
+      "select": [
+        "#mainContent"
+      ],
+      "executeClientScripts": true,
+      "validUntil": "2024-12-03T06:05:53Z"
+    }
+  ],
+  "Privacy Policy": [
+    {
+      "fetch": "https://gofile.io/privacy",
+      "select": [
+        "#mainContent"
+      ],
+      "executeClientScripts": true,
+      "validUntil": "2024-12-03T06:06:05Z"
+    }
+  ]
+}
