@@ -4,6 +4,20 @@
       "fetch": "https://foundation.wikimedia.org/wiki/Privacy_policy",
       "select": "body",
       "validUntil": "2020-11-09T17:30:03.000Z"
+    },
+    {
+      "fetch": "https://foundation.wikimedia.org/wiki/Privacy_policy",
+      "select": [
+        "#firstHeading",
+        "#mw-content-text"
+      ],
+      "remove": [
+        ".divlang",
+        "table.collapsible.collapsed",
+        "#catlinks",
+        ".nomobile"
+      ],
+      "validUntil": "2024-05-25T18:47:32.000Z"
     }
   ],
   "Terms of Service": [
@@ -11,6 +25,12 @@
       "fetch": "https://foundation.wikimedia.org/wiki/Terms_of_Use",
       "select": "body",
       "validUntil": "2020-11-09T17:30:03.000Z"
+    },
+    {
+      "fetch": "https://foundation.wikimedia.org/wiki/Terms_of_Use",
+      "select": "#content",
+      "remove": ".nmbox, #toc",
+      "validUntil": "2024-05-25T18:47:33.000Z"
     }
   ]
 }
