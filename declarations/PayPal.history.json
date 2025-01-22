@@ -1,0 +1,14 @@
+{
+  "Terms of Service": [
+    {
+      "fetch": "https://www.paypal.com/cz/webapps/mpp/ua/useragreement-full?locale.x=en_CZ",
+      "select": [
+        {
+          "startAfter": "#main > header",
+          "endBefore": "footer"
+        }
+      ],
+      "validUntil": "2025-01-21T06:12:04Z"
+    }
+  ]
+}
