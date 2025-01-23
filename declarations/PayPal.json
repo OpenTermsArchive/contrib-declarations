@@ -16,10 +16,10 @@
     "Terms of Service": {
       "fetch": "https://www.paypal.com/cz/webapps/mpp/ua/useragreement-full?locale.x=en_CZ",
       "select": [
-        {
-          "startAfter": "#main > header",
-          "endBefore": "footer"
-        }
+        "#about-account"
+      ],
+      "remove": [
+        ".sub-header-wrapper"
       ]
     }
   }
