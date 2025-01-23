@@ -1,0 +1,11 @@
+{
+  "Privacy Policy": [
+    {
+      "fetch": "https://www.coolmath4kids.com/privacy-policy",
+      "select": [
+        "#content"
+      ],
+      "validUntil": "2024-11-14T06:03:32Z"
+    }
+  ]
+}
