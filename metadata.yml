@@ -13,7 +13,7 @@ dataset: https://github.com/OpenTermsArchive/contrib-versions/releases
 declarations: https://github.com/OpenTermsArchive/contrib-declarations
 versions: https://github.com/OpenTermsArchive/contrib-versions
 snapshots: https://github.com/OpenTermsArchive/contrib-snapshots
-donations: https://opencollective.com/opentermsarchive
+donations: https://opencollective.com/opentermsarchive/projects/contrib-collection
 logo: https://opentermsarchive.org/images/collections/contrib.png
 languages: [en, fr]
 jurisdictions: [EU, US]
