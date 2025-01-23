@@ -3,7 +3,7 @@
     {
       "fetch": "https://usersdrive.com/tos.html",
       "select": ".tos",
-      "validUntil": "to-be-determined"
+      "validUntil": "2024-11-15T06:14:39Z"
     }
   ]
 }
