@@ -1,0 +1,32 @@
+{
+  "Privacy Policy": [
+    {
+      "fetch": "https://www.happn.com/en/privacy/",
+      "select": [
+        ".split__content"
+      ],
+      "validUntil": "2023-10-18T15:02:22Z"
+    }
+  ],
+  "Terms of Service": [
+    {
+      "fetch": "https://www.happn.com/en/terms/",
+      "select": [
+        ".split__content"
+      ],
+      "filter": [
+        "replaceEmailProtection"
+      ],
+      "validUntil": "2023-10-18T15:02:28Z"
+    }
+  ],
+  "Trackers Policy": [
+    {
+      "fetch": "https://www.happn.com/en/cookies/",
+      "select": [
+        ".split__content"
+      ],
+      "validUntil": "2023-10-18T15:02:25Z"
+    }
+  ]
+}

@@ -2,25 +2,25 @@
   "name": "happn",
   "documents": {
     "Terms of Service": {
-      "fetch": "https://www.happn.com/en/terms/",
+      "fetch": "https://support.happn.fr/hc/en-us/p/terms",
       "select": [
-        ".split__content"
+        "main"
       ],
-      "filter": [
-        "replaceEmailProtection"
-      ]
+      "executeClientScripts": true
     },
     "Privacy Policy": {
-      "fetch": "https://www.happn.com/en/privacy/",
+      "fetch": "https://support.happn.fr/hc/en-us/p/privacy",
       "select": [
-        ".split__content"
-      ]
+        "main"
+      ],
+      "executeClientScripts": true
     },
     "Trackers Policy": {
-      "fetch": "https://www.happn.com/en/cookies/",
+      "fetch": "https://support.happn.fr/hc/en-us/p/cookies",
       "select": [
-        ".split__content"
-      ]
+        "main"
+      ],
+      "executeClientScripts": true
     }
   }
 }
