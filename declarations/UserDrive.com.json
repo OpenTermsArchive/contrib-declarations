@@ -1,13 +1,13 @@
 {
-    "name": "UserDrive.com",
-    "documents": {
-      "Terms of Service": {
-        "fetch": "https://usersdrive.com/tos.html",
-        "select": [
-          "p"
-        ],
-        "executeClientScripts": true
-      },
+  "name": "UserDrive.com",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://usersdrive.com/tos.html",
+      "select": [
+        "p"
+      ],
+      "executeClientScripts": true
+    },
     "Privacy Policy": {
       "fetch": "https://usersdrive.com/pages/privacy-policy.html",
       "select": ".tos"
