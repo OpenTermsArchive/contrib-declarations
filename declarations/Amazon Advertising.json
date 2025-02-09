@@ -22,8 +22,9 @@
     "Acceptable Use Policy": {
       "fetch": "https://advertising.amazon.com/resources/ad-policy/creative-acceptance",
       "select": [
-        "main.content",
-        ".main-content"
+        "div.help-content",
+        ".cs-help-content",
+        "#mainContent"
       ],
       "executeClientScripts": true
     }
