@@ -4,9 +4,10 @@
   "scripts": {
     "lint": "ota lint",
     "lint:fix": "ota lint -- --fix",
-    "test": "ota lint && ota validate",
-    "test:schema": "npm run test -- --schema-only",
-    "test:modified": "npm run test -- --modified",
+    "test": "ota lint && ota validate declarations",
+    "test:schema": "ota validate declarations --schema-only",
+    "test:modified": "ota validate declarations --modified",
+    "test:metadata": "ota validate metadata",
     "start": "ota track",
     "start:api": "ota serve",
     "start:schedule": "npm run start -- --schedule",
@@ -15,7 +16,7 @@
     "dataset:schedule": "npm run dataset -- --publish --remove-local-copy --schedule"
   },
   "dependencies": {
-    "@opentermsarchive/engine": "~4.0.1",
+    "@opentermsarchive/engine": "~5.0.0",
     "isomorphic-fetch": "^3.0.0"
   }
 }
