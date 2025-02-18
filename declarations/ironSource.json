@@ -1,6 +1,6 @@
 {
   "name": "ironSource",
-  "documents": {
+  "terms": {
     "Privacy Policy": {
       "fetch": "https://www.is.com/privacy-policy/",
       "select": [

@@ -1,6 +1,6 @@
 {
   "name": "Match",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://uk.match.com/pages/misc/cge",
       "select": "#article_content"

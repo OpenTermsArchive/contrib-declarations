@@ -1,6 +1,6 @@
 {
   "name": "YouTube Kids",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://kids.youtube.com/t/terms",
       "select": "#yts-article"

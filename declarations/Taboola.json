@@ -1,6 +1,6 @@
 {
   "name": "Taboola",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://www.taboola.com/policies/terms-of-use",
       "select": [

@@ -1,6 +1,6 @@
 {
   "name": "Coinbase",
-  "documents": {
+  "terms": {
     "Privacy Policy": {
       "fetch": "https://www.coinbase.com/legal/privacy",
       "select": [

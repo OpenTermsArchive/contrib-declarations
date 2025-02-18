@@ -1,6 +1,6 @@
 {
   "name": "Firefox Private Network",
-  "documents": {
+  "terms": {
     "Privacy Policy": {
       "fetch": "https://www.mozilla.org/en-US/privacy/firefox-private-network/",
       "select": [

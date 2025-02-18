@@ -1,6 +1,6 @@
 {
   "name": "ProtonVPN",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://protonvpn.com/terms-and-conditions",
       "select": [

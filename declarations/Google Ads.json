@@ -1,6 +1,6 @@
 {
   "name": "Google Ads",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://payments.google.com/payments/apis-secure/get_legal_document?ldi=31472",
       "select": "body"

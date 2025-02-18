@@ -1,6 +1,6 @@
 {
   "name": "Rakuten",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://fr.shopping.rakuten.com/newhelp/conditions-generales/",
       "select": [

@@ -1,6 +1,6 @@
 {
   "name": "PayPal",
-  "documents": {
+  "terms": {
     "Privacy Policy": {
       "fetch": "https://www.paypal.com/cz/webapps/mpp/ua/privacy-full?locale.x=en_CZ",
       "select": [

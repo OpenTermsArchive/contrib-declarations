@@ -1,6 +1,6 @@
 {
   "name": "Skype",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://www.microsoft.com/en-gb/servicesagreement/",
       "select": [

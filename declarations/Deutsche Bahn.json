@@ -1,6 +1,6 @@
 {
   "name": "Deutsche Bahn",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://www.bahn.com/en/terms-of-use/customer-accounts-terms-of-use",
       "select": [

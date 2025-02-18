@@ -1,6 +1,6 @@
 {
   "name": "Google Nest",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://support.google.com/googlenest/answer/9327735?hl=en-GB",
       "select": "section[class=article-container]"

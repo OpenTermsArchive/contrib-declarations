@@ -1,6 +1,6 @@
 {
   "name": "Energia",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://www.energia.ie/home/terms-and-conditions",
       "select": [

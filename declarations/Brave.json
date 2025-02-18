@@ -1,6 +1,6 @@
 {
   "name": "Brave",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://brave.com/terms-of-use/",
       "select": [

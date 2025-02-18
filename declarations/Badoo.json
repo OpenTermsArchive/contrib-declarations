@@ -1,6 +1,6 @@
 {
   "name": "Badoo",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://badoo.com/terms/",
       "select": [

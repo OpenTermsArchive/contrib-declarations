@@ -1,6 +1,6 @@
 {
   "name": "The Mirror",
-  "documents": {
+  "terms": {
     "Privacy Policy": {
       "fetch": "https://www.themirror.space/privacy",
       "select": [

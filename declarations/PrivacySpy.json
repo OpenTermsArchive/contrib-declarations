@@ -1,6 +1,6 @@
 {
   "name": "PrivacySpy",
-  "documents": {
+  "terms": {
     "User Consent Policy": {
       "fetch": "https://privacyspy.org/conduct/",
       "select": [

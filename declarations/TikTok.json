@@ -1,6 +1,6 @@
 {
   "name": "TikTok",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://www.tiktok.com/legal/terms-of-use?lang=en",
       "select": [

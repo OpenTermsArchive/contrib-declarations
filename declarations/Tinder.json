@@ -1,6 +1,6 @@
 {
   "name": "Tinder",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://policies.tinder.com/terms/intl/en",
       "select": [

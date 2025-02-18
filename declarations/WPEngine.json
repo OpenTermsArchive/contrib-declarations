@@ -1,6 +1,6 @@
 {
   "name": "WPEngine",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://wpengine.com/legal/terms-of-service/",
       "select": "article"

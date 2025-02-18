@@ -1,6 +1,6 @@
 {
   "name": "Google APIs",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://developers.google.com/terms",
       "select": "article.devsite-article",

@@ -1,6 +1,6 @@
 {
   "name": "meet.jit.si",
-  "documents": {
+  "terms": {
     "Privacy Policy": {
       "fetch": "https://jitsi.org/meet-jit-si-privacy/",
       "select": [

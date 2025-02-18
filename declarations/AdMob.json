@@ -1,6 +1,6 @@
 {
   "name": "AdMob",
-  "documents": {
+  "terms": {
     "Data Controller Agreement": {
       "fetch": "https://privacy.google.com/businesses/controllerterms/",
       "select": [

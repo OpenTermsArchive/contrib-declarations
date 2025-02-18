@@ -1,6 +1,6 @@
 {
   "name": "Google Cloud Platform",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://cloud.google.com/terms/",
       "select": [

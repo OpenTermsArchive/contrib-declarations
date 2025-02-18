@@ -1,6 +1,6 @@
 {
   "name": "Glass",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://www.google.com/glass/termsofuse/",
       "select": ".main-content"

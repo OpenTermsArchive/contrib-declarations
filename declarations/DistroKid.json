@@ -1,6 +1,6 @@
 {
   "name": "DistroKid",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://distrokid.com/terms/",
       "select": [

@@ -1,6 +1,6 @@
 {
   "name": "Project Gutenberg",
-  "documents": {
+  "terms": {
     "Privacy Policy": {
       "fetch": "https://www.gutenberg.org/policy/privacy_policy.html",
       "select": [

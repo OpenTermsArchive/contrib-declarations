@@ -1,6 +1,6 @@
 {
   "name": "Waze",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://support.google.com/waze/answer/12140670?hl=en",
       "select": [

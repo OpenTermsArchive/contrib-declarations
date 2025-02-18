@@ -1,7 +1,7 @@
 {
   "name": "ulster.ac.uk",
   "importedFrom": "https://github.com/tosdr/tosback2/blob/f762cd4bbb2571272985fed009201a23300ba9b2/rules/ulster.ac.uk.xml",
-  "documents": {
+  "terms": {
     "Trackers Policy": {
       "fetch": "https://www.ulster.ac.uk/cookies",
       "select": "[role=main]"

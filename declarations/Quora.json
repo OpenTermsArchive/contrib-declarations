@@ -1,6 +1,6 @@
 {
   "name": "Quora",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://www.quora.com/about/tos",
       "select": [

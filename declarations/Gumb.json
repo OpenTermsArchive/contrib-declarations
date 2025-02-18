@@ -1,6 +1,6 @@
 {
   "name": "Gumb",
-  "documents": {
+  "terms": {
     "Privacy Policy": {
       "fetch": "https://gumb.app/en/privacy-policy/",
       "select": [

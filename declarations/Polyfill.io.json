@@ -1,6 +1,6 @@
 {
   "name": "Polyfill.io",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://polyfill.io/v3/terms",
       "select": "main"

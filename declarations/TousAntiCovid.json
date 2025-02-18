@@ -1,6 +1,6 @@
 {
   "name": "TousAntiCovid",
-  "documents": {
+  "terms": {
     "Privacy Policy": {
       "fetch": "https://bonjour.tousanticovid.gouv.fr/privacy-en.html",
       "select": [

@@ -1,6 +1,6 @@
 {
   "name": "Finnair",
-  "documents": {
+  "terms": {
     "Privacy Policy": {
       "fetch": "https://www.finnair.com/en/info/finnair-privacy-policy",
       "select": [

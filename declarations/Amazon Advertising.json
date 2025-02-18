@@ -1,6 +1,6 @@
 {
   "name": "Amazon Advertising",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://www.amazon.co.uk/gp/help/customer/display.html/?ie=UTF8&nodeId=1040616&ref_=a20m_us_fnav_l_cndtns_gb",
       "select": [

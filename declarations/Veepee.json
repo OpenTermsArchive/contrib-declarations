@@ -1,6 +1,6 @@
 {
   "name": "Veepee",
-  "documents": {
+  "terms": {
     "Commercial Terms": {
       "fetch": "https://www.veepee.fr/cgv/fr-FR/Conditions_Generales_de_Vente.pdf?CountryCode=FR"
     }

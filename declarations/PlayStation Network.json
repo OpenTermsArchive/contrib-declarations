@@ -1,6 +1,6 @@
 {
   "name": "PlayStation Network",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://www.playstation.com/en-us/legal/psn-terms-of-service/",
       "select": [

@@ -1,6 +1,6 @@
 {
   "name": "OnlyFans",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://onlyfans.com/terms",
       "select": [

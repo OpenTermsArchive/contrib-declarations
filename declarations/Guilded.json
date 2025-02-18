@@ -1,6 +1,6 @@
 {
   "name": "Guilded",
-  "documents": {
+  "terms": {
     "Community Guidelines": {
       "fetch": "https://support.guilded.gg/hc/en-us/articles/360052815873-Community-Guidelines",
       "select": [

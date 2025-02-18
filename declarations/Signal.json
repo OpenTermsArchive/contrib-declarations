@@ -1,6 +1,6 @@
 {
   "name": "Signal",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://www.signal.org/legal/",
       "select": [

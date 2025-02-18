@@ -1,6 +1,6 @@
 {
   "name": "Telegram",
-  "documents": {
+  "terms": {
     "Privacy Policy": {
       "fetch": "https://telegram.org/privacy",
       "select": ".tl_page_container"

@@ -1,6 +1,6 @@
 {
   "name": "Qiwi.gg",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://qiwi.gg/legal/tos",
       "select": [

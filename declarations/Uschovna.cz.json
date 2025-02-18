@@ -1,6 +1,6 @@
 {
   "name": "Uschovna.cz",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://www.uschovna.cz/en/vseobecne_podminky_uschovna",
       "select": [

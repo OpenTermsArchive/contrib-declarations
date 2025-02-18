@@ -1,6 +1,6 @@
 {
   "name": "Outbrain",
-  "documents": {
+  "terms": {
     "Privacy Policy": {
       "fetch": "https://www.outbrain.com/legal/privacy#privacy-policy",
       "select": [

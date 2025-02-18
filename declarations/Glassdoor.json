@@ -1,6 +1,6 @@
 {
   "name": "Glassdoor",
-  "documents": {
+  "terms": {
     "Privacy Policy": {
       "fetch": "https://hrtechprivacy.com/brands/glassdoor",
       "select": [

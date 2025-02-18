@@ -1,6 +1,6 @@
 {
   "name": "Contrat Pro SNCF",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://medias.sncf.com/sncfcom/pdf/pro/CGU_Contrat-pro.pdf"
     }

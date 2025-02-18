@@ -1,6 +1,6 @@
 {
   "name": "Proctorio",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://proctorio.com/policies#all&all&tos&section-termsofservice",
       "select": [

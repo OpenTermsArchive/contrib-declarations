@@ -1,6 +1,6 @@
 {
   "name": "Optimize",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://support.google.com/optimize/answer/6230273?hl=en-GB",
       "select": "section[class=article-container]",

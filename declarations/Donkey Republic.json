@@ -1,6 +1,6 @@
 {
   "name": "Donkey Republic",
-  "documents": {
+  "terms": {
     "Privacy Policy": {
       "fetch": "https://www.donkey.bike/privacy-policy/",
       "select": [

@@ -1,6 +1,6 @@
 {
   "name": "DeviantArt",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://about.deviantart.com/policy/service/",
       "select": [

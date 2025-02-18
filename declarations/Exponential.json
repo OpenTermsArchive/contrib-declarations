@@ -1,6 +1,6 @@
 {
   "name": "Exponential",
-  "documents": {
+  "terms": {
     "Privacy Policy": {
       "fetch": "https://exponential.com/privacy/",
       "select": [

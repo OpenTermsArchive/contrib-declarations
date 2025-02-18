@@ -1,6 +1,6 @@
 {
   "name": "AdSense",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://www.google.com/adsense/tc/2018/UnitedKingdom.html",
       "select": "body"

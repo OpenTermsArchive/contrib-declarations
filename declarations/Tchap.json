@@ -1,6 +1,6 @@
 {
   "name": "Tchap",
-  "documents": {
+  "terms": {
     "Privacy Policy": {
       "fetch": "https://tchap.beta.gouv.fr/politique-de-confidentialite",
       "select": [

@@ -1,6 +1,6 @@
 {
   "name": "OpenSea",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://opensea.io/tos",
       "select": [

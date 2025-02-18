@@ -1,6 +1,6 @@
 {
   "name": "OVHcloud",
-  "documents": {
+  "terms": {
     "Data Processor Agreement": {
       "fetch": "https://www.ovh.ie/support/termsofservice/Data%20Processing%20Agreement%20(ie).pdf"
     },

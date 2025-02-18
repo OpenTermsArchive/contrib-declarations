@@ -1,6 +1,6 @@
 {
   "name": "Alpha Vantage",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://www.alphavantage.co/terms_of_service/?.pdf"
     },

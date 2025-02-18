@@ -1,6 +1,6 @@
 {
   "name": "Reserve with Google",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://www.google.com/maps/reserve/terms",
       "select": ".jic4te"
