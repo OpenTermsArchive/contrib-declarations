@@ -1,6 +1,6 @@
 {
   "name": "AcuityAds",
-  "documents": {
+  "terms": {
     "Privacy Policy": {
       "fetch": "https://illumin.com/legal/privacy/",
       "select": [

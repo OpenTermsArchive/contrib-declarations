@@ -1,6 +1,6 @@
 {
   "name": "Coolmath4Kids",
-  "documents": {
+  "terms": {
     "Privacy Policy": {
       "fetch": "https://www.coolmath4kids.com/privacy-policy",
       "select": [

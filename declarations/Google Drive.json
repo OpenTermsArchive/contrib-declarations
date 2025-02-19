@@ -1,6 +1,6 @@
 {
   "name": "Google Drive",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://www.google.com/drive/terms-of-service/?hl=en_GB",
       "select": ".tos"

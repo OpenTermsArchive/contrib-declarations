@@ -1,6 +1,6 @@
 {
   "name": "Amazon Seller Central",
-  "documents": {
+  "terms": {
     "Marketplace Sellers Conditions": {
       "fetch": "https://sellercentral.amazon.com/help/hub/reference/external/G1791",
       "select": [

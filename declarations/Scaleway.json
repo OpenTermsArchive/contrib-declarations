@@ -1,6 +1,6 @@
 {
   "name": "Scaleway",
-  "documents": {
+  "terms": {
     "Privacy Policy": {
       "fetch": "https://www.scaleway.com/en/privacy-policy/",
       "select": [

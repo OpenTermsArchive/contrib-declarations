@@ -1,6 +1,6 @@
 {
   "name": "Instagram",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://help.instagram.com/581066165581870",
       "select": [

@@ -1,6 +1,6 @@
 {
   "name": "Booking.com",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://www.booking.com/content/terms.en-gb.html",
       "select": [

@@ -1,6 +1,6 @@
 {
   "name": "Viber",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://www.viber.com/en/terms/viber-terms-use/",
       "select": ".post-114"

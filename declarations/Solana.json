@@ -1,6 +1,6 @@
 {
   "name": "Solana",
-  "documents": {
+  "terms": {
     "Privacy Policy": {
       "fetch": "https://solana.com/privacy-policy",
       "select": [

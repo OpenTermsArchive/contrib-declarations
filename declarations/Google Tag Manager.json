@@ -1,6 +1,6 @@
 {
   "name": "Google Tag Manager",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://marketingplatform.google.com/about/analytics/tag-manager/use-policy/?hl=en_GB",
       "select": ".terms-section"

@@ -1,6 +1,6 @@
 {
   "name": "Spam.org",
-  "documents": {
+  "terms": {
     "Privacy Policy": {
       "fetch": "https://www.spam.org/privacy",
       "select": [

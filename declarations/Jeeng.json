@@ -1,6 +1,6 @@
 {
   "name": "Jeeng",
-  "documents": {
+  "terms": {
     "Privacy Policy": {
       "fetch": "https://www.jeeng.com/privacy-policy/",
       "select": [

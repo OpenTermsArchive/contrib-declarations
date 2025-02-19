@@ -1,6 +1,6 @@
 {
   "name": "Google Classroom",
-  "documents": {
+  "terms": {
     "Acceptable Use Policy": {
       "fetch": "https://support.google.com/edu/classroom/answer/7165963?hl=en-GB",
       "select": "section[class=article-container]",

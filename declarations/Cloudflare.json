@@ -1,6 +1,6 @@
 {
   "name": "Cloudflare",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://www.cloudflare.com/terms/",
       "select": [

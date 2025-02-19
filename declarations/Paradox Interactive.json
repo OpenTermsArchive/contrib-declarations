@@ -1,6 +1,6 @@
 {
   "name": "Paradox Interactive",
-  "documents": {
+  "terms": {
     "Privacy Policy": {
       "fetch": "https://legal.paradoxplaza.com/privacy",
       "select": [

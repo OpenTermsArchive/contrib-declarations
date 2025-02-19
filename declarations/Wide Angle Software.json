@@ -1,6 +1,6 @@
 {
   "name": "Wide Angle Software",
-  "documents": {
+  "terms": {
     "Privacy Policy": {
       "fetch": "https://www.wideanglesoftware.com/privacy/",
       "select": [

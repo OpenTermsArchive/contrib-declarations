@@ -1,6 +1,6 @@
 {
   "name": "Philip Morris International",
-  "documents": {
+  "terms": {
     "Privacy Policy": {
       "fetch": "https://pmiprivacy.com/en/consumer",
       "select": [

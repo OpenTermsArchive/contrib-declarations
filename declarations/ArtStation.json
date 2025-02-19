@@ -1,6 +1,6 @@
 {
   "name": "ArtStation",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://www.artstation.com/tos",
       "select": [

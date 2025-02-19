@@ -1,6 +1,6 @@
 {
   "name": "Bumble",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://bumble.com/en/terms",
       "select": [

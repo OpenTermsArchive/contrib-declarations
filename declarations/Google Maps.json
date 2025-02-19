@@ -1,6 +1,6 @@
 {
   "name": "Google Maps",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://www.google.com/help/terms_maps/?hl=en_GB",
       "select": ".main-article"

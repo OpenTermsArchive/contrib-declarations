@@ -1,6 +1,6 @@
 {
   "name": "Revolt",
-  "documents": {
+  "terms": {
     "Acceptable Use Policy": {
       "fetch": "https://revolt.chat/aup",
       "select": [

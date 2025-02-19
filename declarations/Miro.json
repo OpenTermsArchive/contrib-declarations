@@ -1,6 +1,6 @@
 {
   "name": "Miro",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://miro.com/legal/terms-of-service/",
       "select": [

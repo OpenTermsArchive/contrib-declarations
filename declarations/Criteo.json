@@ -1,6 +1,6 @@
 {
   "name": "Criteo",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://www.criteo.com/wp-content/uploads/2021/06/Criteo-Terms_Display_Jun21_EN.pdf"
     },

@@ -1,6 +1,6 @@
 {
   "name": "OKX",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://www.okx.com/help/terms-of-service-eea",
       "select": [

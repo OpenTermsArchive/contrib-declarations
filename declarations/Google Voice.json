@@ -1,6 +1,6 @@
 {
   "name": "Google Voice",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://support.google.com/voice/answer/9231816?hl=en-GB",
       "select": ".article-container"

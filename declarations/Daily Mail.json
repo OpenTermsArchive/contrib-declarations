@@ -1,7 +1,7 @@
 {
   "name": "Daily Mail",
   "importedFrom": "https://github.com/tosdr/tosback2/blob/f762cd4bbb2571272985fed009201a23300ba9b2/rules/dailymail.co.uk.xml",
-  "documents": {
+  "terms": {
     "Privacy Policy": {
       "fetch": "https://www.dailymail.co.uk/home/article-7759273/Privacy-Cookies-Policy-Policy.html",
       "select": [

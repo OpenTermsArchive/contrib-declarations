@@ -1,6 +1,6 @@
 {
   "name": "Persumi",
-  "documents": {
+  "terms": {
     "Privacy Policy": {
       "fetch": "https://persumi.com/privacy",
       "select": [

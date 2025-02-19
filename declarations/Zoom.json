@@ -1,6 +1,6 @@
 {
   "name": "Zoom",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://zoom.us/terms",
       "select": [

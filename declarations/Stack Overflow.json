@@ -1,6 +1,6 @@
 {
   "name": "Stack Overflow",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://stackoverflow.com/legal/terms-of-service",
       "select": [

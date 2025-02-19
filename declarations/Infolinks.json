@@ -1,6 +1,6 @@
 {
   "name": "Infolinks",
-  "documents": {
+  "terms": {
     "Privacy Policy": {
       "fetch": "https://www.infolinks.com/privacy-policy/",
       "select": [

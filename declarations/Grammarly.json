@@ -1,6 +1,6 @@
 {
   "name": "Grammarly",
-  "documents": {
+  "terms": {
     "Commercial Terms": {
       "fetch": "https://www.grammarly.com/terms/customer-business-agreement",
       "select": [

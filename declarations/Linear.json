@@ -1,6 +1,6 @@
 {
   "name": "Linear",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://linear.app/terms",
       "select": "main",

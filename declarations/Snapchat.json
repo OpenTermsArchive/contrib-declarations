@@ -1,6 +1,6 @@
 {
   "name": "Snapchat",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://www.snap.com/en-GB/terms",
       "select": "#terms-row",

@@ -1,6 +1,6 @@
 {
   "name": "Mix",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://mix.com/tos",
       "select": [

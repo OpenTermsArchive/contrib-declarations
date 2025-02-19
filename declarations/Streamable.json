@@ -1,6 +1,6 @@
 {
   "name": "Streamable",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://terms.streamable.com/",
       "select": [

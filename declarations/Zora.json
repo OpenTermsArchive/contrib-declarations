@@ -1,6 +1,6 @@
 {
   "name": "Zora",
-  "documents": {
+  "terms": {
     "Privacy Policy": {
       "fetch": "https://support.zora.co/en/articles/1369025",
       "select": [

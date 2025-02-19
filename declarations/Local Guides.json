@@ -1,6 +1,6 @@
 {
   "name": "Local Guides",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://maps.google.com/localguides/rules?hl=en_GB",
       "select": "section.article-container",

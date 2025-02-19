@@ -1,6 +1,6 @@
 {
   "name": "WordPress.org",
-  "documents": {
+  "terms": {
     "Privacy Policy": {
       "fetch": "https://wordpress.org/about/privacy/",
       "select": "main"

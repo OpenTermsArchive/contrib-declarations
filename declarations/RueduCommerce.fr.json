@@ -1,6 +1,6 @@
 {
   "name": "RueduCommerce.fr",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://www.rueducommerce.fr/info/mentions-legales/cgu-gm",
       "select": "#cms",

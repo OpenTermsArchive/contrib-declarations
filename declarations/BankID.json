@@ -1,6 +1,6 @@
 {
   "name": "BankID",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://www.bankid.com/en/terms-of-use-bankid-mobile-application",
       "select": [

@@ -1,6 +1,6 @@
 {
   "name": "LinkedIn",
-  "documents": {
+  "terms": {
     "Privacy Policy": {
       "fetch": "https://www.linkedin.com/legal/privacy-policy",
       "select": [

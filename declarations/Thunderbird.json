@@ -1,6 +1,6 @@
 {
   "name": "Thunderbird",
-  "documents": {
+  "terms": {
     "Privacy Policy": {
       "fetch": "https://www.mozilla.org/en-US/privacy/thunderbird/",
       "select": [

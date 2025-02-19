@@ -1,6 +1,6 @@
 {
   "name": "NordVPN",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://my.nordaccount.com/legal/terms-of-service/",
       "select": [

@@ -1,6 +1,6 @@
 {
   "name": "Sketchfab",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://sketchfab.com/terms",
       "select": [

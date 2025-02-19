@@ -1,6 +1,6 @@
 {
   "name": "Teads",
-  "documents": {
+  "terms": {
     "Privacy Policy": {
       "fetch": "https://www.teads.com/teads-website-privacy-policy/",
       "select": [

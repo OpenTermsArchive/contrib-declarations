@@ -1,6 +1,6 @@
 {
   "name": "Google Manufacturer Center",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://manufacturers.google.com/files/tos/US/2017-04-18-tos.html",
       "select": "body"

@@ -1,6 +1,6 @@
 {
   "name": "Yuka",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://help.yuka.io/l/en/article/2a12869y56",
       "select": [

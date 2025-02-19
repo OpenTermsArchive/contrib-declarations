@@ -1,6 +1,6 @@
 {
   "name": "Revcontent",
-  "documents": {
+  "terms": {
     "Privacy Policy": {
       "fetch": "https://help.revcontent.com/en/knowledge/revcontent-privacy-policy",
       "select": [

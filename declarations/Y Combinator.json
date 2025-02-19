@@ -1,6 +1,6 @@
 {
   "name": "Y Combinator",
-  "documents": {
+  "terms": {
     "Privacy Policy": {
       "fetch": "https://www.ycombinator.com/legal/",
       "select": {

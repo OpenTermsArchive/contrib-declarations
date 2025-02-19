@@ -1,6 +1,6 @@
 {
   "name": "Myspace",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://myspace.com/pages/terms",
       "remove": "ol > *:not(li)",

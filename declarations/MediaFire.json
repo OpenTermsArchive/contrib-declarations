@@ -1,6 +1,6 @@
 {
   "name": "MediaFire",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://www.mediafire.com/policies/terms_of_service.php",
       "select": [

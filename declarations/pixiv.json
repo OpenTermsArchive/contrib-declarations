@@ -1,6 +1,6 @@
 {
   "name": "pixiv",
-  "documents": {
+  "terms": {
     "Privacy Policy": {
       "fetch": "https://policies.pixiv.net/en/privacy_policy.html",
       "select": [

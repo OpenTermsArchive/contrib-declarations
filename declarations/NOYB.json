@@ -1,6 +1,6 @@
 {
   "name": "NOYB",
-  "documents": {
+  "terms": {
     "Privacy Policy": {
       "fetch": "https://noyb.eu/en/legal",
       "select": {

@@ -1,6 +1,6 @@
 {
   "name": "Bandcamp",
-  "documents": {
+  "terms": {
     "Privacy Policy": {
       "fetch": "https://bandcamp.com/privacy",
       "select": [

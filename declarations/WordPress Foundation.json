@@ -1,6 +1,6 @@
 {
   "name": "WordPress Foundation",
-  "documents": {
+  "terms": {
     "Brand Guidelines": {
       "fetch": "https://wordpressfoundation.org/trademark-policy/",
       "select": "main"

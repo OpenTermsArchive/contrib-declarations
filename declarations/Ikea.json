@@ -1,6 +1,6 @@
 {
   "name": "Ikea",
-  "documents": {
+  "terms": {
     "Privacy Policy": {
       "fetch": "https://www.ikea.com/ie/en/customer-service/privacy-policy/",
       "select": [

@@ -1,6 +1,6 @@
 {
   "name": "Airbnb",
-  "documents": {
+  "terms": {
     "Privacy Policy": {
       "fetch": "https://www.airbnb.co.uk/help/article/3175",
       "select": [

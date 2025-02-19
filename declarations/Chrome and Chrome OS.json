@@ -1,6 +1,6 @@
 {
   "name": "Chrome and Chrome OS",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://www.google.com/chrome/terms/?hl=en_GB",
       "select": "div[class=chrm-text-only]",

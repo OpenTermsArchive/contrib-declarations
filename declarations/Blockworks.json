@@ -1,6 +1,6 @@
 {
   "name": "Blockworks",
-  "documents": {
+  "terms": {
     "Privacy Policy": {
       "fetch": "https://blockworks.co/privacy-policy",
       "select": [

@@ -1,6 +1,6 @@
 {
   "name": "Firefox Monitor",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://www.mozilla.org/en-US/privacy/firefox-monitor/",
       "select": [

@@ -1,6 +1,6 @@
 {
   "name": "IndieGala",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://www.indiegala.com/terms-of-service",
       "select": [

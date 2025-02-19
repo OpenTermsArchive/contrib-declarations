@@ -1,6 +1,6 @@
 {
   "name": "sourcehut",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://man.sr.ht/terms.md",
       "select": [

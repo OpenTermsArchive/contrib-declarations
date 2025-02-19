@@ -1,6 +1,6 @@
 {
   "name": "Swiss Post",
-  "documents": {
+  "terms": {
     "Privacy Policy": {
       "fetch": "https://www.post.ch/en/pages/footer/data-protection-and-disclaimer",
       "select": [
