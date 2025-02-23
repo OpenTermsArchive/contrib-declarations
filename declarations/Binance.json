@@ -1,6 +1,6 @@
 {
   "name": "Binance",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://www.binance.com/en/terms",
       "select": [

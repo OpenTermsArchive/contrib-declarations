@@ -1,6 +1,6 @@
 {
   "name": "Gofile",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://gofile.io/terms",
       "select": [

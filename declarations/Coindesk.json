@@ -1,6 +1,6 @@
 {
   "name": "Coindesk",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://www.coindesk.com/terms/",
       "select": [

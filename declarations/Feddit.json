@@ -1,6 +1,6 @@
 {
   "name": "Feddit",
-  "documents": {
+  "terms": {
     "Privacy Policy": {
       "fetch": "https://feddit.de/legal",
       "select": [

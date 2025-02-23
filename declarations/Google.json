@@ -1,6 +1,6 @@
 {
   "name": "Google",
-  "documents": {
+  "terms": {
     "Privacy Policy": {
       "fetch": "https://policies.google.com/privacy?hl=en-GB&gl=IE",
       "filter": [

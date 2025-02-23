@@ -1,6 +1,6 @@
 {
   "name": "Google Calendar",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://policies.google.com/terms?hl=en-GB",
       "filter": [

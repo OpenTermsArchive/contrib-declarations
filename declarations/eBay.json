@@ -1,6 +1,6 @@
 {
   "name": "eBay",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://www.ebay.com/help/policies/member-behaviour-policies/user-agreement?id=4259",
       "remove": "div.expand_collapse_list",

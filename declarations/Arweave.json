@@ -1,6 +1,6 @@
 {
   "name": "Arweave",
-  "documents": {
+  "terms": {
     "Privacy Policy": {
       "fetch": "https://www.arweave.org/legal-policies",
       "select": [

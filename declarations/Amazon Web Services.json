@@ -1,6 +1,6 @@
 {
   "name": "Amazon Web Services",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://aws.amazon.com/service-terms/",
       "select": [

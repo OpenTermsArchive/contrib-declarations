@@ -1,6 +1,6 @@
 {
   "name": "Wire",
-  "documents": {
+  "terms": {
     "Privacy Policy": {
       "fetch": "https://wire.com/en/legal/terms-of-use-personal/#legal3",
       "select": [

@@ -1,6 +1,6 @@
 {
   "name": "Lingualeo",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://corp.lingualeo.com/terms-of-use-en/",
       "select": [

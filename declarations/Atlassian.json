@@ -1,6 +1,6 @@
 {
   "name": "Atlassian",
-  "documents": {
+  "terms": {
     "Privacy Policy": {
       "fetch": "https://www.atlassian.com/legal/privacy-policy",
       "select": [

@@ -1,6 +1,6 @@
 {
   "name": "Dune",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://dune.com/terms",
       "select": [

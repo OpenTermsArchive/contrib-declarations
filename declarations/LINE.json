@@ -1,6 +1,6 @@
 {
   "name": "LINE",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://terms.line.me/line_terms/?lang=en",
       "select": ".MdTerms01"

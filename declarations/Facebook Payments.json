@@ -1,6 +1,6 @@
 {
   "name": "Facebook Payments",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://www.facebook.com/payments_terms",
       "select": "#content",

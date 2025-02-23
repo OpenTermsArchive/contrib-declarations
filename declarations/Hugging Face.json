@@ -1,6 +1,6 @@
 {
   "name": "Hugging Face",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://huggingface.co/terms-of-service",
       "select": [

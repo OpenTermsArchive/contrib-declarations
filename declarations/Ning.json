@@ -1,6 +1,6 @@
 {
   "name": "Ning",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://www.ning.com/termsofservice/",
       "select": ".page__article"

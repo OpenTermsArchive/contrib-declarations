@@ -1,6 +1,6 @@
 {
   "name": "Google Play",
-  "documents": {
+  "terms": {
     "Developer Terms": {
       "fetch": "https://play.google.com/intl/ALL_en/about/developer-distribution-agreement.html",
       "select": "body > .play-contained"

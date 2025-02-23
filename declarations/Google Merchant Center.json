@@ -1,6 +1,6 @@
 {
   "name": "Google Merchant Center",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://merchants.google.com/files/tos/extend/GB/tos.html",
       "select": ".inlined-doc"

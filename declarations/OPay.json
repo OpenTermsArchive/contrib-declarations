@@ -1,6 +1,6 @@
 {
   "name": "OPay",
-  "documents": {
+  "terms": {
     "Privacy Policy": {
       "fetch": "https://www.opayweb.com/privacy-policy/",
       "select": [

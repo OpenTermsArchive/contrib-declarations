@@ -1,6 +1,6 @@
 {
   "name": "Apple",
-  "documents": {
+  "terms": {
     "Privacy Policy": {
       "fetch": "https://www.apple.com/legal/privacy/en-ww/",
       "select": [

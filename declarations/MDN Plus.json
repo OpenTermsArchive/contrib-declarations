@@ -1,6 +1,6 @@
 {
   "name": "MDN Plus",
-  "documents": {
+  "terms": {
     "Privacy Policy": {
       "fetch": "https://www.mozilla.org/en-US/privacy/mdn-plus/",
       "select": [

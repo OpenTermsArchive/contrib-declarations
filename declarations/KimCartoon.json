@@ -1,6 +1,6 @@
 {
   "name": "KimCartoon",
-  "documents": {
+  "terms": {
     "Privacy Policy": {
       "fetch": "https://kimcartoon.li/Message/PrivacyPolicy",
       "select": [

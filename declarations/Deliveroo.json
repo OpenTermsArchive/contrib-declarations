@@ -1,6 +1,6 @@
 {
   "name": "Deliveroo",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://deliveroo.ie/legal",
       "select": [

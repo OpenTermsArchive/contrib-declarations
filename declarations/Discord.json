@@ -1,6 +1,6 @@
 {
   "name": "Discord",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://discord.com/terms",
       "select": [

@@ -1,6 +1,6 @@
 {
   "name": "ASKfm",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://about.ask.fm/legal/en/terms.html",
       "select": [

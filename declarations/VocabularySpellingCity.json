@@ -1,6 +1,6 @@
 {
   "name": "VocabularySpellingCity",
-  "documents": {
+  "terms": {
     "Privacy Policy": {
       "fetch": "https://www.spellingcity.com/privacy-policy.html",
       "select": [

@@ -1,6 +1,6 @@
 {
   "name": "WeChat",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://www.wechat.com/en/service_terms.html",
       "select": "#agreement"

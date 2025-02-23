@@ -1,6 +1,6 @@
 {
   "name": "App Store",
-  "documents": {
+  "terms": {
     "Review Guidelines": {
       "fetch": "https://developer.apple.com/app-store/review/guidelines/",
       "select": "main"

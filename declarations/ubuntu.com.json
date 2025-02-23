@@ -1,7 +1,7 @@
 {
   "name": "ubuntu.com",
   "importedFrom": "https://github.com/tosdr/tosback2/blob/f762cd4bbb2571272985fed009201a23300ba9b2/rules/ubuntu.com.xml",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://ubuntu.com/legal/terms",
       "select": ".p-strip"

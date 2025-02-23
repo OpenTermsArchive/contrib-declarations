@@ -1,6 +1,6 @@
 {
   "name": "Amazon Publisher",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://ams.amazon.com/webpublisher/apsmanaged/apsagreement.html",
       "select": [

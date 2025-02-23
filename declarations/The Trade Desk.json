@@ -1,6 +1,6 @@
 {
   "name": "The Trade Desk",
-  "documents": {
+  "terms": {
     "Privacy Policy": {
       "fetch": "https://www.thetradedesk.com/us/website-privacy-policy",
       "select": [

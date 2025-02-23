@@ -1,6 +1,6 @@
 {
   "name": "Tildes",
-  "documents": {
+  "terms": {
     "Privacy Policy": {
       "fetch": "https://docs.tildes.net/policies/privacy-policy",
       "select": [

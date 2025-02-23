@@ -1,6 +1,6 @@
 {
   "name": "Google Data Studio",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://support.google.com/datastudio/answer/7019158?hl=en-GB",
       "select": "section[class=article-container]"

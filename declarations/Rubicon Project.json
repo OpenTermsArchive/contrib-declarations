@@ -1,6 +1,6 @@
 {
   "name": "Rubicon Project",
-  "documents": {
+  "terms": {
     "Privacy Policy": {
       "fetch": "https://rubiconproject.com/privacy-policy/",
       "select": [

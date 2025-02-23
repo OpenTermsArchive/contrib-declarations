@@ -1,6 +1,6 @@
 {
   "name": "Tresorit",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://tresorit.com/terms-of-use",
       "select": [

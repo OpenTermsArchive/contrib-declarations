@@ -1,6 +1,6 @@
 {
   "name": "Vodafone.ie",
-  "documents": {
+  "terms": {
     "Privacy Policy": {
       "fetch": "https://n.vodafone.ie/privacy/privacy-and-you.html",
       "select": [

@@ -1,6 +1,6 @@
 {
   "name": "Hygraph",
-  "documents": {
+  "terms": {
     "Privacy Policy": {
       "fetch": "https://hygraph.com/privacy",
       "select": [

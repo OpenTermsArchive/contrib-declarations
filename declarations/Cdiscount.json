@@ -1,6 +1,6 @@
 {
   "name": "Cdiscount",
-  "documents": {
+  "terms": {
     "Commercial Terms": {
       "fetch": "https://clients.cdiscount.com/simple/cgv.aspx",
       "filter": [

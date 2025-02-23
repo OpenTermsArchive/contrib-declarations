@@ -1,6 +1,6 @@
 {
   "name": "Nextdoor",
-  "documents": {
+  "terms": {
     "Privacy Policy": {
       "fetch": "https://legal.nextdoor.com/gb-privacy-policy-2021/",
       "select": [

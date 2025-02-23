@@ -1,6 +1,6 @@
 {
   "name": "Imgur",
-  "documents": {
+  "terms": {
     "Privacy Policy": {
       "fetch": "https://imgur.com/privacy",
       "select": [

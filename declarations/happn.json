@@ -1,6 +1,6 @@
 {
   "name": "happn",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://support.happn.fr/hc/en-us/p/terms",
       "select": [

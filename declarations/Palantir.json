@@ -1,6 +1,6 @@
 {
   "name": "Palantir",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://www.palantir.com/terms-and-conditions/",
       "select": [

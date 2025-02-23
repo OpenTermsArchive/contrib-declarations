@@ -1,6 +1,6 @@
 {
   "name": "Savetz Publishing",
-  "documents": {
+  "terms": {
     "Privacy Policy": {
       "fetch": "https://www.savetzpublishing.com/privacy_policy.php",
       "select": [

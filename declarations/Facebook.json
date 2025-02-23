@@ -1,6 +1,6 @@
 {
   "name": "Facebook",
-  "documents": {
+  "terms": {
     "Privacy Policy": {
       "fetch": "https://fr-fr.facebook.com/privacy/explanation/",
       "filter": [

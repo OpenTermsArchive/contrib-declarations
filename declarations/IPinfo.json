@@ -1,6 +1,6 @@
 {
   "name": "IPinfo",
-  "documents": {
+  "terms": {
     "Privacy Policy": {
       "fetch": "https://ipinfo.io/privacy-policy",
       "select": "main"

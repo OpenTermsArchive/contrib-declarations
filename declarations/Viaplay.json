@@ -1,6 +1,6 @@
 {
   "name": "Viaplay",
-  "documents": {
+  "terms": {
     "Privacy Policy": {
       "fetch": "https://viaplay.com/gb-en/privacy",
       "select": [

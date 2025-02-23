@@ -1,6 +1,6 @@
 {
   "name": "Lydia",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://lydia-app.com/ie/info/terms-of-service.html",
       "select": [

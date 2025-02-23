@@ -1,6 +1,6 @@
 {
   "name": "Olvid",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://olvid.io/terms/en/",
       "select": [

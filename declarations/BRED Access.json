@@ -1,6 +1,6 @@
 {
   "name": "BRED Access",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://www.bred.fr/medias/pdf/informations-reglementaires/convention-bredacces.pdf"
     }

@@ -1,6 +1,6 @@
 {
   "name": "ValueImpression",
-  "documents": {
+  "terms": {
     "Privacy Policy": {
       "fetch": "https://valueimpression.com/privacy.html",
       "select": [

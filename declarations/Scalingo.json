@@ -1,6 +1,6 @@
 {
   "name": "Scalingo",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://scalingo.com/general-terms-of-use",
       "select": [

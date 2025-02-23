@@ -1,6 +1,6 @@
 {
   "name": "Bitwarden",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://bitwarden.com/terms/",
       "select": [

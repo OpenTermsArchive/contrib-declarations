@@ -1,6 +1,6 @@
 {
   "name": "Qwant",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://about.qwant.com/en/legal/qwant-search/",
       "select": [

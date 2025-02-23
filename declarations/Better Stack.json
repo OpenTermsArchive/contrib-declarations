@@ -1,6 +1,6 @@
 {
   "name": "Better Stack",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://betterstack.com/terms",
       "select": "section.container"

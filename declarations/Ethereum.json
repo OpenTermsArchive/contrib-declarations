@@ -1,6 +1,6 @@
 {
   "name": "Ethereum",
-  "documents": {
+  "terms": {
     "Privacy Policy": {
       "fetch": "https://ethereum.org/en/privacy-policy/",
       "select": [

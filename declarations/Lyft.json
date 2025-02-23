@@ -1,6 +1,6 @@
 {
   "name": "Lyft",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://www.lyft.com/terms",
       "select": [

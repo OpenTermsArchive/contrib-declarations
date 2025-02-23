@@ -1,6 +1,6 @@
 {
   "name": "ProtonMail",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://protonmail.com/terms-and-conditions",
       "select": [

@@ -1,6 +1,6 @@
 {
   "name": "Wise",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://wise.com/eu/legal/terms-of-use",
       "select": [

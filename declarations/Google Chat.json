@@ -1,6 +1,6 @@
 {
   "name": "Google Chat",
-  "documents": {
+  "terms": {
     "Acceptable Use Policy": {
       "fetch": "https://support.google.com/chat/answer/9257382?hl=en-GB",
       "select": "section[class=article-container]",

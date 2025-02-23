@@ -1,6 +1,6 @@
 {
   "name": "Base",
-  "documents": {
+  "terms": {
     "Privacy Policy": {
       "fetch": "https://docs.base.org/docs/privacy-policy/",
       "select": "article"

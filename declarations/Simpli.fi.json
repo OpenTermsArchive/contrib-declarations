@@ -1,6 +1,6 @@
 {
   "name": "Simpli.fi",
-  "documents": {
+  "terms": {
     "Privacy Policy": {
       "fetch": "https://simpli.fi/site-privacy-policy/",
       "select": [

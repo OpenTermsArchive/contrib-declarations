@@ -1,6 +1,6 @@
 {
   "name": "UserDrive.com",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://usersdrive.com/tos.html",
       "select": [
