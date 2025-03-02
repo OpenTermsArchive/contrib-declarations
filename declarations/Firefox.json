@@ -11,6 +11,9 @@
       "fetch": "https://www.mozilla.org/en-US/privacy/firefox/",
       "select": [
         ".mzp-l-main"
+      ],
+      "remove": [
+        ".section2:last-child"
       ]
     }
   }
