@@ -8,7 +8,7 @@
     {
       "fetch": "https://www.usa.gov/policies",
       "select": ".rightnav",
-      "validUntil": "to-be-determined"
+      "validUntil": "2023-10-18T15:11:16Z"
     }
   ]
 }
