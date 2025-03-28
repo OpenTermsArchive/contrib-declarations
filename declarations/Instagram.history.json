@@ -107,6 +107,26 @@
         "removeTrackingIDs"
       ],
       "validUntil": "2022-05-17T00:35:29Z"
+    },
+    {
+      "fetch": "https://help.instagram.com/519522125107875",
+      "select": [
+        {
+          "endBefore": "#ssrb_root_end",
+          "startAfter": "#ssrb_top_nav_end"
+        }
+      ],
+      "remove": [
+        "div[aria-expanded]",
+        "div[role=\"region\"] a[href^=\"/policy/?section_id=\"]",
+        "a[href=\"#\"][role=\"link\"][target=\"_self\"]",
+        "header[role=\"banner\"]"
+      ],
+      "filter": [
+        "removeTrackingIDs"
+      ],
+      "executeClientScripts": true,
+      "validUntil": "to-be-determined"
     }
   ],
   "Terms of Service": [

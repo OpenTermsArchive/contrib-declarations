@@ -17,21 +17,9 @@
       "executeClientScripts": true
     },
     "Privacy Policy": {
-      "fetch": "https://help.instagram.com/519522125107875",
+      "fetch": "https://privacycenter.instagram.com/policy/",
       "select": [
-        {
-          "endBefore": "#ssrb_root_end",
-          "startAfter": "#ssrb_top_nav_end"
-        }
-      ],
-      "remove": [
-        "div[aria-expanded]",
-        "div[role=\"region\"] a[href^=\"/policy/?section_id=\"]",
-        "a[href=\"#\"][role=\"link\"][target=\"_self\"]",
-        "header[role=\"banner\"]"
-      ],
-      "filter": [
-        "removeTrackingIDs"
+        ".xg6iff7"
       ],
       "executeClientScripts": true
     },
