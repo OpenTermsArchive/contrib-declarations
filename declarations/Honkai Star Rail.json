@@ -1,0 +1,29 @@
+{
+  "name": "Honkai Star Rail",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://hsr.hoyoverse.com/en-us/company/terms",
+      "select": [
+        ".detail-content"
+      ],
+      "remove": [
+        ".nav-wrap",
+        ".footer-crm",
+        "#footer"
+      ],
+      "executeClientScripts": true
+    },
+    "Privacy Policy": {
+      "fetch": "https://hsr.hoyoverse.com/en-us/company/privacy",
+      "select": [
+        ".detail-content"
+      ],
+      "remove": [
+        ".nav-wrap",
+        "#footer",
+        ".footer-crm"
+      ],
+      "executeClientScripts": true
+    }
+  }
+}
