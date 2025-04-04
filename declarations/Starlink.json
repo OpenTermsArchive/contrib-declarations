@@ -1,0 +1,16 @@
+{
+  "name": "Starlink",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://www.starlink.com/legal/documents/DOC-1000-41799-67?regionCode=IE",
+      "select": [
+        "app-legal-document"
+      ],
+      "remove": [
+        "app-locale-selector",
+        "summary"
+      ],
+      "executeClientScripts": true
+    }
+  }
+}
