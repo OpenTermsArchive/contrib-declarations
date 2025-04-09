@@ -1,0 +1,15 @@
+{
+  "Privacy Policy": [
+    {
+      "fetch": "https://chayn.notion.site/Chayn-Privacy-Policy-ad4a447bc1aa4d7294d9af5f8be7ae43",
+      "select": [
+        {
+          "startBefore": "[aria-label=🇬🇧]",
+          "endBefore": "[aria-label=🇪🇸]"
+        }
+      ],
+      "executeClientScripts": true,
+      "validUntil": "2025-03-20T06:03:30Z"
+    }
+  ]
+}

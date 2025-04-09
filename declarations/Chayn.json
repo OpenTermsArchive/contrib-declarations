@@ -2,14 +2,14 @@
   "name": "Chayn",
   "terms": {
     "Privacy Policy": {
-      "fetch": "https://chayn.notion.site/Chayn-Privacy-Policy-ad4a447bc1aa4d7294d9af5f8be7ae43",
+      "fetch": "https://www.chayn.co/policies/privacy-policy",
       "select": [
-        {
-          "startBefore": "[aria-label=🇬🇧]",
-          "endBefore": "[aria-label=🇪🇸]"
-        }
+        ".section"
       ],
-      "executeClientScripts": true
+      "remove": [
+        "a[href$=--espanol]",
+        ".section_illustration"
+      ]
     }
   }
 }
