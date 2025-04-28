@@ -10,7 +10,7 @@
     "Privacy Policy": {
       "fetch": "https://www.coindesk.com/privacy/",
       "select": [
-        ".flex-grow"
+        "[data-module-name=\"page\"]"
       ]
     },
     "Editorial Policy": {
