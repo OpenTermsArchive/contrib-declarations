@@ -43,5 +43,17 @@
       ],
       "validUntil": "2024-01-12T12:35:10.000Z"
     }
+  ],
+  "Terms of Service": [
+    {
+      "fetch": "https://www.ikea.com/ie/en/customer-service/terms-conditions/",
+      "select": [
+        ".pub__page-container__main"
+      ],
+      "remove": [
+        ".bc-breadcrumb__list"
+      ],
+      "validUntil": "2024-11-04T18:08:07.000Z"
+    }
   ]
 }
