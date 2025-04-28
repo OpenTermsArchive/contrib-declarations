@@ -16,7 +16,7 @@
     "Editorial Policy": {
       "fetch": "https://www.coindesk.com/ethics/",
       "select": [
-        ".flex-grow"
+        "[data-module-name=\"page\"]"
       ]
     }
   }
