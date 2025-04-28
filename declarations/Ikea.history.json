@@ -9,6 +9,16 @@
         ".bc-breadcrumb__list"
       ],
       "validUntil": "2022-02-03T11:45:57Z"
+    },
+    {
+      "fetch": "https://www.ikea.com/ie/en/customer-service/privacy-policy/",
+      "select": [
+        "main#content"
+      ],
+      "remove": [
+        ".bc-breadcrumb__list"
+      ],
+      "validUntil": "2024-01-12T12:35:09.000Z"
     }
   ],
   "Trackers Policy": [
@@ -21,6 +31,29 @@
         ".bc-breadcrumb__list"
       ],
       "validUntil": "2022-02-03T11:45:57Z"
+    },
+    {
+      "fetch": "https://www.ikea.com/ie/en/customer-service/cookie-policy/",
+      "select": [
+        "main#content"
+      ],
+      "remove": [
+        ".bc-breadcrumb__list",
+        "p strong br"
+      ],
+      "validUntil": "2024-01-12T12:35:10.000Z"
+    }
+  ],
+  "Terms of Service": [
+    {
+      "fetch": "https://www.ikea.com/ie/en/customer-service/terms-conditions/",
+      "select": [
+        ".pub__page-container__main"
+      ],
+      "remove": [
+        ".bc-breadcrumb__list"
+      ],
+      "validUntil": "2024-11-04T18:08:07.000Z"
     }
   ]
 }

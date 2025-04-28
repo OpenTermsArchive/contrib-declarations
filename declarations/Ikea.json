@@ -7,7 +7,8 @@
         "main#content"
       ],
       "remove": [
-        ".bc-breadcrumb__list"
+        ".bc-breadcrumb__list",
+        ".hnf-mobile-vp"
       ]
     },
     "Trackers Policy": {
@@ -17,16 +18,28 @@
       ],
       "remove": [
         ".bc-breadcrumb__list",
-        "p strong br"
+        ".hnf-mobile-vp"
       ]
     },
     "Terms of Service": {
-      "fetch": "https://www.ikea.com/ie/en/customer-service/terms-conditions/",
       "select": [
-        ".pub__page-container__main"
+        "main#content"
       ],
       "remove": [
-        ".bc-breadcrumb__list"
+        ".bc-breadcrumb__list",
+        ".hnf-mobile-vp",
+        "pub-hide-empty-link"
+      ],
+      "combine": [
+        {
+          "fetch": "https://www.ikea.com/ie/en/customer-service/terms-conditions/"
+        },
+        {
+          "fetch": "https://www.ikea.com/ie/en/customer-service/terms-conditions/terms-of-use-pub8262e11a/"
+        },
+        {
+          "fetch": "https://www.ikea.com/ie/en/customer-service/terms-conditions/general-terms-and-conditions-pubf0169731/"
+        }
       ]
     }
   }
