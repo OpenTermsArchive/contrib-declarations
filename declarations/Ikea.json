@@ -17,7 +17,8 @@
       ],
       "remove": [
         ".bc-breadcrumb__list",
-        "p strong br"
+        "p strong br",
+        ".hnf-mobile-vp"
       ]
     },
     "Terms of Service": {
