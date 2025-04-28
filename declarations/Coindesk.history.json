@@ -5,5 +5,12 @@
       "select": "main",
       "validUntil": "2024-11-25T06:03:31.000Z"
     }
+  ],
+  "Privacy Policy": [
+    {
+      "fetch": "https://www.coindesk.com/privacy/",
+      "select": "main",
+      "validUntil": "2024-11-25T06:03:31.000Z"
+    }
   ]
 }
