@@ -9,6 +9,16 @@
         ".bc-breadcrumb__list"
       ],
       "validUntil": "2022-02-03T11:45:57Z"
+    },
+    {
+      "fetch": "https://www.ikea.com/ie/en/customer-service/privacy-policy/",
+      "select": [
+        "main#content"
+      ],
+      "remove": [
+        ".bc-breadcrumb__list"
+      ],
+      "validUntil": "2024-01-12T12:35:09.000Z"
     }
   ],
   "Trackers Policy": [
