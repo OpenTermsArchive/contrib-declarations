@@ -1,0 +1,11 @@
+{
+  "name": "Limitless",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://www.limitless.ai/terms",
+      "select": [
+        ".prose"
+      ]
+    }
+  }
+}
