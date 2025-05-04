@@ -6,6 +6,12 @@
       "select": [
         ".text-left"
       ]
+    },
+    "Terms of Service": {
+      "fetch": "https://www.limitless.ai/terms",
+      "select": [
+        ".prose"
+      ]
     }
   }
 }
