@@ -1,6 +1,12 @@
 {
   "name": "Limitless",
   "terms": {
+    "Privacy Policy": {
+      "fetch": "https://www.limitless.ai/privacy-policy",
+      "select": [
+        ".text-left"
+      ]
+    },
     "Terms of Service": {
       "fetch": "https://www.limitless.ai/terms",
       "select": [
