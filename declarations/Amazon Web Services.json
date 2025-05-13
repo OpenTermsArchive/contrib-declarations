@@ -10,7 +10,7 @@
     "Acceptable Use Policy": {
       "fetch": "https://aws.amazon.com/aup/",
       "select": [
-        ".lb-mid-24"
+        "#aws-page-content-main"
       ]
     },
     "Privacy Policy": {
