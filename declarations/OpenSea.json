@@ -11,7 +11,7 @@
     "Privacy Policy": {
       "fetch": "https://opensea.io/privacy",
       "select": [
-        "#main"
+        ".mx-auto > .flex-col"
       ],
       "executeClientScripts": true
     }
