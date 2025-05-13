@@ -16,7 +16,7 @@
     "Privacy Policy": {
       "fetch": "https://aws.amazon.com/privacy/",
       "select": [
-        ".lb-mid-24"
+        "#aws-page-content-main"
       ]
     },
     "Brand Guidelines": {

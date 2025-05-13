@@ -6,6 +6,13 @@
         ".lb-txt-none > .lb-col"
       ],
       "validUntil": "2022-02-05T13:31:24+01:00"
+    },
+    {
+      "fetch": "https://aws.amazon.com/privacy/",
+      "select": [
+        ".lb-mid-24"
+      ],
+      "validUntil": "2022-07-09T06:31:22.000Z"
     }
   ]
 }
