@@ -4,7 +4,7 @@
     "Terms of Service": {
       "fetch": "https://aws.amazon.com/service-terms/",
       "select": [
-        ".lb-txt-none > .lb-col"
+        "#aws-page-content-main"
       ]
     },
     "Acceptable Use Policy": {
