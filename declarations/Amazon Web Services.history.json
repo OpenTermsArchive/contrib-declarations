@@ -14,5 +14,14 @@
       ],
       "validUntil": "2022-07-09T06:31:22.000Z"
     }
+  ],
+  "Brand Guidelines": [
+    {
+      "fetch": "https://aws.amazon.com/trademark-guidelines/",
+      "select": [
+        ".lb-mid-24"
+      ],
+      "validUntil": "2023-07-20T12:31:15.000Z"
+    }
   ]
 }

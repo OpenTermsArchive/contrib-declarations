@@ -22,7 +22,7 @@
     "Brand Guidelines": {
       "fetch": "https://aws.amazon.com/trademark-guidelines/",
       "select": [
-        ".lb-mid-24"
+        "#aws-page-content-main"
       ]
     }
   }
