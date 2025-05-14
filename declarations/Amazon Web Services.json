@@ -4,25 +4,25 @@
     "Terms of Service": {
       "fetch": "https://aws.amazon.com/service-terms/",
       "select": [
-        ".lb-txt-none > .lb-col"
+        "#aws-page-content-main"
       ]
     },
     "Acceptable Use Policy": {
       "fetch": "https://aws.amazon.com/aup/",
       "select": [
-        ".lb-mid-24"
+        "#aws-page-content-main"
       ]
     },
     "Privacy Policy": {
       "fetch": "https://aws.amazon.com/privacy/",
       "select": [
-        ".lb-mid-24"
+        "#aws-page-content-main"
       ]
     },
     "Brand Guidelines": {
       "fetch": "https://aws.amazon.com/trademark-guidelines/",
       "select": [
-        ".lb-mid-24"
+        "#aws-page-content-main"
       ]
     }
   }
