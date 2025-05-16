@@ -11,7 +11,11 @@
     "Privacy Policy": {
       "fetch": "https://opensea.io/privacy",
       "select": [
-        "#main"
+        "#root"
+      ],
+      "remove": [
+        "nav",
+        "#install"
       ],
       "executeClientScripts": true
     }
