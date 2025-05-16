@@ -1,0 +1,11 @@
+{
+  "Privacy Policy": [
+    {
+      "fetch": "https://trg.de/en/privacy-statement/",
+      "select": [
+        ".gr--push-1\\@l"
+      ],
+      "validUntil": "2023-10-18T15:10:41Z"
+    }
+  ]
+}

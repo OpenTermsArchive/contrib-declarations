@@ -10,7 +10,7 @@
     "Privacy Policy": {
       "fetch": "https://trg.de/en/privacy-statement/",
       "select": [
-        ".gr--push-1\\@l"
+        ".elementor-element-b031a73"
       ]
     }
   }
