@@ -12,7 +12,7 @@
     "Privacy Policy": {
       "fetch": "https://www.vancopayments.com/privacy",
       "select": [
-        ".one-column__content-inner"
+        ".one-column"
       ]
     }
   }
