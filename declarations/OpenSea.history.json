@@ -1,0 +1,12 @@
+{
+  "Privacy Policy": [
+    {
+      "fetch": "https://opensea.io/privacy",
+      "select": [
+        "#main"
+      ],
+      "executeClientScripts": true,
+      "validUntil": "2025-05-03T06:13:38Z"
+    }
+  ]
+}
