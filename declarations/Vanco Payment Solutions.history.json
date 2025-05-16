@@ -11,6 +11,11 @@
       "fetch": "https://www.vancopayments.com/privacy",
       "select": "body",
       "validUntil": "2020-12-08T16:00:00.000Z"
+    },
+    {
+      "fetch": "https://www.vancopayments.com/privacy",
+      "select": ".body-container",
+      "validUntil": "2025-02-21T18:16:41Z"
     }
   ]
 }

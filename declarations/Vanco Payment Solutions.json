@@ -11,7 +11,9 @@
     },
     "Privacy Policy": {
       "fetch": "https://www.vancopayments.com/privacy",
-      "select": ".body-container"
+      "select": [
+        ".one-column"
+      ]
     }
   }
 }
