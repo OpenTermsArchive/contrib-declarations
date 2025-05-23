@@ -1,0 +1,12 @@
+{
+  "name": "SoundCloud",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://soundcloud.com/terms-of-use",
+      "select": [
+        ".staticPage > div"
+      ],
+      "executeClientScripts": true
+    }
+  }
+}
