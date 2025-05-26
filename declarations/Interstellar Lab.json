@@ -1,0 +1,11 @@
+{
+  "name": "Interstellar Lab",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://interstellarlab.com/legal/privacy-policy",
+      "select": [
+        "#content"
+      ]
+    }
+  }
+}
