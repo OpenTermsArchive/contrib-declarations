@@ -4,7 +4,10 @@
     "Terms of Service": {
       "fetch": "https://soundcloud.com/terms-of-use",
       "select": [
-        ".staticPage > div"
+        "[role=\"main\"]"
+      ],
+      "remove": [
+        ".l-sidebar-right"
       ],
       "executeClientScripts": true
     }
