@@ -1,0 +1,15 @@
+{
+  "Terms of Service": [
+    {
+      "fetch": "https://support.zora.co/en/articles/1369089",
+      "select": [
+        ".page-content"
+      ],
+      "remove": [
+        ".kb-breadcrumb-wrapper",
+        "#article-edited"
+      ],
+      "validUntil": "2025-07-07T18:22:59Z"
+    }
+  ]
+}
