@@ -1,0 +1,11 @@
+{
+  "name": "Spark",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://sparkmailapp.com/legal/privacy-app",
+      "select": [
+        ".legal-content"
+      ]
+    }
+  }
+}
