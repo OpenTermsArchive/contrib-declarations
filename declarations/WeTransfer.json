@@ -35,6 +35,13 @@
         ".ui-legal__content"
       ],
       "executeClientScripts": true
+    },
+    "Vulnerability Disclosure Policy": {
+      "fetch": "https://wetransfer.com/explore/legal/disclosure",
+      "select": [
+        ".ui-legal__content"
+      ],
+      "executeClientScripts": true
     }
   }
 }
