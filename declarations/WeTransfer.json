@@ -7,6 +7,13 @@
         ".ui-legal__content"
       ],
       "executeClientScripts": true
+    },
+    "Privacy Policy": {
+      "fetch": "https://wetransfer.com/explore/legal/privacy",
+      "select": [
+        ".ui-legal__content"
+      ],
+      "executeClientScripts": true
     }
   }
 }
