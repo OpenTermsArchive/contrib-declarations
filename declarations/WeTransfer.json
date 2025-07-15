@@ -42,6 +42,13 @@
         ".ui-legal__content"
       ],
       "executeClientScripts": true
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://wetransfer.com/explore/legal/takedown",
+      "select": [
+        ".ui-legal__content"
+      ],
+      "executeClientScripts": true
     }
   }
 }
