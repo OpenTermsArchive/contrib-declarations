@@ -14,6 +14,13 @@
         ".ui-legal__content"
       ],
       "executeClientScripts": true
+    },
+    "Community Guidelines": {
+      "fetch": "https://wetransfer.com/explore/legal/content-moderation-policy",
+      "select": [
+        ".ui-legal__content"
+      ],
+      "executeClientScripts": true
     }
   }
 }
