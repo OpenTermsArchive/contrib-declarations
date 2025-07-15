@@ -28,6 +28,13 @@
         ".ui-legal__content"
       ],
       "executeClientScripts": true
+    },
+    "Commercial Terms": {
+      "fetch": "https://wetransfer.com/explore/legal/advertising",
+      "select": [
+        ".ui-legal__content"
+      ],
+      "executeClientScripts": true
     }
   }
 }
