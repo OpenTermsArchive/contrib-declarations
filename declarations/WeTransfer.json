@@ -1,0 +1,12 @@
+{
+  "name": "WeTransfer",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://wetransfer.com/explore/legal/terms",
+      "select": [
+        ".ui-legal__content"
+      ],
+      "executeClientScripts": true
+    }
+  }
+}
