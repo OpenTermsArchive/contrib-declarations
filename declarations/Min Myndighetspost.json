@@ -1,0 +1,12 @@
+{
+  "name": "Min Myndighetspost",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://minmyndighetspost.se/omminmyndighetspost/anvandarvillkorforminmyndighetspost.html",
+      "select": [
+        ".sv-column-7"
+      ],
+      "executeClientScripts": true
+    }
+  }
+}
