@@ -1,0 +1,19 @@
+{
+  "name": "Swish",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://www.swish.nu/anvandarvillkor",
+      "select": [
+        ".main"
+      ],
+      "executeClientScripts": true
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.swish.nu/dataskydd",
+      "select": [
+        ".main"
+      ],
+      "executeClientScripts": true
+    }
+  }
+}
