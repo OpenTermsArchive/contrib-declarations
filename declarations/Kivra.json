@@ -1,0 +1,35 @@
+{
+  "name": "Kivra",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://kivra.se/sv/om-kivra/villkor/allmanna-villkor-for-tjansten/",
+      "select": [
+        "#mainContent"
+      ],
+      "remove": "div[data-component=breadcrumbs]",
+      "executeClientScripts": true
+    },
+    "Privacy Policy": {
+      "fetch": "https://kivra.se/sv/privat/dataskyddsinformation",
+      "select": [
+        "#mainContent"
+      ],
+      "remove": [
+        "div[data-component=breadcrumbs]",
+        "aside"
+      ],
+      "executeClientScripts": true
+    },
+    "Trackers Policy": {
+      "fetch": "https://kivra.se/sv/om-kivra/cookies",
+      "select": [
+        "#mainContent"
+      ],
+      "remove": [
+        "div[data-component=breadcrumbs]",
+        "aside"
+      ],
+      "executeClientScripts": true
+    }
+  }
+}
