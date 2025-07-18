@@ -1,0 +1,21 @@
+{
+  "name": "Skatteverket",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://skatteverket.se/omoss/varverksamhet/behandlingavpersonuppgifter/behandlingavpersonuppgifterivaraetjanster.html",
+      "select": [
+        ".container"
+      ],
+      "remove": ".sv-skip-spacer",
+      "executeClientScripts": true
+    },
+    "Trackers Policy": {
+      "fetch": "https://skatteverket.se/omoss/varverksamhet/omwebbplatsen/kakorcookies.html",
+      "select": [
+        ".container"
+      ],
+      "remove": ".sv-skip-spacer",
+      "executeClientScripts": true
+    }
+  }
+}
