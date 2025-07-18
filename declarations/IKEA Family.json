@@ -1,0 +1,12 @@
+{
+  "name": "IKEA Family",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://www.ikea.com/fr/fr/customer-service/terms-conditions/conditions-utilisation-ikea-family-pub57b6f181/",
+      "select": [
+        "article"
+      ],
+      "executeClientScripts": true
+    }
+  }
+}
