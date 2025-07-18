@@ -1,0 +1,54 @@
+{
+  "name": "WeTransfer",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://wetransfer.com/explore/legal/terms",
+      "select": [
+        ".ui-legal__content"
+      ],
+      "executeClientScripts": true
+    },
+    "Privacy Policy": {
+      "fetch": "https://wetransfer.com/explore/legal/privacy",
+      "select": [
+        ".ui-legal__content"
+      ],
+      "executeClientScripts": true
+    },
+    "Community Guidelines": {
+      "fetch": "https://wetransfer.com/explore/legal/content-moderation-policy",
+      "select": [
+        ".ui-legal__content"
+      ],
+      "executeClientScripts": true
+    },
+    "Law Enforcement Guidelines": {
+      "fetch": "https://wetransfer.com/explore/legal/law-enforcement",
+      "select": [
+        ".ui-legal__content"
+      ],
+      "executeClientScripts": true
+    },
+    "Commercial Terms": {
+      "fetch": "https://wetransfer.com/explore/legal/advertising",
+      "select": [
+        ".ui-legal__content"
+      ],
+      "executeClientScripts": true
+    },
+    "Vulnerability Disclosure Policy": {
+      "fetch": "https://wetransfer.com/explore/legal/disclosure",
+      "select": [
+        ".ui-legal__content"
+      ],
+      "executeClientScripts": true
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://wetransfer.com/explore/legal/takedown",
+      "select": [
+        ".ui-legal__content"
+      ],
+      "executeClientScripts": true
+    }
+  }
+}
