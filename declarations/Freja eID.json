@@ -1,0 +1,26 @@
+{
+  "name": "Freja eID",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://frejaeid.com/en/terms-and-conditions/",
+      "select": [
+        "main"
+      ],
+      "executeClientScripts": true
+    },
+    "Privacy Policy": {
+      "fetch": "https://frejaeid.com/en/privacy-policy/",
+      "select": [
+        "main"
+      ],
+      "executeClientScripts": true
+    },
+    "Trackers Policy": {
+      "fetch": "https://org.frejaeid.com/en/cookie-policy/",
+      "select": [
+        "main"
+      ],
+      "executeClientScripts": true
+    }
+  }
+}
