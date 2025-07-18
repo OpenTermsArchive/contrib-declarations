@@ -11,6 +11,12 @@
       "fetch": "https://www.worldmarket.com/category/customer-service/privacy-and-security.do",
       "select": "body",
       "validUntil": "2020-11-09T17:30:03.000Z"
+    },
+    {
+      "fetch": "https://www.worldmarket.com/category/customer-service/privacy-and-security.do",
+      "select": "#privacy",
+      "executeClientScripts": true,
+      "validUntil": "2025-04-26T06:22:28Z"
     }
   ]
 }
