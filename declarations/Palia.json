@@ -1,0 +1,23 @@
+{
+  "name": "Palia",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://palia.com/privacy",
+      "select": [
+        "main section"
+      ],
+      "remove": [
+        "main section h4 > span"
+      ]
+    },
+    "Terms of Service": {
+      "fetch": "https://palia.com/terms",
+      "select": [
+        "main section"
+      ],
+      "remove": [
+        "main section h4 > span"
+      ]
+    }
+  }
+}
