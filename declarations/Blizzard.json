@@ -1,0 +1,11 @@
+{
+  "name": "Blizzard",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://www.blizzard.com/en-us/privacy",
+      "select": [
+        ".aadc-page"
+      ]
+    }
+  }
+}
