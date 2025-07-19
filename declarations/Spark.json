@@ -1,0 +1,11 @@
+{
+  "name": "Spark",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://sparkmailapp.com/legal/terms",
+      "select": [
+        ".legal-content"
+      ]
+    }
+  }
+}
