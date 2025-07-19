@@ -1,0 +1,11 @@
+{
+  "name": "HackerOne",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://www.hackerone.com/terms",
+      "select": [
+        "main"
+      ]
+    }
+  }
+}
