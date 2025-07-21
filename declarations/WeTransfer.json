@@ -49,6 +49,9 @@
         ".ui-legal__content"
       ],
       "executeClientScripts": true
+    },
+    "Data Processor Agreement": {
+      "fetch": "https://wetransfer.com/documents/WeTransfer_Data_Processing_Agreement.pdf"
     }
   }
 }
