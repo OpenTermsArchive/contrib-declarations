@@ -1,0 +1,11 @@
+{
+  "name": "Hetzner",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://www.hetzner.com/legal/privacy-policy/",
+      "select": [
+        ".border-card"
+      ]
+    }
+  }
+}
