@@ -6,6 +6,11 @@
       "select": [
         ".legal-content"
       ]
-    }
+  },
+   "Terms of Service": {
+    "fetch": "https://sparkmailapp.com/legal/terms",
+    "select": [
+       ".legal-content"
+     ]
   }
 }
