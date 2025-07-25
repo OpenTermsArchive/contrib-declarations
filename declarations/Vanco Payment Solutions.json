@@ -4,15 +4,18 @@
   "terms": {
     "Terms of Service": {
       "fetch": "https://www.vancopayments.com/terms-and-conditions",
-      "select": {
-        "startAfter": "Vanco Payment Solutions Terms of Service",
-        "endBefore": "Canadian Code of Conduct for Credit and Debit Card Industry"
-      }
+      "select": [
+        "main"
+      ],
+      "remove": [
+        ".expanders",
+        ".module--padding-top-small"
+      ]
     },
     "Privacy Policy": {
       "fetch": "https://www.vancopayments.com/privacy",
       "select": [
-        ".one-column"
+        "main"
       ]
     }
   }
