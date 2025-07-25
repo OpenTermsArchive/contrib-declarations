@@ -12,7 +12,7 @@
       ]
     },
     "Terms of Service": {
-      "fetch": "https://support.zora.co/en/articles/1369089",
+      "fetch": "https://support.zora.co/en/articles/6171073",
       "select": [
         ".page-content"
       ],
