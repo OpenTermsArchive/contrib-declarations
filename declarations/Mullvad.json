@@ -1,0 +1,29 @@
+{
+  "name": "Mullvad",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://mullvad.net/en/help/terms-service",
+      "select": [
+        "article"
+      ],
+      "remove": ".tag",
+      "executeClientScripts": true
+    },
+    "Privacy Policy": {
+      "fetch": "https://mullvad.net/en/help/privacy-policy",
+      "select": [
+        "article"
+      ],
+      "remove": ".tag",
+      "executeClientScripts": true
+    },
+    "Trackers Policy": {
+      "fetch": "https://mullvad.net/en/help/cookie-policy",
+      "select": [
+        "article"
+      ],
+      "remove": ".tag",
+      "executeClientScripts": true
+    }
+  }
+}
