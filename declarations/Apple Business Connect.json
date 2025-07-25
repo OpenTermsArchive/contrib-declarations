@@ -1,0 +1,8 @@
+{
+  "name": "Apple Business Connect",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://www.apple.com/legal/internet-services/maps/business-connect/apple-business-connect-business-terms-english.pdf"
+    }
+  }
+}

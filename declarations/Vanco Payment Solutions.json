@@ -4,15 +4,18 @@
   "terms": {
     "Terms of Service": {
       "fetch": "https://www.vancopayments.com/terms-and-conditions",
-      "select": {
-        "startAfter": "#section-1",
-        "endBefore": "#section-2"
-      }
+      "select": [
+        "main"
+      ],
+      "remove": [
+        ".expanders",
+        ".module--padding-top-small"
+      ]
     },
     "Privacy Policy": {
       "fetch": "https://www.vancopayments.com/privacy",
       "select": [
-        ".one-column"
+        "main"
       ]
     }
   }
