@@ -1,0 +1,79 @@
+{
+  "name": "Substack",
+  "terms": {
+    "Terms of Service": {
+      "combine": [
+        {
+          "fetch": "https://substack.com/tos",
+          "select": {
+            "startBefore": "h1",
+            "endBefore": ".footer-wrap"
+          }
+        },
+        {
+          "fetch": "https://substack.com/chatbot-tos",
+          "select": {
+            "startBefore": "h1",
+            "endBefore": ".footer-wrap"
+          }
+        }
+      ]
+    },
+    "Privacy Policy": {
+      "combine": [
+        {
+          "fetch": "https://substack.com/privacy",
+          "select": {
+            "startBefore": "h1",
+            "endBefore": ".footer-wrap"
+          }
+        },
+        {
+          "fetch": "https://substack.com/ccpa",
+          "select": {
+            "startBefore": "h1",
+            "endBefore": ".footer-wrap"
+          }
+        }
+      ]
+    },
+    "Acceptable Use Policy": {
+      "fetch": "https://substack.com/content",
+      "select": {
+        "startBefore": "h1",
+        "endBefore": ".footer-wrap"
+      }
+    },
+    "Commercial Terms": {
+      "fetch": "https://substack.com/pa",
+      "select": {
+        "startBefore": "h1",
+        "endBefore": ".footer-wrap"
+      }
+    },
+    "Copyright Claims Policy": {
+      "combine": [
+        {
+          "fetch": "https://substack.com/dispute",
+          "select": {
+            "startBefore": "h1",
+            "endBefore": ".footer-wrap"
+          }
+        },
+        {
+          "fetch": "https://substack.com/repeat_infringer",
+          "select": {
+            "startBefore": "h1",
+            "endBefore": ".footer-wrap"
+          }
+        }
+      ]
+    },
+    "Vulnerability Disclosure Policy": {
+      "fetch": "https://substack.com/vulnerability-disclosure",
+      "select": [
+        ".cohort-page"
+      ]
+    }
+  }
+}
