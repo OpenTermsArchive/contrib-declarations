@@ -19,7 +19,10 @@
     "Copyright Claims Policy": {
       "fetch": "https://www.youtube.com/intl/en_be/howyoutubeworks/policies/copyright/",
       "select": [
-        ".ytr-article__content"
+        "main"
+      ],
+      "remove": [
+        "#copyright-explore-more"
       ]
     }
   }
