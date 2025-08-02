@@ -18,7 +18,12 @@
     },
     "Copyright Claims Policy": {
       "fetch": "https://www.youtube.com/intl/en_be/howyoutubeworks/policies/copyright/",
-      "select": ".ytr-article__content"
+      "select": [
+        "main"
+      ],
+      "remove": [
+        "#copyright-explore-more"
+      ]
     }
   }
 }
