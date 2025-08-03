@@ -1,0 +1,11 @@
+{
+  "name": "hide.me VPN",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://hide.me/en/legal?embed=1",
+      "select": [
+        "#main"
+      ]
+    }
+  }
+}
