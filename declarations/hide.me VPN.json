@@ -1,0 +1,11 @@
+{
+  "name": "hide.me VPN",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://hide.me/en/privacy?embed=1",
+      "select": [
+        "#main"
+      ]
+    }
+  }
+}
