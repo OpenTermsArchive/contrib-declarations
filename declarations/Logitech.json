@@ -4,7 +4,9 @@
   "terms": {
     "Privacy Policy": {
       "fetch": "https://www.logitech.com/en-gb/legal/web-privacy-policy.html",
-      "select": "#maincontent .page"
+      "select": [
+        "div.legal-page"
+      ]
     },
     "Terms of Service": {
       "fetch": "https://www.logitech.com/en-gb/tos/terms.html",
