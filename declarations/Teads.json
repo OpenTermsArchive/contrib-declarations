@@ -14,8 +14,7 @@
     "Terms of Service": {
       "fetch": "https://www.teads.com/terms-of-use/",
       "select": [
-        ".elementor-element-a2738eb",
-        ".elementor-element-d23a554"
+        "main"
       ]
     },
     "Acceptable Use Policy": {

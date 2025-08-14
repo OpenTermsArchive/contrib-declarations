@@ -8,5 +8,15 @@
       ],
       "validUntil": "2022-03-25T18:39:15Z"
     }
+  ],
+  "Terms of Service": [
+    {
+      "fetch": "https://www.teads.com/terms-of-use/",
+      "select": [
+        ".elementor-element-a2738eb",
+        ".elementor-element-d23a554"
+      ],
+      "validUntil": "2025-07-07T18:16:50Z"
+    }
   ]
 }
