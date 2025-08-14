@@ -8,5 +8,16 @@
       ],
       "validUntil": "2022-03-25T18:39:15Z"
     }
+  ],
+  "Acceptable Use Policy": [
+    {
+      "fetch": "https://www.teads.com/ad-policies/",
+      "select": [
+        ".elementor-element-381ca57",
+        ".elementor-element-b7cc909",
+        ".elementor-element-e5908b6 .elementor-heading-title"
+      ],
+      "validUntil": "2025-07-07T18:16:53Z"
+    }
   ]
 }

@@ -21,9 +21,7 @@
     "Acceptable Use Policy": {
       "fetch": "https://www.teads.com/ad-policies/",
       "select": [
-        ".elementor-element-381ca57",
-        ".elementor-element-b7cc909",
-        ".elementor-element-e5908b6 .elementor-heading-title"
+        "main"
       ]
     }
   }
