@@ -24,5 +24,20 @@
       ],
       "validUntil": "2022-06-14T12:36:56Z"
     }
+  ],
+  "Trackers Policy": [
+    {
+      "fetch": "https://www.mailjet.com/legal/privacy-policy/cookies/",
+      "select": [
+        {
+          "startBefore": "h1",
+          "endAfter": "main"
+        }
+      ],
+      "remove": [
+        "button"
+      ],
+      "validUntil": "2025-07-07T18:11:47Z"
+    }
   ]
 }
