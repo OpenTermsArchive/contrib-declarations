@@ -4,6 +4,11 @@
       "fetch": "http://www.imdb.com/privacy",
       "select": "body",
       "validUntil": "2020-12-08T16:00:00.000Z"
+    },
+    {
+      "fetch": "http://www.imdb.com/privacy",
+      "select": "div#main",
+      "validUntil": "2025-07-07T18:08:49Z"
     }
   ],
   "Terms of Service": [
