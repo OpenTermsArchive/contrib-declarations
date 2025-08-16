@@ -23,6 +23,13 @@
         ".subfooter"
       ],
       "validUntil": "2022-06-14T12:36:56Z"
+    },
+    {
+      "fetch": "https://www.mailjet.com/legal/terms/",
+      "select": [
+        "main"
+      ],
+      "validUntil": "2025-07-07T18:11:41Z"
     }
   ]
 }

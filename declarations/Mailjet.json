@@ -10,7 +10,8 @@
     "Terms of Service": {
       "fetch": "https://www.mailjet.com/legal/terms/",
       "select": [
-        "main"
+        ".header-block",
+        ".longform-content"
       ]
     },
     "Acceptable Use Policy": {
