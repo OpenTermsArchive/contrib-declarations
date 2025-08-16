@@ -10,6 +10,13 @@
         ".subfooter"
       ],
       "validUntil": "2022-06-14T12:36:56Z"
+    },
+    {
+      "fetch": "https://www.mailjet.com/privacy-policy/",
+      "select": [
+        "main"
+      ],
+      "validUntil": "2025-07-07T18:11:38Z"
     }
   ],
   "Terms of Service": [

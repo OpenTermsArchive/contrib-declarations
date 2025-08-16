@@ -4,7 +4,8 @@
     "Privacy Policy": {
       "fetch": "https://www.mailjet.com/privacy-policy/",
       "select": [
-        "main"
+        ".header-block",
+        ".longform-content"
       ]
     },
     "Terms of Service": {
