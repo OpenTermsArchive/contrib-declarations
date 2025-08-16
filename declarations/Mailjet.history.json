@@ -24,5 +24,14 @@
       ],
       "validUntil": "2022-06-14T12:36:56Z"
     }
+  ],
+  "Acceptable Use Policy": [
+    {
+      "fetch": "https://www.mailjet.com/legal/sending-policy/",
+      "select": [
+        "main"
+      ],
+      "validUntil": "2025-07-07T18:11:44Z"
+    }
   ]
 }
