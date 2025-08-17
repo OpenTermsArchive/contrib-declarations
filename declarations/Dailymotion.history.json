@@ -9,6 +9,13 @@
       "fetch": "https://www.dailymotion.com/legal/privacy?localization=gb",
       "select": "div#privacy",
       "validUntil": "2022-02-22T18:32:56Z"
+    },
+    {
+      "fetch": "https://www.dailymotion.com/legal/privacy?localization=gb",
+      "select": [
+        "main .tocpage-content"
+      ],
+      "validUntil": "2025-08-16T18:04:32Z"
     }
   ],
   "Terms of Service": [
