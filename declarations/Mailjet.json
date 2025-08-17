@@ -34,10 +34,8 @@
     "Data Processor Agreement": {
       "fetch": "https://www.mailjet.com/legal/dpa/",
       "select": [
-        {
-          "endAfter": "main",
-          "startBefore": "h1"
-        }
+        ".header-block",
+        ".longform-content"
       ]
     }
   }
