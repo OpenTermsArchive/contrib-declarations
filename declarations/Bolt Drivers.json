@@ -2,9 +2,12 @@
   "name": "Bolt Drivers",
   "terms": {
     "Terms of Service": {
-      "fetch": "https://bolt.eu/en/legal/ie/terms-for-drivers/",
+      "fetch": "https://bolt.eu/en-ie/legal/terms-for-drivers-2025/?category=rides",
       "select": [
         "main"
+      ],
+      "remove": [
+        ".h-full"
       ]
     },
     "Privacy Policy": {
