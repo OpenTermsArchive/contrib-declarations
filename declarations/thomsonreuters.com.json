@@ -4,7 +4,10 @@
   "terms": {
     "Terms of Service": {
       "fetch": "https://www.thomsonreuters.com/en/terms-of-use.html",
-      "select": ".tr-SemanticMain"
+      "select": [
+        ".richtext--element-font",
+        "#open-module-1"
+      ]
     },
     "Privacy Policy": {
       "fetch": "https://www.thomsonreuters.com/en/privacy-statement.html",
