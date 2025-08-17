@@ -3,7 +3,10 @@
   "terms": {
     "Terms of Service": {
       "fetch": "https://www.twitch.tv/p/en/legal/terms-of-service/",
-      "select": ".typeset"
+      "select": [
+        "#main-content > div"
+      ],
+      "executeClientScripts": true
     },
     "Privacy Policy": {
       "fetch": "https://www.twitch.tv/p/en/legal/privacy-notice/",
