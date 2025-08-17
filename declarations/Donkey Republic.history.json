@@ -1,0 +1,11 @@
+{
+  "Privacy Policy": [
+    {
+      "fetch": "https://www.donkey.bike/privacy-policy/",
+      "select": [
+        ".container"
+      ],
+      "validUntil": "2025-07-07T18:04:14Z"
+    }
+  ]
+}
