@@ -21,6 +21,5 @@
       "fetch": "https://kick.com/partner-terms-and-conditions",
       "select": ".markdown-policy-page"
     }
-    }
   }
 }
