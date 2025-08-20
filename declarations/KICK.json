@@ -3,11 +3,11 @@
   "terms": {
     "Community Guidelines": {
       "fetch": "https://kick.com/community-guidelines",
-      "select": "main"
+      "select": ".markdown-policy-page"
     },
     "Copyright Claims Policy": {
         "fetch": "https://kick.com/dmca-policy",
-        "select": "main"
+        "select": ".markdown-policy-page"
     }
   }
 }
