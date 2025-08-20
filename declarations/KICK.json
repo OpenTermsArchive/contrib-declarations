@@ -8,6 +8,19 @@
     "Copyright Claims Policy": {
       "fetch": "https://kick.com/dmca-policy",
       "select": ".markdown-policy-page"
+    },
+    "Privacy Policy": {
+      "fetch": "https://kick.com/privacy-policy",
+      "select": ".markdown-policy-page"
+    },
+    "Terms of Service": {
+      "fetch": "https://kick.com/terms-of-service",
+      "select": ".markdown-policy-page"
+    },
+    "Premium Partner Conditions": {
+      "fetch": "https://kick.com/partner-terms-and-conditions",
+      "select": ".markdown-policy-page"
+    }
     }
   }
 }
