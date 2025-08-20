@@ -1,0 +1,13 @@
+{
+  "name": "KICK",
+  "terms": {
+    "Community Guidelines": {
+      "fetch": "https://kick.com/community-guidelines",
+      "select": "main"
+    },
+    "Copyright Claims Policy": {
+        "fetch": "https://kick.com/dmca-policy",
+        "select": "main"
+    }
+  }
+}
