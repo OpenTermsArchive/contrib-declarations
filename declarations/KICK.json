@@ -6,8 +6,8 @@
       "select": ".markdown-policy-page"
     },
     "Copyright Claims Policy": {
-        "fetch": "https://kick.com/dmca-policy",
-        "select": ".markdown-policy-page"
+      "fetch": "https://kick.com/dmca-policy",
+      "select": ".markdown-policy-page"
     }
   }
 }
