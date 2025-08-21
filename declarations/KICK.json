@@ -3,7 +3,8 @@
   "terms": {
     "Community Guidelines": {
       "fetch": "https://kick.com/community-guidelines",
-      "select": ".markdown-policy-page"
+      "select": ".markdown-policy-page",
+      "executeClientScripts": true
     },
     "Copyright Claims Policy": {
       "fetch": "https://kick.com/dmca-policy",
