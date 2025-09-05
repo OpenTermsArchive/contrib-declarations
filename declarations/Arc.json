@@ -1,0 +1,11 @@
+{
+  "name": "Arc",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://start.arc.net/terms-of-use",
+      "select": [
+        "#page-terms-of-use"
+      ]
+    }
+  }
+}
