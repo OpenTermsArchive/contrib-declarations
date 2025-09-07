@@ -6,6 +6,12 @@
       "select": [
         "#page-terms-of-use"
       ]
+    },
+    "Privacy Policy": {
+      "fetch": "https://arc.net/privacy",
+      "select": [
+        "article"
+      ]
     }
   }
 }
