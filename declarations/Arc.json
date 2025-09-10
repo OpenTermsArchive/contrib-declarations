@@ -1,0 +1,20 @@
+{
+  "name": "Arc",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://start.arc.net/terms-of-use",
+      "select": [
+        "main"
+      ],
+      "remove": [
+        ".notion-navbar"
+      ]
+    },
+    "Privacy Policy": {
+      "fetch": "https://arc.net/privacy",
+      "select": [
+        "article"
+      ]
+    }
+  }
+}
