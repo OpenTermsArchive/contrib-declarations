@@ -1,0 +1,23 @@
+{
+  "name": "Frank",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://www.frank.fi/en/terms/",
+      "select": [
+        {
+          "startBefore": "hr ~ p",
+          "endBefore": "hr:nth-of-type(2)"
+        }
+      ]
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.frank.fi/en/terms/",
+      "select": [
+        {
+          "startBefore": "hr:nth-of-type(2) ~ p",
+          "endBefore": "p[data-empty=\"true\"]"
+        }
+      ]
+    }
+  }
+}
