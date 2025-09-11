@@ -4,7 +4,9 @@
   "terms": {
     "Privacy Policy": {
       "fetch": "http://www.imdb.com/privacy",
-      "select": "div#main"
+      "select": [
+        ".a-container"
+      ]
     },
     "Terms of Service": {
       "fetch": "https://www.imdb.com/conditions",
