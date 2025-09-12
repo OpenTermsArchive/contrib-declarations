@@ -5,23 +5,27 @@
       "fetch": "https://www.vr.fi/en/terms-and-conditions",
       "select": "#maincontent",
       "remove": [
-        "div[class^=\"ContentfulFullwidthImageHeader\"]",
-        "div[class^=\"ContentfulTwoColumnInfo\"]"
+        "[class^=\"ContentfulFullwidthImageHeader\"]",
+        "[class^=\"ContentfulTwoColumnInfo\"]",
+        "[class^=\"ContentfulRichTextWithImage\"] > img"
       ]
     },
     "Privacy Policy": {
       "fetch": "https://www.vr.fi/en/privacy",
       "select": "#maincontent",
       "remove": [
-        "div[class^=\"ContentfulFullwidthImageHeader\"]",
-        "div[class^=\"ContentfulTwoColumnInfo\"]"
+        "[class^=\"ContentfulFullwidthImageHeader\"]",
+        "[class^=\"ContentfulTwoColumnInfo\"]",
+        "[class^=\"ContentfulRichTextWithImage\"] > img"
       ]
     },
     "Trackers Policy": {
       "fetch": "https://www.vr.fi/en/cookie-information",
       "select": "#maincontent",
       "remove": [
-        "div[class^=\"ContentfulFullwidthImageHeader\"]"
+        "[class^=\"ContentfulFullwidthImageHeader\"]",
+        "[class^=\"ContentfulTwoColumnInfo\"]",
+        "[class^=\"ContentfulRichTextWithImage\"] > img"
       ]
     }
   }
