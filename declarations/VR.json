@@ -1,0 +1,32 @@
+{
+  "name": "VR",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://www.vr.fi/en/terms-and-conditions",
+      "select": "#maincontent",
+      "remove": [
+        "[class^=\"ContentfulFullwidthImageHeader\"]",
+        "[class^=\"ContentfulTwoColumnInfo\"]",
+        "[class^=\"ContentfulRichTextWithImage\"] > img"
+      ]
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.vr.fi/en/privacy",
+      "select": "#maincontent",
+      "remove": [
+        "[class^=\"ContentfulFullwidthImageHeader\"]",
+        "[class^=\"ContentfulTwoColumnInfo\"]",
+        "[class^=\"ContentfulRichTextWithImage\"] > img"
+      ]
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.vr.fi/en/cookie-information",
+      "select": "#maincontent",
+      "remove": [
+        "[class^=\"ContentfulFullwidthImageHeader\"]",
+        "[class^=\"ContentfulTwoColumnInfo\"]",
+        "[class^=\"ContentfulRichTextWithImage\"] > img"
+      ]
+    }
+  }
+}
