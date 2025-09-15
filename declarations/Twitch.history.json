@@ -1,0 +1,9 @@
+{
+  "Terms of Service": [
+    {
+      "fetch": "https://www.twitch.tv/p/en/legal/terms-of-service/",
+      "select": ".typeset",
+      "validUntil": "2025-07-07T18:18:07Z"
+    }
+  ]
+}
