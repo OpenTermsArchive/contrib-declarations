@@ -1,0 +1,17 @@
+{
+  "name": "ProtonVPN",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://protonvpn.com/terms-and-conditions",
+      "select": [
+        ".content"
+      ]
+    },
+    "Privacy Policy": {
+      "fetch": "https://protonvpn.com/privacy-policy",
+      "select": [
+        ".content"
+      ]
+    }
+  }
+}
