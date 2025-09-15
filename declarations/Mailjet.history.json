@@ -24,5 +24,17 @@
       ],
       "validUntil": "2022-06-14T12:36:56Z"
     }
+  ],
+  "Data Processor Agreement": [
+    {
+      "fetch": "https://www.mailjet.com/legal/dpa/",
+      "select": [
+        {
+          "endAfter": "main",
+          "startBefore": "h1"
+        }
+      ],
+      "validUntil": "2025-07-07T18:11:50Z"
+    }
   ]
 }
