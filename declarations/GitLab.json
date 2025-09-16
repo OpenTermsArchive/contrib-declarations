@@ -4,9 +4,7 @@
   "terms": {
     "Privacy Policy": {
       "fetch": "https://about.gitlab.com/privacy/",
-      "select": [
-        ".privacy"
-      ],
+      "select": "main .content",
       "remove": [
         "#collapsible-sidebar",
         ".header-anchor"
