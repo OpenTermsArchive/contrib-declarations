@@ -8,6 +8,9 @@
       "remove": [
         "#collapsible-sidebar",
         ".header-anchor"
+      ],
+      "filter": [
+        "removeCloudflareEmailProtection"
       ]
     },
     "Vulnerability Disclosure Policy": {
