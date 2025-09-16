@@ -9,7 +9,7 @@ export const cleanUrls = [
         link.href = decodeURIComponent(link.href.replace(/&h=\S*/, '').replace(/(\S*)\?u=(\S*)/, '$2'));
       });
     },
-  }, 
+  },
 ];
 
 export const removeTrackingIDs = [
@@ -30,5 +30,5 @@ export const removeTrackingIDs = [
         }
       });
     },
-  }, 
+  },
 ];
