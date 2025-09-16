@@ -10,8 +10,7 @@
         ".avatar__photo"
       ],
       "filter": [
-        "cleanHref",
-        "cleanSrc"
+        { "removeQueryParams": ["expires", "req", "signature"] }
       ]
     },
     "Terms of Service": {

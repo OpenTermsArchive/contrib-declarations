@@ -5,8 +5,7 @@
       "fetch": "https://fr-fr.facebook.com/privacy/explanation/",
       "filter": [
         "removeEmptyAnchorsLinks",
-        "removeTrackingIDs",
-        "removeLocaleFromUrls"
+        { "removeQueryParams": ["h", "locale2"] }
       ],
       "select": [
         "hr+div"
@@ -20,8 +19,7 @@
       ],
       "filter": [
         "removeEmptyAnchorsLinks",
-        "removeTrackingIDs",
-        "removeLocaleFromUrls"
+        { "removeQueryParams": ["h", "locale2"] }
       ],
       "remove": [
         {
