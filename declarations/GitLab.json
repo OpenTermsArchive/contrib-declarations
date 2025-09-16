@@ -10,7 +10,7 @@
         ".header-anchor"
       ],
       "filter": [
-        "removeCloudflareEmailProtection"
+        "removeDpoEmailProtection"
       ]
     },
     "Vulnerability Disclosure Policy": {
@@ -20,6 +20,9 @@
       ],
       "remove": [
         ".breadcrumb"
+      ],
+      "filter": [
+        "removeSecurityEmailProtection"
       ]
     },
     "Terms of Service": {
