@@ -5,7 +5,12 @@
       "fetch": "https://fr-fr.facebook.com/privacy/explanation/",
       "filter": [
         "removeEmptyAnchorsLinks",
-        { "removeQueryParams": ["h", "locale2"] }
+        {
+          "removeQueryParams": [
+            "h",
+            "locale2"
+          ]
+        }
       ],
       "select": [
         "hr+div"
@@ -19,7 +24,12 @@
       ],
       "filter": [
         "removeEmptyAnchorsLinks",
-        { "removeQueryParams": ["h", "locale2"] }
+        {
+          "removeQueryParams": [
+            "h",
+            "locale2"
+          ]
+        }
       ],
       "remove": [
         {

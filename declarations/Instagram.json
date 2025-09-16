@@ -12,7 +12,11 @@
         "fieldset"
       ],
       "filter": [
-        { "removeQueryParams": ["h"] }
+        {
+          "removeQueryParams": [
+            "h"
+          ]
+        }
       ],
       "executeClientScripts": true
     },
@@ -34,7 +38,11 @@
         "fieldset"
       ],
       "filter": [
-        { "removeQueryParams": ["h"] }
+        {
+          "removeQueryParams": [
+            "h"
+          ]
+        }
       ],
       "executeClientScripts": true
     },
@@ -50,7 +58,11 @@
       ],
       "executeClientScripts": true,
       "filter": [
-        { "removeQueryParams": ["h"] }
+        {
+          "removeQueryParams": [
+            "h"
+          ]
+        }
       ]
     },
     "Developer Terms": {
@@ -59,7 +71,11 @@
         "#rebrandBodyID"
       ],
       "filter": [
-        { "removeQueryParams": ["h"] },
+        {
+          "removeQueryParams": [
+            "h"
+          ]
+        },
         "replaceInfoImageWithEmoji"
       ]
     }

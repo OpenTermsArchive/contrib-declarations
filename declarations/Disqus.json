@@ -10,7 +10,13 @@
         ".avatar__photo"
       ],
       "filter": [
-        { "removeQueryParams": ["expires", "req", "signature"] }
+        {
+          "removeQueryParams": [
+            "expires",
+            "req",
+            "signature"
+          ]
+        }
       ]
     },
     "Terms of Service": {
