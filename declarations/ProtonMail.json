@@ -2,9 +2,9 @@
   "name": "ProtonMail",
   "terms": {
     "Terms of Service": {
-      "fetch": "https://protonmail.com/terms-and-conditions",
+      "fetch": "https://proton.me/legal/terms",
       "select": [
-        ".content"
+        "main"
       ]
     },
     "Privacy Policy": {
