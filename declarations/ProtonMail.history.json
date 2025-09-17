@@ -1,0 +1,11 @@
+{
+  "Terms of Service": [
+    {
+      "fetch": "https://protonmail.com/terms-and-conditions",
+      "select": [
+        ".content"
+      ],
+      "validUntil": "2025-08-29T06:15:00Z"
+    }
+  ]
+}
