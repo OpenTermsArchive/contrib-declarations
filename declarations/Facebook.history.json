@@ -14,10 +14,10 @@
     {
       "fetch": "https://en-gb.facebook.com/policies/live",
       "select": [
-        "div[role=main"
+        "div[role=main]"
       ],
       "remove": [
-        "footer[role=contentinfo"
+        "footer[role=contentinfo]"
       ],
       "validUntil": "2022-06-21T10:27:21+01:00"
     }
