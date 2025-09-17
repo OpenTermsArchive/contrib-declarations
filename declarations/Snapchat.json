@@ -2,25 +2,38 @@
   "name": "Snapchat",
   "terms": {
     "Terms of Service": {
-      "fetch": "https://www.snap.com/en-GB/terms",
-      "select": "#terms-row",
-      "executeClientScripts": true
+      "fetch": "https://www.snap.com/terms",
+      "select": ".sdsm-page",
+      "filter": [
+        "removeUTMfromUrls",
+        "removeGclidFromUrls"
+      ]
     },
     "Privacy Policy": {
-      "fetch": "https://www.snap.com/en-GB/privacy/privacy-policy",
-      "select": [
-        ".mwp-page"
+      "fetch": "https://values.snap.com/privacy/privacy-policy",
+      "select": ".mwp-page",
+      "filter": [
+        "removeUTMfromUrls",
+        "removeGclidFromUrls"
       ]
     },
     "Trackers Policy": {
-      "fetch": "https://www.snap.com/en-GB/cookie-policy/",
-      "executeClientScripts": true,
-      "select": ".TermContainer-sc-1eyc2w4"
+      "fetch": "https://www.snap.com/cookie-policy",
+      "select": ".sdsm-page",
+      "filter": [
+        "removeUTMfromUrls",
+        "removeGclidFromUrls"
+      ]
     },
     "Community Guidelines": {
-      "fetch": "https://www.snap.com/en-GB/community-guidelines",
-      "select": [
-        "[data-testid=\"page\"]"
+      "fetch": "https://values.snap.com/policy/policy-community-guidelines",
+      "select": ".mwp-page",
+      "remove": [
+        ".sdsm-media"
+      ],
+      "filter": [
+        "removeUTMfromUrls",
+        "removeGclidFromUrls"
       ]
     }
   }
