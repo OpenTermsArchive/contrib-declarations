@@ -4,7 +4,9 @@
   "terms": {
     "Terms of Service": {
       "fetch": "https://www.worldmarket.com/category/customer-service/terms-of-use.do",
-      "select": ".helpdesk",
+      "select": [
+        ".col-lg-8"
+      ],
       "executeClientScripts": true
     },
     "Privacy Policy": {
