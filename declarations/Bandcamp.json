@@ -21,7 +21,11 @@
     },
     "Acceptable Use Policy": {
       "fetch": "https://get.bandcamp.help/hc/en-us/articles/23005947027991-Bandcamp-s-Acceptable-Use-and-Moderation-policy",
-      "select": ".article-body"
+      "select": ".article",
+      "remove": [
+        ".article footer",
+        ".article-relatives"
+      ]
     }
   }
 }
