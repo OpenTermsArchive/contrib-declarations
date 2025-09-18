@@ -4,10 +4,10 @@
     "Terms of Service": {
       "fetch": "https://www.booking.com/content/terms.en-gb.html",
       "select": [
-        ".bui-grid__column-9"
+        "[role=\"main\"]"
       ],
       "remove": [
-        "a[href=\"javascript:window.print()\"]"
+        "[role=\"main\"] button"
       ],
       "filter": [
         "removeLabelAndSidFromUrls"
@@ -19,7 +19,7 @@
       "select": "div.static_content",
       "filter": [
         "removeLabelAndSidFromUrls",
-        "removeSigfromUrls"
+        { "removeQueryParams": ["sig"] }
       ]
     }
   }
