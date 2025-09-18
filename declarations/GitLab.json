@@ -4,12 +4,13 @@
   "terms": {
     "Privacy Policy": {
       "fetch": "https://about.gitlab.com/privacy/",
-      "select": [
-        ".privacy"
-      ],
+      "select": "main .content",
       "remove": [
         "#collapsible-sidebar",
         ".header-anchor"
+      ],
+      "filter": [
+        "removeDpoEmailProtection"
       ]
     },
     "Vulnerability Disclosure Policy": {
@@ -19,6 +20,9 @@
       ],
       "remove": [
         ".breadcrumb"
+      ],
+      "filter": [
+        "removeSecurityEmailProtection"
       ]
     },
     "Terms of Service": {
