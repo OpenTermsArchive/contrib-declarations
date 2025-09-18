@@ -7,7 +7,10 @@
     },
     "Privacy Policy": {
       "fetch": "https://www.twitch.tv/p/en/legal/privacy-notice/",
-      "select": ".typeset"
+      "select": [
+        "#main-content article"
+      ],
+      "executeClientScripts": true
     }
   }
 }

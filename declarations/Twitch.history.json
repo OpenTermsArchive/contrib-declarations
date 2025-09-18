@@ -1,0 +1,9 @@
+{
+  "Privacy Policy": [
+    {
+      "fetch": "https://www.twitch.tv/p/en/legal/privacy-notice/",
+      "select": ".typeset",
+      "validUntil": "2025-07-07T18:18:10Z"
+    }
+  ]
+}
