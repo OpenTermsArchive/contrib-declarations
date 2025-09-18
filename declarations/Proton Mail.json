@@ -1,0 +1,17 @@
+{
+  "name": "Proton Mail",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://proton.me/legal/terms",
+      "select": [
+        "main"
+      ]
+    },
+    "Privacy Policy": {
+      "fetch": "https://proton.me/legal/privacy",
+      "select": [
+        "main .rich-text"
+      ]
+    }
+  }
+}
