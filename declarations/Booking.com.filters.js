@@ -1,5 +1,3 @@
-export { removeSIDfromUrls } from './_common.filters.js';
-
 export function removeLabelAndSidFromUrls(document) {
   const links = document.querySelectorAll('a');
 
@@ -42,13 +40,5 @@ export function removeLabelAndSidFromUrls(document) {
     } catch (e) {
       // url may not be well formatted, skip
     }
-  });
-}
-
-export function removeSigfromUrls(document) {
-  const links = document.querySelectorAll('a');
-
-  links.forEach(link => {
-    link.href = link.href.replace(/(\?.*sig=)(.{10})/gim, '$1removed');
   });
 }
