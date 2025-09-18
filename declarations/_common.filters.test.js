@@ -2,7 +2,7 @@ import { expect } from 'chai';
 import { JSDOM } from 'jsdom';
 import prettier from 'prettier';
 
-import { removeGclidFromUrls, removeSIDfromUrls } from './_common.filters.js';
+import { removeSIDfromUrls } from './_common.filters.js';
 
 const snapshotHTML = `
 <!DOCTYPE html>
@@ -15,7 +15,6 @@ const snapshotHTML = `
     <h1>Title</h1>
     <a href="https://www.booking.com/country.en-gb.html?sid=d74065de8c1401be9d57e7f099edc4ed" data-ga="seoindexlinks" rel="nofollow"></a>
     <a href="https://www.booking.com/country.en-gb.html?other-param=678&sid=d74065de8c1401be9d57e7f099edc4ed" data-ga="seoindexlinks" rel="nofollow"></a>
-    <a href="https://parents.snapchat.com/parental-controls?utm_term=ParentalControl&gclid=somegclidvalue&lang=en-US" target="_blank" class="sdsm-hyperlink css-1ekngtg" rel="noopener">Learn more</a>
   </body>
 </html>`;
 
@@ -29,13 +28,11 @@ const expectedSnapshotCleaned = `
     <h1>Title</h1>
     <a href="https://www.booking.com/country.en-gb.html?sid=removed" data-ga="seoindexlinks" rel="nofollow"></a>
     <a href="https://www.booking.com/country.en-gb.html?other-param=678&amp;sid=removed" data-ga="seoindexlinks" rel="nofollow"></a>
-    <a href="https://parents.snapchat.com/parental-controls?utm_term=ParentalControl&lang=en-US" target="_blank" class="sdsm-hyperlink css-1ekngtg" rel="noopener">Learn more</a>
   </body>
 </html>`;
 
 const applyFilters = document => {
   removeSIDfromUrls(document);
-  removeGclidFromUrls(document);
 };
 
 describe('Common Filters', () => {
