@@ -5,7 +5,13 @@
       "remove": "a.print-button, .print-button + p",
       "select": "div.static_content",
       "filter": [
-        { "removeQueryParams": ["sid","label", "sig"] }
+        {
+          "removeQueryParams": [
+            "sid",
+            "label",
+            "sig"
+          ]
+        }
       ],
       "validUntil": "2022-02-14T07:32:37+01:00"
     },
@@ -18,7 +24,13 @@
         "a[href=\"javascript:window.print()\"]"
       ],
       "filter": [
-        { "removeQueryParams": ["sid","label", "sig"] }
+        {
+          "removeQueryParams": [
+            "sid",
+            "label",
+            "sig"
+          ]
+        }
       ],
       "validUntil": "2025-02-08T06:02:35Z"
     }
@@ -29,7 +41,13 @@
       "remove": "a.print-button, .print-button + p",
       "select": "div.static_content",
       "filter": [
-        { "removeQueryParams": ["sid","label", "sig"] }
+        {
+          "removeQueryParams": [
+            "sid",
+            "label",
+            "sig"
+          ]
+        }
       ],
       "validUntil": "2022-05-09T13:35:03+01:00"
     }

@@ -19,7 +19,11 @@
       "select": "div.static_content",
       "filter": [
         "removeLabelAndSidFromUrls",
-        { "removeQueryParams": ["sig"] }
+        {
+          "removeQueryParams": [
+            "sig"
+          ]
+        }
       ]
     }
   }
