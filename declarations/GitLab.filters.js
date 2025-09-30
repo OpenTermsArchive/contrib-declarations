@@ -1,4 +1,4 @@
-function removeCloudflareEmailProtection(document, possibleEmail) {
+export function removeCloudflareEmailProtection(document, possibleEmail) {
   const placeholder = 'EMAIL_PLACEHOLDER';
   const replaceWith = `(email protected, possibly ${placeholder})`;
 
@@ -13,10 +13,6 @@ function removeCloudflareEmailProtection(document, possibleEmail) {
   document.body.innerHTML = document.body.innerHTML.replaceAll('[\\[email protected\\]](https://about.gitlab.com/cdn-cgi/l/email-protection)', replaceWith);
   document.body.innerHTML = document.body.innerHTML.replaceAll(possibleEmail, replaceWith);
   document.body.innerHTML = document.body.innerHTML.replaceAll(placeholder, possibleEmail.toLowerCase());
-}
-
-export function removeDpoEmailProtection(document) {
-  removeCloudflareEmailProtection(document, 'DPO@gitlab.com');
 }
 
 export function removeSecurityEmailProtection(document) {
