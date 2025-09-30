@@ -14,8 +14,3 @@ export function removeCloudflareEmailProtection(document, possibleEmail) {
   document.body.innerHTML = document.body.innerHTML.replaceAll(possibleEmail, replaceWith);
   document.body.innerHTML = document.body.innerHTML.replaceAll(placeholder, possibleEmail.toLowerCase());
 }
-
-export function removeSecurityEmailProtection(document) {
-  removeCloudflareEmailProtection(document, 'security@gitlab.com');
-  removeCloudflareEmailProtection(document, 'Security@gitlab.com');
-}

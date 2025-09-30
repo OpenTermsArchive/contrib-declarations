@@ -24,7 +24,12 @@
         ".breadcrumb"
       ],
       "filter": [
-        "removeSecurityEmailProtection"
+        {
+          "removeCloudflareEmailProtection": "security@gitlab.com"
+        },
+        {
+          "removeCloudflareEmailProtection": "Security@gitlab.com"
+        }
       ]
     },
     "Terms of Service": {
