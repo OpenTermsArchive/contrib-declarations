@@ -10,7 +10,9 @@
         ".header-anchor"
       ],
       "filter": [
-        { "removeCloudflareEmailProtection": "DPO@gitlab.com" }
+        {
+          "removeCloudflareEmailProtection": "DPO@gitlab.com"
+        }
       ]
     },
     "Vulnerability Disclosure Policy": {
