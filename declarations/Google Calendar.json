@@ -4,7 +4,13 @@
     "Terms of Service": {
       "fetch": "https://policies.google.com/terms?hl=en-GB",
       "filter": [
-        "removeUTMfromUrls",
+        {
+          "removeQueryParams": [
+            "utm_source",
+            "utm_medium",
+            "utm_campaign"
+          ]
+        },
         "removeCountryVersion"
       ],
       "select": "div[role=article]",

@@ -1,0 +1,25 @@
+{
+  "name": "Qobuz",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://www.qobuz.com/us-en/legal/terms",
+      "select": "#main"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.qobuz.com/us-en/discover/legals/privacy",
+      "select": "main"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.qobuz.com/us-en/page/charte_cookies",
+      "select": "#main"
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://www.qobuz.com/us-en/copyright-policy",
+      "select": "#main"
+    },
+    "Imprint": {
+      "fetch": "https://www.qobuz.com/us-en/legal/mentions",
+      "select": "#main"
+    }
+  }
+}
