@@ -1,0 +1,19 @@
+{
+  "name": "Epassi",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://www.epassi.fi/terms-of-use",
+      "select": {
+        "startAfter": "#EN",
+        "endBefore": "#SE"
+      }
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.epassi.fi/privacy-policy",
+      "select": {
+        "startAfter": "#EN",
+        "endBefore": "#SE"
+      }
+    }
+  }
+}
