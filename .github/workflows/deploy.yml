@@ -10,6 +10,8 @@ jobs:
 
   deploy:
     needs: [ test ]
+    # Do not run on the creation of the repository
+    if: github.event.created != true
     runs-on: ubuntu-latest
 
     steps:
