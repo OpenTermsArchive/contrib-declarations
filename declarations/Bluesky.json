@@ -1,0 +1,17 @@
+{
+  "name": "Bluesky",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://bsky.social/about/support/tos",
+      "select": [
+        ".support-page"
+      ]
+    },
+    "Privacy Policy": {
+      "fetch": "https://bsky.social/about/support/privacy-policy",
+      "select": [
+        ".support-page"
+      ]
+    }
+  }
+}
