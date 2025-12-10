@@ -9,14 +9,14 @@
     "test:modified": "ota validate declarations --modified",
     "test:metadata": "ota validate metadata",
     "start": "ota track",
-    "start:api": "ota serve",
+    "start:collection-api": "ota serve",
     "start:schedule": "npm run start -- --schedule",
-    "start:modified": "git diff --name-only HEAD $(git merge-base HEAD origin/main) -- ./declarations/ | grep -v .history | grep -v .filters | sed 's/declarations\\///g' | sed 's/.json//g' | sed 's/.*/\"&\"/' | xargs -r npm run start -- --services",
+    "start:modified": "git diff -z --name-only HEAD $(git merge-base HEAD origin/main) -- ./declarations/ | tr '\\0' '\\n' | grep -v .history | grep -v .filters | sed 's/declarations\\///g' | sed 's/.json//g' | sed 's/.*/\"&\"/' | xargs -r npm run start -- --services",
     "dataset": "ota dataset",
     "dataset:schedule": "npm run dataset -- --publish --remove-local-copy --schedule"
   },
   "dependencies": {
-    "@opentermsarchive/engine": "^8.0.0",
+    "@opentermsarchive/engine": "^10.1.2",
     "isomorphic-fetch": "^3.0.0"
   }
 }
