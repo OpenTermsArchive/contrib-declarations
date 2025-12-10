@@ -29,7 +29,7 @@ governance:
   Open Terms Archive:
     url: https://opentermsarchive.org
     logo: https://opentermsarchive.org/images/logo/logo-open-terms-archive-black-small.png
-    roles: [administrator, maintainer]
+    roles: [sysadmin, maintainer]
   Volunteer contributors:
     roles: [curator, maintainer]
 
