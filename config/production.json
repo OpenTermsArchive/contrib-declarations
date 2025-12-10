@@ -5,7 +5,7 @@
       "versions": {
         "storage": {
           "git": {
-            "snapshotIdentiferTemplate": "mongo://contrib/open-terms-archive/snapshots/%SNAPSHOT_ID",
+            "snapshotIdentiferTemplate": "https://github.com/OpenTermsArchive/contrib-snapshots/commit/%SNAPSHOT_ID",
             "repository": "git@github.com:OpenTermsArchive/contrib-versions.git",
             "path": "./data/versions"
           }
@@ -13,11 +13,9 @@
       },
       "snapshots": {
         "storage": {
-          "type": "mongo",
-          "mongo": {
-            "connectionURI": "mongodb://127.0.0.1:27017",
-            "database": "open-terms-archive",
-            "collection": "snapshots"
+          "git": {
+            "repository": "git@github.com:OpenTermsArchive/contrib-snapshots.git",
+            "path": "./data/snapshots"
           }
         }
       }

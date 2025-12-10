@@ -1,6 +1,6 @@
 all:
   hosts:
-    51.89.224.102:
-      ansible_user: debian
-      ed25519_fingerprint: AAAAC3NzaC1lZDI1NTE5AAAAIMiPFUFSL8ZAw89LUOejrHyVIknIckspPrgLygEoPff3
+    86.54.83.7:
+      ansible_user: ota
+      ed25519_fingerprint: AAAAC3NzaC1lZDI1NTE5AAAAIOUZkbO6zGhjtRpDrFiTTdnYRoEBwpCUpwST4hJYZsKt
       ota_source_repository: https://github.com/OpenTermsArchive/contrib-declarations.git
