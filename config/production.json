@@ -40,7 +40,10 @@
     },
     "dataset": {
       "title": "contrib",
-      "versionsRepositoryURL": "https://github.com/OpenTermsArchive/contrib-versions"
+      "versionsRepositoryURL": "https://github.com/OpenTermsArchive/contrib-versions",
+      "datagouv": {
+        "organizationIdOrSlug": "5ce284728b4c415a86c1fa31"
+      }
     },
     "logger": {
       "timestampPrefix": false
