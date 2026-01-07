@@ -39,10 +39,11 @@
       }
     },
     "dataset": {
-      "title": "contrib",
+      "title": "contrib collection dataset",
       "versionsRepositoryURL": "https://github.com/OpenTermsArchive/contrib-versions",
       "datagouv": {
-        "organizationIdOrSlug": "5ce284728b4c415a86c1fa31"
+        "organizationIdOrSlug": "5ce284728b4c415a86c1fa31",
+        "frequency": "weekly"
       }
     },
     "logger": {
