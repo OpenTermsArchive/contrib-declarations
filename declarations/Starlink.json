@@ -78,7 +78,7 @@
       ],
       "executeClientScripts": true
     },
-    "Brand Guidelines": {
+    "Copyright Claims Policy": {
       "fetch": "https://starlink.com/legal/documents/DOC-1004-25903-60?regionCode=IE",
       "select": [
         "app-legal-document"
