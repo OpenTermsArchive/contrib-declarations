@@ -2,7 +2,95 @@
   "name": "Starlink",
   "terms": {
     "Privacy Policy": {
-      "fetch": "https://www.starlink.com/legal/documents/DOC-1000-41799-67?regionCode=IE",
+      "select": [
+        "app-legal-document"
+      ],
+      "remove": [
+        "app-locale-selector",
+        "summary"
+      ],
+      "executeClientScripts": true,
+      "combine": [
+        {
+          "fetch": "https://www.starlink.com/legal/documents/DOC-1000-41799-67?regionCode=IE"
+        },
+        {
+          "fetch": "https://starlink.com/legal/documents/DOC-1009-83220-61?regionCode=IE"
+        }
+      ]
+    },
+    "Terms of Service": {
+      "select": [
+        "app-legal-document"
+      ],
+      "remove": [
+        "app-locale-selector",
+        "summary"
+      ],
+      "executeClientScripts": true,
+      "combine": [
+        {
+          "fetch": "https://starlink.com/legal/documents/DOC-1039-91966-80?regionCode=IE"
+        },
+        {
+          "fetch": "https://starlink.com/legal/documents/DOC-1884-25296-81?regionCode=IE"
+        },
+        {
+          "fetch": "https://starlink.com/legal/documents/DOC-1470-99699-90?regionCode=IE"
+        },
+        {
+          "fetch": "https://starlink.com/legal/documents/DOC-1486-43578-82?regionCode=IE"
+        },
+        {
+          "fetch": "https://starlink.com/legal/documents/DOC-1728-44881-79?regionCode=IE"
+        },
+        {
+          "fetch": "https://starlink.com/legal/documents/DOC-1075-86535-76?regionCode=IE"
+        }
+      ]
+    },
+    "Acceptable Use Policy": {
+      "select": [
+        "app-legal-document"
+      ],
+      "remove": [
+        "app-locale-selector",
+        "summary"
+      ],
+      "executeClientScripts": true,
+      "combine": [
+        {
+          "fetch": "https://starlink.com/legal/documents/DOC-1001-59234-61?regionCode=IE"
+        },
+        {
+          "fetch": "https://starlink.com/legal/documents/DOC-1469-65206-75?regionCode=IE"
+        }
+      ]
+    },
+    "Seller Warranty": {
+      "fetch": "https://starlink.com/legal/documents/DOC-1133-73441-63?regionCode=IE",
+      "select": [
+        "app-legal-document"
+      ],
+      "remove": [
+        "app-locale-selector",
+        "summary"
+      ],
+      "executeClientScripts": true
+    },
+    "Brand Guidelines": {
+      "fetch": "https://starlink.com/legal/documents/DOC-1004-25903-60?regionCode=IE",
+      "select": [
+        "app-legal-document"
+      ],
+      "remove": [
+        "app-locale-selector",
+        "summary"
+      ],
+      "executeClientScripts": true
+    },
+    "Service Level Agreement": {
+      "fetch": "https://starlink.com/legal/documents/DOC-1729-34307-72?regionCode=IE",
       "select": [
         "app-legal-document"
       ],
