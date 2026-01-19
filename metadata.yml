@@ -19,8 +19,12 @@ languages: [en, fr]
 jurisdictions: [EU, US]
 trackingPeriods:
   - startDate: 2021-11-14
+    endDate: 2025-12-10
     schedule: "0 6,18 * * *"
     serverLocation: London, GB
+  - startDate: 2025-12-10
+    schedule: "0 6,18 * * *"
+    serverLocation: Dublin, IE
 governance:
   Ministry for Europe and Foreign Affairs:
     url: https://www.diplomatie.gouv.fr/en/
