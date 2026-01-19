@@ -26,10 +26,10 @@ trackingPeriods:
     schedule: "0 6,18 * * *"
     serverLocation: Dublin, IE
 governance:
-  Ministry for Europe and Foreign Affairs:
-    url: https://www.diplomatie.gouv.fr/en/
-    logo: https://opentermsarchive.org/images/contributors/meae.png
-    roles: [host, sponsor]
+  # Ministry for Europe and Foreign Affairs:
+  #  url: https://www.diplomatie.gouv.fr/en/
+  #  logo: https://opentermsarchive.org/images/contributors/meae.png
+  #  roles: [host, sponsor]
   Open Terms Archive:
     url: https://opentermsarchive.org
     logo: https://opentermsarchive.org/images/logo/logo-open-terms-archive-black-small.png
@@ -49,8 +49,8 @@ i18n:
       
       Les données de cette collection ont été réutilisées dans divers projets allant de la recherche sur l'impact des conditions d'utilisation des médias sociaux sur les droits de l'homme à l'amélioration de la lisibilité des CGUs.
     governance:
-      Ministry for Europe and Foreign Affairs: 
-        name: Ministère de l'Europe et des Affaires étrangères
-        url: https://www.diplomatie.gouv.fr
+      # Ministry for Europe and Foreign Affairs: 
+      #  name: Ministère de l'Europe et des Affaires étrangères
+      #  url: https://www.diplomatie.gouv.fr
       Volunteer contributors:
         name: Contributeurs bénévoles
