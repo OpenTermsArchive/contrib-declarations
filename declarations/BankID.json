@@ -4,9 +4,11 @@
     "Privacy Policy": {
       "fetch": "https://www.bankid.com/en/integritetspolicy",
       "select": [
-        "div.bg-white"
+        "main"
       ],
       "remove": [
+        "nav",
+        "footer",
         ".news-block"
       ],
       "executeClientScripts": true
