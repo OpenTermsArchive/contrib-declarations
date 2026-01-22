@@ -8,8 +8,7 @@
       ],
       "remove": [
         "nav",
-        "footer",
-        ".news-block"
+        "footer"
       ],
       "executeClientScripts": true
     }
