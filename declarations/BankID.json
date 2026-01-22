@@ -9,9 +9,12 @@
       "executeClientScripts": true
     },
     "Privacy Policy": {
-      "fetch": "https://www.bankid.com/en/integritetspolicy",
+      "fetch": {
+        "url": "https://www.bankid.com/en/integritetspolicy",
+        "mode": "browser"
+      },
       "select": [
-        "main"
+        "div.bg-white"
       ],
       "remove": [
         ".news-block"
