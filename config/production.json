@@ -47,7 +47,10 @@
       }
     },
     "logger": {
-      "timestampPrefix": false
+      "timestampPrefix": false,
+      "smtp": {
+        "port": 2525
+      }
     },
     "collection-api": {
       "port": 3000,
