@@ -3,4 +3,4 @@ all:
     86.54.83.7:
       ansible_user: ota
       ed25519_fingerprint: AAAAC3NzaC1lZDI1NTE5AAAAIOUZkbO6zGhjtRpDrFiTTdnYRoEBwpCUpwST4hJYZsKt
-      ota_source_repository: https://github.com/OpenTermsArchive/contrib-declarations.git
+      ota_collection_repository: https://github.com/OpenTermsArchive/contrib-declarations.git
