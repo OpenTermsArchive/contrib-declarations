@@ -1,0 +1,12 @@
+{
+  "name": "xHamster",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://xhamster.com/info/eu-digital-services-act",
+      "select": [
+        ".root-2f0ee"
+      ],
+      "executeClientScripts": true
+    }
+  }
+}
