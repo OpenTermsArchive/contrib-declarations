@@ -5,10 +5,13 @@
     "Privacy Policy": {
       "fetch": "https://www.aetna.com/legal-notices/privacy/web-privacy.html",
       "select": [
-        ".responsivegrid .body__copy",
-        ".component.container",
-        ".bodytext + .accordion + .text"
-      ]
+        "#content__main > .responsivegrid"
+      ],
+      "remove": [
+        ".breadcrumb-wrapper",
+        ".pageherobanner"
+      ],
+      "executeClientScripts": true
     }
   }
 }
