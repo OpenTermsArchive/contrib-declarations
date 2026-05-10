@@ -1,0 +1,12 @@
+{
+  "name": "Twitch",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://legal.twitch.com/en/legal/terms-of-service/",
+      "select": [
+        "div#main-content"
+      ],
+      "executeClientScripts": true
+    }
+  }
+}
