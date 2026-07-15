@@ -18,5 +18,10 @@
   "dependencies": {
     "@opentermsarchive/engine": "15.1.0",
     "isomorphic-fetch": "^3.0.0"
+  },
+  "overrides": {
+    "@accordproject/markdown-cicero": {
+      "winston": "3.19.0"
+    }
   }
 }
