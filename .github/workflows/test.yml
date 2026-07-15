@@ -46,6 +46,7 @@ jobs:
     # Do not run on the creation of the repository
     if: github.event.created != true
     runs-on: ubuntu-22.04
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
         with:
