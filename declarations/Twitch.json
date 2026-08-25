@@ -3,15 +3,18 @@
   "terms": {
     "Terms of Service": {
       "fetch": "https://legal.twitch.com/en/legal/terms-of-service/",
-      "select": "#main-content"
+      "select": "#main-content",
+      "executeClientScripts": true
     },
     "Privacy Policy": {
       "fetch": "https://legal.twitch.com/en/legal/privacy-notice/",
-      "select": "#main-content"
+      "select": "#main-content",
+      "executeClientScripts": true
     },
-    "Terms of Sale": {
+    "General Conditions of Sale": {
       "fetch": "https://legal.twitch.com/en/legal/terms-of-sale/",
-      "select": "#main-content"
+      "select": "#main-content",
+      "executeClientScripts": true
     }
   }
 }
