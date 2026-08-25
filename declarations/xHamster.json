@@ -1,0 +1,17 @@
+{
+  "name": "xHamster",
+  "terms": {
+    "Ranking Parameters Description": {
+      "fetch": "https://xhamster.com/info/eu-digital-services-act",
+      "select": [
+        "h1",
+        "article"
+      ],
+      "remove": [
+        ".header-wrapper",
+        ".footer-wrapper"
+      ],
+      "executeClientScripts": true
+    }
+  }
+}
