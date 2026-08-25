@@ -4,7 +4,12 @@
     "Terms of Service": {
       "fetch": "https://xhamster.com/info/eu-digital-services-act",
       "select": [
-        ".root-2f0ee"
+        "h1",
+        "article"
+      ],
+      "remove": [
+        ".header-wrapper",
+        ".footer-wrapper"
       ],
       "executeClientScripts": true
     }
