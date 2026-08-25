@@ -10,7 +10,7 @@
     "Terms of Service": {
       "fetch": "https://bandcamp.com/terms_of_use",
       "select": [
-        "#pgBd"
+        "main.page-wrapper.app"
       ]
     },
     "Copyright Claims Policy": {

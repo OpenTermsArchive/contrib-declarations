@@ -1,0 +1,11 @@
+{
+  "Terms of Service": [
+    {
+      "fetch": "https://bandcamp.com/terms_of_use",
+      "select": [
+        "#pgBd"
+      ],
+      "validUntil": "2025-12-09T06:03:29Z"
+    }
+  ]
+}
