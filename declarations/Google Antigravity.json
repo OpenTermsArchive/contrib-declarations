@@ -1,0 +1,12 @@
+{
+  "name": "Google Antigravity",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://antigravity.google/terms",
+      "select": [
+        ".terms-and-conditions"
+      ],
+      "executeClientScripts": true
+    }
+  }
+}

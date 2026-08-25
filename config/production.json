@@ -5,7 +5,7 @@
       "versions": {
         "storage": {
           "git": {
-            "snapshotIdentiferTemplate": "mongo://contrib/open-terms-archive/snapshots/%SNAPSHOT_ID",
+            "snapshotIdentiferTemplate": "https://github.com/OpenTermsArchive/contrib-snapshots/commit/%SNAPSHOT_ID",
             "repository": "git@github.com:OpenTermsArchive/contrib-versions.git",
             "path": "./data/versions"
           }
@@ -13,43 +13,46 @@
       },
       "snapshots": {
         "storage": {
-          "type": "mongo",
-          "mongo": {
-            "connectionURI": "mongodb://127.0.0.1:27017",
-            "database": "open-terms-archive",
-            "collection": "snapshots"
+          "git": {
+            "repository": "git@github.com:OpenTermsArchive/contrib-snapshots.git",
+            "path": "./data/snapshots"
           }
         }
       }
     },
     "fetcher": {
-      "language": "en"
-    },
-    "notifier": {
-      "sendInBlue": {
-        "updatesListId": 0,
-        "updateTemplateId": 0
-      }
+      "language": "en-IE, en-GB, en"
     },
     "reporter": {
-      "githubIssues": {
-        "repositories": {
-          "declarations": "OpenTermsArchive/contrib-declarations",
-          "versions": "OpenTermsArchive/contrib-versions",
-          "snapshots": "OpenTermsArchive/contrib-snapshots"
-        }
+      "type": "github",
+      "repositories": {
+        "declarations": "OpenTermsArchive/contrib-declarations",
+        "versions": "OpenTermsArchive/contrib-versions",
+        "snapshots": "OpenTermsArchive/contrib-snapshots"
       }
     },
     "dataset": {
-      "title": "contrib",
-      "versionsRepositoryURL": "https://github.com/OpenTermsArchive/contrib-versions"
+      "title": "contrib collection dataset",
+      "versionsRepositoryURL": "https://github.com/OpenTermsArchive/contrib-versions",
+      "datagouv": {
+        "organizationIdOrSlug": "5ce284728b4c415a86c1fa31",
+        "frequency": "weekly"
+      }
     },
     "logger": {
-      "timestampPrefix": false
+      "timestampPrefix": false,
+      "smtp": {
+        "host": "smtp-relay.brevo.com",
+        "port": 587,
+        "username": "admin@opentermsarchive.org"
+      }
     },
     "collection-api": {
       "port": 3000,
-      "basePath": "/collection-api"
+      "basePath": "/collection-api",
+      "feed": {
+        "versionUrlTemplate": "https://github.com/OpenTermsArchive/contrib-versions/commit/%VERSION_ID"
+      }
     }
   }
 }

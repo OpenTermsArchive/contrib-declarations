@@ -1,0 +1,17 @@
+{
+  "name": "Jottacloud",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://jottacloud.com/en/terms-conditions",
+      "select": [
+        ".module-articleRichText"
+      ]
+    },
+    "Privacy Policy": {
+      "fetch": "https://jottacloud.com/en/privacy",
+      "select": [
+        ".module-articleRichText"
+      ]
+    }
+  }
+}

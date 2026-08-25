@@ -10,9 +10,9 @@ module.exports = {
       log_date_format: "YYYY-MM-DDTHH:mm:ssZ"
     },
     {
-      name: 'ota-api',
+      name: 'ota-collection-api',
       script: 'npm',
-      args: 'run start:api',
+      args: 'run start:collection-api',
       min_uptime: '10s',
       max_restarts: 10,
       restart_delay: 1000,
