@@ -1,0 +1,30 @@
+{
+  "name": "ŌURA",
+  "terms": {
+    "Imprint": {
+      "fetch": "https://ouraring.com/impressum",
+      "select": "main"
+    },
+    "Terms of Service": {
+      "fetch": "https://ouraring.com/terms-and-conditions",
+      "select": "main"
+    },
+    "Privacy Policy": {
+      "fetch": "https://ouraring.com/privacy-policy",
+      "select": "main"
+    },
+    "Trackers Policy": {
+      "fetch": "https://ouraring.com/cookie-policy",
+      "select": "main"
+    },
+    "Accessibility Statement": {
+      "fetch": "https://ouraring.com/accessibility/en",
+      "select": "main"
+    },
+    "Vulnerability Disclosure Policy": {
+      "fetch": "https://ouraring.com/security",
+      "select": "[data-cy=security-disclosure]",
+      "remove": "img"
+    }
+  }
+}
