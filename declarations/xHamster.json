@@ -1,7 +1,7 @@
 {
   "name": "xHamster",
   "terms": {
-    "Terms of Service": {
+    "Ranking Parameters Description": {
       "fetch": "https://xhamster.com/info/eu-digital-services-act",
       "select": [
         "h1",
