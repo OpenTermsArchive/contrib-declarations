@@ -1,0 +1,14 @@
+{
+  "name": "Freelancer",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://www.freelancer.com/about/terms",
+      "select": [
+        ".PageTerms"
+      ],
+      "remove": [
+        ".AnnouncementBar"
+      ]
+    }
+  }
+}
