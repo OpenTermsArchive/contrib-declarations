@@ -4,6 +4,12 @@
       "fetch": "https://www.nissan-global.com/EN/SITE_INFO/PRIVACY/",
       "select": "body",
       "validUntil": "2020-12-08T16:00:00.000Z"
+    },
+    {
+      "fetch": "https://www.nissan-global.com/EN/SITE_INFO/PRIVACY/",
+      "select": "div#mainContent",
+      "remove": ".hdBlock, .goPagetop",
+      "validUntil": "2025-09-17T18:17:09.000Z"
     }
   ],
   "Terms of Service": [
@@ -11,6 +17,12 @@
       "fetch": "https://www.nissan-global.com/EN/SITE_INFO/ABOUT/",
       "select": "body",
       "validUntil": "2020-12-08T16:00:00.000Z"
+    },
+    {
+      "fetch": "https://www.nissan-global.com/EN/SITE_INFO/ABOUT/",
+      "select": "div#mainContent",
+      "remove": ".hdBlock, .goPagetop",
+      "validUntil": "2025-09-17T18:17:09.000Z"
     }
   ]
 }
