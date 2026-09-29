@@ -13,10 +13,10 @@
     "start:schedule": "npm run start -- --schedule",
     "start:modified": "git diff -z --name-only HEAD $(git merge-base HEAD origin/main) -- ./declarations/ | tr '\\0' '\\n' | grep -v .history | grep -v .filters | sed 's/declarations\\///g' | sed 's/.json//g' | sed 's/.*/\"&\"/' | xargs -r npm run start -- --services",
     "dataset": "ota dataset",
-    "dataset:schedule": "npm run dataset -- --publish --remove-local-copy --schedule"
+    "dataset:schedule": "npm run dataset -- --publish --schedule"
   },
   "dependencies": {
-    "@opentermsarchive/engine": "15.1.0",
+    "@opentermsarchive/engine": "16.2.0",
     "isomorphic-fetch": "^3.0.0"
   },
   "overrides": {
