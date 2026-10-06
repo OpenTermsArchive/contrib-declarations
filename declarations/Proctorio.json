@@ -14,12 +14,7 @@
     "Privacy Policy": {
       "fetch": "https://proctorio.com/privacy",
       "select": [
-        ".hero",
-        ".pt-20",
-        "#policy-container"
-      ],
-      "remove": [
-        ".policy-toc"
+        ".policy-content"
       ]
     }
   }

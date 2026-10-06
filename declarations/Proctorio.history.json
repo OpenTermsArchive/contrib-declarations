@@ -10,5 +10,19 @@
       ],
       "validUntil": "2021-11-16T18:38:36Z"
     }
+  ],
+  "Privacy Policy": [
+    {
+      "fetch": "https://proctorio.com/privacy",
+      "select": [
+        ".hero",
+        ".pt-20",
+        "#policy-container"
+      ],
+      "remove": [
+        ".policy-toc"
+      ],
+      "validUntil": "2026-08-20T12:51:09Z"
+    }
   ]
 }
