@@ -1,0 +1,14 @@
+{
+  "name": "Flippa",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://flippa.com/terms-of-service/",
+      "select": [
+        "article .entry-content"
+      ],
+      "remove": [
+        ".et_pb_fullwidth_menu"
+      ]
+    }
+  }
+}
