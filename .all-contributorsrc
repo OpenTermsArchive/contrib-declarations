@@ -222,6 +222,15 @@
       "contributions": [
         "data"
       ]
+    },
+    {
+      "login": "marketfauna",
+      "name": "Marketfauna",
+      "avatar_url": "https://avatars.githubusercontent.com/u/327262486?v=4",
+      "profile": "https://marketfauna.com/",
+      "contributions": [
+        "data"
+      ]
     }
   ],
   "repoType": "github",
