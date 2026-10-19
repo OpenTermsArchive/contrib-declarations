@@ -1,0 +1,26 @@
+{
+  "Terms of Service": [
+    {
+      "fetch": "https://help.meetup.com/hc/en-us/articles/360027447252",
+      "remove": [
+        "footer",
+        ".article-subscribe"
+      ],
+      "select": ".article",
+      "executeClientScripts": true,
+      "validUntil": "2026-01-14T00:44:57Z"
+    }
+  ],
+  "Privacy Policy": [
+    {
+      "fetch": "https://help.meetup.com/hc/en-us/articles/360044422391",
+      "remove": [
+        "footer",
+        ".article-subscribe"
+      ],
+      "select": ".article",
+      "executeClientScripts": true,
+      "validUntil": "2026-01-14T00:45:09Z"
+    }
+  ]
+}
