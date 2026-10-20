@@ -62,7 +62,7 @@
     "Law Enforcement Guidelines": {
       "fetch": "https://www.tiktok.com/legal/law-enforcement?lang=en",
       "select": [
-        "#policy-card"
+        "[data-testid=policy-card]"
       ]
     },
     "Copyright Claims Policy": {
