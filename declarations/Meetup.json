@@ -6,7 +6,7 @@
       "remove": [
         "prev-next-articles"
       ],
-      "select": "article.lt-article",
+      "select": ".lt-article",
       "executeClientScripts": true
     },
     "Privacy Policy": {
@@ -14,7 +14,7 @@
       "remove": [
         "prev-next-articles"
       ],
-      "select": "article.lt-article",
+      "select": ".lt-article",
       "executeClientScripts": true
     }
   }
