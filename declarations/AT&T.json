@@ -1,0 +1,24 @@
+{
+  "name": "AT&T",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://www.att.com/legal/terms.consumerServiceAgreement.html",
+      "select": "#termsofservices"
+    },
+    "Privacy Policy": {
+      "fetch": "https://about.att.com/privacy/privacy-notice.html",
+      "select": [
+        {
+          "startBefore": "#textblk_prvcy_ntce",
+          "endBefore": "[data-comp=\"linkfarm-duc\"]"
+        }
+      ],
+      "remove": [
+        "a[onclick*=\"print\"]",
+        "[data-comp=\"micro-banner-duc\"]",
+        "#prvcy-notice-txtblk-recnt-updts"
+      ],
+      "executeClientScripts": true
+    }
+  }
+}
