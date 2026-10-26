@@ -4,19 +4,17 @@
     "Terms of Service": {
       "fetch": "https://help.meetup.com/hc/en-us/articles/360027447252",
       "remove": [
-        "footer",
-        ".article-subscribe"
+        "prev-next-articles"
       ],
-      "select": ".article",
+      "select": ".lt-article",
       "executeClientScripts": true
     },
     "Privacy Policy": {
       "fetch": "https://help.meetup.com/hc/en-us/articles/360044422391",
       "remove": [
-        "footer",
-        ".article-subscribe"
+        "prev-next-articles"
       ],
-      "select": ".article",
+      "select": ".lt-article",
       "executeClientScripts": true
     }
   }
