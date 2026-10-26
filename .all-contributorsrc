@@ -231,6 +231,15 @@
       "contributions": [
         "data"
       ]
+    },
+    {
+      "login": "MikeTheCanuck",
+      "name": "Mike Lonergan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6953053?v=4",
+      "profile": "http://mikethecanuck.blog",
+      "contributions": [
+        "data"
+      ]
     }
   ],
   "repoType": "github",
