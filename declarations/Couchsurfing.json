@@ -4,11 +4,11 @@
   "terms": {
     "Privacy Policy": {
       "fetch": "https://about.couchsurfing.com/about/privacy-policy/",
-      "select": "article#main-content"
+      "select": ".article-body"
     },
     "Terms of Service": {
       "fetch": "https://about.couchsurfing.com/about/terms-of-use/",
-      "select": "article#main-content"
+      "select": ".article-body"
     }
   }
 }
