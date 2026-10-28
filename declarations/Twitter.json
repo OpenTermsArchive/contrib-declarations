@@ -30,12 +30,10 @@
       ]
     },
     "Developer Terms": {
-      "fetch": "https://developer.twitter.com/en/developer-terms/agreement",
+      "fetch": "https://docs.x.com/developer-terms/agreement",
       "select": [
-        "#twtr-main"
-      ],
-      "remove": [
-        ".u07"
+        "#header h1",
+        "#content"
       ]
     },
     "Copyright Claims Policy": {
@@ -57,43 +55,22 @@
     "Law Enforcement Guidelines": {
       "fetch": "https://help.twitter.com/en/rules-and-policies/twitter-law-enforcement-support",
       "select": [
-        ".aem-Grid"
-      ],
-      "remove": [
-        ".twtr-type--roman-100r",
-        ".u11__breadcrumbs-list:nth-child(2)",
-        ".twtr-type--headline-md",
-        ".b24__wrapper",
-        ".b17",
-        ".u11__mobile-header",
-        ".twtr-component--first > .b02-v2 > ul",
-        ".twtr-component--first b"
+        "main article header > div",
+        ".help-article-body"
       ]
     },
     "Trackers Policy": {
       "fetch": "https://help.twitter.com/en/rules-and-policies/twitter-cookies",
       "select": [
-        ".aem-Grid"
-      ],
-      "remove": [
-        ".u11__breadcrumbs-mobile-modal",
-        ".twtr-type--roman-100r",
-        ".twtr-type--headline-md",
-        ".b24__wrapper",
-        ".b17"
+        "main article header > div",
+        ".help-article-body"
       ]
     },
     "Data Processor Agreement": {
       "fetch": "https://help.twitter.com/en/rules-and-policies/data-processing-legal-bases",
       "select": [
-        ".aem-Grid"
-      ],
-      "remove": [
-        ".u11__breadcrumbs-mobile-modal",
-        ".twtr-type--roman-100r",
-        ".twtr-type--headline-md",
-        ".b24__wrapper",
-        ".b17"
+        "main article header > div",
+        ".help-article-body"
       ]
     },
     "Community Guidelines": {
