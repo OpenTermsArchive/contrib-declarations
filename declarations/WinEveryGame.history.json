@@ -4,6 +4,11 @@
       "fetch": "http://www.wineverygame.com/privacy.php",
       "select": "body",
       "validUntil": "2020-11-09T17:30:03.000Z"
+    },
+    {
+      "fetch": "http://www.wineverygame.com/privacy.php",
+      "select": "#content",
+      "validUntil": "2026-06-09T12:58:34Z"
     }
   ]
 }
