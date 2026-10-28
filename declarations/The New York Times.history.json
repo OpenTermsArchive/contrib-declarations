@@ -4,6 +4,12 @@
       "fetch": "https://www.nytimes.com/privacy/privacy-policy",
       "select": "body",
       "validUntil": "2020-12-08T16:00:00.000Z"
+    },
+    {
+      "fetch": "https://www.nytimes.com/privacy/privacy-policy",
+      "select": "div.css-15slb7",
+      "executeClientScripts": true,
+      "validUntil": "2023-10-18T15:09:59Z"
     }
   ],
   "Terms of Service": [
@@ -11,6 +17,12 @@
       "fetch": "https://help.nytimes.com/hc/en-us/articles/115014893428-Terms-of-service",
       "select": "body",
       "validUntil": "2020-12-08T16:00:00.000Z"
+    },
+    {
+      "fetch": "https://help.nytimes.com/hc/en-us/articles/115014893428-Terms-of-service",
+      "select": "div.article-body",
+      "executeClientScripts": true,
+      "validUntil": "2025-06-10T06:15:59Z"
     }
   ]
 }
