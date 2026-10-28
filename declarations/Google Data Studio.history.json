@@ -1,0 +1,16 @@
+{
+  "Terms of Service": [
+    {
+      "fetch": "https://support.google.com/datastudio/answer/7019158?hl=en-GB",
+      "select": "section[class=article-container]",
+      "validUntil": "2024-02-29T00:35:29Z"
+    }
+  ],
+  "Acceptable Use Policy": [
+    {
+      "fetch": "https://support.google.com/datastudio/answer/7020012?hl=en&ref_topic=7156687?hl=en-GB",
+      "select": "section[class=article-container]",
+      "validUntil": "2024-02-29T00:35:30Z"
+    }
+  ]
+}

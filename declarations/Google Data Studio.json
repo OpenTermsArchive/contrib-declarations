@@ -2,12 +2,20 @@
   "name": "Google Data Studio",
   "terms": {
     "Terms of Service": {
-      "fetch": "https://support.google.com/datastudio/answer/7019158?hl=en-GB",
-      "select": "section[class=article-container]"
+      "fetch": "https://cloud.google.com/terms/data-studio",
+      "select": [
+        "section[id]",
+        "section[id] ~ section"
+      ],
+      "remove": "nav[aria-label=Breadcrumb]"
     },
     "Acceptable Use Policy": {
-      "fetch": "https://support.google.com/datastudio/answer/7020012?hl=en&ref_topic=7156687?hl=en-GB",
-      "select": "section[class=article-container]"
+      "fetch": "https://cloud.google.com/terms/looker-studio/aup",
+      "select": [
+        "section[id]",
+        "section[id] ~ section"
+      ],
+      "remove": "nav[aria-label=Breadcrumb]"
     }
   }
 }
