@@ -2,21 +2,19 @@
   "name": "The Mirror",
   "terms": {
     "Privacy Policy": {
-      "fetch": "https://www.themirror.space/privacy",
-      "select": [
-        "section.section"
-      ],
+      "fetch": "https://mirrorengine.io/privacy",
+      "select": "#mdx-content",
       "remove": [
-        ".image-wrapper"
+        "a[aria-hidden=\"true\"]",
+        "a[href^=\"#\"]:empty"
       ]
     },
     "Terms of Service": {
-      "fetch": "https://www.themirror.space/terms",
-      "select": [
-        "section.section"
-      ],
+      "fetch": "https://mirrorengine.io/terms",
+      "select": "#mdx-content",
       "remove": [
-        ".image-wrapper"
+        "a[aria-hidden=\"true\"]",
+        "a[href^=\"#\"]:empty"
       ]
     }
   }
