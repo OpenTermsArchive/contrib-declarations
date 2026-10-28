@@ -5,10 +5,13 @@
     "Privacy Policy": {
       "fetch": "https://www.allstate.com/privacy-center/aic-privacy-statement",
       "select": [
-        "#main-content"
+        "main"
       ],
       "remove": [
-        ".as-breadcrumb"
+        "[class*=\"breadcrumbs_breadcrumbs\"]"
+      ],
+      "filter": [
+        "removeAdobeMarketingCloudParam"
       ],
       "executeClientScripts": true
     }

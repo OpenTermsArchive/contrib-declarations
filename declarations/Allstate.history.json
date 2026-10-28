@@ -13,6 +13,17 @@
       "select": "#bodyColumn",
       "remove": ".breadcrumb",
       "validUntil": "2021-11-16T18:31:42Z"
+    },
+    {
+      "fetch": "https://www.allstate.com/privacy-center/aic-privacy-statement",
+      "select": [
+        "#main-content"
+      ],
+      "remove": [
+        ".as-breadcrumb"
+      ],
+      "executeClientScripts": true,
+      "validUntil": "2026-08-17T12:33:02Z"
     }
   ]
 }
