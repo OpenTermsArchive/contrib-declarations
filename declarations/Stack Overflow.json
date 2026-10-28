@@ -21,13 +21,12 @@
       ]
     },
     "Trackers Policy": {
-      "fetch": "https://stackoverflow.com/legal/cookie-policy",
+      "fetch": "https://policies.stackoverflow.co/stack-overflow/cookie-policy",
       "select": [
-        ".gsy"
+        "article"
       ],
       "remove": [
-        ".fc-green-400",
-        ".fc-red-400 "
+        "article > nav"
       ]
     },
     "Developer Terms": {
