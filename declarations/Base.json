@@ -2,16 +2,34 @@
   "name": "Base",
   "terms": {
     "Privacy Policy": {
-      "fetch": "https://docs.base.org/docs/privacy-policy/",
-      "select": "article"
+      "fetch": "https://docs.base.org/privacy-policy",
+      "select": [
+        "#page-title",
+        "#content"
+      ],
+      "remove": [
+        "a[aria-label=\"Navigate to header\"]"
+      ]
     },
     "Terms of Service": {
-      "fetch": "https://docs.base.org/docs/terms-of-service/",
-      "select": "article"
+      "fetch": "https://docs.base.org/terms-of-service",
+      "select": [
+        "#page-title",
+        "#content"
+      ],
+      "remove": [
+        "a[aria-label=\"Navigate to header\"]"
+      ]
     },
     "Trackers Policy": {
-      "fetch": "https://docs.base.org/docs/cookie-policy/",
-      "select": "article"
+      "fetch": "https://docs.base.org/cookie-policy",
+      "select": [
+        "#page-title",
+        "#content"
+      ],
+      "remove": [
+        "a[aria-label=\"Navigate to header\"]"
+      ]
     }
   }
 }
