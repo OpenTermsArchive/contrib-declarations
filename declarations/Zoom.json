@@ -15,12 +15,9 @@
       "executeClientScripts": true
     },
     "Privacy Policy": {
-      "fetch": "https://zoom.us/privacy",
+      "fetch": "https://www.zoom.com/en/trust/privacy/privacy-statement/",
       "select": [
-        ".main-DefaultTemplate"
-      ],
-      "remove": [
-        ".category"
+        "#main"
       ]
     }
   }
