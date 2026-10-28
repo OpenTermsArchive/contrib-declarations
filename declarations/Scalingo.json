@@ -30,8 +30,8 @@
       "select": [
         "h1",
         {
-          "startBefore": ".markdown-legal h2:nth-of-type(2)",
-          "endBefore": ".markdown-legal h2:nth-of-type(4)"
+          "startBefore": "[data-framer-name=\"Name of legal document\"] h2:nth-of-type(2)",
+          "endBefore": "[data-framer-name=\"Name of legal document\"] h2:nth-of-type(4)"
         }
       ],
       "executeClientScripts": true
@@ -40,8 +40,8 @@
       "fetch": "https://scalingo.com/data-processing-agreement",
       "select": [
         {
-          "startBefore": ".markdown-legal h2:nth-of-type(4)",
-          "endAfter": ".markdown-legal p:last-child"
+          "startBefore": "[data-framer-name=\"Name of legal document\"] h2:nth-of-type(4)",
+          "endAfter": "[data-framer-name=\"Name of legal document\"] > :last-child"
         }
       ],
       "executeClientScripts": true
