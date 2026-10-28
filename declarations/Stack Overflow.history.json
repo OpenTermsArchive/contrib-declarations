@@ -21,5 +21,18 @@
       ],
       "validUntil": "2024-03-28T18:44:39Z"
     }
+  ],
+  "Trackers Policy": [
+    {
+      "fetch": "https://stackoverflow.com/legal/cookie-policy",
+      "select": [
+        ".gsy"
+      ],
+      "remove": [
+        ".fc-green-400",
+        ".fc-red-400 "
+      ],
+      "validUntil": "2025-07-28T18:15:34Z"
+    }
   ]
 }
