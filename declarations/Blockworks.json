@@ -2,15 +2,16 @@
   "name": "Blockworks",
   "terms": {
     "Privacy Policy": {
-      "fetch": "https://blockworks.co/privacy-policy",
+      "fetch": "https://blockworks.com/privacy-policy",
       "select": [
-        "article"
+        ".chakra-separator + div"
       ]
     },
     "Editorial Policy": {
-      "fetch": "https://blockworks.co/trust-ethics",
+      "fetch": "https://blockworks.com/trust-ethics",
       "select": [
-        "article"
+        "h1",
+        ".chakra-separator + div"
       ]
     }
   }
