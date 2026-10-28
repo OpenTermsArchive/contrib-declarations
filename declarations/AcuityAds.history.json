@@ -7,6 +7,32 @@
         ".page-content"
       ],
       "validUntil": "2023-04-15T00:30:14Z"
+    },
+    {
+      "fetch": "https://illumin.com/legal/privacy/",
+      "select": [
+        ".default-banner-text",
+        ".default-content-section"
+      ],
+      "validUntil": "2026-01-15T00:30:05Z"
+    }
+  ],
+  "Terms of Service": [
+    {
+      "fetch": "https://www.acuityads.com/terms-and-conditions/",
+      "select": [
+        ".entry-content"
+      ],
+      "validUntil": "2023-10-18T14:44:52Z"
+    }
+  ],
+  "Trackers Policy": [
+    {
+      "fetch": "https://www.acuityads.com/cookie-policy/",
+      "select": [
+        ".entry-content"
+      ],
+      "validUntil": "2023-10-18T14:44:52Z"
     }
   ]
 }
