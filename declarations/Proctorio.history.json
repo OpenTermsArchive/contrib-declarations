@@ -9,6 +9,17 @@
         ".policy-toc"
       ],
       "validUntil": "2021-11-16T18:38:36Z"
+    },
+    {
+      "fetch": "https://proctorio.com/policies#all&all&tos&section-termsofservice",
+      "select": [
+        "#content #section-termsofservice"
+      ],
+      "remove": [
+        ".section-summary-illustration"
+      ],
+      "executeClientScripts": true,
+      "validUntil": "2026-08-20T12:51:08Z"
     }
   ],
   "Privacy Policy": [
