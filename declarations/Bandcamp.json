@@ -16,7 +16,7 @@
     "Copyright Claims Policy": {
       "fetch": "https://bandcamp.com/copyright",
       "select": [
-        "#pgBd"
+        "main"
       ]
     },
     "Acceptable Use Policy": {
