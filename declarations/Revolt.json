@@ -2,15 +2,24 @@
   "name": "Revolt",
   "terms": {
     "Acceptable Use Policy": {
-      "fetch": "https://revolt.chat/aup",
+      "fetch": "https://stoat.chat/legal/community-guidelines",
       "select": [
-        ".sc-b71eb2f3-0"
+        "h1",
+        "main"
       ]
     },
     "Terms of Service": {
-      "fetch": "https://revolt.chat/terms",
+      "combine": [
+        {
+          "fetch": "https://stoat.chat/legal/terms"
+        },
+        {
+          "fetch": "https://stoat.chat/legal/terms-stoat-supplement"
+        }
+      ],
       "select": [
-        ".sc-b71eb2f3-0"
+        "h1",
+        "main"
       ]
     }
   }
