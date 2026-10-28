@@ -2,19 +2,15 @@
   "name": "Cdiscount",
   "terms": {
     "Commercial Terms": {
-      "fetch": "https://clients.cdiscount.com/simple/cgv.aspx",
-      "filter": [
-        "recoverReplacementCharacters"
-      ],
-      "select": ".acDes"
+      "fetch": "https://i2.cdscdn.com/cgv/documents/cgv.pdf"
     },
     "Terms of Service": {
       "fetch": "https://i2.cdscdn.com/resources/imagesok/cgu/mkp/cgu_acheteurs_mp_cdiscount.pdf"
     },
     "Trackers Policy": {
       "fetch": "https://www.cdiscount.com/vie-privee-et-cookies.html",
-      "executeClientScripts": true,
-      "select": "#scContent"
+      "select": "#main-privateLifeAndCookies",
+      "executeClientScripts": true
     }
   }
 }
