@@ -8,7 +8,14 @@
     },
     "Terms of Service": {
       "fetch": "https://www.xing.com/terms/xing",
-      "select": ".content-page"
+      "select": [
+        "main"
+      ],
+      "remove": [
+        "main nav",
+        "[aria-label=\"Download\"]"
+      ],
+      "executeClientScripts": true
     }
   }
 }
