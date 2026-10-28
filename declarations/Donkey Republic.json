@@ -4,7 +4,7 @@
     "Privacy Policy": {
       "fetch": "https://www.donkey.bike/privacy-policy/",
       "select": [
-        ".container"
+        "main"
       ]
     }
   }
