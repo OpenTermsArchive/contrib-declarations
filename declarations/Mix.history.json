@@ -4,6 +4,13 @@
       "fetch": "https://mix.com/privacy",
       "select": ".PrivacyPage",
       "validUntil": "2022-11-17T18:37:33Z"
+    },
+    {
+      "fetch": "https://mix.com/privacy",
+      "select": [
+        ".max-w-screen-md"
+      ],
+      "validUntil": "2026-10-08T00:47:07Z"
     }
   ],
   "Terms of Service": [
@@ -11,6 +18,13 @@
       "fetch": "https://mix.com/tos",
       "select": ".TosPage",
       "validUntil": "2022-11-22T00:37:31Z"
+    },
+    {
+      "fetch": "https://mix.com/tos",
+      "select": [
+        ".max-w-screen-md"
+      ],
+      "validUntil": "2026-10-08T00:47:07Z"
     }
   ]
 }
