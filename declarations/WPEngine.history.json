@@ -1,0 +1,23 @@
+{
+  "Terms of Service": [
+    {
+      "fetch": "https://wpengine.com/legal/terms-of-service/",
+      "select": "article",
+      "validUntil": "2025-10-23T18:32:22Z"
+    }
+  ],
+  "Privacy Policy": [
+    {
+      "fetch": "https://wpengine.com/legal/privacy/",
+      "select": "article",
+      "validUntil": "2025-10-23T18:32:27Z"
+    }
+  ],
+  "Data Controller Agreement": [
+    {
+      "fetch": "https://wpengine.com/legal/dpa/",
+      "select": "article",
+      "validUntil": "2025-10-23T18:32:32Z"
+    }
+  ]
+}
