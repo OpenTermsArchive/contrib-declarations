@@ -5,13 +5,16 @@
     "Terms of Service": {
       "fetch": "https://www.theregister.com/Profile/terms_and_conditions_of_use/",
       "select": [
-        "#article-wrapper"
+        "#main .page-content"
       ]
     },
     "Privacy Policy": {
       "fetch": "https://www.theregister.com/Profile/privacy/",
       "select": [
-        "#article-wrapper"
+        "#main .page-content"
+      ],
+      "remove": [
+        ".quick-links"
       ]
     }
   }
