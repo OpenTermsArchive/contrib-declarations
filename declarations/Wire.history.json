@@ -7,6 +7,15 @@
       ],
       "executeClientScripts": true,
       "validUntil": "2021-10-14T05:18:13+04:00"
+    },
+    {
+      "fetch": "https://wire.com/en/legal/terms-of-use-personal/#legal4",
+      "select": [
+        "#legal4 .text-regular:nth-child(1)",
+        "#legal4 > .legalbody > .container > .container-legal"
+      ],
+      "executeClientScripts": true,
+      "validUntil": "2023-10-26T13:51:45Z"
     }
   ],
   "Privacy Policy": [
@@ -17,6 +26,25 @@
       ],
       "executeClientScripts": true,
       "validUntil": "2021-10-07T21:56:25+04:00"
+    },
+    {
+      "fetch": "https://wire.com/en/legal/terms-of-use-personal/#legal3",
+      "select": [
+        "#legal3 .text-regular:nth-child(1)",
+        "#legal3 > .legalbody > .container > .container-legal"
+      ],
+      "executeClientScripts": true,
+      "validUntil": "2023-10-26T13:51:11Z"
+    }
+  ],
+  "Terms of Service": [
+    {
+      "fetch": "https://wire.com/en/legal/terms-of-use-personal/",
+      "select": [
+        ".legalbody"
+      ],
+      "executeClientScripts": true,
+      "validUntil": "2023-10-26T13:51:28Z"
     }
   ]
 }
