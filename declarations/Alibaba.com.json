@@ -14,11 +14,16 @@
       "executeClientScripts": true
     },
     "Copyright Claims Policy": {
-      "fetch": "https://rule.alibaba.com/rule/detail/6391.htm",
+      "fetch": "https://rulechannel.alibaba.com/icbu?type=detail&ruleId=6391&cId=1294#/rule/detail?cId=1294&ruleId=6391",
       "select": [
-        ".prompt",
-        ".answer"
-      ]
+        "#app-root article#rule-detail-body"
+      ],
+      "remove": [
+        ".zhi-tocItems",
+        ".rule-text-explain",
+        ".evalutaion"
+      ],
+      "executeClientScripts": true
     },
     "Terms of Service": {
       "fetch": "https://rulechannel.alibaba.com/icbu?type=detail&ruleId=2041&cId=1307#/rule/detail?cId=1307&ruleId=2041",
