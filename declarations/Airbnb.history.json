@@ -29,6 +29,18 @@
         "#site-content"
       ],
       "validUntil": "2024-03-12T00:31:25Z"
+    },
+    {
+      "fetch": "https://www.airbnb.co.uk/help/article/3175",
+      "select": [
+        "main"
+      ],
+      "remove": [
+        ".t15kpzrz",
+        ".l94quoy"
+      ],
+      "executeClientScripts": true,
+      "validUntil": "2025-06-13T06:00:45Z"
     }
   ],
   "Terms of Service": [
