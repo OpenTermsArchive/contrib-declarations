@@ -2,12 +2,18 @@
   "name": "Foursquare",
   "terms": {
     "Terms of Service": {
-      "fetch": "https://foursquare.com/legal/terms",
-      "select": "#blankPage"
+      "fetch": "https://foursquare.com/legal/terms/foursquare-consumer-services-terms-of-use/",
+      "select": ".entry-content",
+      "remove": "#breadcrumbs"
     },
     "Privacy Policy": {
-      "fetch": "https://foursquare.com/legal/privacy",
-      "select": "#blankPage"
+      "fetch": "https://foursquare.com/legal/privacy-center/foursquare-privacy-policy-consumer-services/",
+      "select": ".entry-content",
+      "remove": [
+        "#breadcrumbs",
+        ".fq-navigation-menu__body",
+        ".btn-wrap"
+      ]
     }
   }
 }

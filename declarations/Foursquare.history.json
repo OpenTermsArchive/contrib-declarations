@@ -1,0 +1,16 @@
+{
+  "Terms of Service": [
+    {
+      "fetch": "https://foursquare.com/legal/terms",
+      "select": "#blankPage",
+      "validUntil": "2024-02-07T06:34:27Z"
+    }
+  ],
+  "Privacy Policy": [
+    {
+      "fetch": "https://foursquare.com/legal/privacy",
+      "select": "#blankPage",
+      "validUntil": "2023-10-18T15:01:14Z"
+    }
+  ]
+}
