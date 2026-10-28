@@ -10,7 +10,7 @@
     "Copyright Claims Policy": {
       "fetch": "https://www.coolmath4kids.com/fairuse",
       "select": [
-        "#content"
+        ".node"
       ]
     }
   }
