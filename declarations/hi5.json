@@ -2,12 +2,16 @@
   "name": "hi5",
   "terms": {
     "Terms of Service": {
-      "fetch": "http://www.hi5.com/terms_of_service.html",
-      "select": "#terms_of_service"
+      "fetch": "https://www.tagged.com/en/termsandconditions/",
+      "select": [
+        "article"
+      ]
     },
     "Privacy Policy": {
-      "fetch": "http://www.hi5.com/terms_of_service.html",
-      "select": "#privacy_policy"
+      "fetch": "https://www.tagged.com/en/privacypolicy/",
+      "select": [
+        "article"
+      ]
     }
   }
 }
