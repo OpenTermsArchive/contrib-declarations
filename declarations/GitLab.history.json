@@ -9,6 +9,20 @@
       "fetch": "https://about.gitlab.com/privacy/",
       "select": ".container",
       "validUntil": "2023-09-29T03:35:50Z"
+    },
+    {
+      "fetch": "https://about.gitlab.com/privacy/",
+      "select": "main .content",
+      "remove": [
+        "#collapsible-sidebar",
+        ".header-anchor"
+      ],
+      "filter": [
+        {
+          "removeCloudflareEmailProtection": "DPO@gitlab.com"
+        }
+      ],
+      "validUntil": "2026-04-22T00:39:43Z"
     }
   ],
   "Vulnerability Disclosure Policy": [
@@ -21,6 +35,24 @@
       "fetch": "https://about.gitlab.com/security/disclosure/",
       "select": ".container.md-page",
       "validUntil": "1970-01-01T00:00:00.000Z"
+    },
+    {
+      "fetch": "https://about.gitlab.com/security/disclosure/",
+      "select": [
+        ".container"
+      ],
+      "remove": [
+        ".breadcrumb"
+      ],
+      "filter": [
+        {
+          "removeCloudflareEmailProtection": "security@gitlab.com"
+        },
+        {
+          "removeCloudflareEmailProtection": "Security@gitlab.com"
+        }
+      ],
+      "validUntil": "2026-01-28T00:39:19Z"
     }
   ],
   "Terms of Service": [
