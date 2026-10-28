@@ -6,5 +6,13 @@
       "select": "#post-2783",
       "validUntil": "2021-11-16T18:38:46Z"
     }
+  ],
+  "Privacy Policy": [
+    {
+      "fetch": "https://fr.shopping.rakuten.com/newhelp/vie-privee-et-cookies/",
+      "executeClientScripts": true,
+      "select": "#post-2785",
+      "validUntil": "2023-10-18T15:06:37Z"
+    }
   ]
 }
