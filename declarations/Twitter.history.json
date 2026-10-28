@@ -41,6 +41,67 @@
         ".u07__close:nth-child(2)"
       ],
       "validUntil": "2022-06-27T10:27:21+01:00"
+    },
+    {
+      "fetch": "https://developer.twitter.com/en/developer-terms/agreement",
+      "select": [
+        "#twtr-main"
+      ],
+      "remove": [
+        ".u07"
+      ],
+      "validUntil": "2026-02-06T12:52:34Z"
+    }
+  ],
+  "Law Enforcement Guidelines": [
+    {
+      "fetch": "https://help.twitter.com/en/rules-and-policies/twitter-law-enforcement-support",
+      "select": [
+        ".aem-Grid"
+      ],
+      "remove": [
+        ".twtr-type--roman-100r",
+        ".u11__breadcrumbs-list:nth-child(2)",
+        ".twtr-type--headline-md",
+        ".b24__wrapper",
+        ".b17",
+        ".u11__mobile-header",
+        ".twtr-component--first > .b02-v2 > ul",
+        ".twtr-component--first b"
+      ],
+      "validUntil": "2026-08-18T01:11:17Z"
+    }
+  ],
+  "Trackers Policy": [
+    {
+      "fetch": "https://help.twitter.com/en/rules-and-policies/twitter-cookies",
+      "select": [
+        ".aem-Grid"
+      ],
+      "remove": [
+        ".u11__breadcrumbs-mobile-modal",
+        ".twtr-type--roman-100r",
+        ".twtr-type--headline-md",
+        ".b24__wrapper",
+        ".b17"
+      ],
+      "validUntil": "2026-09-22T13:11:54Z"
+    }
+  ],
+  "Data Processor Agreement": [
+    {
+      "fetch": "https://help.twitter.com/en/rules-and-policies/data-processing-legal-bases",
+      "select": [
+        ".aem-Grid"
+      ],
+      "remove": [
+        ".u11__breadcrumbs-mobile-modal",
+        ".twtr-type--roman-100r",
+        ".twtr-type--headline-md",
+        ".b24__wrapper",
+        ".b17"
+      ],
+      "validUntil": "2026-08-02T01:09:43Z"
     }
   ]
 }
