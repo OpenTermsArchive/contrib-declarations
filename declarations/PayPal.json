@@ -4,13 +4,10 @@
     "Privacy Policy": {
       "fetch": "https://www.paypal.com/cz/webapps/mpp/ua/privacy-full?locale.x=en_CZ",
       "select": [
-        {
-          "startBefore": "h1",
-          "endBefore": "footer"
-        }
+        "[data-testid=\"content-container\"]"
       ],
       "remove": [
-        "#ua_skinny_view"
+        ".sub-header-wrapper"
       ]
     },
     "Terms of Service": {
