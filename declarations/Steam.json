@@ -19,10 +19,10 @@
         {
           "fetch": "https://help.steampowered.com/en/faqs/view/369C-3E9F-76FD-DEDA",
           "select": [
-            ".faqbbcode_FAQContainer_1BWX4"
+            "div:has(> .BB_Header1)"
           ],
           "remove": [
-            ".faqbbcode_FAQImage_1sKwB"
+            "img"
           ],
           "executeClientScripts": true
         }
