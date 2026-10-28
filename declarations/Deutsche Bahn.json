@@ -2,15 +2,21 @@
   "name": "Deutsche Bahn",
   "terms": {
     "Terms of Service": {
-      "fetch": "https://www.bahn.com/en/terms-of-use/customer-accounts-terms-of-use",
+      "fetch": "https://int.bahn.de/en/terms-of-use/customer-accounts-terms-of-use",
       "select": [
-        "main#content"
+        "#content"
+      ],
+      "remove": [
+        ".link-list"
       ]
     },
     "Privacy Policy": {
-      "fetch": "https://www.bahn.com/en/privacy/privacy-customer",
+      "fetch": "https://int.bahn.de/en/privacy/privacy-customer",
       "select": [
-        "main#content"
+        "#content"
+      ],
+      "remove": [
+        ".link-list"
       ]
     }
   }
