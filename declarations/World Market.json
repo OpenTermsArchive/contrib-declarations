@@ -3,8 +3,13 @@
   "importedFrom": "https://github.com/tosdr/tosback2/blob/f762cd4bbb2571272985fed009201a23300ba9b2/rules/worldmarket.com.xml",
   "terms": {
     "Terms of Service": {
-      "fetch": "https://www.worldmarket.com/category/customer-service/terms-of-use.do",
-      "select": ".helpdesk",
+      "fetch": "https://www.worldmarket.com/customer-service/terms-and-conditions.html",
+      "select": [
+        "div#terms-and-conditions"
+      ],
+      "remove": [
+        ".d-print-none"
+      ],
       "executeClientScripts": true
     },
     "Privacy Policy": {
