@@ -4,6 +4,11 @@
       "fetch": "https://www.logitech.com/en-gb/legal/web-privacy-policy.html",
       "select": "body",
       "validUntil": "2020-12-08T16:00:00.000Z"
+    },
+    {
+      "fetch": "https://www.logitech.com/en-gb/legal/web-privacy-policy.html",
+      "select": "#maincontent .page",
+      "validUntil": "2025-07-01T18:11:08Z"
     }
   ],
   "Terms of Service": [
@@ -23,6 +28,16 @@
         "#section-i50f58221a2b37ea46c77cfa9452ed85a-padding-options > div:nth-child(2)"
       ],
       "validUntil": "2022-04-14T00:36:48Z"
+    },
+    {
+      "fetch": "https://www.logitech.com/en-gb/tos/terms.html",
+      "select": [
+        "main .section-container-wrapper"
+      ],
+      "remove": [
+        ".cta-anchor"
+      ],
+      "validUntil": "2026-04-08T12:43:31Z"
     }
   ]
 }
