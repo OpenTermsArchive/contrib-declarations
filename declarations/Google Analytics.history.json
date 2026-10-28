@@ -4,6 +4,20 @@
       "fetch": "https://privacy.google.com/businesses/processorterms/",
       "select": ".ads-controller",
       "validUntil": "2020-08-16T12:30:05+04:00"
+    },
+    {
+      "fetch": "https://privacy.google.com/businesses/processorterms/",
+      "select": [
+        ".terms-page"
+      ],
+      "validUntil": "2026-05-20T00:41:06Z"
+    }
+  ],
+  "User Consent Policy": [
+    {
+      "fetch": "https://www.google.com/about/company/user-consent-policy/",
+      "select": ".page-section",
+      "validUntil": "2025-12-23T12:39:01Z"
     }
   ]
 }
