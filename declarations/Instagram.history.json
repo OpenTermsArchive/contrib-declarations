@@ -141,6 +141,26 @@
       "fetch": "https://help.instagram.com/581066165581870?locale=en_GB",
       "select": "#faq-page",
       "validUntil": "2021-03-03T11:26:20+04:00"
+    },
+    {
+      "fetch": "https://help.instagram.com/581066165581870",
+      "select": [
+        "div[role=\"main\"]"
+      ],
+      "remove": [
+        "div[aria-label=\"Copy Link\"]",
+        "[id='Related Articles']",
+        "fieldset"
+      ],
+      "filter": [
+        {
+          "removeQueryParams": [
+            "h"
+          ]
+        }
+      ],
+      "executeClientScripts": true,
+      "validUntil": "2026-10-28T00:43:11Z"
     }
   ]
 }
