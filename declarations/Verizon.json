@@ -7,8 +7,8 @@
       "select": "#block-mainpagecontent"
     },
     "Terms of Service": {
-      "fetch": "https://www.verizon.com/about/terms-conditions/terms-of-use",
-      "select": ".component-start"
+      "fetch": "https://www.verizon.com/support/website-use-legal/",
+      "select": "#tl-categoryResultsList"
     }
   }
 }
