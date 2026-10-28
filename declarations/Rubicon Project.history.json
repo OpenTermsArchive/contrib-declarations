@@ -6,6 +6,14 @@
         ".main-wrapper > .col-xs-12 > div"
       ],
       "validUntil": "2021-08-11T09:52:00.000Z"
+    },
+    {
+      "fetch": "https://www.magnite.com/legal/ad-quality-guidelines/",
+      "select": [
+        ".page-header",
+        ".content-wrapper"
+      ],
+      "validUntil": "2024-01-16T18:39:40Z"
     }
   ],
   "Trackers Policy": [
@@ -15,6 +23,14 @@
         ".main-wrapper > .col-xs-12 > div"
       ],
       "validUntil": "2021-07-13T21:55:16+04:00"
+    },
+    {
+      "fetch": "https://rubiconproject.com/privacy-policy/website-cookie-statement/",
+      "select": [
+        ".page-header",
+        ".content"
+      ],
+      "validUntil": "2023-10-18T15:07:06Z"
     }
   ],
   "Privacy Policy": [
@@ -24,6 +40,14 @@
         ".main-wrapper > .col-xs-12 > div"
       ],
       "validUntil": "2021-07-13T21:55:15+04:00"
+    },
+    {
+      "fetch": "https://rubiconproject.com/privacy-policy/",
+      "select": [
+        ".page-header",
+        ".content"
+      ],
+      "validUntil": "2024-01-16T18:39:39Z"
     }
   ]
 }
