@@ -4,13 +4,13 @@
     "Privacy Policy": {
       "fetch": "https://www.wideanglesoftware.com/privacy/",
       "select": [
-        ".content"
+        ".content_wrap_core"
       ]
     },
     "Trackers Policy": {
       "fetch": "https://www.wideanglesoftware.com/cookies/",
       "select": [
-        ".content"
+        ".content_wrap_core"
       ]
     }
   }
