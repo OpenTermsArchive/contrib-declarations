@@ -4,6 +4,11 @@
       "fetch": "https://www.thomsonreuters.com/en/terms-of-use.html",
       "select": "body",
       "validUntil": "2020-12-08T16:00:00.000Z"
+    },
+    {
+      "fetch": "https://www.thomsonreuters.com/en/terms-of-use.html",
+      "select": ".tr-SemanticMain",
+      "validUntil": "2025-05-27T18:15:15Z"
     }
   ],
   "Privacy Policy": [
