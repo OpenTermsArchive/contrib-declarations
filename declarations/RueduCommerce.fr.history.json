@@ -1,0 +1,12 @@
+{
+  "Terms of Service": [
+    {
+      "fetch": "https://www.rueducommerce.fr/info/mentions-legales/cgu-gm",
+      "select": "#cms",
+      "remove": [
+        "#cms-new-1019-line-1"
+      ],
+      "validUntil": "2024-07-10T18:12:40Z"
+    }
+  ]
+}
