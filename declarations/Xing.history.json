@@ -11,6 +11,11 @@
       "fetch": "https://www.xing.com/terms/xing",
       "select": "body",
       "validUntil": "2020-11-09T17:30:03.000Z"
+    },
+    {
+      "fetch": "https://www.xing.com/terms/xing",
+      "select": ".content-page",
+      "validUntil": "2024-11-06T18:18:40Z"
     }
   ]
 }
