@@ -17,10 +17,12 @@
     "Acceptable Use Policy": {
       "fetch": "https://help.adroll.com/hc/en-us/articles/360031225371-Prohibited-Content-and-Practices-Inappropriate-Content",
       "select": [
-        ".hero-unit__title",
-        ".article__body"
+        ".lt-article__title",
+        ".lt-article__body"
       ],
-      "remove": "img[src=\"/hc/article_attachments/360034521231/Ex.png\"]",
+      "remove": [
+        "img[src=\"/hc/article_attachments/16812940336269\"]"
+      ],
       "executeClientScripts": true
     }
   }
