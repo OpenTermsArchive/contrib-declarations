@@ -2,22 +2,30 @@
   "name": "AcuityAds",
   "terms": {
     "Privacy Policy": {
-      "fetch": "https://illumin.com/legal/privacy/",
+      "fetch": "https://illumin.com/legalcenter/privacy/",
       "select": [
-        ".default-banner-text",
-        ".default-content-section"
+        "[data-elementor-type=\"wp-page\"]"
+      ],
+      "remove": [
+        ".elementor-widget-image"
       ]
     },
     "Terms of Service": {
-      "fetch": "https://www.acuityads.com/terms-and-conditions/",
+      "fetch": "https://illumin.com/schedule-a-platform/",
       "select": [
-        ".entry-content"
+        "[data-elementor-type=\"wp-page\"]"
+      ],
+      "remove": [
+        ".elementor-widget-image"
       ]
     },
     "Trackers Policy": {
-      "fetch": "https://www.acuityads.com/cookie-policy/",
+      "fetch": "https://illumin.com/legalcenter/privacy/cookie/",
       "select": [
-        ".entry-content"
+        "[data-elementor-type=\"wp-page\"]"
+      ],
+      "remove": [
+        ".elementor-widget-image"
       ]
     }
   }
