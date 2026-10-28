@@ -5,13 +5,13 @@
     "Terms of Service": {
       "fetch": "https://about.urbandictionary.com/tos",
       "select": [
-        ".content.section .container"
+        ".help-article"
       ]
     },
     "Privacy Policy": {
       "fetch": "https://about.urbandictionary.com/privacy",
       "select": [
-        ".content.section .container"
+        ".help-article"
       ]
     }
   }
