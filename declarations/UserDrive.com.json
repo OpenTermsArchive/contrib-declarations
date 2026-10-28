@@ -7,10 +7,6 @@
         "p"
       ],
       "executeClientScripts": true
-    },
-    "Privacy Policy": {
-      "fetch": "https://usersdrive.com/pages/privacy-policy.html",
-      "select": ".tos"
     }
   }
 }
