@@ -1,0 +1,9 @@
+{
+  "Terms of Service": [
+    {
+      "fetch": "https://www.google.com/glass/termsofuse/",
+      "select": ".main-content",
+      "validUntil": "2026-05-12T12:39:10Z"
+    }
+  ]
+}
