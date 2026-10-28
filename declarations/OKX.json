@@ -4,34 +4,30 @@
     "Terms of Service": {
       "fetch": "https://www.okx.com/help/terms-of-service-eea",
       "select": [
-        "main"
+        "article"
       ],
       "remove": [
-        "[class^=\"index_mdShareList\"]",
         "[class^=\"index_articleSidebarContainer\"]",
-        ".okui-breadcrumbs"
+        "[data-testid=\"okd-reminder-notice\"]"
       ]
     },
     "Privacy Policy": {
       "fetch": "https://www.okx.com/help/privacy-policy-statement-eea",
       "select": [
-        "main"
+        "article"
       ],
       "remove": [
-        "[class^=\"index_mdShareList\"]",
         "[class^=\"index_articleSidebarContainer\"]",
-        ".okui-breadcrumbs"
+        "[data-testid=\"okd-reminder-notice\"]"
       ]
     },
     "Law Enforcement Guidelines": {
       "fetch": "https://www.okx.com/help/okx-law-enforcement-request-guide",
       "select": [
-        "main"
+        "article"
       ],
       "remove": [
-        "[class^=\"index_mdShareList\"]",
-        "[class^=\"index_articleSidebarContainer\"]",
-        ".okui-breadcrumbs"
+        "[class^=\"index_articleSidebarContainer\"]"
       ]
     }
   }
