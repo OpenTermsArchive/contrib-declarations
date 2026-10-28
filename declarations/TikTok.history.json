@@ -54,6 +54,13 @@
       "fetch": "https://www.tiktok.com/legal/law-enforcement?lang=en",
       "select": "article",
       "validUntil": "2022-12-22T00:42:57Z"
+    },
+    {
+      "fetch": "https://www.tiktok.com/legal/law-enforcement?lang=en",
+      "select": [
+        "#policy-card"
+      ],
+      "validUntil": "2026-07-03T12:54:15Z"
     }
   ],
   "Copyright Claims Policy": [
