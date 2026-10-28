@@ -16,6 +16,16 @@
       "fetch": "https://edition.cnn.com/terms0",
       "select": ".l-container",
       "validUntil": "2022-08-24T18:32:49Z"
+    },
+    {
+      "fetch": "https://edition.cnn.com/terms0",
+      "select": [
+        {
+          "startBefore": ".layout__content-wrapper",
+          "endBefore": ".layout__bottom"
+        }
+      ],
+      "validUntil": "2026-10-20T00:36:28Z"
     }
   ]
 }
