@@ -9,18 +9,11 @@
     "Vulnerability Disclosure Policy": {
       "fetch": "https://www.asus.com/content/asus-product-security-advisory/",
       "select": [
-        {
-          "startBefore": "#member-page-content",
-          "endBefore": "#member-page-content h3:nth-last-of-type(3)"
-        },
-        {
-          "startBefore": "#member-page-content h3:nth-last-of-type(1)",
-          "endAfter": "#member-page-content"
-        }
+        "#psirt",
+        "#vdp",
+        "#hof + div"
       ],
-      "filter": [
-        "removeSecurityUpdates"
-      ]
+      "executeClientScripts": true
     },
     "Terms of Service": {
       "fetch": "https://www.asus.com/Terms_of_Use_Notice_Privacy_Policy/Official-Site",
