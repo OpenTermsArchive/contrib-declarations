@@ -1,0 +1,20 @@
+{
+  "Terms of Service": [
+    {
+      "fetch": "https://protonvpn.com/terms-and-conditions",
+      "select": [
+        ".content"
+      ],
+      "validUntil": "2023-10-18T15:06:15Z"
+    }
+  ],
+  "Privacy Policy": [
+    {
+      "fetch": "https://protonvpn.com/privacy-policy",
+      "select": [
+        ".content"
+      ],
+      "validUntil": "2023-10-18T15:06:15Z"
+    }
+  ]
+}
