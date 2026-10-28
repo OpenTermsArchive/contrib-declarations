@@ -1,0 +1,11 @@
+{
+  "Privacy Policy": [
+    {
+      "fetch": "https://kimcartoon.li/Message/PrivacyPolicy",
+      "select": [
+        "#container"
+      ],
+      "validUntil": "2024-08-31T18:09:16Z"
+    }
+  ]
+}
