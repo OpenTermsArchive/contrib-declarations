@@ -1,0 +1,20 @@
+{
+  "Terms of Service": [
+    {
+      "fetch": "https://kbin.social/terms",
+      "select": [
+        "#main"
+      ],
+      "validUntil": "2023-11-17T09:39:02Z"
+    }
+  ],
+  "Privacy Policy": [
+    {
+      "fetch": "https://kbin.social/privacy-policy",
+      "select": [
+        "#main"
+      ],
+      "validUntil": "2023-12-20T18:38:08Z"
+    }
+  ]
+}
