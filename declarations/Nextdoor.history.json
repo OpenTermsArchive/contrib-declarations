@@ -1,0 +1,13 @@
+{
+  "Community Guidelines": [
+    {
+      "fetch": "https://help.nextdoor.com/s/article/community-guidelines?language=en_GB",
+      "select": [
+        ".article-head",
+        "#articlecontent"
+      ],
+      "executeClientScripts": true,
+      "validUntil": "2025-07-15T06:11:48Z"
+    }
+  ]
+}
