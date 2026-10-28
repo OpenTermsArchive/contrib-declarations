@@ -5,7 +5,7 @@
     "Privacy Policy": {
       "fetch": "https://www.dailymail.co.uk/home/article-7759273/Privacy-Cookies-Policy-Policy.html",
       "select": [
-        "div[itemprop=articleBody]"
+        "#privacycontent"
       ],
       "executeClientScripts": true
     },
