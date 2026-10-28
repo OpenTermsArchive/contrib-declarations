@@ -1,0 +1,23 @@
+{
+  "Privacy Policy": [
+    {
+      "fetch": "https://docs.base.org/docs/privacy-policy/",
+      "select": "article",
+      "validUntil": "2025-02-25T06:01:59Z"
+    }
+  ],
+  "Terms of Service": [
+    {
+      "fetch": "https://docs.base.org/docs/terms-of-service/",
+      "select": "article",
+      "validUntil": "2025-02-25T06:01:59Z"
+    }
+  ],
+  "Trackers Policy": [
+    {
+      "fetch": "https://docs.base.org/docs/cookie-policy/",
+      "select": "article",
+      "validUntil": "2025-02-25T06:01:59Z"
+    }
+  ]
+}
