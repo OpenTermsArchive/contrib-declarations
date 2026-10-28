@@ -1,0 +1,16 @@
+{
+  "Terms of Service": [
+    {
+      "fetch": "http://www.hi5.com/terms_of_service.html",
+      "select": "#terms_of_service",
+      "validUntil": "2025-05-22T18:06:21Z"
+    }
+  ],
+  "Privacy Policy": [
+    {
+      "fetch": "http://www.hi5.com/terms_of_service.html",
+      "select": "#privacy_policy",
+      "validUntil": "2025-05-22T18:06:21Z"
+    }
+  ]
+}
