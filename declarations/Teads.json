@@ -4,26 +4,22 @@
     "Privacy Policy": {
       "fetch": "https://www.teads.com/teads-website-privacy-policy/",
       "select": [
-        "main header",
-        ".ct-container-full"
-      ],
-      "remove": [
-        ".wp-block-buttons"
+        "main"
       ]
     },
     "Terms of Service": {
       "fetch": "https://www.teads.com/terms-of-use/",
       "select": [
-        ".elementor-element-a2738eb",
-        ".elementor-element-d23a554"
+        "main"
       ]
     },
     "Acceptable Use Policy": {
       "fetch": "https://www.teads.com/ad-policies/",
       "select": [
-        ".elementor-element-381ca57",
-        ".elementor-element-b7cc909",
-        ".elementor-element-e5908b6 .elementor-heading-title"
+        "main"
+      ],
+      "remove": [
+        ".brxe-post-toc"
       ]
     }
   }

@@ -7,6 +7,38 @@
         ".elementor-element-adf871d"
       ],
       "validUntil": "2022-03-25T18:39:15Z"
+    },
+    {
+      "fetch": "https://www.teads.com/teads-website-privacy-policy/",
+      "select": [
+        "main header",
+        ".ct-container-full"
+      ],
+      "remove": [
+        ".wp-block-buttons"
+      ],
+      "validUntil": "2025-01-29T18:15:26Z"
+    }
+  ],
+  "Terms of Service": [
+    {
+      "fetch": "https://www.teads.com/terms-of-use/",
+      "select": [
+        ".elementor-element-a2738eb",
+        ".elementor-element-d23a554"
+      ],
+      "validUntil": "2025-06-10T18:14:47Z"
+    }
+  ],
+  "Acceptable Use Policy": [
+    {
+      "fetch": "https://www.teads.com/ad-policies/",
+      "select": [
+        ".elementor-element-381ca57",
+        ".elementor-element-b7cc909",
+        ".elementor-element-e5908b6 .elementor-heading-title"
+      ],
+      "validUntil": "2025-06-10T18:14:48Z"
     }
   ]
 }
