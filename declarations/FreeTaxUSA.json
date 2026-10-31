@@ -1,0 +1,32 @@
+{
+  "name": "FreeTaxUSA",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://www.freetaxusa.com/terms",
+      "select": [
+        {
+          "startBefore": "h1",
+          "endBefore": "footer"
+        }
+      ],
+      "remove": [
+        ".bottom-section"
+      ],
+      "executeClientScripts": true
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.freetaxusa.com/privacy",
+      "select": [
+        {
+          "startBefore": "h1",
+          "endBefore": "footer"
+        }
+      ],
+      "remove": [
+        "a[href*=\"privacy-seal\"]",
+        ".bottom-section"
+      ],
+      "executeClientScripts": true
+    }
+  }
+}
