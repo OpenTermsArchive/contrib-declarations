@@ -1,0 +1,25 @@
+{
+  "name": "Wells Fargo",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://www.wellsfargo.com/online-banking/online-access-agreement/",
+      "select": [
+        "h1",
+        "#contentBody"
+      ],
+      "executeClientScripts": true
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.wellsfargo.com/privacy-security/online/",
+      "select": [
+        {
+          "startBefore": "h1",
+          "endBefore": "footer"
+        }
+      ],
+      "remove": [
+        ".ep-modal"
+      ]
+    }
+  }
+}
