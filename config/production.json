@@ -32,14 +32,6 @@
     "fetcher": {
       "language": "en-IE, en-GB, en"
     },
-    "reporter": {
-      "type": "github",
-      "repositories": {
-        "declarations": "OpenTermsArchive/contrib-declarations",
-        "versions": "OpenTermsArchive/contrib-versions",
-        "snapshots": "OpenTermsArchive/contrib-snapshots"
-      }
-    },
     "dataset": {
       "title": "contrib collection dataset",
       "versionsRepositoryURL": "https://github.com/OpenTermsArchive/contrib-versions",
