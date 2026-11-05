@@ -4,19 +4,13 @@
     "Terms of Service": {
       "fetch": "https://www.23andme.com/legal/terms-of-service/full-version/",
       "select": [
-        {
-          "startBefore": "h1",
-          "endBefore": "footer"
-        }
+        "main"
       ]
     },
     "Privacy Policy": {
       "fetch": "https://www.23andme.com/legal/privacy/full-version/",
       "select": [
-        {
-          "startBefore": "h1",
-          "endBefore": "footer"
-        }
+        "main"
       ]
     }
   }
