@@ -55,5 +55,19 @@
         "versionUrlTemplate": "https://github.com/OpenTermsArchive/contrib-versions/commit/%VERSION_ID"
       }
     }
+  },
+  "@opentermsarchive/issue-reporter": {
+    "type": "github",
+    "repositories": {
+      "declarations": "OpenTermsArchive/contrib-declarations",
+      "versions": "OpenTermsArchive/contrib-versions",
+      "snapshots": "OpenTermsArchive/contrib-snapshots"
+    },
+    "collectionApi": {
+      "url": "http://127.0.0.1:3000/collection-api/v1"
+    },
+    "logger": {
+      "timestampPrefix": false
+    }
   }
 }
