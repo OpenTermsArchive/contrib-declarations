@@ -12,13 +12,7 @@
     "Privacy Policy": {
       "fetch": "https://www.wellsfargo.com/privacy-security/online/",
       "select": [
-        {
-          "startBefore": "h1",
-          "endBefore": "footer"
-        }
-      ],
-      "remove": [
-        ".ep-modal"
+        "main"
       ]
     }
   }
