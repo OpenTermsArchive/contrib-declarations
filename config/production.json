@@ -67,7 +67,16 @@
       "url": "http://127.0.0.1:3000/collection-api/v1"
     },
     "logger": {
-      "timestampPrefix": false
+      "timestampPrefix": false,
+      "sendMailOnError": {
+        "to": "admin@opentermsarchive.org",
+        "from": "noreply@opentermsarchive.org"
+      },
+      "smtp": {
+        "host": "smtp-relay.brevo.com",
+        "port": 587,
+        "username": "admin@opentermsarchive.org"
+      }
     }
   }
 }
