@@ -44,7 +44,7 @@
       "timestampPrefix": false,
       "smtp": {
         "host": "smtp-relay.brevo.com",
-        "port": 587,
+        "port": 2525,
         "username": "admin@opentermsarchive.org"
       }
     },
@@ -74,7 +74,7 @@
       },
       "smtp": {
         "host": "smtp-relay.brevo.com",
-        "port": 587,
+        "port": 2525,
         "username": "admin@opentermsarchive.org"
       }
     }
