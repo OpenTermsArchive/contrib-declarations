@@ -32,14 +32,6 @@
     "fetcher": {
       "language": "en-IE, en-GB, en"
     },
-    "reporter": {
-      "type": "github",
-      "repositories": {
-        "declarations": "OpenTermsArchive/contrib-declarations",
-        "versions": "OpenTermsArchive/contrib-versions",
-        "snapshots": "OpenTermsArchive/contrib-snapshots"
-      }
-    },
     "dataset": {
       "title": "contrib collection dataset",
       "versionsRepositoryURL": "https://github.com/OpenTermsArchive/contrib-versions",
@@ -61,6 +53,29 @@
       "basePath": "/collection-api",
       "feed": {
         "versionUrlTemplate": "https://github.com/OpenTermsArchive/contrib-versions/commit/%VERSION_ID"
+      }
+    }
+  },
+  "@opentermsarchive/issue-reporter": {
+    "type": "github",
+    "repositories": {
+      "declarations": "OpenTermsArchive/contrib-declarations",
+      "versions": "OpenTermsArchive/contrib-versions",
+      "snapshots": "OpenTermsArchive/contrib-snapshots"
+    },
+    "collectionApi": {
+      "url": "http://127.0.0.1:3000/collection-api/v1"
+    },
+    "logger": {
+      "timestampPrefix": false,
+      "sendMailOnError": {
+        "to": "admin@opentermsarchive.org",
+        "from": "noreply@opentermsarchive.org"
+      },
+      "smtp": {
+        "host": "smtp-relay.brevo.com",
+        "port": 587,
+        "username": "admin@opentermsarchive.org"
       }
     }
   }
