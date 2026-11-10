@@ -18,7 +18,7 @@
     "issue-reporter:schedule": "npm run issue-reporter -- --schedule"
   },
   "dependencies": {
-    "@opentermsarchive/engine": "17.0.0",
+    "@opentermsarchive/engine": "17.0.1",
     "@opentermsarchive/issue-reporter": "1.0.1",
     "isomorphic-fetch": "^3.0.0"
   },
