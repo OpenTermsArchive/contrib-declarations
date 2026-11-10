@@ -3,12 +3,7 @@
   "terms": {
     "Terms of Service": {
       "fetch": "https://www.freetaxusa.com/terms",
-      "select": [
-        {
-          "startBefore": "h1",
-          "endBefore": "footer"
-        }
-      ],
+      "select": "section > .container",
       "remove": [
         ".bottom-section"
       ],
@@ -16,12 +11,7 @@
     },
     "Privacy Policy": {
       "fetch": "https://www.freetaxusa.com/privacy",
-      "select": [
-        {
-          "startBefore": "h1",
-          "endBefore": "footer"
-        }
-      ],
+      "select": "section > .container",
       "remove": [
         "a[href*=\"privacy-seal\"]",
         ".bottom-section"
