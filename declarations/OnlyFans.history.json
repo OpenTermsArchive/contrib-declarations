@@ -1,0 +1,35 @@
+{
+  "Terms of Service": [
+    {
+      "fetch": "https://onlyfans.com/terms",
+      "select": [
+        ".b-section-article:nth-child(3)",
+        ".b-section-article:nth-child(4)",
+        ".b-section-article:nth-child(7)",
+        ".b-section-article:nth-child(9) > p"
+      ],
+      "validUntil": "2024-09-01T18:11:57Z"
+    }
+  ],
+  "Commercial Terms": [
+    {
+      "fetch": "https://onlyfans.com/terms",
+      "select": [
+        ".b-section-article:nth-child(3)",
+        ".b-section-article:nth-child(7)",
+        ".b-section-article:nth-child(5)",
+        ".b-section-article:nth-child(9)"
+      ],
+      "validUntil": "2024-09-01T18:11:57Z"
+    }
+  ],
+  "Acceptable Use Policy": [
+    {
+      "fetch": "https://onlyfans.com/terms",
+      "select": [
+        ".b-section-article:nth-child(6)"
+      ],
+      "validUntil": "2024-09-01T18:11:58Z"
+    }
+  ]
+}
