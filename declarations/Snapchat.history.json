@@ -14,5 +14,21 @@
       "select": ".TermContainer-sc-1eyc2w4",
       "validUntil": "2024-02-06T06:40:47Z"
     }
+  ],
+  "Terms of Service": [
+    {
+      "fetch": "https://www.snap.com/en-GB/terms",
+      "select": "#terms-row",
+      "executeClientScripts": true,
+      "validUntil": "2024-01-22T06:39:57Z"
+    }
+  ],
+  "Trackers Policy": [
+    {
+      "fetch": "https://www.snap.com/en-GB/cookie-policy/",
+      "executeClientScripts": true,
+      "select": ".TermContainer-sc-1eyc2w4",
+      "validUntil": "2024-02-06T00:40:55Z"
+    }
   ]
 }
