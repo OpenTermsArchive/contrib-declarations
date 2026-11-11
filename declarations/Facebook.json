@@ -33,9 +33,11 @@
       ],
       "remove": [
         {
-          "startBefore": "[role=\"separator\"]",
-          "endAfter": "body"
-        }
+          "startAfter": "div[role=\"main\"] h1",
+          "endBefore": "[id$=\"_overview\"]"
+        },
+        "a:not([href])",
+        "img"
       ],
       "executeClientScripts": true
     },
@@ -48,13 +50,26 @@
       "select": "._4bl9"
     },
     "Trackers Policy": {
-      "fetch": "https://www.facebook.com/policies/cookies",
+      "fetch": "https://www.facebook.com/privacy/policies/cookies/printable/",
       "filter": [
-        "removeImgFromCookiesPolicy",
-        "removeReturnToTopButtons",
-        "cleanUrls"
+        "cleanUrls",
+        {
+          "removeQueryParams": [
+            "h"
+          ]
+        }
       ],
-      "select": "._5tkp"
+      "select": [
+        "#root"
+      ],
+      "remove": [
+        {
+          "startAfter": "#root h1",
+          "endBefore": "[id=\"0_intro\"]"
+        },
+        "a:not([href])",
+        "img"
+      ]
     },
     "Commercial Terms": {
       "fetch": "https://www.facebook.com/legal/commercial_terms",
@@ -96,15 +111,16 @@
       "executeClientScripts": true
     },
     "Law Enforcement Guidelines": {
-      "fetch": "https://www.facebook.com/safety/groups/law/guidelines",
+      "fetch": "https://www.meta.com/safety/communities/law/guidelines/",
       "filter": [
         "cleanUrls"
       ],
       "select": [
-        "._4xy4 > div"
+        "#safetyCenterContentContainer"
       ],
       "remove": [
-        ".img"
+        "a[href$=\"/safety/communities/law/\"]",
+        "img"
       ]
     }
   }
