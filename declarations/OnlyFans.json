@@ -4,26 +4,42 @@
     "Terms of Service": {
       "fetch": "https://onlyfans.com/terms",
       "select": [
-        ".b-section-article:nth-child(3)",
-        ".b-section-article:nth-child(4)",
-        ".b-section-article:nth-child(7)",
-        ".b-section-article:nth-child(9) > p"
+        ".b-section-article"
       ]
     },
     "Commercial Terms": {
-      "fetch": "https://onlyfans.com/terms",
-      "select": [
-        ".b-section-article:nth-child(3)",
-        ".b-section-article:nth-child(7)",
-        ".b-section-article:nth-child(5)",
-        ".b-section-article:nth-child(9)"
+      "combine": [
+        {
+          "fetch": "https://onlyfans.com/terms",
+          "select": [
+            ".b-section-article"
+          ]
+        },
+        {
+          "fetch": "https://onlyfans.com/referral-program-terms",
+          "select": [
+            "h1.g-page-title",
+            ".b-section-article"
+          ],
+          "executeClientScripts": true
+        },
+        {
+          "fetch": "https://onlyfans.com/platform-business-regulation-terms",
+          "select": [
+            "h1.g-page-title",
+            ".b-section-article"
+          ],
+          "executeClientScripts": true
+        }
       ]
     },
     "Acceptable Use Policy": {
-      "fetch": "https://onlyfans.com/terms",
+      "fetch": "https://onlyfans.com/acceptable-use-policy",
       "select": [
-        ".b-section-article:nth-child(6)"
-      ]
+        "h1.g-page-title",
+        ".b-section-article"
+      ],
+      "executeClientScripts": true
     }
   }
 }
