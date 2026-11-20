@@ -1,0 +1,21 @@
+{
+  "name": "Equifax",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://www.equifax.com/terms/",
+      "select": [
+        "#main-content"
+      ],
+      "remove": [
+        ".mkt-dropdown"
+      ],
+      "executeClientScripts": true
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.equifax.com/privacy/privacy-statement/",
+      "select": [
+        "#main-content"
+      ]
+    }
+  }
+}
