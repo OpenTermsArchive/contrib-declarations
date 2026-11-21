@@ -2,24 +2,32 @@
   "name": "Kraken",
   "terms": {
     "Terms of Service": {
-      "fetch": "https://www.kraken.com/en-us/legal#complete-tos",
-      "select": {
-        "startAfter": ".kraken-header",
-        "endBefore": ".kraken-footer"
-      },
+      "fetch": "https://www.kraken.com/en-us/legal/global-terms",
+      "select": [
+        "main"
+      ],
       "executeClientScripts": true
     },
     "Privacy Policy": {
       "fetch": "https://www.kraken.com/en-us/legal/privacy/",
       "select": [
-        ".kraken-article-body"
+        "main"
+      ],
+      "remove": [
+        "main nav",
+        "[data-name^=Breadcrumb]",
+        ".ds-container"
       ],
       "executeClientScripts": true
     },
     "Trackers Policy": {
       "fetch": "https://www.kraken.com/en-us/legal/cookies",
       "select": [
-        ".kraken-article-body"
+        "main"
+      ],
+      "remove": [
+        ".wayfinder-header",
+        ".wayfinder-wrapper"
       ],
       "executeClientScripts": true
     }

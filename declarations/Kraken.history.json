@@ -8,6 +8,35 @@
       },
       "executeClientScripts": true,
       "validUntil": "2023-11-01T19:51:08Z"
+    },
+    {
+      "fetch": "https://www.kraken.com/en-us/legal#complete-tos",
+      "select": {
+        "startAfter": ".kraken-header",
+        "endBefore": ".kraken-footer"
+      },
+      "executeClientScripts": true,
+      "validUntil": "2025-01-27T06:09:20Z"
+    }
+  ],
+  "Privacy Policy": [
+    {
+      "fetch": "https://www.kraken.com/en-us/legal/privacy/",
+      "select": [
+        ".kraken-article-body"
+      ],
+      "executeClientScripts": true,
+      "validUntil": "2026-03-26T12:41:44Z"
+    }
+  ],
+  "Trackers Policy": [
+    {
+      "fetch": "https://www.kraken.com/en-us/legal/cookies",
+      "select": [
+        ".kraken-article-body"
+      ],
+      "executeClientScripts": true,
+      "validUntil": "2026-03-27T00:43:52Z"
     }
   ]
 }
