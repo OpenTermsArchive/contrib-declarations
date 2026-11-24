@@ -28,6 +28,16 @@ module.exports = {
       restart_delay: 60 * 60 * 1000,  // likely related to a GitHub availability problem that will take some time to be fixed
       exponential_backoff_restart_delay: true,
       log_date_format: "YYYY-MM-DDTHH:mm:ssZ"
+    },
+    {
+      name: 'ota-issue-reporter',
+      script: 'npm',
+      args: 'run issue-reporter:schedule',
+      min_uptime: '10s',
+      max_restarts: 10,
+      restart_delay: 60 * 60 * 1000,  // likely related to a forge availability problem that will take some time to be fixed
+      exponential_backoff_restart_delay: true,
+      log_date_format: "YYYY-MM-DDTHH:mm:ssZ"
     }
   ],
 };
