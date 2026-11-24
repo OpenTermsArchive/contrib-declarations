@@ -1,0 +1,24 @@
+{
+  "name": "Costco",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://www.costco.com/terms-and-conditions-of-use.html",
+      "select": [
+        "main"
+      ],
+      "remove": [
+        ".MuiBreadcrumbs-root"
+      ]
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.costco.com/privacy-policy.html",
+      "select": [
+        "#search-results"
+      ],
+      "filter": [
+        "removeConsentStateFromUrls"
+      ],
+      "executeClientScripts": true
+    }
+  }
+}
