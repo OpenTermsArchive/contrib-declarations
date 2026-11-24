@@ -15,6 +15,9 @@
       "fetch": "https://www.equifax.com/privacy/privacy-statement/",
       "select": [
         "#main-content"
+      ],
+      "remove": [
+        "a[href=\"#Top\"]"
       ]
     }
   }
