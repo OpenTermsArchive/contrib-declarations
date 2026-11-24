@@ -13,10 +13,7 @@
     "Privacy Policy": {
       "fetch": "https://www.costco.com/privacy-policy.html",
       "select": [
-        "main"
-      ],
-      "remove": [
-        ".MuiBreadcrumbs-root"
+        "#search-results"
       ],
       "filter": [
         "removeConsentStateFromUrls"
