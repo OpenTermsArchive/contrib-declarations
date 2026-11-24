@@ -7,6 +7,9 @@
         "h1",
         "#contentBody"
       ],
+      "remove": [
+        "img"
+      ],
       "executeClientScripts": true
     },
     "Privacy Policy": {
