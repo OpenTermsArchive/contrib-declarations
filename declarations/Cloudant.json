@@ -15,8 +15,11 @@
       ]
     },
     "Terms of Service": {
-      "fetch": "https://www.ibm.com/be-en/legal?lnk=flg-tous-be-en",
-      "select": "div#ibm-content-main > .node__content> div:first-child"
+      "fetch": "https://www.ibm.com/legal/terms",
+      "select": [
+        "h1",
+        "c4d-table-of-contents"
+      ]
     }
   }
 }
