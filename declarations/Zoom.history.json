@@ -9,6 +9,16 @@
         ".category"
       ],
       "validUntil": "2021-10-08T01:14:03+04:00"
+    },
+    {
+      "fetch": "https://zoom.us/privacy",
+      "select": [
+        ".main-DefaultTemplate"
+      ],
+      "remove": [
+        ".category"
+      ],
+      "validUntil": "2024-08-30T18:19:06Z"
     }
   ],
   "Terms of Service": [
