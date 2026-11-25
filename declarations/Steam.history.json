@@ -1,0 +1,32 @@
+{
+  "General Conditions of Sale": [
+    {
+      "combine": [
+        {
+          "fetch": "https://store.steampowered.com/steam_refunds/",
+          "select": [
+            "#main_content"
+          ]
+        },
+        {
+          "fetch": "https://store.steampowered.com/hardware_order_terms",
+          "select": [
+            "#responsive_page_template_content > div.page_header_ctn",
+            "#legal_box"
+          ]
+        },
+        {
+          "fetch": "https://help.steampowered.com/en/faqs/view/369C-3E9F-76FD-DEDA",
+          "select": [
+            ".faqbbcode_FAQContainer_1BWX4"
+          ],
+          "remove": [
+            ".faqbbcode_FAQImage_1sKwB"
+          ],
+          "executeClientScripts": true
+        }
+      ],
+      "validUntil": "2023-10-18T15:09:10Z"
+    }
+  ]
+}
