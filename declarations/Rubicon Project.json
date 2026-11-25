@@ -2,24 +2,30 @@
   "name": "Rubicon Project",
   "terms": {
     "Privacy Policy": {
-      "fetch": "https://rubiconproject.com/privacy-policy/",
+      "fetch": "https://www.magnite.com/legal/magnite-website-privacy-policy/",
       "select": [
-        ".page-header",
-        ".content"
+        ".page-legal"
+      ],
+      "remove": [
+        ".wp-block-table-mobile"
       ]
     },
     "Acceptable Use Policy": {
       "fetch": "https://www.magnite.com/legal/ad-quality-guidelines/",
       "select": [
-        ".page-header",
-        ".content-wrapper"
+        ".page-legal"
+      ],
+      "remove": [
+        ".wp-block-table-mobile"
       ]
     },
     "Trackers Policy": {
-      "fetch": "https://rubiconproject.com/privacy-policy/website-cookie-statement/",
+      "fetch": "https://www.magnite.com/legal/website-cookie-platform-policy/",
       "select": [
-        ".page-header",
-        ".content"
+        ".page-legal"
+      ],
+      "remove": [
+        ".wp-block-table-mobile"
       ]
     }
   }
