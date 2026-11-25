@@ -3,10 +3,10 @@
   "terms": {
     "Privacy Policy": {
       "select": [
-        "app-legal-document"
+        "h2.MuiTypography-h2",
+        "div[dir=\"ltr\"]"
       ],
       "remove": [
-        "app-locale-selector",
         "summary"
       ],
       "executeClientScripts": true,
@@ -21,10 +21,10 @@
     },
     "Terms of Service": {
       "select": [
-        "app-legal-document"
+        "h2.MuiTypography-h2",
+        "div[dir=\"ltr\"]"
       ],
       "remove": [
-        "app-locale-selector",
         "summary"
       ],
       "executeClientScripts": true,
@@ -51,10 +51,10 @@
     },
     "Acceptable Use Policy": {
       "select": [
-        "app-legal-document"
+        "h2.MuiTypography-h2",
+        "div[dir=\"ltr\"]"
       ],
       "remove": [
-        "app-locale-selector",
         "summary"
       ],
       "executeClientScripts": true,
@@ -70,10 +70,10 @@
     "Seller Warranty": {
       "fetch": "https://starlink.com/legal/documents/DOC-1133-73441-63?regionCode=IE",
       "select": [
-        "app-legal-document"
+        "h2.MuiTypography-h2",
+        "div[dir=\"ltr\"]"
       ],
       "remove": [
-        "app-locale-selector",
         "summary"
       ],
       "executeClientScripts": true
@@ -81,10 +81,10 @@
     "Copyright Claims Policy": {
       "fetch": "https://starlink.com/legal/documents/DOC-1004-25903-60?regionCode=IE",
       "select": [
-        "app-legal-document"
+        "h2.MuiTypography-h2",
+        "div[dir=\"ltr\"]"
       ],
       "remove": [
-        "app-locale-selector",
         "summary"
       ],
       "executeClientScripts": true
@@ -92,10 +92,10 @@
     "Service Level Agreement": {
       "fetch": "https://starlink.com/legal/documents/DOC-1729-34307-72?regionCode=IE",
       "select": [
-        "app-legal-document"
+        "h2.MuiTypography-h2",
+        "div[dir=\"ltr\"]"
       ],
       "remove": [
-        "app-locale-selector",
         "summary"
       ],
       "executeClientScripts": true
