@@ -1,0 +1,14 @@
+{
+  "Privacy Policy": [
+    {
+      "fetch": "https://sketchfab.com/privacy",
+      "select": [
+        "#terms"
+      ],
+      "remove": [
+        "#toc"
+      ],
+      "validUntil": "2023-10-18T15:08:16Z"
+    }
+  ]
+}
