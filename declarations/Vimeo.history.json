@@ -1,0 +1,24 @@
+{
+  "Terms of Service": [
+    {
+      "fetch": "https://vimeo.com/terms",
+      "executeClientScripts": true,
+      "select": {
+        "startBefore": "#vimeo_terms_of_service",
+        "endAfter": "#legal_doc"
+      },
+      "validUntil": "2025-08-25T06:20:12Z"
+    }
+  ],
+  "Privacy Policy": [
+    {
+      "fetch": "https://vimeo.com/privacy",
+      "executeClientScripts": true,
+      "select": {
+        "startBefore": "#vimeo_privacy_policy",
+        "endAfter": "#legal_doc"
+      },
+      "validUntil": "2025-08-25T06:20:24Z"
+    }
+  ]
+}
