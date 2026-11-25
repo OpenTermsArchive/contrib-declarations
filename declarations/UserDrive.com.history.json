@@ -5,5 +5,12 @@
       "select": ".tos",
       "validUntil": "2024-11-15T06:14:39Z"
     }
+  ],
+  "Privacy Policy": [
+    {
+      "fetch": "https://usersdrive.com/pages/privacy-policy.html",
+      "select": ".tos",
+      "validUntil": "2024-10-23T18:15:47Z"
+    }
   ]
 }
