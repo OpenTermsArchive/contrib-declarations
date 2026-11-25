@@ -4,7 +4,7 @@
     "Privacy Policy": {
       "fetch": "https://solana.com/privacy-policy",
       "select": [
-        "main"
+        "section"
       ],
       "remove": [
         "img[aria-hidden=\"true\"]"
@@ -13,7 +13,7 @@
     "Terms of Service": {
       "fetch": "https://solana.com/tos",
       "select": [
-        "main"
+        "section"
       ],
       "remove": [
         "img[aria-hidden=\"true\"]"
