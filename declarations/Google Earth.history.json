@@ -1,0 +1,10 @@
+{
+  "Acceptable Use Policy": [
+    {
+      "fetch": "https://support.google.com/earth/answer/9477965?hl=en-GB",
+      "select": "section[class=article-container]",
+      "remove": ".scClientFeedbackInlineFeedbacklinkroot",
+      "validUntil": "2025-02-17T06:07:06Z"
+    }
+  ]
+}
