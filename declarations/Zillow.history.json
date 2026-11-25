@@ -4,6 +4,11 @@
       "fetch": "https://www.zillowgroup.com/terms-of-use/",
       "select": "body",
       "validUntil": "2020-11-09T17:30:03.000Z"
+    },
+    {
+      "fetch": "https://www.zillowgroup.com/terms-of-use/",
+      "select": ".site-main",
+      "validUntil": "2026-01-08T00:59:47Z"
     }
   ],
   "Privacy Policy": [
@@ -11,6 +16,11 @@
       "fetch": "https://www.zillowgroup.com/zg-privacy-policy/",
       "select": "body",
       "validUntil": "2020-11-09T17:30:03.000Z"
+    },
+    {
+      "fetch": "https://www.zillowgroup.com/zg-privacy-policy/",
+      "select": ".site-main",
+      "validUntil": "2026-02-06T00:55:43Z"
     }
   ]
 }
