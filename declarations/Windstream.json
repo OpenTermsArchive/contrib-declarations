@@ -3,12 +3,12 @@
   "importedFrom": "https://github.com/tosdr/tosback2/blob/f762cd4bbb2571272985fed009201a23300ba9b2/rules/windstream.com.xml",
   "terms": {
     "Terms of Service": {
-      "fetch": "https://www.windstream.com/about/legal/Terms-and-Conditions",
-      "select": ".support-container"
+      "fetch": "https://www.gokinetic.com/about/legal/kinetic-online-terms",
+      "select": ".componentTextBlock"
     },
     "Privacy Policy": {
-      "fetch": "https://www.windstream.com/about/legal/Privacy-Policy",
-      "select": ".support-container"
+      "fetch": "https://www.gokinetic.com/about/legal/privacy-policy",
+      "select": ".componentTextBlock"
     }
   }
 }
