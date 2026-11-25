@@ -4,6 +4,13 @@
       "fetch": "https://www.theregister.com/Profile/terms_and_conditions_of_use/",
       "select": "body",
       "validUntil": "2020-12-08T16:00:00.000Z"
+    },
+    {
+      "fetch": "https://www.theregister.com/Profile/terms_and_conditions_of_use/",
+      "select": [
+        "#article-wrapper"
+      ],
+      "validUntil": "2026-05-06T12:54:51Z"
     }
   ],
   "Privacy Policy": [
@@ -11,6 +18,13 @@
       "fetch": "https://www.theregister.com/about/company/privacy/",
       "select": "body",
       "validUntil": "2020-12-08T16:00:00.000Z"
+    },
+    {
+      "fetch": "https://www.theregister.com/Profile/privacy/",
+      "select": [
+        "#article-wrapper"
+      ],
+      "validUntil": "2026-05-06T12:54:52Z"
     }
   ]
 }
