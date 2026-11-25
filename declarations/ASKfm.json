@@ -1,15 +1,4 @@
 {
   "name": "ASKfm",
-  "terms": {
-    "Terms of Service": {
-      "fetch": "https://about.ask.fm/legal/en/terms.html",
-      "select": [
-        "section.container"
-      ]
-    },
-    "Privacy Policy": {
-      "fetch": "https://ask.fm/docs/privacy_policy/?lang=en",
-      "select": "section.container"
-    }
-  }
+  "terms": {}
 }

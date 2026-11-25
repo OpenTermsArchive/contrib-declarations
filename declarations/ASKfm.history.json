@@ -4,6 +4,20 @@
       "fetch": "https://ask.fm/docs/terms_of_use/?lang=en",
       "select": "section.container",
       "validUntil": "2023-05-11T12:31:28Z"
+    },
+    {
+      "fetch": "https://about.ask.fm/legal/en/terms.html",
+      "select": [
+        "section.container"
+      ],
+      "validUntil": "2024-08-22T18:01:51Z"
+    }
+  ],
+  "Privacy Policy": [
+    {
+      "fetch": "https://ask.fm/docs/privacy_policy/?lang=en",
+      "select": "section.container",
+      "validUntil": "2023-10-18T14:46:04Z"
     }
   ]
 }
