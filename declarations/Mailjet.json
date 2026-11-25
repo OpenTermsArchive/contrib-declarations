@@ -2,42 +2,41 @@
   "name": "Mailjet",
   "terms": {
     "Privacy Policy": {
-      "fetch": "https://www.mailjet.com/privacy-policy/",
+      "fetch": "https://www.mailjet.com/legal/privacy-policy/",
       "select": [
-        "main"
+        "h1",
+        ".longform-content"
       ]
     },
     "Terms of Service": {
       "fetch": "https://www.mailjet.com/legal/terms/",
       "select": [
-        "main"
+        "h1",
+        ".longform-content"
       ]
     },
     "Acceptable Use Policy": {
       "fetch": "https://www.mailjet.com/legal/sending-policy/",
       "select": [
-        "main"
+        "h1",
+        ".longform-content"
       ]
     },
     "Trackers Policy": {
-      "fetch": "https://www.mailjet.com/legal/privacy-policy/cookies/",
+      "fetch": "https://www.mailjet.com/legal/cookie-statement/",
       "select": [
-        {
-          "startBefore": "h1",
-          "endAfter": "main"
-        }
+        "h1",
+        ".longform-content"
       ],
       "remove": [
         "button"
       ]
     },
     "Data Processor Agreement": {
-      "fetch": "https://www.mailjet.com/legal/dpa/",
+      "fetch": "https://sinch.com/legal/terms-and-conditions/other-sinch-terms-conditions/data-processing-agreement/",
       "select": [
-        {
-          "endAfter": "main",
-          "startBefore": "h1"
-        }
+        "h1",
+        ".longform-content"
       ]
     }
   }

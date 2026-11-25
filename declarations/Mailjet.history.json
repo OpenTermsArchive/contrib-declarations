@@ -10,6 +10,13 @@
         ".subfooter"
       ],
       "validUntil": "2022-06-14T12:36:56Z"
+    },
+    {
+      "fetch": "https://www.mailjet.com/privacy-policy/",
+      "select": [
+        "main"
+      ],
+      "validUntil": "2025-06-03T06:09:57Z"
     }
   ],
   "Terms of Service": [
@@ -23,6 +30,49 @@
         ".subfooter"
       ],
       "validUntil": "2022-06-14T12:36:56Z"
+    },
+    {
+      "fetch": "https://www.mailjet.com/legal/terms/",
+      "select": [
+        "main"
+      ],
+      "validUntil": "2025-06-03T06:09:58Z"
+    }
+  ],
+  "Acceptable Use Policy": [
+    {
+      "fetch": "https://www.mailjet.com/legal/sending-policy/",
+      "select": [
+        "main"
+      ],
+      "validUntil": "2025-06-03T06:09:59Z"
+    }
+  ],
+  "Trackers Policy": [
+    {
+      "fetch": "https://www.mailjet.com/legal/privacy-policy/cookies/",
+      "select": [
+        {
+          "startBefore": "h1",
+          "endAfter": "main"
+        }
+      ],
+      "remove": [
+        "button"
+      ],
+      "validUntil": "2025-06-03T06:10:01Z"
+    }
+  ],
+  "Data Processor Agreement": [
+    {
+      "fetch": "https://www.mailjet.com/legal/dpa/",
+      "select": [
+        {
+          "endAfter": "main",
+          "startBefore": "h1"
+        }
+      ],
+      "validUntil": "2025-02-22T06:08:51Z"
     }
   ]
 }
