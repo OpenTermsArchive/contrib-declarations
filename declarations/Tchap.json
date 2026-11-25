@@ -2,21 +2,24 @@
   "name": "Tchap",
   "terms": {
     "Privacy Policy": {
-      "fetch": "https://tchap.beta.gouv.fr/politique-de-confidentialite",
+      "fetch": "https://tchap.numerique.gouv.fr/politique-de-confidentialite/",
       "select": [
-        ".MuiContainer-root"
+        "main"
       ],
-      "executeClientScripts": true
+      "remove": [
+        ".fr-breadcrumb",
+        ".fr-share"
+      ]
     },
     "Terms of Service": {
-      "fetch": "https://tchap.beta.gouv.fr/cgu",
+      "fetch": "https://tchap.numerique.gouv.fr/cgu/",
       "select": [
-        {
-          "startBefore": ".MuiContainer-root",
-          "endBefore": "#footer"
-        }
+        "main"
       ],
-      "executeClientScripts": true
+      "remove": [
+        ".fr-breadcrumb",
+        ".fr-share"
+      ]
     }
   }
 }

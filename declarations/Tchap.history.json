@@ -7,6 +7,14 @@
         "endBefore": "#_Toc4344722"
       },
       "validUntil": "2022-01-13T18:39:42Z"
+    },
+    {
+      "fetch": "https://tchap.beta.gouv.fr/politique-de-confidentialite",
+      "select": [
+        ".MuiContainer-root"
+      ],
+      "executeClientScripts": true,
+      "validUntil": "2024-03-22T12:43:41Z"
     }
   ],
   "Terms of Service": [
@@ -16,6 +24,17 @@
         "body"
       ],
       "validUntil": "2022-05-06T12:41:10Z"
+    },
+    {
+      "fetch": "https://tchap.beta.gouv.fr/cgu",
+      "select": [
+        {
+          "startBefore": ".MuiContainer-root",
+          "endBefore": "#footer"
+        }
+      ],
+      "executeClientScripts": true,
+      "validUntil": "2024-03-22T12:43:41Z"
     }
   ]
 }
