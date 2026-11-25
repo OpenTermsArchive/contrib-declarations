@@ -1,0 +1,12 @@
+{
+  "Terms of Service": [
+    {
+      "fetch": "https://www.epassi.fi/terms-of-use",
+      "select": {
+        "startAfter": "#EN",
+        "endBefore": "#SE"
+      },
+      "validUntil": "2026-03-26T00:36:58Z"
+    }
+  ]
+}
