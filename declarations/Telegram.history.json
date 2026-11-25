@@ -1,0 +1,28 @@
+{
+  "Law Enforcement Guidelines": [
+    {
+      "combine": [
+        {
+          "fetch": "https://telegram.org/tos/eu-dsa?setln=en",
+          "select": [
+            {
+              "startBefore": "[name=contact-points-for-competent-authorities-in-eu-countries]",
+              "endBefore": "[name=average-monthly-active-recipients-of-service-in-the-eu]"
+            }
+          ]
+        },
+        {
+          "fetch": "https://telegram.org/faq?setln=en",
+          "select": [
+            {
+              "startBefore": "[name=q-do-you-process-data-requests]",
+              "endBefore": "[name=telegram-basics]"
+            }
+          ],
+          "remove": "blockquote"
+        }
+      ],
+      "validUntil": "2025-08-27T18:19:16Z"
+    }
+  ]
+}
