@@ -4,11 +4,8 @@
   "terms": {
     "Privacy Policy": {
       "fetch": "https://about.gitlab.com/privacy/",
-      "select": "main .content",
-      "remove": [
-        "#collapsible-sidebar",
-        ".header-anchor"
-      ],
+      "select": ".side-navigation-content",
+      "remove": ".header-anchor",
       "filter": [
         {
           "removeCloudflareEmailProtection": "DPO@gitlab.com"
@@ -18,10 +15,8 @@
     "Vulnerability Disclosure Policy": {
       "fetch": "https://about.gitlab.com/security/disclosure/",
       "select": [
-        ".container"
-      ],
-      "remove": [
-        ".breadcrumb"
+        "main h1",
+        "#collapsible-sidebar-content"
       ],
       "filter": [
         {
