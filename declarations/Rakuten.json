@@ -11,8 +11,12 @@
     },
     "Privacy Policy": {
       "fetch": "https://fr.shopping.rakuten.com/newhelp/vie-privee-et-cookies/",
-      "executeClientScripts": true,
-      "select": "#post-2785"
+      "select": [
+        "#main-content .article-title",
+        "#main-content .article-body"
+      ],
+      "remove": "#toc_container",
+      "executeClientScripts": true
     }
   }
 }
