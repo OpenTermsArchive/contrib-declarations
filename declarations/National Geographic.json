@@ -8,12 +8,9 @@
       "remove": ".icon-left, .openall"
     },
     "Terms of Service": {
-      "fetch": "https://disneytermsofuse.com/english-united-kingdom/",
+      "fetch": "https://disneytermsofuse.com/english/",
       "select": [
-        ".entry"
-      ],
-      "remove": [
-        ".button_link"
+        "main"
       ]
     }
   }
