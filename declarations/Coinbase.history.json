@@ -10,6 +10,14 @@
       ],
       "executeClientScripts": true,
       "validUntil": "2023-10-18T14:59:55Z"
+    },
+    {
+      "fetch": "https://www.coinbase.com/legal/privacy",
+      "select": [
+        "#main"
+      ],
+      "executeClientScripts": true,
+      "validUntil": "2025-12-20T00:35:30Z"
     }
   ],
   "Trackers Policy": [
