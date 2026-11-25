@@ -2,12 +2,28 @@
   "name": "Tagged",
   "terms": {
     "Terms of Service": {
-      "fetch": "http://www.tagged.com/terms_of_service.html",
-      "select": "#terms_of_service"
+      "fetch": "https://www.tagged.com/en/termsandconditions/",
+      "select": [
+        "article"
+      ],
+      "remove": [
+        {
+          "startBefore": "article > p:has(+ p > a[href^=\"#_Toc\"]:only-child)",
+          "endBefore": "article > h1:has(a[id^=\"_Toc\"])"
+        }
+      ]
     },
     "Privacy Policy": {
-      "fetch": "http://www.tagged.com/terms_of_service.html",
-      "select": "#privacy_policy"
+      "fetch": "https://www.tagged.com/en/privacypolicy/",
+      "select": [
+        "article"
+      ],
+      "remove": [
+        {
+          "startBefore": "article > p:has(+ p > a[href^=\"#_Toc\"]:only-child)",
+          "endBefore": "article > h1:has(a[id^=\"_Toc\"])"
+        }
+      ]
     }
   }
 }
