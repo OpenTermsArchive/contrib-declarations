@@ -7,6 +7,14 @@
       ],
       "executeClientScripts": true,
       "validUntil": "2024-12-03T06:05:53Z"
+    },
+    {
+      "fetch": "https://gofile.io/terms",
+      "select": [
+        "#index_main"
+      ],
+      "executeClientScripts": true,
+      "validUntil": "2026-06-23T00:39:55Z"
     }
   ],
   "Privacy Policy": [
@@ -17,6 +25,14 @@
       ],
       "executeClientScripts": true,
       "validUntil": "2024-12-03T06:06:05Z"
+    },
+    {
+      "fetch": "https://gofile.io/privacy",
+      "select": [
+        "#index_main"
+      ],
+      "executeClientScripts": true,
+      "validUntil": "2026-06-26T12:40:07Z"
     }
   ]
 }
