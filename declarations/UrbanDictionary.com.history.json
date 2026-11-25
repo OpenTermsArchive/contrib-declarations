@@ -9,6 +9,13 @@
       "fetch": "https://about.urbandictionary.com/tos",
       "select": "#outer",
       "validUntil": "2023-07-01T00:44:30Z"
+    },
+    {
+      "fetch": "https://about.urbandictionary.com/tos",
+      "select": [
+        ".content.section .container"
+      ],
+      "validUntil": "2025-06-12T18:21:13Z"
     }
   ],
   "Privacy Policy": [
@@ -21,6 +28,13 @@
       "fetch": "https://about.urbandictionary.com/privacy",
       "select": "#outer",
       "validUntil": "2023-07-01T00:44:33Z"
+    },
+    {
+      "fetch": "https://about.urbandictionary.com/privacy",
+      "select": [
+        ".content.section .container"
+      ],
+      "validUntil": "2025-06-12T18:21:13Z"
     }
   ]
 }
