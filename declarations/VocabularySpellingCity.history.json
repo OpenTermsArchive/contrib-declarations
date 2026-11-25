@@ -1,0 +1,20 @@
+{
+  "Privacy Policy": [
+    {
+      "fetch": "https://www.spellingcity.com/privacy-policy.html",
+      "select": [
+        "#wp-main"
+      ],
+      "validUntil": "2023-11-16T19:29:22Z"
+    }
+  ],
+  "Terms of Service": [
+    {
+      "fetch": "https://www.spellingcity.com/terms-of-service.html",
+      "select": [
+        "#wp-main"
+      ],
+      "validUntil": "2023-11-16T19:29:22Z"
+    }
+  ]
+}
