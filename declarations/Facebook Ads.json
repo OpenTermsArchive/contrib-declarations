@@ -4,10 +4,10 @@
     "Terms of Service": {
       "fetch": "https://www.facebook.com/legal/self_service_ads_terms",
       "select": [
-        ".ad2k81qe"
+        "div[role=\"main\"] div[style*=\"text-align: justify\"]"
       ],
-      "remove": [
-        ".tr9rh885"
+      "filter": [
+        "cleanUrls"
       ],
       "executeClientScripts": true
     }
