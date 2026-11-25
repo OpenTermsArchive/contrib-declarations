@@ -4,13 +4,18 @@
     "Terms of Service": {
       "fetch": "https://mix.com/tos",
       "select": [
-        ".max-w-screen-md"
+        "h1",
+        "h1 ~ *"
       ]
     },
     "Privacy Policy": {
       "fetch": "https://mix.com/privacy",
       "select": [
-        ".max-w-screen-md"
+        "h1",
+        "h1 ~ *"
+      ],
+      "remove": [
+        "button"
       ]
     }
   }
