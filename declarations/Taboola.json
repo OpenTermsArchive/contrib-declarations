@@ -2,21 +2,21 @@
   "name": "Taboola",
   "terms": {
     "Terms of Service": {
-      "fetch": "https://www.taboola.com/policies/terms-of-use",
+      "fetch": "https://policies.taboola.com/terms-of-use/",
       "select": [
-        ".legal-portal-content__container"
+        ".main-content"
       ]
     },
     "Privacy Policy": {
-      "fetch": "https://www.taboola.com/policies/privacy-policy",
+      "fetch": "https://policies.taboola.com/privacy-policy/",
       "select": [
-        ".legal-portal-content__container"
+        ".main-content"
       ]
     },
     "Trackers Policy": {
-      "fetch": "https://www.taboola.com/policies/cookie-policy",
+      "fetch": "https://policies.taboola.com/cookie-policy/",
       "select": [
-        ".legal-portal-content__container"
+        ".main-content"
       ]
     },
     "Acceptable Use Policy": {

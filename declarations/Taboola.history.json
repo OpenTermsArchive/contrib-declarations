@@ -1,0 +1,29 @@
+{
+  "Terms of Service": [
+    {
+      "fetch": "https://www.taboola.com/policies/terms-of-use",
+      "select": [
+        ".legal-portal-content__container"
+      ],
+      "validUntil": "2025-11-04T18:20:27Z"
+    }
+  ],
+  "Privacy Policy": [
+    {
+      "fetch": "https://www.taboola.com/policies/privacy-policy",
+      "select": [
+        ".legal-portal-content__container"
+      ],
+      "validUntil": "2025-11-04T18:20:28Z"
+    }
+  ],
+  "Trackers Policy": [
+    {
+      "fetch": "https://www.taboola.com/policies/cookie-policy",
+      "select": [
+        ".legal-portal-content__container"
+      ],
+      "validUntil": "2025-11-04T18:20:28Z"
+    }
+  ]
+}
