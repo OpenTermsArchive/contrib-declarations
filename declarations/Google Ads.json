@@ -20,16 +20,12 @@
       "remove": ".KMMDve, .TL2alc, img[src$='.svg']"
     },
     "Data Controller Agreement": {
-      "fetch": "https://privacy.google.com/businesses/controllerterms/",
-      "select": [
-        ".terms-page"
-      ]
+      "fetch": "https://business.safety.google/adscontrollerterms/",
+      "select": "main"
     },
     "Data Processor Agreement": {
-      "fetch": "https://privacy.google.com/businesses/processorterms/",
-      "select": [
-        ".terms-page"
-      ]
+      "fetch": "https://business.safety.google/adsprocessorterms/",
+      "select": "main"
     },
     "Trackers Policy": {
       "fetch": "https://policies.google.com/technologies/ads",
@@ -37,7 +33,8 @@
     },
     "User Consent Policy": {
       "fetch": "https://www.google.com/about/company/user-consent-policy/",
-      "select": ".page-section"
+      "select": "main",
+      "remove": ".card-list-b"
     },
     "Developer Terms": {
       "fetch": "https://developers.google.com/adwords/api/docs/terms",
