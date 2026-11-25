@@ -4,12 +4,14 @@
     "Terms of Service": {
       "fetch": "https://help.instagram.com/581066165581870",
       "select": [
-        "div[role=\"main\"]"
+        {
+          "startBefore": "div[role=\"main\"] h1",
+          "endBefore": "div[role=\"main\"] fieldset"
+        }
       ],
       "remove": [
-        "div[aria-label=\"Copy Link\"]",
-        "[id='Related Articles']",
-        "fieldset"
+        "div[aria-label=\"Copy link\"]",
+        "[data-type=\"hscroll-child\"]"
       ],
       "filter": [
         {
