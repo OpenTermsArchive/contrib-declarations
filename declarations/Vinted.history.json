@@ -4,6 +4,21 @@
       "fetch": "https://www.vinted.com/privacy-policy",
       "select": "section#content",
       "validUntil": "2023-02-14T12:43:54Z"
+    },
+    {
+      "fetch": "https://www.vinted.com/privacy-policy",
+      "select": [
+        "section#content"
+      ],
+      "executeClientScripts": true,
+      "validUntil": "2023-10-18T15:11:32Z"
+    }
+  ],
+  "Terms of Service": [
+    {
+      "fetch": "https://www.vinted.com/terms_and_conditions",
+      "select": "section#content",
+      "validUntil": "2023-10-18T15:11:31Z"
     }
   ]
 }
