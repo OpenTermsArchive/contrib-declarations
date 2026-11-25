@@ -2,21 +2,17 @@
   "name": "Wargaming",
   "terms": {
     "Privacy Policy": {
-      "fetch": "https://legal.eu.wargaming.net/en/privacy-policy/",
+      "fetch": "https://legal.wargaming.net/en/user-documents/privacy/privacy-policy/view",
       "select": [
-        ".docs-popup-wrapper"
-      ],
-      "remove": [
-        ".close-btn"
+        ".print-area h1",
+        "#print-doc"
       ]
     },
     "Terms of Service": {
-      "fetch": "https://legal.eu.wargaming.net/en/eula/",
+      "fetch": "https://legal.wargaming.net/en/user-documents/eula/end-user-license-agreement/view",
       "select": [
-        ".docs-popup-wrapper"
-      ],
-      "remove": [
-        ".close-btn"
+        ".print-area h1",
+        "#print-doc"
       ]
     }
   }
