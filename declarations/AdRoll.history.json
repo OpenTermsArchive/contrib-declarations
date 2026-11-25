@@ -5,5 +5,17 @@
       "select": ".main",
       "validUntil": "2021-07-12T16:34:00Z"
     }
+  ],
+  "Acceptable Use Policy": [
+    {
+      "fetch": "https://help.adroll.com/hc/en-us/articles/360031225371-Prohibited-Content-and-Practices-Inappropriate-Content",
+      "select": [
+        ".hero-unit__title",
+        ".article__body"
+      ],
+      "remove": "img[src=\"/hc/article_attachments/360034521231/Ex.png\"]",
+      "executeClientScripts": true,
+      "validUntil": "2024-10-19T06:00:22Z"
+    }
   ]
 }
