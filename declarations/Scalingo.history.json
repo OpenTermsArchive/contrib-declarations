@@ -35,6 +35,18 @@
         }
       ],
       "validUntil": "2024-01-03T12:40:45Z"
+    },
+    {
+      "fetch": "https://scalingo.com/data-processing-agreement",
+      "select": [
+        "h1",
+        {
+          "startBefore": ".markdown-legal h2:nth-of-type(2)",
+          "endBefore": ".markdown-legal h2:nth-of-type(4)"
+        }
+      ],
+      "executeClientScripts": true,
+      "validUntil": "2026-04-08T00:48:43Z"
     }
   ],
   "Data Controller Agreement": [
@@ -47,6 +59,17 @@
         }
       ],
       "validUntil": "2024-01-03T12:40:57Z"
+    },
+    {
+      "fetch": "https://scalingo.com/data-processing-agreement",
+      "select": [
+        {
+          "startBefore": ".markdown-legal h2:nth-of-type(4)",
+          "endAfter": ".markdown-legal p:last-child"
+        }
+      ],
+      "executeClientScripts": true,
+      "validUntil": "2025-08-28T18:12:40Z"
     }
   ],
   "Privacy Policy": [
