@@ -10,7 +10,7 @@ You can add documents for tracking by submitting a pull request either using the
 
 ## 🚀 How to Contribute
 
-- You can check the open issues in this repository, assign yourself and solve them. These issues are related to terms that need to be updated. Read more from our [documentation](https://docs.opentermsarchive.org/contributing-terms/#maintaining-declarations)
+- You can check the open issues in this repository and solve them. These issues are related to terms that need to be updated. Comment on an issue to let others know you are working on it, then open a pull request that references it. Read more in our [documentation](https://docs.opentermsarchive.org/terms/explanation/declarations-maintenance/).
 - You can also add terms to this repository either by adding JSON files or using the contribution tool
 
 You can check the documentation for detailed information on [contributing terms](https://docs.opentermsarchive.org/contributing-terms/).
