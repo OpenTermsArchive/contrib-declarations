@@ -2,19 +2,13 @@
   "name": "Exponential",
   "terms": {
     "Privacy Policy": {
-      "fetch": "https://exponential.com/privacy/",
+      "fetch": "https://www.vdx.tv/policies/privacy",
       "select": [
-        "#page-7977"
+        "main"
       ],
       "remove": [
-        "table:nth-child(1) td:nth-child(1)",
-        "table:nth-child(1) td:nth-child(2)",
-        ".table-of-contents"
+        ".w-embed"
       ]
-    },
-    "Acceptable Use Policy": {
-      "fetch": "https://exponential.com/documents/publisher-code-of-conduct/?wpdmdl=17753",
-      "select": "necesary to bypass validation because url is not ending with .pdf"
     }
   }
 }
