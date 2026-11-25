@@ -1,0 +1,57 @@
+{
+  "name": "Canva and Affinity",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://www.canva.com/policies/privacy-policy/",
+      "select": "div[class=HqfB2mG]"
+    },
+    "Terms of Use": {
+      "fetch": "https://www.canva.com/policies/terms-of-use/",
+      "select": "div[class=HqfB2mG]"
+    },
+    "Acceptable Use Policy": {
+      "fetch": "https://www.canva.com/policies/acceptable-use-policy/",
+      "select": "div[class=HqfB2mG]"
+    },
+    "Affinity Terms": {
+      "fetch": "https://www.canva.com/policies/affinity-additional-terms/",
+      "select": "div[class=HqfB2mG]"
+    },
+    "AI Product Terms": {
+      "fetch": "https://www.canva.com/policies/ai-product-terms/",
+      "select": "div[class=HqfB2mG]"
+    },
+    "Beta Service Terms": {
+      "fetch": "https://www.canva.com/policies/beta-service-terms/",
+      "select": "div[class=HqfB2mG]"
+    },
+    "Canva Enterprise Subscription Agreement": {
+      "fetch": "https://www.canva.com/policies/ESA/",
+      "select": "div[class=HqfB2mG]"
+    },
+    "Canva for Education Additional Terms": {
+      "fetch": "https://www.canva.com/policies/edu-additional-terms/",
+      "select": "div[class=HqfB2mG]"
+    },
+    "Canva Subscription Agreement": {
+      "fetch": "https://www.canva.com/policies/enterprise-ssa/",
+      "select": "div[class=HqfB2mG]"
+    },
+    "Canva's Content License Agreement": {
+      "fetch": "https://www.canva.com/policies/content-license-agreement/",
+      "select": "div[class=HqfB2mG]"
+    },
+    "Contributor Agreement": {
+      "fetch": "https://www.canva.com/policies/contributor-agreement/",
+      "select": "div[class=HqfB2mG]"
+    },
+    "Cookies Policy": {
+      "fetch": "https://www.canva.com/policies/cookies-policy/",
+      "select": "div[class=HqfB2mG]"
+    },
+    "Data Processing Addendum": {
+      "fetch": "https://www.canva.com/policies/data-processing-addendum/",
+      "select": "div[class=HqfB2mG]"
+    }
+  }
+}
