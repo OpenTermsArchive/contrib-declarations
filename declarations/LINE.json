@@ -6,8 +6,11 @@
       "select": ".MdTerms01"
     },
     "Privacy Policy": {
-      "fetch": "https://terms.line.me/line_rules/?lang=en",
-      "select": ".details"
+      "fetch": "https://www.lycorp.co.jp/en/company/privacypolicy/",
+      "select": [
+        "h1",
+        ".body-col"
+      ]
     }
   }
 }

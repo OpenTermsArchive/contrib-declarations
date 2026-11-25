@@ -1,0 +1,9 @@
+{
+  "Privacy Policy": [
+    {
+      "fetch": "https://terms.line.me/line_rules/?lang=en",
+      "select": ".details",
+      "validUntil": "2024-05-22T18:39:07Z"
+    }
+  ]
+}
