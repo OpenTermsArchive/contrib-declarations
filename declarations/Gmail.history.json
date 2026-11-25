@@ -12,5 +12,12 @@
       "select": "body",
       "validUntil": "2020-12-08T16:00:00.000Z"
     }
+  ],
+  "Acceptable Use Policy": [
+    {
+      "fetch": "https://www.google.com/gmail/about/policy/?hl=en_GB",
+      "select": ".policy__content",
+      "validUntil": "2025-11-25T06:09:45Z"
+    }
   ]
 }
