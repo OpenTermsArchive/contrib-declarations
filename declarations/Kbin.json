@@ -1,17 +1,4 @@
 {
   "name": "Kbin",
-  "terms": {
-    "Terms of Service": {
-      "fetch": "https://kbin.social/terms",
-      "select": [
-        "#main"
-      ]
-    },
-    "Privacy Policy": {
-      "fetch": "https://kbin.social/privacy-policy",
-      "select": [
-        "#main"
-      ]
-    }
-  }
+  "terms": {}
 }
