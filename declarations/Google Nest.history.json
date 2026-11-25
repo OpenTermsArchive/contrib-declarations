@@ -1,0 +1,21 @@
+{
+  "Privacy Policy": [
+    {
+      "fetch": "https://safety.google/nest/",
+      "select": [
+        ".modular-page"
+      ],
+      "remove": [
+        ".glue-expansion-panels-toggle-all",
+        ".image-module",
+        ".icon",
+        "#nest-shop",
+        "#assistant-explore-more",
+        "#breadcrumb-google-nest",
+        "#nest-secondary-sticky-nav",
+        "picture"
+      ],
+      "validUntil": "2025-11-14T06:08:46Z"
+    }
+  ]
+}
