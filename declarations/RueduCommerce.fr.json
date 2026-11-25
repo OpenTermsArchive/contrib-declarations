@@ -2,11 +2,7 @@
   "name": "RueduCommerce.fr",
   "terms": {
     "Terms of Service": {
-      "fetch": "https://www.rueducommerce.fr/info/mentions-legales/cgu-gm",
-      "select": "#cms",
-      "remove": [
-        "#cms-new-1019-line-1"
-      ]
+      "fetch": "https://media.rueducommerce.fr/pdf/rdc/fr/fr/cgu_mkp.pdf"
     },
     "Privacy Policy": {
       "fetch": "https://www.rueducommerce.fr/info/mentions-legales/confidentialite",
