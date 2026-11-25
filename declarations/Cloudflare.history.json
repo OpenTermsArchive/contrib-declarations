@@ -1,0 +1,11 @@
+{
+  "Terms of Service": [
+    {
+      "fetch": "https://www.cloudflare.com/terms/",
+      "select": [
+        ".col-lg-8 > .rich-text-renderer"
+      ],
+      "validUntil": "2026-06-20T00:35:49Z"
+    }
+  ]
+}

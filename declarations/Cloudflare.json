@@ -4,7 +4,7 @@
     "Terms of Service": {
       "fetch": "https://www.cloudflare.com/terms/",
       "select": [
-        ".col-lg-8 > .rich-text-renderer"
+        "main [data-column=\"0\"]"
       ]
     },
     "Privacy Policy": {
